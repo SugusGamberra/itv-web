@@ -2,6 +2,7 @@ import type { ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import Footer from '../components/Footer';
+import NavMenu from '../components/NavMenu';
 
 interface Props {
     children: ReactNode;
@@ -27,6 +28,8 @@ export default function PageLayout({ children, backTo, backText }: Props) {
                         {backText || "Atrás"}
                     </Link>
                 )}
+
+                <NavMenu />
 
                 {/* contenido inyectado (titulos y grids) */}
                 <div className="mt-16 md:mt-12">
