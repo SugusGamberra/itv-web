@@ -4,6 +4,9 @@ import PageLayout from '../ui/layout/PageLayout';
 import ArtCard from '../ui/components/ArtCard';
 import { FileText, ExternalLink } from 'lucide-react';
 
+import { MAPA_PREGUNTAS } from '../data/indicePreguntas';
+import imgPlaceholder from '../assets/images/cinnamostrong.png';
+
 import imgB1 from '../assets/images/b1.jpg';
 import imgB2 from '../assets/images/b2.jpg';
 import imgB3 from '../assets/images/b3.jpg';
@@ -46,6 +49,8 @@ export default function AsignaturaDashboard() {
     const [activeTab, setActiveTab] = useState<'tests' | 'apuntes'>(
         IS_JESUBUNTU ? 'apuntes' : 'tests'
     );
+
+    const hayPreguntas = MAPA_PREGUNTAS[asignaturaID || '']?.length > 0;
     
     // x culo de eslint x.x
     useEffect(() => {
@@ -102,36 +107,49 @@ export default function AsignaturaDashboard() {
 
             {/* CONTENIDO: TESTS (salvo si estamos en donde jesubuntu deidad) */}
             {!IS_JESUBUNTU && activeTab === 'tests' && (
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
-                    <ArtCard 
-                        to={`${basePath}/test/repaso`}
-                        title="Repaso Chill"
-                        subtitle="Modo Zen"
-                        description="Sin tiempo. Explicaciones activadas. Ideal para aprender."
-                        image={imgB1}
-                    />
-                    <ArtCard 
-                        to={`${basePath}/test/puntuar`}
-                        title="Modo Puntuación"
-                        subtitle="El Reto (150)"
-                        description="Todas las preguntas. Sin ayudas. ¿Podrás con todo el temario?"
-                        image={imgB2}
-                    />
-                    <ArtCard 
-                        to={`${basePath}/test/examen_easy`}
-                        title="Simulacro"
-                        subtitle="Rápido (30)"
-                        description="30 preguntas aleatorias para calentar motores."
-                        image={imgB3}
-                    />
-                    <ArtCard 
-                        to={`${basePath}/test/examen_hard`}
-                        title="Modo Diablo"
-                        subtitle="Hardcore"
-                        description="3 Fallos = -1 Acierto. Solo para verdaderos maestros."
-                        image={imgB4}
-                    />
-                </div>
+                hayPreguntas ? (
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                        <ArtCard 
+                            to={`${basePath}/test/repaso`}
+                            title="Repaso Chill"
+                            subtitle="Modo Zen"
+                            description="Sin tiempo. Explicaciones activadas. Ideal para aprender."
+                            image={imgB1}
+                        />
+                        <ArtCard 
+                            to={`${basePath}/test/puntuar`}
+                            title="Modo Puntuación"
+                            subtitle="El Reto (150)"
+                            description="Todas las preguntas. Sin ayudas. ¿Podrás con todo el temario?"
+                            image={imgB2}
+                        />
+                        <ArtCard 
+                            to={`${basePath}/test/examen_easy`}
+                            title="Simulacro"
+                            subtitle="Rápido (30)"
+                            description="30 preguntas aleatorias para calentar motores."
+                            image={imgB3}
+                        />
+                        <ArtCard 
+                            to={`${basePath}/test/examen_hard`}
+                            title="Modo Diablo"
+                            subtitle="Hardcore"
+                            description="3 Fallos = -1 Acierto. Solo para verdaderos maestros."
+                            image={imgB4}
+                        />
+                    </div>
+                ) : (
+                    <div className="flex flex-col items-center justify-center py-10 animate-in fade-in slide-in-from-bottom-4">
+                        <img 
+                            src={imgPlaceholder} 
+                            alt="Estamos trabajando en ello" 
+                            className="w-64 h-64 object-contain mb-8 drop-shadow-2xl hover:scale-105 transition-transform duration-500"
+                        />
+                        <p className="text-white/70 text-xl font-medium text-center max-w-md tracking-wide bg-white/5 px-6 py-4 rounded-2xl border border-white/10">
+                            "Aún no tenemos esta batería de preguntas, pero estamos trabajando en ello."
+                        </p>
+                    </div>
+                )
             )}
 
             {/* APUNTES*/}
