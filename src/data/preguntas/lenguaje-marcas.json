@@ -1,0 +1,1802 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Qué define principalmente a un lenguaje de marcas?",
+        "opciones": [
+        { "id": "a", "texto": "Que permite ejecutar código" },
+        { "id": "b", "texto": "Que utiliza etiquetas para estructurar información" },
+        { "id": "c", "texto": "Que se basa en instrucciones secuenciales" },
+        { "id": "d", "texto": "Que compila a lenguaje máquina" }
+        ],
+        "correcta": "b",
+        "explicacion": "Los lenguajes de marcas utilizan etiquetas para dar estructura y semántica a la información."
+    },
+    {
+        "id": 2,
+        "pregunta": "¿Cuál fue el objetivo original de los lenguajes de marcas?",
+        "opciones": [
+        { "id": "a", "texto": "Crear interfaces gráficas" },
+        { "id": "b", "texto": "Automatizar procesos" },
+        { "id": "c", "texto": "Añadir anotaciones a documentos electrónicos" },
+        { "id": "d", "texto": "Sustituir a los lenguajes de programación" }
+        ],
+        "correcta": "c",
+        "explicacion": "Nacieron para añadir anotaciones y metadatos a documentos de texto."
+    },
+    {
+        "id": 3,
+        "pregunta": "¿Qué característica distingue a los lenguajes de marcas de otros lenguajes?",
+        "opciones": [
+            { "id": "a", "texto": "No utiliza sintaxis" },
+            { "id": "b", "texto": "No define estructuras"},
+            { "id": "c", "texto": "No permite reutilización"},
+            { "id": "d", "texto": "No contiene lógica de control"}
+        ],
+        "correcta": "d",
+        "explicacion": "Los lenguajes de marcas no contienen lógica de control, a diferencia de los lenguajes de programación. "
+    },
+    {
+        "id": 4,
+        "pregunta": "¿Cuál de los siguientes lenguajes es un metalenguaje?",
+        "opciones": [
+            { "id": "a", "texto": "HTML" },
+            { "id": "b", "texto": "XML"},
+            { "id": "c", "texto": "SGML"},
+            { "id": "d", "texto": "XHTML"}
+        ],
+        "correcta": "c",
+        "explicacion": "Los lenguajes de marcas utilizan etiquetas para dar estructura y semántica a la información."
+    },
+    {
+        "id": 5,
+        "pregunta": "SGML no se implantó masivamente debido principalmente a:",
+        "opciones": [
+            { "id": "a", "texto": "Falta de estandarización" },
+            { "id": "b", "texto": "Su complejidad"},
+            { "id": "c", "texto": "Su lentitud"},
+            { "id": "d", "texto": "Su dependencia de hardware"}
+        ],
+        "correcta": "b",
+        "explicacion": "SGML no se implantó masivamente debido principalmente a su complejidad."
+    },
+    {
+        "id": 6,
+        "pregunta": "¿Qué significa que un documento esté estructurado?",
+        "opciones": [
+            { "id": "a", "texto": "Que contiene solo texto" },
+            { "id": "b", "texto": "Que tiene formato visual"},
+            { "id": "c", "texto": "Que sigue una jerarquía definida"},
+            { "id": "d", "texto": "Que está validado"}
+        ],
+        "correcta": "c",
+        "explicacion": "Un documento estructurado sigue una jerarquía definida de elementos, lo que permite organizar y procesar su contenido de forma lógica."
+    },
+    {
+        "id": 7,
+        "pregunta": "¿Qué elemento es común en la mayoría de lenguajes de marcas?",
+        "opciones": [
+            { "id": "a", "texto": "Variables" },
+            { "id": "b", "texto": "Etiquetas"},
+            { "id": "c", "texto": "Funciones"},
+            { "id": "d", "texto": "Clases"}
+        ],
+        "correcta": "b",
+        "explicacion": "Las etiquetas son el elemento fundamental de los lenguajes de marcas, ya que permiten definir la estructura y el significado de los contenidos."
+    },
+    {
+        "id": 8,
+        "pregunta": "¿Cuál es una ventaja clara de los lenguajes de marcas?",
+        "opciones": [
+            { "id": "a", "texto": "Alta velocidad de ejecución" },
+            { "id": "b", "texto": "Independencia del sistema"},
+            { "id": "c", "texto": "Capacidad de compilación"},
+            { "id": "d", "texto": "Uso exclusivo en web"}
+        ],
+        "correcta": "b",
+        "explicacion": "La independencia del sistema es una ventaja clara de los lenguajes de marcas, ya que permiten representar información de forma neutra respecto al sistema donde se procesa."
+    },
+    {
+        "id": 9,
+        "pregunta": "¿Qué lenguaje dio origen tanto a HTML como XML?",
+        "opciones": [
+            { "id": "a", "texto": "LaTeX" },
+            { "id": "b", "texto": "Markdown"},
+            { "id": "c", "texto": "SGML"},
+            { "id": "d", "texto": "JSON"}
+        ],
+        "correcta": "c",
+        "explicacion": "SGML dio origen tanto a HTML como XML, ya que ambos son derivados de este metalenguaje."
+    },
+    {
+        "id": 10,
+        "pregunta": "Un documento bien formado implica que:",
+        "opciones": [
+            { "id": "a", "texto": "Está validado" },
+            { "id": "b", "texto": "Cumple reglas sintácticas"},
+            { "id": "c", "texto": "Tiene DTD"},
+            { "id": "d", "texto": "Tiene esquema"}
+        ],
+        "correcta": "b",
+        "explicacion": "Un documento bien formado implica que cumple reglas sintácticas, es decir, que tiene una estructura válida según las reglas del lenguaje de marcas utilizado."
+    },
+    {
+        "id": 11,
+        "pregunta": "¿Qué tipo de información gestionan principalmente los lenguajes de marcas?",
+        "opciones": [
+            { "id": "a", "texto": "Información estructurada" },
+            { "id": "b", "texto": "Información binaria"},
+            { "id": "c", "texto": "Información cifrada"},
+            { "id": "d", "texto": "Información multimedia"}
+        ],
+        "correcta": "a",
+        "explicacion": "Los lenguajes de marcas gestionan principalmente información estructurada, ya que permiten definir y organizar contenidos con una estructura clara y definida."
+    },
+    {
+        "id": 12,
+        "pregunta": "¿Cuál de los siguientes NO es un lenguaje de marcas?",
+        "opciones": [
+            { "id": "a", "texto": "XML" },
+            { "id": "b", "texto": "HTML"},
+            { "id": "c", "texto": "CSS"},
+            { "id": "d", "texto": "XHTML"}
+        ],
+        "correcta": "c",
+        "explicacion": "CSS no es un lenguaje de marcas, sino un lenguaje de estilos utilizado para describir la presentación de documentos HTML o XML."
+    },
+    {
+        "id": 13,
+        "pregunta": "La portabilidad de los lenguajes de marcas se debe a que:",
+        "opciones": [
+            { "id": "a", "texto": "Son interpretados" },
+            { "id": "b", "texto": "Son independientes del hardware"},
+            { "id": "c", "texto": "Son propietarios"},
+            { "id": "d", "texto": "Usan bases de datos"}
+        ],
+        "correcta": "b",
+        "explicacion": "La portabilidad de los lenguajes de marcas se debe a que son independientes del hardware, lo que permite su uso en diferentes plataformas sin necesidad de modificaciones."
+    },
+    {
+        "id": 14,
+        "pregunta": "¿Qué aspecto NO controla un lenguaje de marcas por sí mismo?",
+        "opciones": [
+            { "id": "a", "texto": "Estructura" },
+            { "id": "b", "texto": "Semántica"},
+            { "id": "c", "texto": "Presentación lógica"},
+            { "id": "d", "texto": "Ejecución de algoritmos"}
+        ],
+        "correcta": "d",
+        "explicacion": "Un lenguaje de marcas no controla directamente la ejecución de algoritmos, ya que su propósito es definir la estructura y el significado de los datos, no su procesamiento."
+    },
+    {
+        "id": 15,
+        "pregunta": "¿Qué afirmación es correcta sobre XML?",
+        "opciones": [
+            { "id": "a", "texto": "Define como se visualizan los datos" },
+            { "id": "b", "texto": "Es un lenguaje rígido"},
+            { "id": "c", "texto": "Permite definir lenguajes propios"},
+            { "id": "d", "texto": "Sustituye a HTML"}
+        ],
+        "correcta": "c",
+        "explicacion": "XML permite definir lenguajes propios, lo que lo hace muy flexible y útil para representar información compleja."
+    },
+    {
+        "id": 16,
+        "pregunta": "¿Qué concepto describe la relación padre-hijo entre elementos?",
+        "opciones": [
+            { "id": "a", "texto": "Serialización" },
+            { "id": "b", "texto": "Jerarquía"},
+            { "id": "c", "texto": "Normalización"},
+            { "id": "d", "texto": "Indexación"}
+        ],
+        "correcta": "b",
+        "explicacion": "La jerarquía describe la relación padre-hijo entre elementos en un documento XML."
+    },
+    {
+        "id": 17,
+        "pregunta": "Un lenguaje de marcas descriptivo se centra en:",
+        "opciones": [
+            { "id": "a", "texto": "Cómo se muestra la información" },
+            { "id": "b", "texto": "Cómo se ejecuta"},
+            { "id": "c", "texto": "Qué es la información"},
+            { "id": "d", "texto": "Cómo se compila"}
+        ],
+        "correcta": "c",
+        "explicacion": "Un lenguaje de marcas descriptivo se centra en qué es la información, no en cómo se muestra o ejecuta."
+    },
+    {
+        "id": 18,
+        "pregunta": "¿Cuál es una finalidad habitual del uso de lenguajes de marcas en informática?",
+        "opciones": [
+            { "id": "a", "texto": "Gestión de memoria" },
+            { "id": "b", "texto": "Intercambio de información"},
+            { "id": "c", "texto": "Optimización de CPU"},
+            { "id": "d", "texto": "Seguridad del sistema"}
+        ],
+        "correcta": "b",
+        "explicacion": "Una finalidad habitual del uso de lenguajes de marcas en informática es el intercambio de información entre diferentes sistemas y aplicaciones."
+    },
+    {
+        "id": 19,
+        "pregunta": "¿Qué significa que un lenguaje esté normalizado?",
+        "opciones": [
+            { "id": "a", "texto": "Que es propietario" },
+            { "id": "b", "texto": "Que es rápido"},
+            { "id": "c", "texto": "Que sigue un estándar"},
+            { "id": "d", "texto": "Que es visual"}
+        ],
+        "correcta": "c",
+        "explicacion": "Un lenguaje normalizado significa que sigue un estándar definido por una organización o consorcio, lo que garantiza su compatibilidad y portabilidad."
+    },
+    {
+        "id": 20,
+        "pregunta": "¿Qué organización tuvo un papel clave en la estandarización inicial?",
+        "opciones": [
+            { "id": "a", "texto": "ISO" },
+            { "id": "b", "texto": "IEEE"},
+            { "id": "c", "texto": "W3C"},
+            { "id": "d", "texto": "IETF"}
+        ],
+        "correcta": "d",
+        "explicacion": "La IETF tuvo un papel clave en la estandarización inicial de los lenguajes de marcas, especialmente con SGML."
+    },
+    {
+        "id": 21,
+        "pregunta": "¿Qué ventaja aporta la separación entre contenido y presentación?",
+        "opciones": [
+            { "id": "a", "texto": "Mejorar la compilación" },
+            { "id": "b", "texto": "Facilita el mantenimiento"},
+            { "id": "c", "texto": "Reduce el tamaño del archivo"},
+            { "id": "d", "texto": "Elimina validaciones"}
+        ],
+        "correcta": "b",
+        "explicacion": "La separación entre contenido y presentación facilita el mantenimiento del contenido, ya que se puede modificar la presentación sin afectar el contenido."
+    },
+    {
+        "id": 22,
+        "pregunta": "HTML fue creado inicialmente para:",
+        "opciones": [
+            { "id": "a", "texto": "Diseñar interfaces gráficas" },
+            { "id": "b", "texto": "Gestionar bases de datos"},
+            { "id": "c", "texto": "Compartir información científica"},
+            { "id": "d", "texto": "Crear aplicaciones de escritorio"}
+        ],
+        "correcta": "c",
+        "explicacion": "HTML fue creado inicialmente para compartir información científica, especialmente entre investigadores."
+    },
+    {
+        "id": 23,
+        "pregunta": "¿Quién propuso el lenguaje HTML?",
+        "opciones": [
+            { "id": "a", "texto": "Bill Gates" },
+            { "id": "b", "texto": "Tim Berners-Lee"},
+            { "id": "c", "texto": "Dennis Ritchie"},
+            { "id": "d", "texto": "James Gosling"}
+        ],
+        "correcta": "b",
+        "explicacion": "Tim Berners-Lee propuso el lenguaje HTML."
+    },
+    {
+        "id": 24,
+        "pregunta": "¿Qué organismo publica actualmente los estándares HTML?",
+        "opciones": [
+            { "id": "a", "texto": "ISO" },
+            { "id": "b", "texto": "IETF"},
+            { "id": "c", "texto": "WHATWG"},
+            { "id": "d", "texto": "W3C"}
+        ],
+        "correcta": "d",
+        "explicacion": "El W3C es el organismo que publica actualmente los estándares HTML."
+    },
+    {
+        "id": 25,
+        "pregunta": "¿Cuál fue el primer estándar oficial de HTML?",
+        "opciones": [
+            { "id": "a", "texto": "HTML 1.2" },
+            { "id": "b", "texto": "HTML 3.2"},
+            { "id": "c", "texto": "HTML 2.0"},
+            { "id": "d", "texto": "HTML 4.0"}
+        ],
+        "correcta": "c",
+        "explicacion": "El primer estándar oficial de HTML fue HTML 2.0, publicado en 1995."
+    },
+    {
+        "id": 26,
+        "pregunta": "HTML se basa en el concepto de:",
+        "opciones": [
+            { "id": "a", "texto": "Hipertexto" },
+            { "id": "b", "texto": "Compilación"},
+            { "id": "c", "texto": "Virtualización"},
+            { "id": "d", "texto": "Programación orientada a objetos"}
+        ],
+        "correcta": "a",
+        "explicacion": "HTML se basa en el concepto de hipertexto, que permite la creación de enlaces entre documentos."
+    },
+    {
+        "id": 27,
+        "pregunta": "¿Qué elemento contiene la información visible de una página web?",
+        "opciones": [
+            { "id": "a", "texto": "<head>" },
+            { "id": "b", "texto": "<title>"},
+            { "id": "c", "texto": "<meta>"},
+            { "id": "d", "texto": "<body>"}
+        ],
+        "correcta": "d",
+        "explicacion": "El elemento <body> contiene la información visible de una página web."
+    },
+    {
+        "id": 28,
+        "pregunta": "¿Qué etiqueta define el título que aparece en la pestaña del navegador?",
+        "opciones": [
+            { "id": "a", "texto": "<header>" },
+            { "id": "b", "texto": "<title>"},
+            { "id": "c", "texto": "<head>"},
+            { "id": "d", "texto": "<nav>"}
+        ],
+        "correcta": "b",
+        "explicacion": "La etiqueta <title> define el título que aparece en la pestaña del navegador."
+    },
+    {
+        "id": 29,
+        "pregunta": "¿Qué extensión es válida para documentos HTML?",
+        "opciones": [
+            { "id": "a", "texto": ".xml" },
+            { "id": "b", "texto": ".ht"},
+            { "id": "c", "texto": ".html"},
+            { "id": "d", "texto": ".doc"}
+        ],
+        "correcta": "c",
+        "explicacion": "La extensión válida para documentos HTML es .html."
+    },
+    {
+        "id": 30,
+        "pregunta": "¿Qué describe correctamente un elemento HTML?",
+        "opciones": [
+            { "id": "a", "texto": "Solo una etiqueta" },
+            { "id": "b", "texto": "Etiqueta, atributos y contenido"},
+            { "id": "c", "texto": "Solo texto"},
+            { "id": "d", "texto": "Solo atributos"}
+        ],
+        "correcta": "b",
+        "explicacion": "Un elemento HTML está compuesto por una etiqueta de apertura, atributos y contenido."
+    },
+    {
+        "id": 31,
+        "pregunta": "Las etiquetas abiertas se caracterizan por:",
+        "opciones": [
+            { "id": "a", "texto": "No tener contenido" },
+            { "id": "b", "texto": "Tener solo etiqueta de apertura"},
+            { "id": "c", "texto": "No tener etiqueta de cierre"},
+            { "id": "d", "texto": "Ser obligatorias"}
+        ],
+        "correcta": "c",
+        "explicacion": "Las etiquetas abiertas no tienen etiqueta de cierre."
+    },
+    {
+        "id": 32,
+        "pregunta": "¿Cuál es un ejemplo de etiqueta abierta?",
+        "opciones": [
+            { "id": "a", "texto": "<p>" },
+            { "id": "b", "texto": "<div>"},
+            { "id": "c", "texto": "<span>"},
+            { "id": "d", "texto": "<img>"}
+        ],
+        "correcta": "d",
+        "explicacion": "La etiqueta <img> es una etiqueta abierta porque no tiene etiqueta de cierre."
+    },
+    {
+        "id": 33,
+        "pregunta": "¿Dónde se colocan los atributos de una etiqueta HTML?",
+        "opciones": [
+            { "id": "a", "texto": "Después del contenido" },
+            { "id": "b", "texto": "Dentro de la etiqueta de cierre"},
+            { "id": "c", "texto": "En la etiqueta de apertura"},
+            { "id": "d", "texto": "En cualquier lugar"}
+        ],
+        "correcta": "c",
+        "explicacion": "Los atributos de una etiqueta HTML se colocan dentro de la etiqueta de apertura."
+    },
+    {
+        "id": 34,
+        "pregunta": "¿Qué separa el nombre de un atributo y su valor?",
+        "opciones": [
+            { "id": "a", "texto": "Dos puntos" },
+            { "id": "b", "texto": "Punto y coma"},
+            { "id": "c", "texto": "Espacio"},
+            { "id": "d", "texto": "Signo igual"}
+        ],
+        "correcta": "d",
+        "explicacion": "El signo igual (=) separa el nombre de un atributo y su valor en una etiqueta HTML."
+    },
+    {
+        "id": 35,
+        "pregunta": "¿Qué práctica es recomendable al escribir HTML?",
+        "opciones": [
+            { "id": "a", "texto": "Usar mayúsculas siempre" },
+            { "id": "b", "texto": "No cerrar etiquetas"},
+            { "id": "c", "texto": "Usar minúsculas"},
+            { "id": "d", "texto": "Evitar atributos"}
+        ],
+        "correcta": "c",
+        "explicacion": "Es recomendable usar minúsculas al escribir HTML para mantener consistencia y seguir buenas prácticas."
+    },
+    {
+        "id": 36,
+        "pregunta": "La estructura básica de un documento HTML es jerárquica porque:",
+        "opciones": [
+            { "id": "a", "texto": "Usa herencia" },
+            { "id": "b", "texto": "Usa nodos en árbol"},
+            { "id": "c", "texto": "Usa módulos"},
+            { "id": "d", "texto": "Usa paquetes"}
+        ],
+        "correcta": "b",
+        "explicacion": "La estructura básica de un documento HTML es jerárquica porque usa nodos en árbol."
+    },
+    {
+        "id": 37,
+        "pregunta": "¿Qué etiqueta engloba todo el documento HTML?",
+        "opciones": [
+            { "id": "a", "texto": "<body>" },
+            { "id": "b", "texto": "<head>"},
+            { "id": "c", "texto": "<root>"},
+            { "id": "d", "texto": "<html>"}
+        ],
+        "correcta": "d",
+        "explicacion": "La etiqueta <html> engloba todo el documento HTML."
+    },
+    {
+        "id": 38,
+        "pregunta": "¿Qué tipo de información se coloca en <head>?",
+        "opciones": [
+            { "id": "a", "texto": "Contenido visual" },
+            { "id": "b", "texto": "Párrafos"},
+            { "id": "c", "texto": "Metadatos"},
+            { "id": "d", "texto": "Formularios"}
+        ],
+        "correcta": "c",
+        "explicacion": "La etiqueta <head> contiene metadatos del documento HTML, como el título, descripción, y enlaces a hojas de estilo."
+    },
+    {
+        "id": 39,
+        "pregunta": "HTML5 introduce principalmente:",
+        "opciones": [
+            { "id": "a", "texto": "Nuevas reglas XML" },
+            { "id": "b", "texto": "Etiquetas semánticas"},
+            { "id": "c", "texto": "Eliminación de CSS"},
+            { "id": "d", "texto": "Dependencia de plugins"}
+        ],
+        "correcta": "b",
+        "explicacion": "HTML5 introduce principalmente etiquetas semánticas que mejoran la estructura y el significado del contenido."
+    },
+    {
+        "id": 40,
+        "pregunta": "¿Qué etiqueta representa la navegación principal?",
+        "opciones": [
+            { "id": "a", "texto": "<menu>" },
+            { "id": "b", "texto": "<header>"},
+            { "id": "c", "texto": "<nav>"},
+            { "id": "d", "texto": "<section>"}
+        ],
+        "correcta": "c",
+        "explicacion": "La etiqueta <nav> representa la navegación principal de una página web."
+    },
+    {
+        "id": 41,
+        "pregunta": "¿Qué etiqueta representa contenido independiente?",
+        "opciones": [
+            { "id": "a", "texto": "<article>" },
+            { "id": "b", "texto": "<aside>"},
+            { "id": "c", "texto": "<footer>"},
+            { "id": "d", "texto": "<div>"}
+        ],
+        "correcta": "a",
+        "explicacion": "La etiqueta <article> representa contenido independiente que podría ser distribuido de forma autónoma."
+    },
+    {
+        "id": 42,
+        "pregunta": "¿Qué etiqueta se usa para comentarios en HTML?",
+        "opciones": [
+            { "id": "a", "texto": "// comentario" },
+            { "id": "b", "texto": "<!-- comentario -->"},
+            { "id": "c", "texto": "# comentario"},
+            { "id": "d", "texto": "/* comentario */"}
+        ],
+        "correcta": "b",
+        "explicacion": "La etiqueta <!-- comentario --> se usa para comentarios en HTML."
+    },
+    {
+        "id": 43,
+        "pregunta": "¿Cuál es una ventaja directa de HTML5 frente a versiones anteriores?",
+        "opciones": [
+            { "id": "a", "texto": "Mayor complejidad" },
+            { "id": "b", "texto": "Menor compatibilidad"},
+            { "id": "c", "texto": "Estructura semántica clara"},
+            { "id": "d", "texto": "Eliminación del DOCTYPE"}
+        ],
+        "correcta": "c",
+        "explicacion": "HTML5 introduce una estructura semántica clara con etiquetas como <header>, <nav>, <main>, <article>, <section>, y <footer>."
+    },
+    {
+        "id": 44,
+        "pregunta": "¿Cuál es la función principal de un esquema XML?",
+        "opciones": [
+            { "id": "a", "texto": "Definir el estilo visual" },
+            { "id": "b", "texto": "Establecer estructura y reglas"},
+            { "id": "c", "texto": "Ejecutar consultas"},
+            { "id": "d", "texto": "Transformar documentos"}
+        ],
+        "correcta": "b",
+        "explicacion": "Un esquema XML define la estructura y las reglas de validación para documentos XML."
+    },
+    {
+        "id": 45,
+        "pregunta": "¿Qué lenguaje de esquemas es nativo de XML?",
+        "opciones": [
+            { "id": "a", "texto": "XML Schema" },
+            { "id": "b", "texto": "Relax NG"},
+            { "id": "c", "texto": "DTD"},
+            { "id": "d", "texto": "Schematron"}
+        ],
+        "correcta": "c",
+        "explicacion": "DTD (Document Type Definition) es el lenguaje de esquemas nativo de XML."
+    },
+    {
+        "id": 46,
+        "pregunta": "¿Qué característica diferencia a XML Schema frente a DTD?",
+        "opciones": [
+            { "id": "a", "texto": "Está basado en XML" },
+            { "id": "b", "texto": "No permite validación"},
+            { "id": "c", "texto": "Es más antiguo"},
+            { "id": "d", "texto": "No define tipos de datos"}
+        ],
+        "correcta": "a",
+        "explicacion": "XML Schema está basado en XML, mientras que DTD no lo está."
+    },
+    {
+        "id": 47,
+        "pregunta": "¿Qué estándar propuso XML Schema?",
+        "opciones": [
+            { "id": "a", "texto": "ISO" },
+            { "id": "b", "texto": "IETF"},
+            { "id": "c", "texto": "ECMA"},
+            { "id": "d", "texto": "W3C"}
+        ],
+        "correcta": "d",
+        "explicacion": "XML Schema fue propuesto por el W3C (World Wide Web Consortium)."
+    },
+    {
+        "id": 48,
+        "pregunta": "¿Qué permite un esquema XML sobre un documento?",
+        "opciones": [
+            { "id": "a", "texto": "Transformarlo" },
+            { "id": "b", "texto": "Visualizarlo"},
+            { "id": "c", "texto": "Validarlo"},
+            { "id": "d", "texto": "Compilarlo"}
+        ],
+        "correcta": "c",
+        "explicacion": "Un esquema XML permite validar un documento XML contra las reglas definidas en el esquema."
+    },
+    {
+        "id": 49,
+        "pregunta": "¿Qué componente NO forma parte de un DTD?",
+        "opciones": [
+            { "id": "a", "texto": "Elementos" },
+            { "id": "b", "texto": "Atributos"},
+            { "id": "c", "texto": "Entidades"},
+            { "id": "d", "texto": "Clases"}
+        ],
+        "correcta": "d",
+        "explicacion": "Los DTD (Document Type Definition) no incluyen clases como parte de su estructura."
+    },
+    {
+        "id": 50,
+        "pregunta": "¿Dónde se declara la asociación de un XML con un DTD externo?",
+        "opciones": [
+            { "id": "a", "texto": "En el cuerpo del documento" },
+            { "id": "b", "texto": "En el prólogo"},
+            { "id": "c", "texto": "En el esquema"},
+            { "id": "d", "texto": "En un atributo"}
+        ],
+        "correcta": "b",
+        "explicacion": "La asociación de un XML con un DTD externo se declara en el prólogo del documento XML."
+    },
+    {
+        "id": 51,
+        "pregunta": "¿Qué palabra clave identifica un DTD privado?",
+        "opciones": [
+            { "id": "a", "texto": "PUBLIC" },
+            { "id": "b", "texto": "SYSTEM"},
+            { "id": "c", "texto": "PRIVATE"},
+            { "id": "d", "texto": "INTERNAL"}
+        ],
+        "correcta": "b",
+        "explicacion": "(Preguntar a Elam porque según yo es INTERNAL)"
+    },
+    {
+        "id": 52,
+        "pregunta": "Un DTD interno se caracteriza por:",
+        "opciones": [
+            { "id": "a", "texto": "Estar en un archivo externo" },
+            { "id": "b", "texto": "Usar XML Schema"},
+            { "id": "c", "texto": "Estar dentro del propio XML"},
+            { "id": "d", "texto": "No permitir validación"}
+        ],
+        "correcta": "c",
+        "explicacion": "Un DTD interno se define dentro del propio documento XML."
+    },
+    {
+        "id": 53,
+        "pregunta": "¿Qué indica el elemento raíz en una declaración DOCTYPE?",
+        "opciones": [
+            { "id": "a", "texto": "El tipo de codificación" },
+            { "id": "b", "texto": "El nombre del archivo"},
+            { "id": "c", "texto": "El elemento principal del XML"},
+            { "id": "d", "texto": "El esquema utilizado"}
+        ],
+        "correcta": "c",
+        "explicacion": "El elemento raíz en una declaración DOCTYPE indica el elemento principal del documento XML."
+    },
+    {
+        "id": 54,
+        "pregunta": "¿Qué lenguaje de esquemas destaca por reglas complejas basadas en lógica?",
+        "opciones": [
+            { "id": "a", "texto": "DTD" },
+            { "id": "b", "texto": "XML Schema"},
+            { "id": "c", "texto": "Relax NG"},
+            { "id": "d", "texto": "Schematron"}
+        ],
+        "correcta": "d",
+        "explicacion": "Schematron es un lenguaje de esquemas que destaca por reglas complejas basadas en lógica."
+    },
+    {
+        "id": 55,
+        "pregunta": "¿Qué permite definir XML Schema que no permite DTD?",
+        "opciones": [
+            { "id": "a", "texto": "Elementos" },
+            { "id": "b", "texto": "Jerarquía"},
+            { "id": "c", "texto": "Tipos de datos"},
+            { "id": "d", "texto": "Validación"}
+        ],
+        "correcta": "c",
+        "explicacion": "XML Schema permite definir tipos de datos complejos que no son posibles en DTD."
+    },
+    {
+        "id": 56,
+        "pregunta": "¿Qué extensión suelen tener los archivos XML Schema?",
+        "opciones": [
+            { "id": "a", "texto": ".xml" },
+            { "id": "b", "texto": ".xsd"},
+            { "id": "c", "texto": ".dtd"},
+            { "id": "d", "texto": ".schema"}
+        ],
+        "correcta": "b",
+        "explicacion": "Los archivos XML Schema suelen tener la extensión .xsd."
+    },
+    {
+        "id": 57,
+        "pregunta": "¿Qué se valida cuando un XML es correcto respecto a un esquema?",
+        "opciones": [
+            { "id": "a", "texto": "Solo la sintaxis" },
+            { "id": "b", "texto": "Solo el contenido"},
+            { "id": "c", "texto": "La estructura y restricciones"},
+            { "id": "d", "texto": "El formato visual"}
+        ],
+        "correcta": "c",
+        "explicacion": "Cuando un XML es correcto respecto a un esquema, se valida tanto la estructura como las restricciones definidas en el esquema."
+    },
+    {
+        "id": 58,
+        "pregunta": "¿Qué significa que un XML sea válido?",
+        "opciones": [
+            { "id": "a", "texto": "Que esté bien formado" },
+            { "id": "b", "texto": "Que tenga etiquetas"},
+            { "id": "c", "texto": "Que cumpla su esquema"},
+            { "id": "d", "texto": "Que use UTF-8"}
+        ],
+        "correcta": "c",
+        "explicacion": "Un XML válido es aquel que cumple con las reglas definidas en su esquema (DTD o XML Schema)."
+    },
+    {
+        "id": 59,
+        "pregunta": "¿Qué ventaja tiene XML Schema frente a DTD?",
+        "opciones": [
+            { "id": "a", "texto": "Menor complejidad" },
+            { "id": "b", "texto": "No usa namespaces"},
+            { "id": "c", "texto": "Mayor expresividad"},
+            { "id": "d", "texto": "No requiere validación"}
+        ],
+        "correcta": "c",
+        "explicacion": "XML Schema tiene mayor expresividad que DTD, permitiendo definir tipos de datos complejos y restricciones más ricas."
+    },
+    {
+        "id": 60,
+        "pregunta": "¿Qué tecnología se usa para asociar un XML a un XML Schema?",
+        "opciones": [
+            { "id": "a", "texto": "DOCTYPE" },
+            { "id": "b", "texto": "Espacios de nombres"},
+            { "id": "c", "texto": "Comentarios"},
+            { "id": "d", "texto": "Etiquetas meta"}
+        ],
+        "correcta": "b",
+        "explicacion": "Los espacios de nombres se usan para asociar un XML a un XML Schema."
+    },
+    {
+        "id": 61,
+        "pregunta": "¿Qué define un vocabulario XML?",
+        "opciones": [
+            { "id": "a", "texto": "La presentación" },
+            { "id": "b", "texto": "El conjunto de elementos permitidos"},
+            { "id": "c", "texto": "El idioma"},
+            { "id": "d", "texto": "El orden visual"}
+        ],
+        "correcta": "b",
+        "explicacion": "Un vocabulario XML define el conjunto de elementos permitidos en ese vocabulario."
+    },
+    {
+        "id": 62,
+        "pregunta": "¿Qué significa RSS?",
+        "opciones": [
+            { "id": "a", "texto": "Really Simple Syntax" },
+            { "id": "b", "texto": "Really Simple Syndication"},
+            { "id": "c", "texto": "Rapid Site Service"},
+            { "id": "d", "texto": "Remote Style System"}
+        ],
+        "correcta": "b",
+        "explicacion": "RSS significa Really Simple Syndication."
+    },
+    {
+        "id": 63,
+        "pregunta": "¿Cuál es la función principal de RSS?",
+        "opciones": [
+            { "id": "a", "texto": "Almacenar datos" },
+            { "id": "b", "texto": "Editar páginas web"},
+            { "id": "c", "texto": "Compartir contenidos"},
+            { "id": "d", "texto": "Validar XML"}
+        ],
+        "correcta": "c",
+        "explicacion": "La función principal de RSS es compartir contenidos entre diferentes plataformas."
+    },
+    {
+        "id": 64,
+        "pregunta": "RSS es un lenguaje derivado de:",
+        "opciones": [
+            { "id": "a", "texto": "HTML" },
+            { "id": "b", "texto": "SGML"},
+            { "id": "c", "texto": "JSON"},
+            { "id": "d", "texto": "XML"}
+        ],
+        "correcta": "d",
+        "explicacion": "RSS es un lenguaje derivado de XML."
+    },
+    {
+        "id": 65,
+        "pregunta": "¿Qué programa se utiliza para leer contenidos RSS?",
+        "opciones": [
+            { "id": "a", "texto": "Navegador sin conexión" },
+            { "id": "b", "texto": "Compilador"},
+            { "id": "c", "texto": "Agregador"},
+            { "id": "d", "texto": "Editor HTML"}
+        ],
+        "correcta": "c",
+        "explicacion": "Un agregador es el programa utilizado para leer y gestionar contenidos RSS."
+    },
+    {
+        "id": 66,
+        "pregunta": "¿Qué elemento es el raíz en un documento RSS?",
+        "opciones": [
+            { "id": "a", "texto": "<channel>" },
+            { "id": "b", "texto": "<rss>"},
+            { "id": "c", "texto": "<item>"},
+            { "id": "d", "texto": "<feed>"}
+        ],
+        "correcta": "b",
+        "explicacion": "El elemento raíz en un documento RSS es <rss>."
+    },
+    {
+        "id": 67,
+        "pregunta": "¿Qué elemento describe el canal RSS?",
+        "opciones": [
+            { "id": "a", "texto": "<item>" },
+            { "id": "b", "texto": "<rss>"},
+            { "id": "c", "texto": "<content>"},
+            { "id": "d", "texto": "<channel>"}
+        ],
+        "correcta": "d",
+        "explicacion": "El elemento <channel> describe el canal RSS."
+    },
+    {
+        "id": 68,
+        "pregunta": "¿Qué representa un <item> en RSS?",
+        "opciones": [
+            { "id": "a", "texto": "El canal completo" },
+            { "id": "b", "texto": "Una noticia o entrada"},
+            { "id": "c", "texto": "El autor"},
+            { "id": "d", "texto": "El formato"}
+        ],
+        "correcta": "b",
+        "explicacion": "Un <item> en RSS representa una noticia o entrada individual."
+    },
+    {
+        "id": 69,
+        "pregunta": "¿Cuál es un ámbito de aplicación típico de RSS?",
+        "opciones": [
+            { "id": "a", "texto": "Videojuegos" },
+            { "id": "b", "texto": "Diarios digitales"},
+            { "id": "c", "texto": "Sistemas operativos"},
+            { "id": "d", "texto": "Compiladores"}
+        ],
+        "correcta": "b",
+        "explicacion": "Un ámbito de aplicación típico de RSS es la distribución de contenidos de diarios digitales."
+    },
+    {
+        "id": 70,
+        "pregunta": "¿Qué ventaja principal ofrece RSS al usuario?",
+        "opciones": [
+            { "id": "a", "texto": "Mayor seguridad" },
+            { "id": "b", "texto": "Actualización automática"},
+            { "id": "c", "texto": "Mejor diseño"},
+            { "id": "d", "texto": "Menor consumo de CPU"}
+        ],
+        "correcta": "b",
+        "explicacion": "La ventaja principal de RSS es la actualización automática de los contenidos."
+    },
+    {
+        "id": 71,
+        "pregunta": "¿Qué formato de datos utiliza RSS?",
+        "opciones": [
+            { "id": "a", "texto": "Binario" },
+            { "id": "b", "texto": "Texto plano"},
+            { "id": "c", "texto": "Comprimido"},
+            { "id": "d", "texto": "Encriptado"}
+        ],
+        "correcta": "b",
+        "explicacion": "RSS utiliza el formato de texto plano."
+    },
+    {
+        "id": 72,
+        "pregunta": "¿Qué tecnología es alternativa a RSS?",
+        "opciones": [
+            { "id": "a", "texto": "JSON Feed" },
+            { "id": "b", "texto": "Atom"},
+            { "id": "c", "texto": "SOAP"},
+            { "id": "d", "texto": "REST"}
+        ],
+        "correcta": "b",
+        "explicacion": "Atom es una tecnología alternativa a RSS."
+    },
+    {
+        "id": 73,
+        "pregunta": "¿Qué proceso permite mostrar contenidos RSS en otra web?",
+        "opciones": [
+            { "id": "a", "texto": "Indexación" },
+            { "id": "b", "texto": "Serialización"},
+            { "id": "c", "texto": "Redifusión"},
+            { "id": "d", "texto": "Compilación"}
+        ],
+        "correcta": "c",
+        "explicacion": "El proceso que permite mostrar contenidos RSS en otra web es la redifusión."
+    },
+    {
+        "id": 74,
+        "pregunta": "¿Qué parte del RSS contiene la información principal del canal?",
+        "opciones": [
+            { "id": "a", "texto": "Declaración XML" },
+            { "id": "b", "texto": "<rss>"},
+            { "id": "c", "texto": "<item>"},
+            { "id": "d", "texto": "<channel>"}
+        ],
+        "correcta": "d",
+        "explicacion": "La parte del RSS que contiene la información principal del canal es <channel>."
+    },
+    {
+        "id": 75,
+        "pregunta": "¿Qué permite la agregación de contenidos?",
+        "opciones": [
+            { "id": "a", "texto": "Crear nuevos RSS" },
+            { "id": "b", "texto": "Editar XML"},
+            { "id": "c", "texto": "Centralizar información"},
+            { "id": "d", "texto": "Validar canales"}
+        ],
+        "correcta": "c",
+        "explicacion": "La agregación de contenidos permite centralizar información de múltiples fuentes en un solo lugar."
+    },
+    {
+        "id": 76,
+        "pregunta": "¿Qué ocurre si un usuario se suscribe a un RSS?",
+        "opciones": [
+            { "id": "a", "texto": "Edita el contenido" },
+            { "id": "b", "texto": "Recibe actualizaciones"},
+            { "id": "c", "texto": "Valida el archivo"},
+            { "id": "d", "texto": "Publica noticias"}
+        ],
+        "correcta": "b",
+        "explicacion": "Cuando un usuario se suscribe a un RSS, recibe actualizaciones automáticas de los contenidos del canal."
+    },
+    {
+        "id": 77,
+        "pregunta": "RSS es especialmente útil para:",
+        "opciones": [
+            { "id": "a", "texto": "Aplicaciones móviles" },
+            { "id": "b", "texto": "Juegos online"},
+            { "id": "c", "texto": "Edición de vídeo"},
+            { "id": "d", "texto": "Diseño gráfico"}
+        ],
+        "correcta": "a",
+        "explicacion": "RSS es especialmente útil para aplicaciones móviles, ya que permite recibir actualizaciones de contenido de forma eficiente."
+    },
+    {
+        "id": 78,
+        "pregunta": "¿Qué elemento indica la versión XML en RSS?",
+        "opciones": [
+            { "id": "a", "texto": "<rss>" },
+            { "id": "b", "texto": "<version>"},
+            { "id": "c", "texto": "Declaración XML"},
+            { "id": "d", "texto": "<channel>"}
+        ],
+        "correcta": "c",
+        "explicacion": "La declaración XML indica la versión del documento XML en RSS."
+    },
+    {
+        "id": 79,
+        "pregunta": "¿Qué norma deben cumplir los documentos RSS?",
+        "opciones": [
+            { "id": "a", "texto": "HTML" },
+            { "id": "b", "texto": "CSS"},
+            { "id": "c", "texto": "XML"},
+            { "id": "d", "texto": "JSON"}
+        ],
+        "correcta": "c",
+        "explicacion": "Los documentos RSS deben cumplir con la norma XML."
+    },
+    {
+        "id": 80,
+        "pregunta": "¿Qué se valida al comprobar un archivo RSS?",
+        "opciones": [
+            { "id": "a", "texto": "El diseño" },
+            { "id": "b", "texto": "El contenido visual"},
+            { "id": "c", "texto": "La estructura XML"},
+            { "id": "d", "texto": "La velocidad"}
+        ],
+        "correcta": "c",
+        "explicacion": "Al comprobar un archivo RSS, se valida principalmente la estructura XML para asegurar que esté correctamente formateado."
+    },
+    {
+        "id": 81,
+        "pregunta": "¿Dónde se suele publicar un archivo RSS?",
+        "opciones": [
+            { "id": "a", "texto": "En el servidor web" },
+            { "id": "b", "texto": "En el navegador"},
+            { "id": "c", "texto": "En el cliente"},
+            { "id": "d", "texto": "En el editor"}
+        ],
+        "correcta": "a",
+        "explicacion": "Un archivo RSS se suele publicar en el servidor web para que los usuarios puedan acceder a él."
+    },
+    {
+        "id": 82,
+        "pregunta": "¿Qué facilita RSS a nivel profesional?",
+        "opciones": [
+            { "id": "a", "texto": "Diseño web" },
+            { "id": "b", "texto": "Actualización informativa"},
+            { "id": "c", "texto": "Programación"},
+            { "id": "d", "texto": "Seguridad"}
+        ],
+        "correcta": "b",
+        "explicacion": "RSS facilita la actualización informativa a nivel profesional, permitiendo que los usuarios reciban automáticamente las últimas noticias o actualizaciones de contenido."
+    },
+    {
+        "id": 83,
+        "pregunta": "¿Qué relación existe entre RSS y XML?",
+        "opciones": [
+            { "id": "a", "texto": "RSS sustituye XML" },
+            { "id": "b", "texto": "RSS depende de XML"},
+            { "id": "c", "texto": "XML depende de RSS"},
+            { "id": "d", "texto": "No están relacionados"}
+        ],
+        "correcta": "b",
+        "explicacion": "RSS depende de XML, ya que RSS es una sintaxis basada en XML para representar información estructurada."
+    },
+    {
+        "id": 84,
+        "pregunta": "¿Qué tipo de información NO suele difundirse por RSS?",
+        "opciones": [
+            { "id": "a", "texto": "Noticias" },
+            { "id": "b", "texto": "Entradas de blog"},
+            { "id": "c", "texto": "Actualizaciones"},
+            { "id": "d", "texto": "Código compilado"}
+        ],
+        "correcta": "d",
+        "explicacion": "RSS no suele difundir código compilado, ya que este tipo de información no es adecuada para el formato RSS."
+    },
+    {
+        "id": 85,
+        "pregunta": "¿Qué ventaja ofrece RSS frente a la consulta manual de webs?",
+        "opciones": [
+            { "id": "a", "texto": "Mayor control visual" },
+            { "id": "b", "texto": "Menor tráfico"},
+            { "id": "c", "texto": "Ahorro de tiempo"},
+            { "id": "d", "texto": "Más personalización gráfica"}
+        ],
+        "correcta": "c",
+        "explicacion": "RSS ofrece ahorro de tiempo frente a la consulta manual de webs, ya que permite recibir automáticamente las actualizaciones sin tener que visitar cada sitio individualmente."
+    },
+    {
+        "id": 86,
+        "pregunta": "¿Qué acción realiza un agregador RSS?",
+        "opciones": [
+            { "id": "a", "texto": "Publica contenidos" },
+            { "id": "b", "texto": "Almacena bases de datos"},
+            { "id": "c", "texto": "Reúne contenidos de varias fuentes"},
+            { "id": "d", "texto": "Valida esquemas"}
+        ],
+        "correcta": "c",
+        "explicacion": "Un agregador RSS reúne contenidos de varias fuentes para que el usuario pueda acceder a ellos desde un solo lugar."
+    },
+    {
+        "id": 87,
+        "pregunta": "¿Cuál es el objetivo principal de XSL?",
+        "opciones": [
+            { "id": "a", "texto": "Validar documentos XML" },
+            { "id": "b", "texto": "Transformar y presentar documentos XML"},
+            { "id": "c", "texto": "Almacenar información"},
+            { "id": "d", "texto": "Consultar bases de datos"}
+        ],
+        "correcta": "b",
+        "explicacion": "XSL (eXtensible Stylesheet Language) tiene como objetivo principal transformar y presentar documentos XML."
+    },
+    {
+        "id": 88,
+        "pregunta": "¿Qué componente de XSL se encarga de las transformaciones?",
+        "opciones": [
+            { "id": "a", "texto": "XPath" },
+            { "id": "b", "texto": "XSL-FO"},
+            { "id": "c", "texto": "XSLT"},
+            { "id": "d", "texto": "CSS"}
+        ],
+        "correcta": "c",
+        "explicacion": "XSLT (XSL Transformations) es el componente de XSL que se encarga de las transformaciones de documentos XML."
+    },
+    {
+        "id": 89,
+        "pregunta": "¿Qué lenguaje se usa para navegar por nodos XML dentro de XSLT?",
+        "opciones": [
+            { "id": "a", "texto": "SQL" },
+            { "id": "b", "texto": "XPath"},
+            { "id": "c", "texto": "HTML"},
+            { "id": "d", "texto": "DTD"}
+        ],
+        "correcta": "b",
+        "explicacion": "XPath es el lenguaje usado para navegar por nodos XML dentro de XSLT."
+    },
+    {
+        "id": 90,
+        "pregunta": "¿Qué organismo recomienda oficialmente XSLT?",
+        "opciones": [
+            { "id": "a", "texto": "ISO" },
+            { "id": "b", "texto": "IEEE"},
+            { "id": "c", "texto": "ECMA"},
+            { "id": "d", "texto": "W3C"}
+        ],
+        "correcta": "d",
+        "explicacion": "W3C (World Wide Web Consortium) es el organismo que recomienda oficialmente XSLT."
+    },
+    {
+        "id": 91,
+        "pregunta": "¿Qué formato puede generar XSLT como salida?",
+        "opciones": [
+            { "id": "a", "texto": "Solo XML" },
+            { "id": "b", "texto": "Solo HTML"},
+            { "id": "c", "texto": "XML, HTML, texto, PDF"},
+            { "id": "d", "texto": "Solo PDF"}
+        ],
+        "correcta": "c",
+        "explicacion": "XSLT puede generar como salida varios formatos, incluyendo XML, HTML, texto y PDF."
+    },
+    {
+        "id": 92,
+        "pregunta": "XSLT se considera un lenguaje:",
+        "opciones": [
+            { "id": "a", "texto": "Imperativo" },
+            { "id": "b", "texto": "Orientado a objetos"},
+            { "id": "c", "texto": "Declarativo"},
+            { "id": "d", "texto": "Compilado"}
+        ],
+        "correcta": "c",
+        "explicacion": "XSLT se considera un lenguaje declarativo, ya que describe qué se debe hacer en lugar de cómo hacerlo."
+    },
+    {
+        "id": 93,
+        "pregunta": "¿Qué diferencia clave existe entre CSS y XSLT?",
+        "opciones": [
+            { "id": "a", "texto": "CSS puede transformar estructura" },
+            { "id": "b", "texto": "XSLT puede cambiar el orden de los datos"},
+            { "id": "c", "texto": "CSS usa XML"},
+            { "id": "d", "texto": "XSLT solo da estilo"}
+        ],
+        "correcta": "b",
+        "explicacion": "La diferencia clave entre CSS y XSLT es que XSLT puede cambiar el orden de los datos, mientras que CSS solo da estilo."
+    },
+    {
+        "id": 94,
+        "pregunta": "¿Qué procesa una hoja XSLT?",
+        "opciones": [
+            { "id": "a", "texto": "Un navegador" },
+            { "id": "b", "texto": "Un compilador"},
+            { "id": "c", "texto": "Un procesador XSLT"},
+            { "id": "d", "texto": "Un servidor FTP"}
+        ],
+        "correcta": "c",
+        "explicacion": "Una hoja XSLT es procesada por un procesador XSLT, que transforma el documento XML de entrada según las reglas definidas en la hoja."
+    },
+    {
+        "id": 95,
+        "pregunta": "¿Qué nodo se procesa inicialmente en XSLT?",
+        "opciones": [
+            { "id": "a", "texto": "El último nodo" },
+            { "id": "b", "texto": "El nodo actual"},
+            { "id": "c", "texto": "El nodo raíz"},
+            { "id": "d", "texto": "El nodo atributo"}
+        ],
+        "correcta": "c",
+        "explicacion": "En XSLT, el nodo raíz es el nodo que se procesa inicialmente."
+    },
+    {
+        "id": 96,
+        "pregunta": "¿Qué permite XSL-FO principalmente?",
+        "opciones": [
+            { "id": "a", "texto": "Consultar XML" },
+            { "id": "b", "texto": "Generar documentos para impresión"},
+            { "id": "c", "texto": "Validar esquemas"},
+            { "id": "d", "texto": "Crear HTML"}
+        ],
+        "correcta": "b",
+        "explicacion": "XSL-FO (XSL Formatting Objects) permite principalmente generar documentos para impresión."
+    },
+    {
+        "id": 97,
+        "pregunta": "¿Qué extensión suelen tener las hojas XSLT?",
+        "opciones": [
+            { "id": "a", "texto": ".xsl" },
+            { "id": "b", "texto": ".xslt"},
+            { "id": "c", "texto": ".xml"},
+            { "id": "d", "texto": ".css"}
+        ],
+        "correcta": "a",
+        "explicacion": "Las hojas XSLT suelen tener la extensión .xsl."
+    },
+    {
+        "id": 98,
+        "pregunta": "¿Dónde puede realizarse la transformación XSLT?",
+        "opciones": [
+            { "id": "a", "texto": "Solo en el cliente" },
+            { "id": "b", "texto": "Solo en el servidor"},
+            { "id": "c", "texto": "En cliente, servidor o aplicación externa"},
+            { "id": "d", "texto": "Solo en el navegador"}
+        ],
+        "correcta": "c",
+        "explicacion": "La transformación XSLT puede realizarse en el cliente, servidor o aplicación externa, dependiendo de la implementación y necesidades del sistema."
+    },
+    {
+        "id": 99,
+        "pregunta": "¿Qué ocurre si una hoja XSLT no tiene plantillas?",
+        "opciones": [
+            { "id": "a", "texto": "No se genera salida" },
+            { "id": "b", "texto": "Se envía el texto directamente"},
+            { "id": "c", "texto": "Da error"},
+            { "id": "d", "texto": "Se valida el XML"}
+        ],
+        "correcta": "b",
+        "explicacion": "Si una hoja XSLT no tiene plantillas, se envía el texto directamente sin transformación."
+    },
+    {
+        "id": 100,
+        "pregunta": "¿Qué define una plantilla en XSLT?",
+        "opciones": [
+            { "id": "a", "texto": "Un estilo" },
+            { "id": "b", "texto": "Una regla de transformación"},
+            { "id": "c", "texto": "Un esquema"},
+            { "id": "d", "texto": "Un nodo"}
+        ],
+        "correcta": "b",
+        "explicacion": "Una plantilla en XSLT define una regla de transformación que determina cómo se debe procesar un nodo específico del documento XML de entrada."
+    },
+    {
+        "id": 101,
+        "pregunta": "¿Qué caracteriza a una base de datos XML nativa?",
+        "opciones": [
+            { "id": "a", "texto": "Usa tablas relacionales" },
+            { "id": "b", "texto": "Almacena XML como texto"},
+            { "id": "c", "texto": "Trabaja directamente con estructura XML"},
+            { "id": "d", "texto": "No permite consultas"}
+        ],
+        "correcta": "c",
+        "explicacion": "Una base de datos XML nativa trabaja directamente con la estructura XML, permitiendo almacenar y manipular documentos XML de forma eficiente."
+    },
+    {
+        "id": 102,
+        "pregunta": "¿Qué tipo de base de datos es XMLTYPE en SQL Server?",
+        "opciones": [
+            { "id": "a", "texto": "Nativa XML" },
+            { "id": "b", "texto": "Relacional adaptada"},
+            { "id": "c", "texto": "Jerárquica"},
+            { "id": "d", "texto": "Orientado a objetos"}
+        ],
+        "correcta": "b",
+        "explicacion": "XMLTYPE en SQL Server es una base de datos relacional adaptada que permite almacenar y manipular datos XML dentro de un entorno relacional."
+    },
+    {
+        "id": 103,
+        "pregunta": "¿Qué ventaja tiene una base relacional adaptada a XML?",
+        "opciones": [
+            { "id": "a", "texto": "Menor complejidad" },
+            { "id": "b", "texto": "Total compatibilidad XML"},
+            { "id": "c", "texto": "Amplia implantación"},
+            { "id": "d", "texto": "No necesita esquemas"}
+        ],
+        "correcta": "c",
+        "explicacion": "Una base de datos relacional adaptada a XML tiene la ventaja de contar con una amplia implantación, lo que facilita su adopción y uso en diversos entornos."
+    },
+    {
+        "id": 104,
+        "pregunta": "¿Qué desventaja tiene usar bases relacionales con XML?",
+        "opciones": [
+            { "id": "a", "texto": "Falta de estructura" },
+            { "id": "b", "texto": "Consultas XML más complejas"},
+            { "id": "c", "texto": "Falta de validación"},
+            { "id": "d", "texto": "Pérdida de datos"}
+        ],
+        "correcta": "b",
+        "explicacion": "Una desventaja de usar bases relacionales con XML es que las consultas XML tienden a ser más complejas que las consultas SQL tradicionales."
+    },
+    {
+        "id": 105,
+        "pregunta": "¿Qué lenguaje se utiliza para recorrer nodos XML?",
+        "opciones": [
+            { "id": "a", "texto": "XSLT" },
+            { "id": "b", "texto": "SQL"},
+            { "id": "c", "texto": "XPath"},
+            { "id": "d", "texto": "CSS"}
+        ],
+        "correcta": "c",
+        "explicacion": "XPath es el lenguaje utilizado para recorrer nodos XML y seleccionar elementos dentro de un documento XML."
+    },
+    {
+        "id": 106,
+        "pregunta": "¿Qué lenguaje amplía XPath con capacidad de manipulación?",
+        "opciones": [
+            { "id": "a", "texto": "XSL-FO" },
+            { "id": "b", "texto": "XML Schema"},
+            { "id": "c", "texto": "XQuery"},
+            { "id": "d", "texto": "DTD"}
+        ],
+        "correcta": "c",
+        "explicacion": "XQuery amplía XPath con capacidades de manipulación de datos XML, permitiendo realizar consultas y transformaciones más complejas."
+    },
+    {
+        "id": 107,
+        "pregunta": "XPath y XQuery son lenguajes:",
+        "opciones": [
+            { "id": "a", "texto": "Sustitutivos" },
+            { "id": "b", "texto": "Incompatibles"},
+            { "id": "c", "texto": "Complementarios"},
+            { "id": "d", "texto": "Obsoletos"}
+        ],
+        "correcta": "c",
+        "explicacion": "XPath y XQuery son lenguajes complementarios, ya que XPath se usa para navegar por nodos XML y XQuery se usa para consultar y manipular datos XML."
+    },
+    {
+        "id": 108,
+        "pregunta": "¿Qué representa un documento XML en memoria?",
+        "opciones": [
+            { "id": "a", "texto": "Una tabla" },
+            { "id": "b", "texto": "Un árbol de nodos"},
+            { "id": "c", "texto": "Un grafo"},
+            { "id": "d", "texto": "Un array"}
+        ],
+        "correcta": "b",
+        "explicacion": "Un documento XML en memoria se representa como un árbol de nodos, donde cada nodo corresponde a un elemento del documento XML."
+    },
+    {
+        "id": 109,
+        "pregunta": "¿Qué permite XQuery además de consultar?",
+        "opciones": [
+            { "id": "a", "texto": "Diseñar XML" },
+            { "id": "b", "texto": "Validar documentos"},
+            { "id": "c", "texto": "Manipular información"},
+            { "id": "d", "texto": "Crear esquemas"}
+        ],
+        "correcta": "c",
+        "explicacion": "XQuery permite no solo consultar datos XML, sino también manipular información, como modificar, insertar o eliminar elementos del documento XML."
+    },
+    {
+        "id": 110,
+        "pregunta": "¿Qué tipo de información almacena XML frente a bases relacionales?",
+        "opciones": [
+            { "id": "a", "texto": "No estructurada" },
+            { "id": "b", "texto": "Jerárquica"},
+            { "id": "c", "texto": "Binaria"},
+            { "id": "d", "texto": "Indexada"}
+        ],
+        "correcta": "b",
+        "explicacion": "XML almacena información de forma jerárquica, mientras que las bases relacionales almacenan información de forma tabular."
+    },
+    {
+        "id": 111,
+        "pregunta": "¿Qué función cumple XMLQuery()?",
+        "opciones": [
+            { "id": "a", "texto": "Validar XML" },
+            { "id": "b", "texto": "Ejecutar consultas XQuery"},
+            { "id": "c", "texto": "Transformar XML"},
+            { "id": "d", "texto": "Crear esquemas"}
+        ],
+        "correcta": "b",
+        "explicacion": "XMLQuery() es una función que permite ejecutar consultas XQuery sobre documentos XML."
+    },
+    {
+        "id": 112,
+        "pregunta": "¿Qué lenguaje permite extraer fragmentos XML concretos?",
+        "opciones": [
+            { "id": "a", "texto": "XPath" },
+            { "id": "b", "texto": "HTML"},
+            { "id": "c", "texto": "CSS"},
+            { "id": "d", "texto": "RSS"}
+        ],
+        "correcta": "a",
+        "explicacion": "XPath es un lenguaje de consulta que permite extraer fragmentos específicos de un documento XML."
+    },
+    {
+        "id": 113,
+        "pregunta": "¿Qué significa BI?",
+        "opciones": [
+            { "id": "a", "texto": "Business Intelligence" },
+            { "id": "b", "texto": "Big Information"},
+            { "id": "c", "texto": "Basic Integration"},
+            { "id": "d", "texto": "Binary Interface"}
+        ],
+        "correcta": "a",
+        "explicacion": "BI significa Business Intelligence, que se refiere a las tecnologías y prácticas para recopilar, analizar y presentar datos empresariales."
+    },
+    {
+        "id": 114,
+        "pregunta": "¿Cuál es el objetivo principal de la inteligencia de negocio?",
+        "opciones": [
+            { "id": "a", "texto": "Programar aplicaciones" },
+            { "id": "b", "texto": "Optimizar procesos y decisiones"},
+            { "id": "c", "texto": "Diseñar interfaces"},
+            { "id": "d", "texto": "Gestionar redes"}
+        ],
+        "correcta": "b",
+        "explicacion": "El objetivo principal de la inteligencia de negocio es optimizar procesos y decisiones empresariales mediante el análisis de datos."
+    },
+    {
+        "id": 115,
+        "pregunta": "¿Qué sistema integra todos los procesos de una empresa?",
+        "opciones": [
+            { "id": "a", "texto": "CRM" },
+            { "id": "b", "texto": "ERP"},
+            { "id": "c", "texto": "CMS"},
+            { "id": "d", "texto": "DBMS"}
+        ],
+        "correcta": "b",
+        "explicacion": "ERP (Enterprise Resource Planning) integra todos los procesos de una empresa en un solo sistema."
+    },
+    {
+        "id": 116,
+        "pregunta": "¿Qué característica define a un ERP?",
+        "opciones": [
+            { "id": "a", "texto": "Monolítico" },
+            { "id": "b", "texto": "Cerrado"},
+            { "id": "c", "texto": "Modular"},
+            { "id": "d", "texto": "Experimental"}
+        ],
+        "correcta": "c",
+        "explicacion": "Un ERP modular permite integrar diferentes módulos según las necesidades de la empresa."
+    },
+    {
+        "id": 117,
+        "pregunta": "¿Qué significa CRM?",
+        "opciones": [
+            { "id": "a", "texto": "Customer Resource Model" },
+            { "id": "b", "texto": "Client Relation Manager"},
+            { "id": "c", "texto": "Customer Relationship Management"},
+            { "id": "d", "texto": "Corporate Resource Management"}
+        ],
+        "correcta": "c",
+        "explicacion": "CRM significa Customer Relationship Management, que se refiere a las estrategias y tecnologías para gestionar las relaciones con los clientes."
+    },
+    {
+        "id": 118,
+        "pregunta": "¿Qué función principal tiene un CRM?",
+        "opciones": [
+            { "id": "a", "texto": "Gestión financiera" },
+            { "id": "b", "texto": "Gestión de clientes"},
+            { "id": "c", "texto": "Gestión de servidores"},
+            { "id": "d", "texto": "Gestión documental"}
+        ],
+        "correcta": "b",
+        "explicacion": "La función principal de un CRM es la gestión de clientes, incluyendo el seguimiento de interacciones, ventas y relaciones con los clientes."
+    },
+    {
+        "id": 119,
+        "pregunta": "¿Qué ERP es de código abierto?",
+        "opciones": [
+            { "id": "a", "texto": "SAP" },
+            { "id": "b", "texto": "Oracle ERP"},
+            { "id": "c", "texto": "Odoo"},
+            { "id": "d", "texto": "Microsoft Dynamics"}
+        ],
+        "correcta": "c",
+        "explicacion": "Odoo es un ERP de código abierto que permite a las empresas gestionar sus procesos empresariales de manera integrada."
+    },
+    {
+        "id": 120,
+        "pregunta": "¿Qué ERP es líder comercial a nivel mundial?",
+        "opciones": [
+            { "id": "a", "texto": "Odoo" },
+            { "id": "b", "texto": "SAP"},
+            { "id": "c", "texto": "SugarCRM"},
+            { "id": "d", "texto": "OpenERP"}
+        ],
+        "correcta": "b",
+        "explicacion": "SAP es el ERP líder comercial a nivel mundial."
+    },
+    {
+        "id": 121,
+        "pregunta": "¿Qué módulo SAP gestiona finanzas?",
+        "opciones": [
+            { "id": "a", "texto": "MM" },
+            { "id": "b", "texto": "SD"},
+            { "id": "c", "texto": "FI"},
+            { "id": "d", "texto": "HR"}
+        ],
+        "correcta": "c",
+        "explicacion": "El módulo FI (Financial Accounting) en SAP gestiona las finanzas de la empresa."
+    },
+    {
+        "id": 122,
+        "pregunta": "¿Qué módulo SAP gestiona recursos humanos?",
+        "opciones": [
+            { "id": "a", "texto": "CO" },
+            { "id": "b", "texto": "HR"},
+            { "id": "c", "texto": "PP"},
+            { "id": "d", "texto": "MM"}
+        ],
+        "correcta": "b",
+        "explicacion": "El módulo HR (Human Resources) en SAP gestiona los recursos humanos de la empresa."
+    },
+    {
+        "id": 123,
+        "pregunta": "¿Qué ventaja ofrece un ERP frente a sistemas aislados?",
+        "opciones": [
+            { "id": "a", "texto": "Menor coste inicial" },
+            { "id": "b", "texto": "Integración de información"},
+            { "id": "c", "texto": "Mayor complejidad"},
+            { "id": "d", "texto": "Menor escalabilidad"}
+        ],
+        "correcta": "b",
+        "explicacion": "Un ERP ofrece integración de información entre diferentes módulos, lo que no es posible con sistemas aislados."
+    },
+    {
+        "id": 124,
+        "pregunta": "¿Qué significa que un ERP sea parametrizable?",
+        "opciones": [
+            { "id": "a", "texto": "Que no se puede modificar" },
+            { "id": "b", "texto": "Que se adapta a la empresa"},
+            { "id": "c", "texto": "Que es gratuito"},
+            { "id": "d", "texto": "Que es monolítico"}
+        ],
+        "correcta": "b",
+        "explicacion": "Un ERP parametrizable significa que puede ser configurado y adaptado a las necesidades específicas de cada empresa."
+    },
+    {
+        "id": 125,
+        "pregunta": "¿Qué tipo de aplicación es ETL?",
+        "opciones": [
+            { "id": "a", "texto": "Visualización" },
+            { "id": "b", "texto": "Extracción, transformación y carga"},
+            { "id": "c", "texto": "Seguridad"},
+            { "id": "d", "texto": "Programación"}
+        ],
+        "correcta": "b",
+        "explicacion": "ETL (Extracción, Transformación y Carga) es una aplicación que permite mover y procesar datos desde fuentes de datos diversas hacia un destino como una base de datos o data warehouse."
+    },
+    {
+        "id": 126,
+        "pregunta": "¿Qué sistema gestiona el conocimiento interno?",
+        "opciones": [
+            { "id": "a", "texto": "ERP" },
+            { "id": "b", "texto": "CRM"},
+            { "id": "c", "texto": "KM"},
+            { "id": "d", "texto": "BPM"}
+        ],
+        "correcta": "c",
+        "explicacion": "KM (Knowledge Management) es el sistema que gestiona el conocimiento interno de una organización."
+    },
+    {
+        "id": 127,
+        "pregunta": "¿Qué permite la analítica de negocio (BA)?",
+        "opciones": [
+            { "id": "a", "texto": "Diseñar interfaces" },
+            { "id": "b", "texto": "Analizar datos y resultados"},
+            { "id": "c", "texto": "Validar información"},
+            { "id": "d", "texto": "Crear XML"}
+        ],
+        "correcta": "b",
+        "explicacion": "La analítica de negocio (BA) permite analizar datos y resultados para tomar decisiones informadas."
+    },
+    {
+        "id": 128,
+        "pregunta": "¿Qué ventaja tiene integrar ERP con herramientas ofimáticas?",
+        "opciones": [
+            { "id": "a", "texto": "Más seguridad" },
+            { "id": "b", "texto": "Exportación de información"},
+            { "id": "c", "texto": "Menos datos"},
+            { "id": "d", "texto": "Menor interoperabilidad"}
+        ],
+        "correcta": "b",
+        "explicacion": "Integrar ERP con herramientas ofimáticas permite exportar información de manera más eficiente entre los sistemas."
+    },
+    {
+        "id": 129,
+        "pregunta": "¿Qué tipo de informes generan los sistemas empresariales?",
+        "opciones": [
+            { "id": "a", "texto": "Técnicos exclusivamente" },
+            { "id": "b", "texto": "Informes de gestión"},
+            { "id": "c", "texto": "Informes gráficos únicamente"},
+            { "id": "d", "texto": "Informes sin datos"}
+        ],
+        "correcta": "b",
+        "explicacion": "Los sistemas empresariales generan informes de gestión que permiten analizar el desempeño de la organización."
+    },
+    {
+        "id": 130,
+        "pregunta": "¿Qué permite la escalabilidad de un ERP?",
+        "opciones": [
+            { "id": "a", "texto": "Reducir módulos" },
+            { "id": "b", "texto": "Crecer con la empresa"},
+            { "id": "c", "texto": "Cambiar lenguaje"},
+            { "id": "d", "texto": "Eliminar datos"}
+        ],
+        "correcta": "b",
+        "explicacion": "La escalabilidad de un ERP permite que el sistema crezca y se adapte a las necesidades cambiantes de la empresa."
+    },
+    {
+        "id": 131,
+        "pregunta": "¿Qué ventaja principal ofrece XPath frente a SQL en XML?",
+        "opciones": [
+            { "id": "a", "texto": "Es más rápido" },
+            { "id": "b", "texto": "Recorre estructuras jerárquicas"},
+            { "id": "c", "texto": "Usa tablas"},
+            { "id": "d", "texto": "No necesita esquemas"}
+        ],
+        "correcta": "b",
+        "explicacion": "XPath permite recorrer estructuras jerárquicas de XML, mientras que SQL se enfoca en estructuras tabulares."
+    },
+    {
+        "id": 132,
+        "pregunta": "¿Qué representa el nodo de contexto en XPath?",
+        "opciones": [
+            { "id": "a", "texto": "El nodo raíz" },
+            { "id": "b", "texto": "El nodo actualmente procesado"},
+            { "id": "c", "texto": "El último nodo"},
+            { "id": "d", "texto": "El nodo atributo"}
+        ],
+        "correcta": "b",
+        "explicacion": "El nodo de contexto en XPath representa el nodo actualmente procesado en la expresión XPath."
+    },
+    {
+        "id": 133,
+        "pregunta": "¿Qué símbolo se utiliza en XPath para seleccionar atributos?",
+        "opciones": [
+            { "id": "a", "texto": "#" },
+            { "id": "b", "texto": "$"},
+            { "id": "c", "texto": "@"},
+            { "id": "d", "texto": "&"}
+        ],
+        "correcta": "c",
+        "explicacion": "En XPath, el símbolo @ se utiliza para seleccionar atributos."
+    },
+    {
+        "id": 134,
+        "pregunta": "¿Qué expresión XPath selecciona todos los nodos de un documento?",
+        "opciones": [
+            { "id": "a", "texto": "/" },
+            { "id": "b", "texto": "*"},
+            { "id": "c", "texto": "//"},
+            { "id": "d", "texto": "."}
+        ],
+        "correcta": "c",
+        "explicacion": "La expresión XPath // selecciona todos los nodos descendientes del documento, incluyendo nodos de cualquier nivel."
+    },
+    {
+        "id": 135,
+        "pregunta": "¿Qué lenguaje permite combinar consultas y generación de nuevos documentos XML?",
+        "opciones": [
+            { "id": "a", "texto": "XPath" },
+            { "id": "b", "texto": "XSLT"},
+            { "id": "c", "texto": "XQuery"},
+            { "id": "d", "texto": "SQL"}
+        ],
+        "correcta": "c",
+        "explicacion": "XQuery permite combinar consultas y generación de nuevos documentos XML."
+    },
+    {
+        "id": 136,
+        "pregunta": "¿Qué tipo de bases de datos están aún en evolución para XML?",
+        "opciones": [
+            { "id": "a", "texto": "Relacionales" },
+            { "id": "b", "texto": "Jerárquicas"},
+            { "id": "c", "texto": "Nativas XML"},
+            { "id": "d", "texto": "Distribuidas"}
+        ],
+        "correcta": "c",
+        "explicacion": "Las bases de datos nativas XML están aún en evolución para manejar eficientemente documentos XML."
+    },
+    {
+        "id": 137,
+        "pregunta": "¿Qué estructura sustituye a las tablas en XML?",
+        "opciones": [
+            { "id": "a", "texto": "Registros" },
+            { "id": "b", "texto": "Arrays"},
+            { "id": "c", "texto": "Elementos y atributos"},
+            { "id": "d", "texto": "Columnas"}
+        ],
+        "correcta": "c",
+        "explicacion": "En XML, las estructuras que sustituyen a las tablas son elementos y atributos."
+    },
+    {
+        "id": 138,
+        "pregunta": "¿Qué objetivo tiene un sistema BPM?",
+        "opciones": [
+            { "id": "a", "texto": "Diseñar interfaces" },
+            { "id": "b", "texto": "Gestionar procesos de negocio"},
+            { "id": "c", "texto": "Gestionar clientes"},
+            { "id": "d", "texto": "Almacenar datos"}
+        ],
+        "correcta": "b",
+        "explicacion": "Un sistema BPM (Business Process Management) tiene como objetivo principal gestionar procesos de negocio."
+    },
+    {
+        "id": 139,
+        "pregunta": "¿Qué sistema se centra en la gestión de proveedores?",
+        "opciones": [
+            { "id": "a", "texto": "CRM" },
+            { "id": "b", "texto": "ERP"},
+            { "id": "c", "texto": "SRM"},
+            { "id": "d", "texto": "KM"}
+        ],
+        "correcta": "c",
+        "explicacion": "El sistema SRM (Supplier Relationship Management) se centra en la gestión de proveedores."
+    },
+    {
+        "id": 140,
+        "pregunta": "¿Qué módulo SAP se encarga de logística?",
+        "opciones": [
+            { "id": "a", "texto": "FI" },
+            { "id": "b", "texto": "HR"},
+            { "id": "c", "texto": "SD"},
+            { "id": "d", "texto": "LO"}
+        ],
+        "correcta": "d",
+        "explicacion": "El módulo SAP LO (Logistics) se encarga de la gestión de logística."
+    },
+    {
+        "id": 141,
+        "pregunta": "¿Qué caracteriza a los ERP modernos?",
+        "opciones": [
+            { "id": "a", "texto": "Monolíticos" },
+            { "id": "b", "texto": "No escalables"},
+            { "id": "c", "texto": "Integrados y modulares"},
+            { "id": "d", "texto": "Cerrados"}
+        ],
+        "correcta": "c",
+        "explicacion": "Los ERP modernos se caracterizan por ser integrados y modulares."
+    },
+    {
+        "id": 142,
+        "pregunta": "¿Qué herramienta ERP es multiplataforma?",
+        "opciones": [
+            { "id": "a", "texto": "SAP" },
+            { "id": "b", "texto": "Odoo"},
+            { "id": "c", "texto": "Ambas"},
+            { "id": "d", "texto": "Ninguna"}
+        ],
+        "correcta": "c",
+        "explicacion": "SAP y Odoo son herramientas ERP multiplataforma."
+    },
+    {
+        "id": 143,
+        "pregunta": "¿Qué permite la exportación de datos a herramientas ofimáticas?",
+        "opciones": [
+            { "id": "a", "texto": "Mayor seguridad" },
+            { "id": "b", "texto": "Análisis externo"},
+            { "id": "c", "texto": "Eliminación de datos"},
+            { "id": "d", "texto": "Compilación"}
+        ],
+        "correcta": "b",
+        "explicacion": "La exportación de datos a herramientas ofimáticas permite realizar análisis externo de los datos."
+    },
+    {
+        "id": 144,
+        "pregunta": "¿Qué significa que un ERP sea integral?",
+        "opciones": [
+            { "id": "a", "texto": "Que solo cubre finanzas" },
+            { "id": "b", "texto": "Que cubre todas las áreas"},
+            { "id": "c", "texto": "Que es gratuito"},
+            { "id": "d", "texto": "Que es experimental"}
+        ],
+        "correcta": "b",
+        "explicacion": "Un ERP integral es aquel que cubre todas las áreas de una organización."
+    },
+    {
+        "id": 145,
+        "pregunta": "¿Qué aplicación forma parte habitualmente de un CRM?",
+        "opciones": [
+            { "id": "a", "texto": "Gestión de ventas" },
+            { "id": "b", "texto": "Gestión de kernel"},
+            { "id": "c", "texto": "Gestión de memoria"},
+            { "id": "d", "texto": "Gestión de compilación"}
+        ],
+        "correcta": "a",
+        "explicacion": "La gestión de ventas es una aplicación habitualmente parte de un CRM."
+    },
+    {
+        "id": 146,
+        "pregunta": "¿Qué tipo de información trata principalmente la BI?",
+        "opciones": [
+            { "id": "a", "texto": "Datos sin procesar" },
+            { "id": "b", "texto": "Datos estructurados para análisis"},
+            { "id": "c", "texto": "Datos binarios"},
+            { "id": "d", "texto": "Datos cifrados"}
+        ],
+        "correcta": "b",
+        "explicacion": "La BI (Business Intelligence) trata principalmente datos estructurados para análisis."
+    },
+    {
+        "id": 147,
+        "pregunta": "¿Qué ventaja aporta la integración de módulos ERP?",
+        "opciones": [
+            { "id": "a", "texto": "Mayor aislamiento" },
+            { "id": "b", "texto": "Duplicidad de datos"},
+            { "id": "c", "texto": "Flujo unificado de información"},
+            { "id": "d", "texto": "Menor rendimiento"}
+        ],
+        "correcta": "c",
+        "explicacion": "La integración de módulos ERP permite un flujo unificado de información entre los diferentes departamentos."
+    },
+    {
+        "id": 148,
+        "pregunta": "¿Qué sistema apoya la toma de decisiones estratégicas?",
+        "opciones": [
+            { "id": "a", "texto": "CMS" },
+            { "id": "b", "texto": "BI"},
+            { "id": "c", "texto": "HTML"},
+            { "id": "d", "texto": "XML"}
+        ],
+        "correcta": "b",
+        "explicacion": "El sistema de Business Intelligence (BI) apoya la toma de decisiones estratégicas al proporcionar análisis y reportes sobre los datos empresariales."
+    },
+    {
+        "id": 149,
+        "pregunta": "¿Qué tipo de sistema es Odoo?",
+        "opciones": [
+            { "id": "a", "texto": "CRM exclusivo" },
+            { "id": "b", "texto": "ERP modular"},
+            { "id": "c", "texto": "Gestor documental"},
+            { "id": "d", "texto": "Lenguaje de marcas"}
+        ],
+        "correcta": "b",
+        "explicacion": "Odoo es un sistema ERP modular que permite gestionar múltiples aspectos de una empresa."
+    },
+    {
+        "id": 150,
+        "pregunta": "¿Cuál es el beneficio global de los sistemas de gestión empresarial?",
+        "opciones": [
+            { "id": "a", "texto": "Reducción del hardware" },
+            { "id": "b", "texto": "Mejora de la eficiencia organizativa"},
+            { "id": "c", "texto": "Eliminación de empleados"},
+            { "id": "d", "texto": "Sustitución de programadores"}
+        ],
+        "correcta": "b",
+        "explicacion": "El beneficio global de los sistemas de gestión empresarial es la mejora de la eficiencia organizativa."
+    }
+]

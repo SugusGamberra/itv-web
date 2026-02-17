@@ -1,0 +1,159 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+:root {
+    /* PALETA COLORES */
+    --bg-color: #050505;
+    --text-main: #fbf7ef;
+    --text-muted: #9ca3af;
+    
+    /* Fuentes */
+    --font-heading: "Fraunces", serif;
+    --font-body: "Space Grotesk", sans-serif;
+
+    /* variables de la magic card :P */
+    --gutter: 1.5rem;
+    --frostRadius: 1.5rem;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    /* fondo sutil tipo ruido */
+    background-image: 
+        radial-gradient(circle at 15% 15%, rgba(242, 193, 78, 0.05), transparent 45%),
+        radial-gradient(circle at 85% 10%, rgba(31, 111, 120, 0.05), transparent 50%);
+}
+
+/* titulos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+}
+
+/* magic card */
+.magic-card {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4 / 3; /* carta horizontal */
+    border-radius: var(--gutter);
+    padding: var(--gutter);
+    display: grid;
+    justify-content: start;
+    align-content: end;
+    background: #333;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 250ms ease-in-out, box-shadow 250ms ease;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
+.magic-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.8);
+}
+
+/* imagen de fondo */
+.magic-card .backdrop-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 500ms ease-in-out;
+    filter: brightness(0.85);
+    }
+
+    .magic-card:hover .backdrop-img {
+    transform: scale(1.1);
+    filter: brightness(1); /* iluminacion al pasar el raton */
+}
+
+/* cristal esmerilado (con mascara oscura abajo) */
+.magic-card::after {
+    content: "";
+    position: absolute;
+    inset: -0.5rem;
+    z-index: 1;
+    pointer-events: none;
+    /* blurr y saturacion para el efecto cristal */
+    backdrop-filter: blur(12px) saturate(1.5); 
+    
+    /* gradiente: transparente arriba y negro abajo */
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.3) 40%,
+        rgba(0, 0, 0, 0.8) 100%
+    );
+    
+    /* mascara para que el blurr solo afecte a la parte inferior */
+    mask-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        transparent 30%,
+        black 80%
+    );
+}
+
+/* texto */
+.magic-card .card-content {
+    position: relative;
+    z-index: 2; /* encima del cristal */
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    transform: translateY(5px);
+    transition: transform 250ms ease;
+}
+
+.magic-card:hover .card-content {
+    transform: translateY(0);
+}
+
+.magic-card .card-category {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0.2rem;
+}
+
+.magic-card .card-title {
+    font-family: var(--font-heading);
+    font-size: 1.75rem;
+    line-height: 1.1;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.magic-card .card-description {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    opacity: 0; /* oculto por defecto */
+    transform: translateY(10px);
+    transition: all 300ms ease;
+}
+
+/* descripcion hover */
+.magic-card:hover .card-description {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Icono flecha */
+.arrow-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: white;
+    opacity: 0.8;
+}
