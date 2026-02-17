@@ -58,7 +58,6 @@ export default function AsignaturaDashboard() {
             // eslint-disable-next-line
             setActiveTab('apuntes');
         } else {
-            // eslint-disable-next-line
             setActiveTab('tests');
         }
     }, [asignaturaID]); 

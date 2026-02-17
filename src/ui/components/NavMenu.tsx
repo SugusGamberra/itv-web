@@ -65,8 +65,8 @@ export default function NavMenu() {
                             onClick={() => setIsOpen(false)}
                             className="w-full flex items-center gap-3 px-4 py-3 text-sm text-white/70 hover:text-white hover:bg-white/5 rounded-xl transition-colors text-left"
                         >
-                            <GraduationCap size={16} className="shrink-0" /> 
-                            <span className="truncate">Ir a {gradoID}</span>
+                            <Calendar size={16} className="shrink-0" />
+                            <span className="truncate">Curso {year}</span>
                         </Link>
                     )}
 
@@ -77,8 +77,9 @@ export default function NavMenu() {
                             onClick={() => setIsOpen(false)}
                             className="w-full flex items-center gap-3 px-4 py-3 text-sm text-white/70 hover:text-white hover:bg-white/5 rounded-xl transition-colors text-left"
                         >
-                            <Calendar size={16} className="shrink-0" /> 
-                            <span>Curso {year}</span>
+                            
+                            <GraduationCap size={16} className="shrink-0" />  
+                            <span>Ir a {gradoID}</span>
                         </Link>
                     )}
 
@@ -90,7 +91,7 @@ export default function NavMenu() {
                             className="w-full flex items-center gap-3 px-4 py-3 text-sm text-white/70 hover:text-white hover:bg-white/5 rounded-xl transition-colors text-left border-t border-white/10 mt-1"
                         >
                             <LayoutDashboard size={16} className="shrink-0" /> 
-                            <span className="truncate">Panel Asignatura</span>
+                            <span className="truncate">Panel {asignaturaID}</span>
                         </Link>
                     )}
 
