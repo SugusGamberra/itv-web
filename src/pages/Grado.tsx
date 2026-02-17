@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom';
 import ArtCard from '../ui/components/ArtCard';
-import PageLayout from '../ui/layout/PageLayout'; 
+import PageLayout from '../ui/layout/PageLayout';
+
 import imgC1 from '../assets/images/c1.jpg';
 
 export default function Grado() {
@@ -25,7 +26,7 @@ export default function Grado() {
                         title={year.title} 
                         subtitle={year.subtitle}
                         to={`/${gradoID}/${year.id}`} 
-                        image={imgC1} // c1 para año actual
+                        image={imgC1}
                     />
                 ))}
             </div>

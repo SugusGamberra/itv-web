@@ -3,10 +3,10 @@
         "id": 1,
         "pregunta": "¿Qué define principalmente a un lenguaje de marcas?",
         "opciones": [
-        { "id": "a", "texto": "Que permite ejecutar código" },
-        { "id": "b", "texto": "Que utiliza etiquetas para estructurar información" },
-        { "id": "c", "texto": "Que se basa en instrucciones secuenciales" },
-        { "id": "d", "texto": "Que compila a lenguaje máquina" }
+            { "id": "a", "texto": "Que permite ejecutar código" },
+            { "id": "b", "texto": "Que utiliza etiquetas para estructurar información" },
+            { "id": "c", "texto": "Que se basa en instrucciones secuenciales" },
+            { "id": "d", "texto": "Que compila a lenguaje máquina" }
         ],
         "correcta": "b",
         "explicacion": "Los lenguajes de marcas utilizan etiquetas para dar estructura y semántica a la información."
@@ -15,10 +15,10 @@
         "id": 2,
         "pregunta": "¿Cuál fue el objetivo original de los lenguajes de marcas?",
         "opciones": [
-        { "id": "a", "texto": "Crear interfaces gráficas" },
-        { "id": "b", "texto": "Automatizar procesos" },
-        { "id": "c", "texto": "Añadir anotaciones a documentos electrónicos" },
-        { "id": "d", "texto": "Sustituir a los lenguajes de programación" }
+            { "id": "a", "texto": "Crear interfaces gráficas" },
+            { "id": "b", "texto": "Automatizar procesos" },
+            { "id": "c", "texto": "Añadir anotaciones a documentos electrónicos" },
+            { "id": "d", "texto": "Sustituir a los lenguajes de programación" }
         ],
         "correcta": "c",
         "explicacion": "Nacieron para añadir anotaciones y metadatos a documentos de texto."

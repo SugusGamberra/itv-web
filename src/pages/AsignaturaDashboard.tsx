@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import PageLayout from '../ui/layout/PageLayout';
 import ArtCard from '../ui/components/ArtCard';
@@ -51,16 +51,6 @@ export default function AsignaturaDashboard() {
     );
 
     const hayPreguntas = MAPA_PREGUNTAS[asignaturaID || '']?.length > 0;
-    
-    // x culo de eslint x.x
-    useEffect(() => {
-        if (asignaturaID === 'jesubuntu') {
-            // eslint-disable-next-line
-            setActiveTab('apuntes');
-        } else {
-            setActiveTab('tests');
-        }
-    }, [asignaturaID]); 
 
     const basePath = `/${gradoID}/${year}/${asignaturaID}`;
     const apuntes = DB_APUNTES[asignaturaID || ''] || [];

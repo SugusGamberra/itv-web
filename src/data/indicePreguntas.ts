@@ -4,5 +4,5 @@ import lenguajeMarcas from './preguntas/lenguaje-marcas.json';
 
 export const MAPA_PREGUNTAS: Record<string, Pregunta[]> = {
     'marcas': lenguajeMarcas as Pregunta[],
-  // 'dwec': dwec as Pregunta[], etc
+  // importar el resto segun lleguen aqui
 };

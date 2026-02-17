@@ -26,7 +26,7 @@ export default function NavMenu() {
         return () => document.removeEventListener('mousedown', handleClickOutside);
     }, []);
 
-    // en home no renderizo nada
+    // en home no renderizo menu d navegacion
     if (location.pathname === '/') return null;
 
     return (

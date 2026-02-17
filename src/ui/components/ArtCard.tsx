@@ -4,8 +4,8 @@ interface Props {
     title: string;
     subtitle?: string;
     description?: string;
-    image?: string; // URL de la imagen de fondo
-    to: string; // enlace a donde va
+    image?: string;
+    to: string;
 }
 
 export default function ArtCard({ title, subtitle, description, image, to }: Props) {
