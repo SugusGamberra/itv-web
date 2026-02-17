@@ -5,6 +5,7 @@ import { MAPA_PREGUNTAS } from '../data/indicePreguntas';
 import { useTestEngine } from '../app/hooks/useTestEngine';
 import type { ModoTest } from '../types/index';
 import Footer from '../ui/components/Footer';
+import NavMenu from '../ui/components/NavMenu';
 
 export default function TestMode() {
     const { modo, asignaturaID } = useParams();
@@ -91,12 +92,22 @@ export default function TestMode() {
         <div className="w-full max-w-4xl mx-auto pt-8 pb-20 flex flex-col items-center">
             
             {/* Barra superior */}
-            <div className="w-full mb-8 flex items-center justify-between text-white/40 font-bold uppercase tracking-widest text-xs">
-                <Link to=".." className="hover:text-white transition-colors flex items-center gap-2">
-                    <ArrowLeft size={16} /> Salir
+            <div className="w-full mb-8 relative flex items-center justify-center min-h-[40px]">
+                
+                {/* Izquierda: Salir */}
+                <Link to=".." className="absolute left-0 text-white/40 hover:text-white transition-colors flex items-center gap-2 font-bold uppercase tracking-widest text-xs">
+                    <ArrowLeft size={16} /> <span className="hidden sm:inline">Salir</span>
                 </Link>
-                <span>Pregunta {indiceActual + 1} / {total}</span>
-                <span className="px-3 py-1 bg-white/5 rounded-full border border-white/10">{modo?.replace('_', ' ')}</span>
+
+                {/* Centro: Info */}
+                <div className="text-white/40 font-bold uppercase tracking-widest text-xs text-center">
+                    <span>{indiceActual + 1} / {total}</span>
+                    <span className="mx-3 opacity-30">|</span>
+                    <span className="bg-white/5 px-2 py-1 rounded">{modo?.replace('_', ' ')}</span>
+                </div>
+
+                {/* Derecha: Menu */}
+                <NavMenu />
             </div>
 
             {/* tarjeta pregunta */}
