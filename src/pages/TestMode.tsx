@@ -4,6 +4,7 @@ import { ArrowLeft, AlertCircle } from 'lucide-react';
 import { MAPA_PREGUNTAS } from '../data/indicePreguntas';
 import { useTestEngine } from '../app/hooks/useTestEngine';
 import type { ModoTest } from '../types/index';
+import Footer from '../ui/components/Footer';
 
 export default function TestMode() {
     const { modo, asignaturaID } = useParams();
@@ -172,6 +173,7 @@ export default function TestMode() {
                     </button>
                 </div>
             )}
+        <Footer />
         </div>
     );
 }
