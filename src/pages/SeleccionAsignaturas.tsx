@@ -9,8 +9,10 @@ import imgC2 from '../assets/images/c2.jpg';
 import imgC3 from '../assets/images/c3.jpg';
 import imgC4 from '../assets/images/c4.jpg';
 import imgC5 from '../assets/images/c5.jpg';
+import imgC6 from '../assets/images/c6.jpg';
+import imgC7 from '../assets/images/c7.jpg';
 
-const IMAGENES_ASIGNATURAS = [imgC2, imgC3, imgC4, imgC5];
+const IMAGENES_ASIGNATURAS = [imgC2, imgC3, imgC4, imgC5, imgC6, imgC7];
 
 export default function SeleccionAsignaturas() {
     const { gradoID, year } = useParams();
