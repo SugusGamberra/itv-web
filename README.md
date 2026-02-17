@@ -74,7 +74,7 @@ Si quieres ejecutar este grimorio darks en tu máquina local:
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone https://github.com/tu-usuario/itv-web.git
+    git clone https://github.com/sugusgamberra/itv-web.git
     ```
 
 2.  **Instala las dependencias:**
