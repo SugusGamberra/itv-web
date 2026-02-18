@@ -4,11 +4,16 @@ import Grado from '../../pages/Grado';
 import SeleccionAsignaturas from '../../pages/SeleccionAsignaturas';
 import AsignaturaDashboard from '../../pages/AsignaturaDashboard';
 import TestMode from '../../pages/TestMode';
+import InfoExamenes from '../../pages/InfoExamenes';
 
 export const router = createBrowserRouter([
     {
         path: '/',
         element: <Home />,
+    },
+    {
+    path: '/info-examenes',
+    element: <InfoExamenes />,
     },
     {
         path: '/:gradoID',
