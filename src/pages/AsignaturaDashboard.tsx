@@ -15,31 +15,31 @@ import imgB4 from '../assets/images/b4.jpg';
 // apuntes
 const DB_APUNTES: Record<string, {titulo: string; url: string; tipo: string }[]> = {
     'marcas': [
-        {titulo: 'Apuntes de la asignatura', url: 'https://docs.google.com/document/d/1Q9LFt9wckhTPMJTwFnd_9t6cJ6vhRK1iDF33uMPKtXk/edit?tab=t.tj0pltcwihm#heading=h.2nyo0qdu5z72', tipo: 'Google Docs' },
+        {titulo: 'Apuntes de la asignatura', url: 'https://docs.google.com/document/d/1Q9LFt9wckhTPMJTwFnd_9t6cJ6vhRK1iDF33uMPKtXk/edit?usp=sharing', tipo: 'Google Docs' },
         {titulo: 'HTML y CSS', url: 'https://github.com/SugusGamberra/Aprendiendo_HTML_CSS', tipo: 'Github'},
         {titulo: 'XML', url: 'https://github.com/SugusGamberra/AprendiendoXML', tipo: 'Github'},
         {titulo: 'JS orientado a LM', url: 'https://github.com/SugusGamberra/AprendiendoJS/tree/main/0.1.%20JS%20Orientado%20a%20Lenguajes%20de%20marcado', tipo: 'Github'}
     ],
     'bbdd': [
-        {titulo: 'Apuntes de la asignatura', url: 'https://docs.google.com/document/d/1foGVL2taVsKJTTpWQlghn1IULypuMzzUrLEEOIWcKSw/edit?tab=t.0', tipo: 'Google Docs'}
+        {titulo: 'Apuntes de la asignatura', url: 'https://docs.google.com/document/d/1foGVL2taVsKJTTpWQlghn1IULypuMzzUrLEEOIWcKSw/edit?usp=sharing', tipo: 'Google Docs'}
     ],
     'programacion': [
-        {titulo: 'Apuntes de la asignatura', url: 'https://docs.google.com/document/d/1Dw635Vv00hgOEsyFBBzjpU12_fHFS2Z1k-IjjgVq6OY/edit?tab=t.josw4u3lk63m#heading=h.2nyo0qdu5z72', tipo: 'Google Docs'},
+        {titulo: 'Apuntes de la asignatura', url: 'https://docs.google.com/document/d/1Dw635Vv00hgOEsyFBBzjpU12_fHFS2Z1k-IjjgVq6OY/edit?usp=sharing', tipo: 'Google Docs'},
         {titulo: 'JAVA', url:'https://github.com/SugusGamberra/AprendiendoJAVA', tipo: 'Github'},
         {titulo: 'C#', url: 'https://github.com/SugusGamberra/AprendiendoCS/tree/main/0485.PRG/MO485.PRG.P01.Menu.Net', tipo: 'Github'}
     ],
     'entornos': [
-        {titulo: 'Apuntes de la asignatura', url: 'https://docs.google.com/document/d/1vhlVGjAyOSAy47hgwMw69kWZICHidSPu7OfjdzfTK2Q/edit?tab=t.0', tipo: 'Google Docs'}
+        {titulo: 'Apuntes de la asignatura', url: 'https://docs.google.com/document/d/1vhlVGjAyOSAy47hgwMw69kWZICHidSPu7OfjdzfTK2Q/edit?usp=sharing', tipo: 'Google Docs'}
     ],
     'sistemas': [
-        {titulo: 'Apuntes de la asignatura', url: 'https://docs.google.com/document/d/1dT5zGTvTffTldNAOlREEUMeld9CRzSy-yTCMQvNCaDg/edit?tab=t.0', tipo: 'Google Docs'}
+        {titulo: 'Apuntes de la asignatura', url: 'https://docs.google.com/document/d/1dT5zGTvTffTldNAOlREEUMeld9CRzSy-yTCMQvNCaDg/edit?usp=sharing', tipo: 'Google Docs'}
     ],
     'jesubuntu': [
-        {titulo: 'Los 10 mandamientos de la terminal', url: 'https://docs.google.com/document/d/1Jx2x2Y_U6XJj03okQoZHY_KetQki-9TZGJ6uHh8s1DI/edit?tab=t.0', tipo: 'Piedras sagradas talladas por Jesubuntu'},
+        {titulo: 'Los 10 mandamientos de la terminal', url: 'https://docs.google.com/document/d/1Jx2x2Y_U6XJj03okQoZHY_KetQki-9TZGJ6uHh8s1DI/edit?usp=sharing', tipo: 'Piedras sagradas talladas por Jesubuntu'},
         {titulo: 'Grimorio de Oraciones Bash', url: 'https://github.com/SugusGamberra/AprendiendoBash', tipo: 'Sagrada Jesubiblia'}
     ],
     'empleabilidad': [
-        {titulo: 'Apuntes completos hechos por Lidia 🩵', url: 'https://docs.google.com/document/d/1fblR1lFMOTnYpxSZwLU62hWAZ5e17S__YqfYUjkTaSg/edit?tab=t.0', tipo: 'Google Docs'}
+        {titulo: 'Apuntes completos hechos por Lidia 🩵', url: 'https://docs.google.com/document/d/1k_VEeWawkLGrhd2iyBojyq7VzoRv4xd-S-wSy4G6Y9c/edit?usp=sharing', tipo: 'Google Docs'}
     ]
 };
 
