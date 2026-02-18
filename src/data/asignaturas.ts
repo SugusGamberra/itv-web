@@ -18,6 +18,7 @@ export const ASIGNATURAS_DB: Record<string, Asignatura[]> = {
         { id: 'programacion', nombre: 'Programación' },
         { id: 'entornos', nombre: 'Entornos de Desarrollo'},
         { id: 'sistemas', nombre: 'Sistemas Informáticos'},
-        { id: 'jesubuntu', nombre: 'Dios Jesubuntu'}
+        { id: 'jesubuntu', nombre: 'Dios Jesubuntu'},
+        { id: 'empleabilidad', nombre: 'Empleabilidad'}
     ],
 };

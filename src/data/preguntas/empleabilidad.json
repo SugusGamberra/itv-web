@@ -1,0 +1,1922 @@
+[
+    {
+        "id": 1,
+        "pregunta": "El mercado de trabajo se define como:",
+        "opciones": [
+            { "id": "a", "texto": "El conjunto de empresas de un país"},
+            { "id": "b", "texto": "El espacio donde se relacionan oferta y demanda de empleo"},
+            { "id": "c", "texto": "El sistema educativo y formativo"},
+            { "id": "d", "texto": "El conjunto de contratos laborales"}
+        ],
+        "correcta": "b",
+        "explicacion": "El mercado de trabajo es el espacio (físico o virtual) donde interactúan la oferta y la demanda de empleo."
+    },
+    {
+        "id": 2,
+        "pregunta": "La oferta de empleo está formada por:",
+        "opciones": [
+            {"id": "a", "texto": "Las personas que buscan trabajo"},
+            {"id": "b", "texto": "Los sindicatos"},
+            {"id": "c", "texto": "Los puestos de trabajo disponibles"},
+            {"id": "d", "texto": "Los servicios públicos de empleo"}
+        ],
+        "correcta": "c",
+        "explicacion": "En este contexto, la oferta de empleo se refiere a los puestos vacantes que las empresas necesitan cubrir."
+    },
+    {
+        "id": 3,
+        "pregunta": "La demanda de empleo hace referencia a:",
+        "opciones": [
+            {"id": "a", "texto": "Las empresas que contratan"},
+            {"id": "b", "texto": "Las personas que buscan trabajo"},
+            {"id": "c", "texto": "Los contratos indefinidos"},
+            {"id": "d", "texto": "Las ofertas publicadas"}
+        ],
+        "correcta": "b",
+        "explicacion": "La demanda de empleo la componen las personas desempleadas o trabajadoras que están buscando un puesto."
+    },
+    {
+        "id": 4,
+        "pregunta": "El perfil profesional incluye:",
+        "opciones": [
+            {"id": "a", "texto": "Solo la formación académica"},
+            {"id": "b", "texto": "Formación, experiencia y competencias"},
+            {"id": "c", "texto": "Únicamente la experiencia laboral"},
+            {"id": "d", "texto": "Exclusivamente las titulaciones oficiales"}
+        ],
+        "correcta": "b",
+        "explicacion": "Un perfil profesional completo abarca el conjunto de formación, experiencia acumulada y las competencias adquiridas."
+    },
+    {
+        "id": 5,
+        "pregunta": "Las competencias profesionales se componen de:",
+        "opciones": [
+            {"id": "a", "texto": "Conocimientos y salario"},
+            {"id": "b", "texto": "Habilidades y antigüedad"},
+            {"id": "c", "texto": "Conocimientos, habilidades y actitudes"},
+            {"id": "d", "texto": "Formación reglada únicamente"}
+        ],
+        "correcta": "c",
+        "explicacion": "Las competencias no son solo saber cosas, sino una mezcla de conocimientos (saber), habilidades (saber hacer) y actitudes (saber ser/estar)."
+    },
+    {
+        "id": 6,
+        "pregunta": "La empleabilidad se define como:",
+        "opciones": [
+            {"id": "a", "texto": "El tipo de contrato que se posee"},
+            {"id": "b", "texto": "La capacidad para acceder y mantenerse en el empleo"},
+            {"id": "c", "texto": "El nivel de estudios alcanzado"},
+            {"id": "d", "texto": "La situación económica del país"}
+        ],
+        "correcta": "b",
+        "explicacion": "La empleabilidad es tu potencial para encontrar un trabajo y, muy importante, la capacidad de mantenerlo o mejorar en él."
+    },
+    {
+        "id": 7,
+        "pregunta": "La empleabilidad depende:",
+        "opciones": [
+            {"id": "a", "texto": "Solo del mercado laboral"},
+            {"id": "b", "texto": "Únicamente del nivel formativo"},
+            {"id": "c", "texto": "De factores personales y del entorno"},
+            {"id": "d", "texto": "Exclusivamente de la experiencia"}
+        ],
+        "correcta": "c",
+        "explicacion": "Tu empleabilidad no depende solo de lo que estudiaste, sino de tus características personales y de cómo esté el entorno laboral."
+    },
+    {
+        "id": 8,
+        "pregunta": "La formación continua tiene como finalidad:",
+        "opciones": [
+            {"id": "a", "texto": "Sustituir la experiencia laboral"},
+            {"id": "b", "texto": "Mejorar la adaptación al mercado de trabajo"},
+            {"id": "c", "texto": "Evitar el cambio de empleo"},
+            {"id": "d", "texto": "Garantizar un empleo fijo"}
+        ],
+        "correcta": "b",
+        "explicacion": "La formación continua sirve para reciclarse y adaptarse a los cambios constantes del mercado laboral, evitando quedarse obsoleto."
+    },
+    {
+        "id": 9,
+        "pregunta": "La experiencia laboral forma parte del:",
+        "opciones": [
+            {"id": "a", "texto": "Mercado de trabajo"},
+            {"id": "b", "texto": "Perfil profesional"},
+            {"id": "c", "texto": "Sistema productivo"},
+            {"id": "d", "texto": "Contrato de trabajo"}
+        ],
+        "correcta": "b",
+        "explicacion": "La experiencia es un pilar fundamental que conforma y enriquece tu perfil profesional junto con la formación."
+    },
+    {
+        "id": 10,
+        "pregunta": "La movilidad geográfica implica:",
+        "opciones": [
+            {"id": "a", "texto": "Cambiar de puesto dentro de la empresa"},
+            {"id": "b", "texto": "Cambiar de sector profesional"},
+            {"id": "c", "texto": "Trasladarse a otro lugar para trabajar"},
+            {"id": "d", "texto": "Cambiar de tipo de contrato"}
+        ],
+        "correcta": "c",
+        "explicacion": "La movilidad geográfica implica necesariamente un cambio de residencia o traslado a otro lugar para desempeñar el empleo"
+    },
+    {
+        "id": 11,
+        "pregunta": "La movilidad funcional consiste en:",
+        "opciones": [
+            {"id": "a", "texto": "Cambiar de empresa"},
+            {"id": "b", "texto": "Cambiar de funciones dentro de la empresa"},
+            {"id": "c", "texto": "Cambiar de provincia"},
+            {"id": "d", "texto": "Cambiar de salario"}
+        ],
+        "correcta": "b",
+        "explicacion": "La movilidad funcional se da cuando te asignan tareas o funciones diferentes a las habituales dentro de la misma empresa."
+    },
+    {
+        "id": 12,
+        "pregunta": "Conocer el mercado laboral permite:",
+        "opciones": [
+            {"id": "a", "texto": "Evitar la formación"},
+            {"id": "b", "texto": "Planificar el itinerario profesional"},
+            {"id": "c", "texto": "Eliminar la competencia"},
+            {"id": "d", "texto": "Asegurar empleo indefinido"}
+        ],
+        "correcta": "b",
+        "explicacion": "Conocer cómo funciona el mercado te permite trazar un plan (itinerario) realista para alcanzar tus objetivos laborales."
+    },
+    {
+        "id": 13,
+        "pregunta": "El autoempleo se considera:",
+        "opciones": [
+            {"id": "a", "texto": "Una situación de desempleo"},
+            {"id": "b", "texto": "Una forma de inserción laboral"},
+            {"id": "c", "texto": "Un trabajo ilegal"},
+            {"id": "d", "texto": "Incompatible con la formación"}
+        ],
+        "correcta": "b",
+        "explicacion": "El autoempleo (emprender) es una vía válida y reconocida de inserción laboral, alternativa al trabajo por cuenta ajena."
+    },
+    {
+        "id": 14,
+        "pregunta": "El mercado de trabajo se caracteriza por ser:",
+        "opciones": [
+            {"id": "a", "texto": "Estable y previsible"},
+            {"id": "b", "texto": "Estático"},
+            {"id": "c", "texto": "Dinámico y cambiante"},
+            {"id": "d", "texto": "Invariable"}
+        ],
+        "correcta": "c",
+        "explicacion": "El mercado laboral actual nunca está quieto; evoluciona constantemente por la tecnología y la economía, es dinámico."
+    },
+    {
+        "id": 15,
+        "pregunta": "El itinerario profesional es:",
+        "opciones": [
+            {"id": "a", "texto": "Un currículum vitae"},
+            {"id": "b", "texto": "Una planificación de la trayectoria laboral"},
+            {"id": "c", "texto": "Un contrato de trabajo"},
+            {"id": "d", "texto": "Un proceso administrativo"}
+        ],
+        "correcta": "b",
+        "explicacion": "El itinerario no es un documento, sino el plan estratégico personal que diseñas para desarrollar tu carrera."
+    },
+    {
+        "id": 16,
+        "pregunta": "Las competencias transversales:",
+        "opciones": [
+            {"id": "a", "texto": "Solo son útiles en trabajos no cualificados"},
+            {"id": "b", "texto": "No influyen en la empleabilidad"},
+            {"id": "c", "texto": "Son válidas para distintos puestos y sectores"},
+            {"id": "d", "texto": "Sustituyen a la formación técnica"}
+        ],
+        "correcta": "c",
+        "explicacion": "Las transversales (como trabajar en equipo) son todoterreno; sirven para casi cualquier puesto o sector, no solo uno específico."
+    },
+    {
+        "id": 17,
+        "pregunta": "El sector servicios se caracteriza por:",
+        "opciones": [
+            {"id": "a", "texto": "Actividades agrícolas"},
+            {"id": "b", "texto": "Producción industrial"},
+            {"id": "c", "texto": "Prestación de servicios a personas o empresas"},
+            {"id": "d", "texto": "Actividades extractivas"}
+        ],
+        "correcta": "c",
+        "explicacion": "El sector servicios (terciario) no produce bienes materiales, sino que ofrece servicios, cuidados o atención a personas y empresas."
+    },
+    {
+        "id": 18,
+        "pregunta": "El sector cuaternario está relacionado con:",
+        "opciones": [
+            {"id": "a", "texto": "La agricultura"},
+            {"id": "b", "texto": "La industria pesada"},
+            {"id": "c", "texto": "La tecnología y el conocimiento"},
+            {"id": "d", "texto": "El comercio tradicional"}
+        ],
+        "correcta": "c",
+        "explicacion": "El cuaternario es una evolución del terciario enfocada específicamente en la gestión del conocimiento, I+D+i y alta tecnología."
+    },
+    {
+        "id": 19,
+        "pregunta": "El perfil profesional debe adaptarse:",
+        "opciones": [
+            {"id": "a", "texto": "Solo al primer empleo"},
+            {"id": "b", "texto": "A lo largo de la vida laboral"},
+            {"id": "c", "texto": "Únicamente al sector público"},
+            {"id": "d", "texto": "Solo al finalizar los estudios"}
+        ],
+        "correcta": "b",
+        "explicacion": "El perfil profesional está vivo; debe actualizarse y adaptarse durante toda tu vida laboral, no solo al principio."
+    },
+    {
+        "id": 20,
+        "pregunta": "La correcta definición del perfil profesional facilita:",
+        "opciones": [
+            {"id": "a", "texto": "La elección de estudios"},
+            {"id": "b", "texto": "La inserción y promoción laboral"},
+            {"id": "c", "texto": "La eliminación del desempleo"},
+            {"id": "d", "texto": "La estabilidad del mercado laboral"}
+        ],
+        "correcta": "b",
+        "explicacion": "Tener claro tu perfil ayuda a que encajes mejor en las ofertas y puedas progresar (promoción) dentro del mundo laboral"
+    },
+    {
+        "id": 21,
+        "pregunta": "La prevención de riesgos laborales tiene como objetivo principal:",
+        "opciones": [
+            {"id": "a", "texto": "Aumentar la productividad"},
+            {"id": "b", "texto": "Evitar daños a la salud de los trabajadores"},
+            {"id": "c", "texto": "Reducir costes empresariales"},
+            {"id": "d", "texto": "Sustituir la asistencia sanitaria"}
+        ],
+        "correcta": "b",
+        "explicacion": "El fin último de la PRL es proteger la integridad física y mental de las personas, evitando accidentes y enfermedades."
+    },
+    {
+        "id": 22,
+        "pregunta": "La salud laboral se define como:",
+        "opciones": [
+            {"id": "a", "texto": "La ausencia total de enfermedad"},
+            {"id": "b", "texto": "El bienestar físico únicamente"},
+            {"id": "c", "texto": "El bienestar fisico, mental y social"},
+            {"id": "d", "texto": "La capacidad de trabajar sin descanso"}
+        ],
+        "correcta": "c",
+        "explicacion": "Según la OMS, la salud no es solo que no te duela nada, sino un estado completo de bienestar en todos los aspectos."
+    },
+    {
+        "id": 23,
+        "pregunta": "Un riesgo laboral es:",
+        "opciones": [
+            {"id": "a", "texto": "Un daño producido en el trabajo"},
+            {"id": "b", "texto": "Una sanción por incumplimiento"},
+            {"id": "c", "texto": "La probabilidad de que un peligro cause un daño"},
+            {"id": "d", "texto": "Una enfermedad común"}
+        ],
+        "correcta": "c",
+        "explicacion": "El riesgo es la posibilidad matemática o estadística de que algo salga mal y provoque un daño."
+    },
+    {
+        "id": 24,
+        "pregunta": "El peligro se define como:",
+        "opciones": [
+            {"id": "a", "texto": "El daño producido"},
+            {"id": "b", "texto": "La fuente con capacidad de causar daño"},
+            {"id": "c", "texto": "La consecuencia del accidente"},
+            {"id": "d", "texto": "La baja laboral"}
+        ],
+        "correcta": "b",
+        "explicacion": "El peligro es la causa origen, como un cable pelado o un suelo mojado, que tiene potencial para hacer daño."
+    },
+    {
+        "id": 25,
+        "pregunta": "Un daño laboral es:",
+        "opciones": [
+            {"id": "a", "texto": "Un riesgo potencial"},
+            {"id": "b", "texto": "Una situación peligrosa"},
+            {"id": "c", "texto": "La consecuencia de que el riesgo se materialice"},
+            {"id": "d", "texto": "Una imprudencia del trabajador"}
+        ],
+        "correcta": "c",
+        "explicacion": "Es lo que ocurre cuando la prevención falla y el riesgo se convierte en realidad, provocando lesiones o enfermedades."
+    },
+    {
+        "id": 26,
+        "pregunta": "La evaluación de riesgos es:",
+        "opciones": [
+            {"id": "a", "texto": "Opcional para la empresa"},
+            {"id": "b", "texto": "Una obligación del trabajador"},
+            {"id": "c", "texto": "Una obligación del empresario"},
+            {"id": "d", "texto": "Una recomendación voluntaria"}
+        ],
+        "correcta": "c",
+        "explicacion": "La empresa está obligada por ley a identificar y evaluar todos los riesgos que no se hayan podido evitar."
+    },
+    {
+        "id": 27,
+        "pregunta": "La prevención de riesgos laborales debe:",
+        "opciones": [
+            {"id": "a", "texto": "Aplicarse solo tras un accidente"},
+            {"id": "b", "texto": "Integrarse en todas las actividades de la empresa"},
+            {"id": "c", "texto": "Limitarse a los sectores industriales"},
+            {"id": "d", "texto": "Depender solo del servicio de prevención"}
+        ],
+        "correcta": "b",
+        "explicacion": "La seguridad no es un departamento aislado, debe formar parte de todas las decisiones y niveles jerárquicos."
+    },
+    {
+        "id": 28,
+        "pregunta": "Los equipos de protección individual (EPI):",
+        "opciones": [
+            {"id": "a", "texto": "Eliminan completamente el riesgo"},
+            {"id": "b", "texto": "Sustituyen a las medidas colectivas"},
+            {"id": "c", "texto": "Reducen el riesgo cuando no puede eliminarse"},
+            {"id": "d", "texto": "No forman parte de la prevención"}
+        ],
+        "correcta": "c",
+        "explicacion": "Los EPIs son la última barrera; se usan cuando no se ha podido eliminar el riesgo o proteger de forma colectiva."
+    },
+    {
+        "id": 29,
+        "pregunta": "La información y formación en prevención es:",
+        "opciones": [
+            {"id": "a", "texto": "Una obligación exclusiva del trabajador"},
+            {"id": "b", "texto": "Un derecho del trabajador"},
+            {"id": "c", "texto": "Voluntaria"},
+            {"id": "d", "texto": "Innecesaria en trabajos de oficina"}
+        ],
+        "correcta": "b",
+        "explicacion": "Tienes derecho a saber a qué riesgos te expones y cómo protegerte; la empresa debe garantizarte esa formación."
+    },
+    {
+        "id": 30,
+        "pregunta": "La vigilancia de la salud debe ser:",
+        "opciones": [
+            {"id": "a", "texto": "Obligatoria en todos los casos"},
+            {"id": "b", "texto": "Voluntaria con carácter general"},
+            {"id": "c", "texto": "Sustitutiva de la prevención"},
+            {"id": "d", "texto": "Realizada sin respetar la intimidad"}
+        ],
+        "correcta": "b",
+        "explicacion": "Salvo excepciones específicas donde haya riesgo para otros, el reconocimiento médico requiere tu consentimiento."
+    },
+    {
+        "id": 31,
+        "pregunta": "La cultura preventiva implica:",
+        "opciones": [
+            {"id": "a", "texto": "Actuar solo cuando ocurre un accidente"},
+            {"id": "b", "texto": "Integrar la prevención en la organización"},
+            {"id": "c", "texto": "Culpar al trabajador"},
+            {"id": "d", "texto": "Evitar la formación"}
+        ],
+        "correcta": "b",
+        "explicacion": "Significa que la seguridad es un valor fundamental de la empresa y se respira en el día a día, no solo en papeles."
+    },
+    {
+        "id": 32,
+        "pregunta": "Un accidente de trabajo:",
+        "opciones": [
+            {"id": "a", "texto": "Solo ocurre dentro del centro de trabajo"},
+            {"id": "b", "texto": "Debe tener siempre origen laboral"},
+            {"id": "c", "texto": "No incluye los accidentes in itinere"},
+            {"id": "d", "texto": "Depende solo de la imprudencia"}
+        ],
+        "correcta": "b",
+        "explicacion": "Para considerarse accidente laboral debe existir una relación causal directa entre el trabajo realizado y la lesión."
+    },
+    {
+        "id": 33,
+        "pregunta": "Un accidente in itinere se produce:",
+        "opciones": [
+            {"id": "a", "texto": "Dentro del centro de trabajo"},
+            {"id": "b", "texto": "Durante la jornada laboral"},
+            {"id": "c", "texto": "Al ir o volver del trabajo"},
+            {"id": "d", "texto": "En viajes personales"}
+        ],
+        "correcta": "c",
+        "explicacion": "Es el accidente que ocurre en el trayecto habitual entre tu domicilio y tu lugar de trabajo."
+    },
+    {
+        "id": 34,
+        "pregunta": "Las enfermedades profesionales:",
+        "opciones": [
+            {"id": "a", "texto": "Aparecen siempre de forma inmediata"},
+            {"id": "b", "texto": "No están relacionadas con el trabajo"},
+            {"id": "c", "texto": "Son consecuencia de la actividad laboral"},
+            {"id": "d", "texto": "Nunca se consideran accidente de trabajo"}
+        ],
+        "correcta": "c",
+        "explicacion": "Se desarrollan lentamente por la exposición continuada a elementos nocivos presentes en el trabajo."
+    },
+    {
+        "id": 35,
+        "pregunta": "La prevención actúa principalmente:",
+        "opciones": [
+            {"id": "a", "texto": "Después del daño"},
+            {"id": "b", "texto": "Antes de que ocurra el daño"},
+            {"id": "c", "texto": "Solo tras una sanción"},
+            {"id": "d", "texto": "Al finalizar el trabajo"}
+        ],
+        "correcta": "b",
+        "explicacion": "La clave es anticiparse; si actuamos después del daño, ya no es prevención, es reparación."
+    },
+    {
+        "id": 36,
+        "pregunta": "La protección colectiva tiene prioridad sobre:",
+        "opciones": [
+            {"id": "a", "texto": "La formación"},
+            {"id": "b", "texto": "La vigilancia de la salud"},
+            {"id": "c", "texto": "La protección individual"},
+            {"id": "d", "texto": "La evaluación de riesgos"}
+        ],
+        "correcta": "c",
+        "explicacion": "Siempre es mejor poner una barandilla (protege a todos) que dar un arnés (protege solo a uno); lo colectivo va primero."
+    },
+    {
+        "id": 37,
+        "pregunta": "Los trabajadores en prevención tienen:",
+        "opciones": [
+            {"id": "a", "texto": "Solo derechos"},
+            {"id": "b", "texto": "Solo obligaciones"},
+            {"id": "c", "texto": "Derechos y obligaciones"},
+            {"id": "d", "texto": "Ninguna responsabilidad"}
+        ],
+        "correcta": "c",
+        "explicacion": "Tienes derecho a ser protegido, pero también la obligación de cumplir las normas de seguridad para no ponerte en peligro."
+    },
+    {
+        "id": 38,
+        "pregunta": "La Ley que regula la prevención de riesgos laborales en España es:",
+        "opciones": [
+            {"id": "a", "texto": "Estatuto de los Trabajadores"},
+            {"id": "b", "texto": "Ley General de Sanidad"},
+            {"id": "c", "texto": "Ley 31/1995 de Prevención de Riesgos Laborales"},
+            {"id": "d", "texto": "Código Civil"}
+        ],
+        "correcta": "c",
+        "explicacion": "Es la norma marco fundamental, la Ley 31/1995, la biblia de la seguridad laboral en España."
+    },
+    {
+        "id": 39,
+        "pregunta": "La integración de la prevención significa:",
+        "opciones": [
+            {"id": "a", "texto": "Delegarla completamente"},
+            {"id": "b", "texto": "Aplicarla solo en riesgos graves"},
+            {"id": "c", "texto": "Incorporarla a todos los niveles de la empresa"},
+            {"id": "d", "texto": "Limitarla al servicio de prevención"}
+        ],
+        "correcta": "c",
+        "explicacion": "La seguridad es tarea de todos, desde la dirección hasta el último operario, en cada decisión que se toma."
+    },
+    {
+        "id": 40,
+        "pregunta": "La prevención de riesgos laborales es responsabilidad:",
+        "opciones": [
+            {"id": "a", "texto": "Exclusiva del empresario"},
+            {"id": "b", "texto": "Solo del trabajador"},
+            {"id": "c", "texto": "Compartida entre empresa y trabajadores"},
+            {"id": "d", "texto": "Únicamente de la Inspección de Trabajo"}
+        ],
+        "correcta": "c",
+        "explicacion": "Aunque la empresa tiene el deber de protección, el éxito depende de la colaboración y cumplimiento de todos."
+    },
+    {
+        "id": 41,
+        "pregunta": "Los riesgos laborales específicos dependen fundamentalmente de:",
+        "opciones": [
+            {"id": "a", "texto": "La edad del trabajador"},
+            {"id": "b", "texto": "El salario"},
+            {"id": "c", "texto": "El sector profesional y el puesto de trabajo"},
+            {"id": "d", "texto": "El tipo de contrato"}
+        ],
+        "correcta": "c",
+        "explicacion": "Cada profesión tiene sus propios peligros; no es lo mismo trabajar en una obra que en una oficina."
+    },
+    {
+        "id": 42,
+        "pregunta": "Un riesgo específico es aquel que:",
+        "opciones": [
+            {"id": "a", "texto": "Afecta a todos los trabajadores por igual"},
+            {"id": "b", "texto": "Está relacionado con una actividad concreta"},
+            {"id": "c", "texto": "No puede prevenirse"},
+            {"id": "d", "texto": "Depende solo del comportamiento personal"}
+        ],
+        "correcta": "b",
+        "explicacion": "Son los riesgos propios de las tareas que realizas, intrínsecos a tu oficio particular."
+    },
+    {
+        "id": 43,
+        "pregunta": "En el sector sanitario, uno de los riesgos más frecuentes es:",
+        "opciones": [
+            {"id": "a", "texto": "Riesgo eléctrico"},
+            {"id": "b", "texto": "Riesgo mecánico"},
+            {"id": "c", "texto": "Riesgo biológico"},
+            {"id": "d", "texto": "Riesgo climático"}
+        ],
+        "correcta": "c",
+        "explicacion": "Al tratar con pacientes y fluidos, la exposición a virus y bacterias es el peligro principal."
+    },
+    {
+        "id": 44,
+        "pregunta": "La exposición a virus, bacterias u hongos constituye un riesgo:",
+        "opciones": [
+            {"id": "a", "texto": "Físico"},
+            {"id": "b", "texto": "Químico"},
+            {"id": "c", "texto": "Biológico"},
+            {"id": "d", "texto": "Psicosocial"}
+        ],
+        "correcta": "c",
+        "explicacion": "Se clasifican como biológicos porque son seres vivos microscópicos los que causan el daño."
+    },
+    {
+        "id": 45,
+        "pregunta": "En el sector industrial, un riesgo habitual es:",
+        "opciones": [
+            {"id": "a", "texto": "Atención al público"},
+            {"id": "b", "texto": "Manipulación de maquinaria"},
+            {"id": "c", "texto": "Trabajo sedentario"},
+            {"id": "d", "texto": "Uso de pantallas"}
+        ],
+        "correcta": "b",
+        "explicacion": "El uso de máquinas pesadas conlleva riesgos de atrapamiento, cortes o golpes."
+    },
+    {
+        "id": 46,
+        "pregunta": "Las posturas forzadas y la manipulación manual de cargas generan riesgos:",
+        "opciones": [
+            {"id": "a", "texto": "Químicos"},
+            {"id": "b", "texto": "Biológicos"},
+            {"id": "c", "texto": "Ergonómicos"},
+            {"id": "d", "texto": "Psicosociales"}
+        ],
+        "correcta": "c",
+        "explicacion": "La ergonomía estudia cómo adaptar el trabajo al cuerpo para evitar lesiones físicas por malas posturas o peso."
+    },
+    {
+        "id": 47,
+        "pregunta": "El trabajo prolongado con pantallas de visualización de datos puede provocar:",
+        "opciones": [
+            {"id": "a", "texto": "Enfermedades infecciosas"},
+            {"id": "b", "texto": "Trastornos visuales y musculoesqueléticos"},
+            {"id": "c", "texto": "Riesgos biológicos"},
+            {"id": "d", "texto": "Accidentes eléctricos"}
+        ],
+        "correcta": "b",
+        "explicacion": "Estar mucho tiempo frente al ordenador causa fatiga visual y dolores de espalda o cuello."
+    },
+    {
+        "id": 48,
+        "pregunta": "El estrés laboral y la sobrecarga de trabajo son riesgos:",
+        "opciones": [
+            {"id": "a", "texto": "Físicos"},
+            {"id": "b", "texto": "Químicos"},
+            {"id": "c", "texto": "Biológicos"},
+            {"id": "d", "texto": "Psicosociales"}
+        ],
+        "correcta": "d",
+        "explicacion": "Afectan a la salud mental y social del trabajador, derivados de la organización del trabajo."
+    },
+    {
+        "id": 49,
+        "pregunta": "En el sector de la construcción, uno de los riesgos más graves es:",
+        "opciones": [
+            {"id": "a", "texto": "Estrés emocional"},
+            {"id": "b", "texto": "Caídas a distinto nivel"},
+            {"id": "c", "texto": "Exposición a pantallas"},
+            {"id": "d", "texto": "Trabajo sedentario"}
+        ],
+        "correcta": "b",
+        "explicacion": "Trabajar en andamios o tejados implica un alto riesgo de caídas de altura."
+    },
+    {
+        "id": 50,
+        "pregunta": "La exposición continuada al ruido puede provocar:",
+        "opciones": [
+            {"id": "a", "texto": "Enfermedades respiratorias"},
+            {"id": "b", "texto": "Pérdida de audición"},
+            {"id": "c", "texto": "Infecciones"},
+            {"id": "d", "texto": "Fatiga visual"}
+        ],
+        "correcta": "b",
+        "explicacion": "El ruido excesivo daña el oído interno a largo plazo causando hipoacusia o sordera profesional."
+    },
+    {
+        "id": 51,
+        "pregunta": "El riesgo químico aparece cuando el trabajador está expuesto a:",
+        "opciones": [
+            {"id": "a", "texto": "Microorganismos"},
+            {"id": "b", "texto": "Sustancias tóxicas o peligrosas"},
+            {"id": "c", "texto": "Turnos de trabajo"},
+            {"id": "d", "texto": "Posturas incorrectas"}
+        ],
+        "correcta": "b",
+        "explicacion": "Ocurre al manipular productos que pueden quemar, intoxicar o irritar por su composición química."
+    },
+    {
+        "id": 52,
+        "pregunta": "En sectores como limpieza o sanidad, el uso de desinfectantes implica riesgo:",
+        "opciones": [
+            {"id": "a", "texto": "Mecánico"},
+            {"id": "b", "texto": "Químico"},
+            {"id": "c", "texto": "Biológico exclusivamente"},
+            {"id": "d", "texto": "Psicosocial"}
+        ],
+        "correcta": "b",
+        "explicacion": "Lejías, amoniacos y detergentes fuertes son agentes químicos que requieren protección."
+    },
+    {
+        "id": 53,
+        "pregunta": "Los accidentes in itinere están relacionados con:",
+        "opciones": [
+            {"id": "a", "texto": "El puesto de trabajo"},
+            {"id": "b", "texto": "El trayecto entre el domicilio y el trabajo"},
+            {"id": "c", "texto": "La jornada nocturna"},
+            {"id": "d", "texto": "El salario"}
+        ],
+        "correcta": "b",
+        "explicacion": "Son los que ocurren en el camino de ida o vuelta al lugar de trabajo."
+    },
+    {
+        "id": 54,
+        "pregunta": "La fatiga física suele estar relacionada con:",
+        "opciones": [
+            {"id": "a", "texto": "Jornadas prolongadas y esfuerzo repetido"},
+            {"id": "b", "texto": "Formación preventiva"},
+            {"id": "c", "texto": "Descansos adecuados"},
+            {"id": "d", "texto": "Uso de EPIS"}
+        ],
+        "correcta": "a",
+        "explicacion": "El cansancio extremo viene de no parar y hacer esfuerzos constantes sin recuperación."
+    },
+    {
+        "id": 55,
+        "pregunta": "Un riesgo eléctrico puede producirse por:",
+        "opciones": [
+            {"id": "a", "texto": "Exposición a virus"},
+            {"id": "b", "texto": "Uso incorrecto de equipos eléctricos"},
+            {"id": "c", "texto": "Estrés laboral"},
+            {"id": "d", "texto": "Manipulación de cargas"}
+        ],
+        "correcta": "b",
+        "explicacion": "Manipular cables pelados o enchufes en mal estado genera riesgo de electrocución."
+    },
+    {
+        "id": 56,
+        "pregunta": "En el sector de atención al público es frecuente el riesgo:",
+        "opciones": [
+            {"id": "a", "texto": "Biológico"},
+            {"id": "b", "texto": "Psicosocial"},
+            {"id": "c", "texto": "Mecánico"},
+            {"id": "d", "texto": "Eléctrico"}
+        ],
+        "correcta": "b",
+        "explicacion": "El trato constante con personas, quejas y exigencias puede causar burnout o ansiedad."
+    },
+    {
+        "id": 57,
+        "pregunta": "La evaluación de riesgos específicos debe realizarse:",
+        "opciones": [
+            {"id": "a", "texto": "De forma genérica para toda la empresa"},
+            {"id": "b", "texto": "Por sectores y puestos de trabajo"},
+            {"id": "c", "texto": "Solo tras un accidente"},
+            {"id": "d", "texto": "Unicamente al inicio de la actividad"}
+        ],
+        "correcta": "b",
+        "explicacion": "Hay que analizar cada puesto individualmente porque cada uno tiene peligros distintos."
+    },
+    {
+        "id": 58,
+        "pregunta": "La mejor forma de prevenir riesgos específicos es:",
+        "opciones": [
+            {"id": "a", "texto": "Eliminar al trabajador del puesto"},
+            {"id": "b", "texto": "Identificar los riesgos y aplicar medidas preventivas"},
+            {"id": "c", "texto": "Usar solo EPIS"},
+            {"id": "d", "texto": "Ignorar los riesgos leves"}
+        ],
+        "correcta": "b",
+        "explicacion": "Primero detectas el problema concreto y luego pones la solución técnica u organizativa."
+    },
+    {
+        "id": 59,
+        "pregunta": "La formación preventiva debe adaptarse:",
+        "opciones": [
+            {"id": "a", "texto": "A la antigüedad del trabajador"},
+            {"id": "b", "texto": "Al sector y a las tareas realizadas"},
+            {"id": "c", "texto": "Al salario"},
+            {"id": "d", "texto": "Al tipo de contrato"}
+        ],
+        "correcta": "b",
+        "explicacion": "No sirve de nada dar un curso de andamios a un oficinista; la formación debe ser pertinente."
+    },
+    {
+        "id": 60,
+        "pregunta": "Conocer los riesgos específicos del sector permite:",
+        "opciones": [
+            {"id": "a", "texto": "Aumentar la carga de trabajo"},
+            {"id": "b", "texto": "Reducir la seguridad"},
+            {"id": "c", "texto": "Prevenir accidentes y enfermedades profesionales"},
+            {"id": "d", "texto": "Eliminar la normativa preventiva"}
+        ],
+        "correcta": "c",
+        "explicacion": "Saber a qué te enfrentas es la base para poder evitar daños en tu salud."
+    },
+    {
+        "id": 61,
+        "pregunta": "La participación de los trabajadores en PRL está reconocida en:",
+        "opciones": [
+            {"id": "a", "texto": "El Código Civil"},
+            {"id": "b", "texto": "La Ley de Prevención de Riesgos Laborales"},
+            {"id": "c", "texto": "El convenio colectivo únicamente"},
+            {"id": "d", "texto": "El Estatuto del Consumidor"}
+        ],
+        "correcta": "b",
+        "explicacion": "Es la Ley 31/1995 la que establece el derecho legal de los trabajadores a participar en todo lo relativo a su seguridad."
+    },
+    {
+        "id": 62,
+        "pregunta": "La participación en PRL permite a los trabajadores:",
+        "opciones": [
+            {"id": "a", "texto": "Sustituir al empresario"},
+            {"id": "b", "texto": "Intervenir en cuestiones relacionadas con su seguridad y salud"},
+            {"id": "c", "texto": "Imponer sanciones"},
+            {"id": "d", "texto": "Elaborar leyes preventivas"}
+        ],
+        "correcta": "b",
+        "explicacion": "Participar significa tener voz y voto en las decisiones que afectan directamente a su integridad física y mental."
+    },
+    {
+        "id": 63,
+        "pregunta": "Los delegados de prevención son:",
+        "opciones": [
+            {"id": "a", "texto": "Representantes designados por la empresa"},
+            {"id": "b", "texto": "Representantes de los trabajadores en materia preventiva"},
+            {"id": "c", "texto": "Técnicos del servicio de prevención"},
+            {"id": "d", "texto": "Inspectores de trabajo"}
+        ],
+        "correcta": "b",
+        "explicacion": "Son figuras específicas elegidas para velar por el cumplimiento de la normativa de seguridad en la empresa."
+    },
+    {
+        "id": 64,
+        "pregunta": "Los delegados de prevención se eligen entre:",
+        "opciones": [
+            {"id": "a", "texto": "Los trabajadores con más antigüedad"},
+            {"id": "b", "texto": "Los miembros del comité de empresa o delegados de personal"},
+            {"id": "c", "texto": "El personal directivo"},
+            {"id": "d", "texto": "Los técnicos sanitarios"}
+        ],
+        "correcta": "b",
+        "explicacion": "No se eligen desde cero, sino que salen de los representantes que ya han sido votados por la plantilla."
+    },
+    {
+        "id": 65,
+        "pregunta": "El número de delegados de prevención depende:",
+        "opciones": [
+            {"id": "a", "texto": "Del salario medio"},
+            {"id": "b", "texto": "Del tipo de actividad"},
+            {"id": "c", "texto": "Del número de trabajadores de la empresa"},
+            {"id": "d", "texto": "Del sector productivo"}
+        ],
+        "correcta": "c",
+        "explicacion": "La ley establece una escala: a más empleados en la plantilla, más delegados de prevención corresponden."
+    },
+    {
+        "id": 66,
+        "pregunta": "El comité de seguridad y salud es un órgano:",
+        "opciones": [
+            {"id": "a", "texto": "Ejecutivo"},
+            {"id": "b", "texto": "Sancionador"},
+            {"id": "c", "texto": "Paritario y colegiado"},
+            {"id": "d", "texto": "Exclusivamente empresarial"}
+        ],
+        "correcta": "c",
+        "explicacion": "Paritario significa que hay igual número de representantes de la empresa y de los trabajadores; colegiado, que deciden juntos."
+    },
+    {
+        "id": 67,
+        "pregunta": "El comité de seguridad y salud está formado por:",
+        "opciones": [
+            {"id": "a", "texto": "Solo representantes de la empresa"},
+            {"id": "b", "texto": "Solo delegados sindicales"},
+            {"id": "c", "texto": "Delegados de prevención y representantes de la empresa"},
+            {"id": "d", "texto": "Inspectores de trabajo"}
+        ],
+        "correcta": "c",
+        "explicacion": "Es el punto de encuentro donde ambas partes (empresa y trabajadores) debaten sobre la seguridad."
+    },
+    {
+        "id": 68,
+        "pregunta": "El comité de seguridad y salud debe constituirse en empresas de:",
+        "opciones": [
+            {"id": "a", "texto": "Más de 10 trabajadores"},
+            {"id": "b", "texto": "Más de 25 trabajadores"},
+            {"id": "c", "texto": "50 o más trabajadores"},
+            {"id": "d", "texto": "Cualquier tamaño"}
+        ],
+        "correcta": "c",
+        "explicacion": "Solo es obligatorio por ley cuando la empresa alcanza un tamaño considerable, concretamente 50 empleados."
+    },
+    {
+        "id": 69,
+        "pregunta": "Una función del comité de seguridad y salud es:",
+        "opciones": [
+            {"id": "a", "texto": "Imponer sanciones disciplinarias"},
+            {"id": "b", "texto": "Participar en la elaboración de planes preventivos"},
+            {"id": "c", "texto": "Aprobar despidos"},
+            {"id": "d", "texto": "Fijar salarios"}
+        ],
+        "correcta": "b",
+        "explicacion": "Su labor es consultiva y de control, ayudando a diseñar cómo se va a gestionar la seguridad en la empresa."
+    },
+    {
+        "id": 70,
+        "pregunta": "Los delegados de prevención pueden:",
+        "opciones": [
+            {"id": "a", "texto": "Acceder a la información preventiva"},
+            {"id": "b", "texto": "Modificar contratos"},
+            {"id": "c", "texto": "Sancionar a compañeros"},
+            {"id": "d", "texto": "Sustituir al servicio de prevención"}
+        ],
+        "correcta": "a",
+        "explicacion": "Para poder vigilar que todo se hace bien, necesitan tener acceso a la documentación y datos sobre riesgos."
+    },
+    {
+        "id": 71,
+        "pregunta": "Los trabajadores tienen derecho a:",
+        "opciones": [
+            {"id": "a", "texto": "Ser informados sobre los riesgos de su puesto"},
+            {"id": "b", "texto": "Rechazar toda medida preventiva"},
+            {"id": "c", "texto": "Decidir unilateralmente las normas"},
+            {"id": "d", "texto": "Eliminar la evaluación de riesgos"}
+        ],
+        "correcta": "a",
+        "explicacion": "Es un derecho fundamental: nadie puede trabajar seguro si no sabe qué peligros le acechan."
+    },
+    {
+        "id": 72,
+        "pregunta": "La consulta a los trabajadores en PRL debe realizarse:",
+        "opciones": [
+            {"id": "a", "texto": "Solo tras un accidente"},
+            {"id": "b", "texto": "De forma previa a decisiones importantes"},
+            {"id": "c", "texto": "Solo si lo solicita el sindicato"},
+            {"id": "d", "texto": "De manera opcional"}
+        ],
+        "correcta": "b",
+        "explicacion": "La empresa debe preguntar antes de actuar en temas que afecten a la salud, no cuando ya está todo hecho."
+    },
+    {
+        "id": 73,
+        "pregunta": "La participación de los trabajadores mejora:",
+        "opciones": [
+            {"id": "a", "texto": "El control empresarial"},
+            {"id": "b", "texto": "La eficacia de la prevención"},
+            {"id": "c", "texto": "La carga burocrática"},
+            {"id": "d", "texto": "El número de sanciones"}
+        ],
+        "correcta": "b",
+        "explicacion": "Quien mejor conoce los riesgos es quien hace el trabajo; su opinión hace que las medidas sean más realistas y útiles."
+    },
+    {
+        "id": 74,
+        "pregunta": "Los trabajadores pueden realizar propuestas en PRL a través de:",
+        "opciones": [
+            {"id": "a", "texto": "El comité de empresa y delegados de prevención"},
+            {"id": "b", "texto": "Solo la inspección de trabajo"},
+            {"id": "c", "texto": "El INSS"},
+            {"id": "d", "texto": "La mutua colaboradora"}
+        ],
+        "correcta": "a",
+        "explicacion": "Sus representantes son el canal oficial para hacer llegar sugerencias de mejora a la dirección."
+    },
+    {
+        "id": 75,
+        "pregunta": "La falta de participación de los trabajadores puede provocar:",
+        "opciones": [
+            {"id": "a", "texto": "Mayor implicación"},
+            {"id": "b", "texto": "Mejora automática de la prevención"},
+            {"id": "c", "texto": "Incremento de riesgos laborales"},
+            {"id": "d", "texto": "Eliminación de conflictos"}
+        ],
+        "correcta": "c",
+        "explicacion": "Si no se escucha a los trabajadores, se pierden detalles importantes y la seguridad se vuelve ineficaz."
+    },
+    {
+        "id": 76,
+        "pregunta": "La información preventiva debe ser:",
+        "opciones": [
+            {"id": "a", "texto": "Técnica y compleja"},
+            {"id": "b", "texto": "Clara, suficiente y comprensible"},
+            {"id": "c", "texto": "Opcional"},
+            {"id": "d", "texto": "Solo escrita"}
+        ],
+        "correcta": "b",
+        "explicacion": "De nada sirve un manual técnico si el trabajador no lo entiende; la información debe adaptarse al destinatario."
+    },
+    {
+        "id": 77,
+        "pregunta": "Los delegados de prevención tienen derecho a:",
+        "opciones": [
+            {"id": "a", "texto": "Formación en materia preventiva"},
+            {"id": "b", "texto": "Decidir el salario del personal"},
+            {"id": "c", "texto": "Sancionar incumplimientos"},
+            {"id": "d", "texto": "Dirigir la empresa"}
+        ],
+        "correcta": "a",
+        "explicacion": "Para ejercer su función con criterio, la empresa debe proporcionarles los conocimientos técnicos necesarios."
+    },
+    {
+        "id": 78,
+        "pregunta": "La participación de los trabajadores en PRL es:",
+        "opciones": [
+            {"id": "a", "texto": "Un deber exclusivo del empresario"},
+            {"id": "b", "texto": "Un derecho y una obligación compartida"},
+            {"id": "c", "texto": "Una opción voluntaria"},
+            {"id": "d", "texto": "Innecesaria en pequeñas empresas"}
+        ],
+        "correcta": "b",
+        "explicacion": "Todos reman en el mismo barco: tienen derecho a opinar y deber de colaborar para que la seguridad funcione."
+    },
+    {
+        "id": 79,
+        "pregunta": "El objetivo principal de la participación en PRL es:",
+        "opciones": [
+            {"id": "a", "texto": "Aumentar la productividad"},
+            {"id": "b", "texto": "Prevenir riesgos y proteger la salud"},
+            {"id": "c", "texto": "Reducir costes empresariales"},
+            {"id": "d", "texto": "Evitar inspecciones"}
+        ],
+        "correcta": "b",
+        "explicacion": "No se trata de burocracia, sino de conseguir entornos de trabajo seguros y saludables para todos."
+    },
+    {
+        "id": 80,
+        "pregunta": "La cultura preventiva se refuerza cuando:",
+        "opciones": [
+            {"id": "a", "texto": "Solo decide la empresa"},
+            {"id": "b", "texto": "Los trabajadores participan activamente"},
+            {"id": "c", "texto": "Se reducen las evaluaciones"},
+            {"id": "d", "texto": "Se eliminan los delegados de prevención"}
+        ],
+        "correcta": "b",
+        "explicacion": "Cuando todos se sienten parte de la solución, la prevención deja de ser una imposición y se convierte en un hábito."
+    },
+    {
+        "id": 81,
+        "pregunta": "La relación laboral se define como:",
+        "opciones": [
+            {"id": "a", "texto": "Una relación personal entre empresario y trabajador"},
+            {"id": "b", "texto": "Un acuerdo voluntario sin obligaciones"},
+            {"id": "c", "texto": "La prestación voluntaria de servicios por cuenta ajena y retribuida"},
+            {"id": "d", "texto": "Un vínculo exclusivamente civil"}
+        ],
+        "correcta": "c",
+        "explicacion": "Es la definición legal: trabajar voluntariamente para otro, bajo su dirección y a cambio de un salario."
+    },
+    {
+        "id": 82,
+        "pregunta": "Para que exista relación laboral deben concurrir:",
+        "opciones": [
+            {"id": "a", "texto": "Voluntariedad, ajenidad, dependencia y retribución"},
+            {"id": "b", "texto": "Solo la retribución"},
+            {"id": "c", "texto": "Dependencia y amistad"},
+            {"id": "d", "texto": "Exclusivamente la voluntariedad"}
+        ],
+        "correcta": "a",
+        "explicacion": "Son las 4 notas características imprescindibles; si falta una, no es una relación laboral común."
+    },
+    {
+        "id": 83,
+        "pregunta": "La ajenidad significa que:",
+        "opciones": [
+            {"id": "a", "texto": "El trabajador decide cómo organizar el trabajo"},
+            {"id": "b", "texto": "El trabajador asume el riesgo empresarial"},
+            {"id": "c", "texto": "El resultado del trabajo pertenece al empresario"},
+            {"id": "d", "texto": "El trabajador trabaja sin salario"}
+        ],
+        "correcta": "c",
+        "explicacion": "Los frutos del trabajo no son para ti, sino para la empresa, que es quien los gestiona y vende."
+    },
+    {
+        "id": 84,
+        "pregunta": "La dependencia se manifiesta cuando:",
+        "opciones": [
+            {"id": "a", "texto": "El trabajador actúa con total autonomía"},
+            {"id": "b", "texto": "El empresario da órdenes e instrucciones"},
+            {"id": "c", "texto": "El trabajador asume pérdidas"},
+            {"id": "d", "texto": "El trabajo es ocasional"}
+        ],
+        "correcta": "b",
+        "explicacion": "Estar bajo el ámbito de organización y dirección de la empresa es lo que llamamos dependencia o subordinación."
+    },
+    {
+        "id": 85,
+        "pregunta": "La retribución implica que:",
+        "opciones": [
+            {"id": "a", "texto": "El trabajo es voluntario y gratuito"},
+            {"id": "b", "texto": "El trabajador cobra solo si hay beneficios"},
+            {"id": "c", "texto": "El trabajador recibe un salario por su trabajo"},
+            {"id": "d", "texto": "El salario es opcional"}
+        ],
+        "correcta": "c",
+        "explicacion": "Nadie trabaja por amor al arte en una relación laboral; el intercambio económico es fundamental."
+    },
+    {
+        "id": 86,
+        "pregunta": "No se considera relación laboral:",
+        "opciones": [
+            {"id": "a", "texto": "El trabajo por cuenta ajena"},
+            {"id": "b", "texto": "El trabajo retribuido"},
+            {"id": "c", "texto": "El trabajo voluntario"},
+            {"id": "d", "texto": "El trabajo dependiente"}
+        ],
+        "correcta": "c",
+        "explicacion": "Al faltar la retribución (es gratis), no cumple los requisitos para ser una relación laboral regulada por el Estatuto."
+    },
+    {
+        "id": 87,
+        "pregunta": "El Estatuto de los Trabajadores regula:",
+        "opciones": [
+            {"id": "a", "texto": "Las relaciones mercantiles"},
+            {"id": "b", "texto": "Las relaciones laborales"},
+            {"id": "c", "texto": "Las relaciones civiles"},
+            {"id": "d", "texto": "Las relaciones administrativas"}
+        ],
+        "correcta": "b",
+        "explicacion": "Es la norma básica que establece los derechos y deberes de los trabajadores por cuenta ajena."
+    },
+    {
+        "id": 88,
+        "pregunta": "Una relación laboral especial es:",
+        "opciones": [
+            {"id": "a", "texto": "El trabajo de un funcionario"},
+            {"id": "b", "texto": "El trabajo por cuenta propia"},
+            {"id": "c", "texto": "El trabajo de artistas en espectáculos públicos"},
+            {"id": "d", "texto": "El voluntariado"}
+        ],
+        "correcta": "c",
+        "explicacion": "Ciertos trabajos, como artistas o deportistas, tienen normas propias por sus características peculiares."
+    },
+    {
+        "id": 89,
+        "pregunta": "El trabajo por cuenta propia se caracteriza por:",
+        "opciones": [
+            {"id": "a", "texto": "Dependencia y ajenidad"},
+            {"id": "b", "texto": "Asunción del riesgo empresarial"},
+            {"id": "c", "texto": "Retribución fija"},
+            {"id": "d", "texto": "Subordinación"}
+        ],
+        "correcta": "b",
+        "explicacion": "El autónomo se lo guisa y se lo come: si el negocio va mal, él asume las pérdidas (riesgo), no un jefe."
+    },
+    {
+        "id": 90,
+        "pregunta": "El contrato de trabajo puede ser:",
+        "opciones": [
+            {"id": "a", "texto": "Siempre escrito"},
+            {"id": "b", "texto": "Siempre verbal"},
+            {"id": "c", "texto": "Verbal o por escrito"},
+            {"id": "d", "texto": "Solo indefinido"}
+        ],
+        "correcta": "c",
+        "explicacion": "Existe libertad de forma, aunque la mayoría se hacen por escrito por seguridad jurídica."
+    },
+    {
+        "id": 91,
+        "pregunta": "El período de prueba:",
+        "opciones": [
+            {"id": "a", "texto": "Es obligatorio en todos los contratos"},
+            {"id": "b", "texto": "No puede existir en contratos temporales"},
+            {"id": "c", "texto": "Permite extinguir el contrato sin preaviso"},
+            {"id": "d", "texto": "Sustituye al contrato"}
+        ],
+        "correcta": "c",
+        "explicacion": "Es un tiempo para conocerse; si no encaja, cualquiera de los dos puede romper la relación al momento sin dar explicaciones."
+    },
+    {
+        "id": 92,
+        "pregunta": "Durante el período de prueba:",
+        "opciones": [
+            {"id": "a", "texto": "No existen derechos laborales"},
+            {"id": "b", "texto": "El trabajador no cobra"},
+            {"id": "c", "texto": "Ambas partes pueden resolver el contrato"},
+            {"id": "d", "texto": "No existe Seguridad Social"}
+        ],
+        "correcta": "c",
+        "explicacion": "Tienes los mismos derechos que un trabajador normal, salvo que el despido es libre y gratuito para ambas partes."
+    },
+    {
+        "id": 93,
+        "pregunta": "El trabajador tiene derecho a:",
+        "opciones": [
+            {"id": "a", "texto": "Decidir unilateralmente las condiciones"},
+            {"id": "b", "texto": "Recibir el salario pactado"},
+            {"id": "c", "texto": "Eliminar la jornada"},
+            {"id": "d", "texto": "Rechazar toda orden"}
+        ],
+        "correcta": "b",
+        "explicacion": "Es la contraprestación básica: tú pones tu trabajo y a cambio tienes el derecho fundamental de cobrar."
+    },
+    {
+        "id": 94,
+        "pregunta": "El empresario tiene la obligación de:",
+        "opciones": [
+            {"id": "a", "texto": "Garantizar la seguridad y salud"},
+            {"id": "b", "texto": "No informar al trabajador"},
+            {"id": "c", "texto": "Evitar la formación"},
+            {"id": "d", "texto": "No cotizar"}
+        ],
+        "correcta": "a",
+        "explicacion": "El deber de protección es sagrado; la empresa debe poner los medios para que no te pase nada malo."
+    },
+    {
+        "id": 95,
+        "pregunta": "La relación laboral se extingue por:",
+        "opciones": [
+            {"id": "a", "texto": "Mutuo acuerdo"},
+            {"id": "b", "texto": "Dimisión del trabajador"},
+            {"id": "c", "texto": "Despido"},
+            {"id": "d", "texto": "Todas las anteriores"}
+        ],
+        "correcta": "d",
+        "explicacion": "Se puede acabar porque ambos quieren, porque tú te vas (dimisión) o porque te echan (despido)."
+    },
+    {
+        "id": 96,
+        "pregunta": "El salario es:",
+        "opciones": [
+            {"id": "a", "texto": "Una liberalidad del empresario"},
+            {"id": "b", "texto": "La contraprestación económica del trabajo"},
+            {"id": "c", "texto": "Un complemento voluntario"},
+            {"id": "d", "texto": "Una ayuda social"}
+        ],
+        "correcta": "b",
+        "explicacion": "Es el dinero (o especie) que recibes como pago directo por los servicios que has prestado."
+    },
+    {
+        "id": 97,
+        "pregunta": "La jornada laboral es:",
+        "opciones": [
+            {"id": "a", "texto": "El tiempo de descanso"},
+            {"id": "b", "texto": "El tiempo de trabajo efectivo"},
+            {"id": "c", "texto": "El tiempo de formación"},
+            {"id": "d", "texto": "El tiempo de desplazamiento"}
+        ],
+        "correcta": "b",
+        "explicacion": "Es el número de horas que estás realmente en tu puesto produciendo o a disposición de la empresa."
+    },
+    {
+        "id": 98,
+        "pregunta": "La suspensión del contrato implica:",
+        "opciones": [
+            {"id": "a", "texto": "Extinción definitiva"},
+            {"id": "b", "texto": "Interrupción temporal de obligaciones"},
+            {"id": "c", "texto": "Despido automático"},
+            {"id": "d", "texto": "Reducción salarial permanente"}
+        ],
+        "correcta": "b",
+        "explicacion": "Como cuando coges una baja o excedencia: no trabajas y no cobras, pero el contrato sigue vivo y guardan tu sitio."
+    },
+    {
+        "id": 99,
+        "pregunta": "El contrato laboral genera:",
+        "opciones": [
+            {"id": "a", "texto": "Solo obligaciones para el trabajador"},
+            {"id": "b", "texto": "Solo derechos para el empresario"},
+            {"id": "c", "texto": "Derechos y obligaciones para ambas partes"},
+            {"id": "d", "texto": "Únicamente deberes legales"}
+        ],
+        "correcta": "c",
+        "explicacion": "Es una relación bilateral: ambos (empresa y trabajador) tienen cosas que exigir y cosas que cumplir."
+    },
+    {
+        "id": 100,
+        "pregunta": "La relación laboral se basa en:",
+        "opciones": [
+            {"id": "a", "texto": "La imposición"},
+            {"id": "b", "texto": "La voluntariedad"},
+            {"id": "c", "texto": "La gratuidad"},
+            {"id": "d", "texto": "La ocasionalidad"}
+        ],
+        "correcta": "b",
+        "explicacion": "Nadie puede ser obligado a firmar un contrato de trabajo; debe nacer de la libre voluntad de las partes."
+    },
+    {
+        "id": 101,
+        "pregunta": "El salario se define como:",
+        "opciones": [
+            {"id": "a", "texto": "Una ayuda económica voluntaria"},
+            {"id": "b", "texto": "La compensación económica por la prestación de servicios"},
+            {"id": "c", "texto": "Solo el salario base"},
+            {"id": "d", "texto": "Una prestación de la Seguridad Social"}
+        ],
+        "correcta": "b",
+        "explicacion": "Es la totalidad de lo que cobras (dinero o especie) por trabajar por cuenta ajena."
+    },
+    {
+        "id": 102,
+        "pregunta": "El salario puede percibirse:",
+        "opciones": [
+            {"id": "a", "texto": "Solo en dinero"},
+            {"id": "b", "texto": "Solo en especie"},
+            {"id": "c", "texto": "En dinero y en especie, con límites legales"},
+            {"id": "d", "texto": "Unicamente mediante transferencia"}
+        ],
+        "correcta": "c",
+        "explicacion": "Te pueden pagar parte en dinero y parte en cosas (coche, casa, seguro), pero lo de especie tiene tope."
+    },
+    {
+        "id": 103,
+        "pregunta": "El salario en especie no puede superar:",
+        "opciones": [
+            {"id": "a", "texto": "El 20% del salario total"},
+            {"id": "b", "texto": "El 30% del salario total"},
+            {"id": "c", "texto": "El 40% del salario total"},
+            {"id": "d", "texto": "No tiene límite"}
+        ],
+        "correcta": "b",
+        "explicacion": "Por ley, al menos el 70% debe ser dinero contante y sonante; no te pueden pagar todo en vales de comida."
+    },
+    {
+        "id": 104,
+        "pregunta": "El Salario Mínimo Interprofesional (SMI) es fijado por:",
+        "opciones": [
+            {"id": "a", "texto": "El convenio colectivo"},
+            {"id": "b", "texto": "La empresa"},
+            {"id": "c", "texto": "El Gobierno"},
+            {"id": "d", "texto": "Los sindicatos"}
+        ],
+        "correcta": "c",
+        "explicacion": "Lo decide el Gobierno cada año (normalmente sube) tras consultar con sindicatos y patronal."
+    },
+    {
+        "id": 105,
+        "pregunta": "EI SMI debe abonarse:",
+        "opciones": [
+            {"id": "a", "texto": "Siempre en dinero"},
+            {"id": "b", "texto": "Parcialmente en especie"},
+            {"id": "c", "texto": "Solo con pagas prorrateadas"},
+            {"id": "d", "texto": "Según acuerdo individual"}
+        ],
+        "correcta": "a",
+        "explicacion": "La cuantía del Salario Mínimo debe garantizarse íntegramente en moneda; no se puede restar de ahí para pagar en especie."
+    },
+    {
+        "id": 106,
+        "pregunta": "El salario base se fija normalmente según:",
+        "opciones": [
+            {"id": "a", "texto": "La edad del trabajador"},
+            {"id": "b", "texto": "El grupo profesional o puesto de trabajo"},
+            {"id": "c", "texto": "La productividad anual"},
+            {"id": "d", "texto": "La situación familiar"}
+        ],
+        "correcta": "b",
+        "explicacion": "Es la retribución fija que te corresponde por convenio según tu categoría profesional, sin contar extras."
+    },
+    {
+        "id": 107,
+        "pregunta": "Los complementos salariales pueden depender de:",
+        "opciones": [
+            {"id": "a", "texto": "Circunstancias personales"},
+            {"id": "b", "texto": "Condiciones del puesto"},
+            {"id": "c", "texto": "Resultados de la empresa"},
+            {"id": "d", "texto": "Todas las anteriores"}
+        ],
+        "correcta": "d",
+        "explicacion": "Son los pluses: por antigüedad (personal), por peligrosidad (puesto) o por beneficios (empresa)."
+    },
+    {
+        "id": 108,
+        "pregunta": "La nocturnidad es un complemento:",
+        "opciones": [
+            {"id": "a", "texto": "Personal"},
+            {"id": "b", "texto": "De puesto de trabajo"},
+            {"id": "c", "texto": "Extrasalarial"},
+            {"id": "d", "texto": "Voluntario"}
+        ],
+        "correcta": "b",
+        "explicacion": "Te lo pagan porque ese puesto concreto implica trabajar de noche, no por quién eres tú."
+    },
+    {
+        "id": 109,
+        "pregunta": "Las horas extraordinarias:",
+        "opciones": [
+            {"id": "a", "texto": "Son obligatorias siempre"},
+            {"id": "b", "texto": "No se compensan nunca"},
+            {"id": "c", "texto": "Pueden pagarse o compensarse con descanso"},
+            {"id": "d", "texto": "No forman parte del salario"}
+        ],
+        "correcta": "c",
+        "explicacion": "Si trabajas de más, o te pagan ese tiempo extra (generalmente más caro) o te dan tiempo libre equivalente."
+    },
+    {
+        "id": 110,
+        "pregunta": "La nómina es:",
+        "opciones": [
+            {"id": "a", "texto": "Un documento opcional"},
+            {"id": "b", "texto": "El justificante del pago del salario"},
+            {"id": "c", "texto": "Un contrato laboral"},
+            {"id": "d", "texto": "Un documento fiscal"}
+        ],
+        "correcta": "b",
+        "explicacion": "Es el recibo oficial donde se detalla lo que has ganado (bruto), lo que te quitan (deducciones) y lo que te llega al banco (neto)."
+    },
+    {
+        "id": 111,
+        "pregunta": "Los devengos incluyen:",
+        "opciones": [
+            {"id": "a", "texto": "Solo percepciones salariales"},
+            {"id": "b", "texto": "Solo percepciones extrasalariales"},
+            {"id": "c", "texto": "Todas las percepciones antes de deducciones"},
+            {"id": "d", "texto": "Únicamente el salario neto"}
+        ],
+        "correcta": "c",
+        "explicacion": "Es la columna de sumar: todo lo que has generado, tanto sueldo base como pluses o dietas, antes de restar impuestos."
+    },
+    {
+        "id": 112,
+        "pregunta": "Las percepciones extrasalariales:",
+        "opciones": [
+            {"id": "a", "texto": "Retribuyen directamente el trabajo"},
+            {"id": "b", "texto": "Siempre cotizan"},
+            {"id": "c", "texto": "Compensan gastos derivados del trabajo"},
+            {"id": "d", "texto": "Forman parte del salario base"}
+        ],
+        "correcta": "c",
+        "explicacion": "No pagan tu trabajo, sino que te devuelven lo que has gastado por trabajar (ej. transporte, herramientas)."
+    },
+    {
+        "id": 113,
+        "pregunta": "Las dietas y gastos de desplazamiento son:",
+        "opciones": [
+            {"id": "a", "texto": "Complementos salariales"},
+            {"id": "b", "texto": "Percepciones no salariales"},
+            {"id": "c", "texto": "Pagas extraordinarias"},
+            {"id": "d", "texto": "Salario en especie"}
+        ],
+        "correcta": "b",
+        "explicacion": "Entran en el grupo de extrasalariales porque cubren gastos de comida o viaje, no retribuyen la labor en sí."
+    },
+    {
+        "id": 114,
+        "pregunta": "La base de cotización sirve para calcular:",
+        "opciones": [
+            {"id": "a", "texto": "El salario neto"},
+            {"id": "b", "texto": "El IRPF"},
+            {"id": "c", "texto": "Las prestaciones de la Seguridad Social"},
+            {"id": "d", "texto": "El salario base"}
+        ],
+        "correcta": "c",
+        "explicacion": "Es la cifra teórica que usa la Seguridad Social para calcular cuánto cobrarás si te pones malo, te jubilas o vas al paro."
+    },
+    {
+        "id": 115,
+        "pregunta": "La cotización a la Seguridad Social corresponde a:",
+        "opciones": [
+            {"id": "a", "texto": "Solo la empresa"},
+            {"id": "b", "texto": "Solo el trabajador"},
+            {"id": "c", "texto": "Empresa y trabajador"},
+            {"id": "d", "texto": "El Estado"}
+        ],
+        "correcta": "c",
+        "explicacion": "Pagan los dos: la empresa paga la mayor parte (cuota patronal) y al trabajador se le descuenta una parte pequeña de su nómina."
+    },
+    {
+        "id": 116,
+        "pregunta": "La incapacidad temporal es:",
+        "opciones": [
+            {"id": "a", "texto": "Una suspensión del contrato sin prestación"},
+            {"id": "b", "texto": "Una prestación económica de la Seguridad Social"},
+            {"id": "c", "texto": "Un complemento salarial"},
+            {"id": "d", "texto": "Una indemnización"}
+        ],
+        "correcta": "b",
+        "explicacion": "Es el dinero que recibes cuando estás de baja médica y no puedes trabajar temporalmente."
+    },
+    {
+        "id": 117,
+        "pregunta": "La jubilación es una prestación:",
+        "opciones": [
+            {"id": "a", "texto": "No contributiva"},
+            {"id": "b", "texto": "Asistencial"},
+            {"id": "c", "texto": "Contributiva"},
+            {"id": "d", "texto": "Extrasalarial"}
+        ],
+        "correcta": "c",
+        "explicacion": "Se llama contributiva porque para cobrarla tienes que haber contribuido (cotizado) durante tu vida laboral."
+    },
+    {
+        "id": 118,
+        "pregunta": "Las prestaciones contributivas exigen:",
+        "opciones": [
+            {"id": "a", "texto": "Situación de necesidad"},
+            {"id": "b", "texto": "Cotización previa"},
+            {"id": "c", "texto": "Edad mínima"},
+            {"id": "d", "texto": "Desempleo previo"}
+        ],
+        "correcta": "b",
+        "explicacion": "Es el principio de tanto pones, tanto tienes derecho; necesitas un mínimo de años cotizados."
+    },
+    {
+        "id": 119,
+        "pregunta": "El trabajador participa en la cotización a la Seguridad Social:",
+        "opciones": [
+            {"id": "a", "texto": "Solo si lo desea"},
+            {"id": "b", "texto": "Nunca"},
+            {"id": "c", "texto": "A través de deducciones en nómina"},
+            {"id": "d", "texto": "Mediante pagos trimestrales"}
+        ],
+        "correcta": "c",
+        "explicacion": "Es obligatorio; verás en tu nómina un apartado de deducciones donde te restan tu aportación a la SS."
+    },
+    {
+        "id": 120,
+        "pregunta": "Las prestaciones no contributivas:",
+        "opciones": [
+            {"id": "a", "texto": "Exigen cotización previa"},
+            {"id": "b", "texto": "Solo se conceden a trabajadores en activo"},
+            {"id": "c", "texto": "Se conceden por situación de necesidad"},
+            {"id": "d", "texto": "Forman parte del salario"}
+        ],
+        "correcta": "c",
+        "explicacion": "Son para personas que no han cotizado suficiente pero carecen de recursos económicos (solidaridad del sistema)."
+    },
+    {
+        "id": 121,
+        "pregunta": "El itinerario profesional se define como:",
+        "opciones": [
+            {"id": "a", "texto": "Un proceso rígido que no cambia con el tiempo"},
+            {"id": "b", "texto": "Una planificación de acciones para alcanzar objetivos profesionales"},
+            {"id": "c", "texto": "Un conjunto de normas laborales"},
+            {"id": "d", "texto": "Un documento administrativo obligatorio"}
+        ],
+        "correcta": "b",
+        "explicacion": "Es tu hoja de ruta personal, el plan estratégico que diseñas para conseguir tus metas laborales."
+    },
+    {
+        "id": 122,
+        "pregunta": "El autoconocimiento en el itinerario profesional permite:",
+        "opciones": [
+            {"id": "a", "texto": "Elegir empleo sin formación"},
+            {"id": "b", "texto": "Identificar fortalezas y debilidades personales"},
+            {"id": "c", "texto": "Evitar la toma de decisiones"},
+            {"id": "d", "texto": "Reducir la empleabilidad"}
+        ],
+        "correcta": "b",
+        "explicacion": "Antes de saber a dónde vas, tienes que saber quién eres, qué se te da bien y en qué flaqueas."
+    },
+    {
+        "id": 123,
+        "pregunta": "Los objetivos profesionales deben ser:",
+        "opciones": [
+            {"id": "a", "texto": "Vagamente definidos"},
+            {"id": "b", "texto": "Inalcanzables"},
+            {"id": "c", "texto": "Claros y realistas"},
+            {"id": "d", "texto": "Improvistos"}
+        ],
+        "correcta": "c",
+        "explicacion": "De nada sirve soñar despierto si no bajas los objetivos a tierra para que sean posibles y concretos."
+    },
+    {
+        "id": 124,
+        "pregunta": "El acrónimo SMART hace referencia a objetivos:",
+        "opciones": [
+            {"id": "a", "texto": "Sociales y técnicos"},
+            {"id": "b", "texto": "Rápidos y flexibles"},
+            {"id": "c", "texto": "Específicos, medibles, alcanzables, relevantes y temporales"},
+            {"id": "d", "texto": "Subjetivos y abiertos"}
+        ],
+        "correcta": "c",
+        "explicacion": "Es la regla de oro: Specific, Measurable, Achievable, Relevant, Time-bound."
+    },
+    {
+        "id": 125,
+        "pregunta": "Un objetivo profesional medible permite:",
+        "opciones": [
+            {"id": "a", "texto": "Evitar la evaluación"},
+            {"id": "b", "texto": "Comprobar el progreso"},
+            {"id": "c", "texto": "Cambiar constantemente de meta"},
+            {"id": "d", "texto": "Eliminar la planificación"}
+        ],
+        "correcta": "b",
+        "explicacion": "Lo que no se mide no se puede mejorar; necesitas indicadores para saber si te acercas a la meta."
+    },
+    {
+        "id": 126,
+        "pregunta": "La planificación profesional contribuye a:",
+        "opciones": [
+            {"id": "a", "texto": "Reducir la formación"},
+            {"id": "b", "texto": "Mejorar la empleabilidad"},
+            {"id": "c", "texto": "Eliminar la movilidad laboral"},
+            {"id": "d", "texto": "Evitar el cambio"}
+        ],
+        "correcta": "b",
+        "explicacion": "Tener un plan te hace estar más preparado y ser más atractivo para las empresas."
+    },
+    {
+        "id": 127,
+        "pregunta": "El itinerario profesional puede modificarse:",
+        "opciones": [
+            {"id": "a", "texto": "Nunca"},
+            {"id": "b", "texto": "Solo al inicio de la vida laboral"},
+            {"id": "c", "texto": "Según las circunstancias personales y laborales"},
+            {"id": "d", "texto": "Unicamente por obligación legal"}
+        ],
+        "correcta": "c",
+        "explicacion": "No está escrito en piedra; la vida cambia, el mercado cambia y tu plan debe adaptarse."
+    },
+    {
+        "id": 128,
+        "pregunta": "El análisis del entorno laboral sirve para:",
+        "opciones": [
+            {"id": "a", "texto": "Ignorar el mercado de trabajo"},
+            {"id": "b", "texto": "Detectar oportunidades y amenazas"},
+            {"id": "c", "texto": "Evitar la toma de decisiones"},
+            {"id": "d", "texto": "Limitar la carrera profesional"}
+        ],
+        "correcta": "b",
+        "explicacion": "Tienes que mirar hacia fuera para ver qué busca el mercado (oportunidades) y qué riesgos hay (amenazas)."
+    },
+    {
+        "id": 129,
+        "pregunta": "El aprendizaje a lo largo de la vida implica:",
+        "opciones": [
+            {"id": "a", "texto": "Formación solo inicial"},
+            {"id": "b", "texto": "Aprendizaje continuo"},
+            {"id": "c", "texto": "Ausencia de reciclaje profesional"},
+            {"id": "d", "texto": "Formación innecesaria"}
+        ],
+        "correcta": "b",
+        "explicacion": "En el mundo actual nunca se deja de estudiar; el reciclaje constante es vital."
+    },
+    {
+        "id": 130,
+        "pregunta": "La toma de decisiones profesionales influye en:",
+        "opciones": [
+            {"id": "a", "texto": "Solo el salario"},
+            {"id": "b", "texto": "El desarrollo profesional"},
+            {"id": "c", "texto": "Unicamente la jornada laboral"},
+            {"id": "d", "texto": "Ningún aspecto laboral"}
+        ],
+        "correcta": "b",
+        "explicacion": "Cada elección que haces (estudiar esto, aceptar aquello) va moldeando tu camino y crecimiento."
+    },
+    {
+        "id": 131,
+        "pregunta": "La empleabilidad depende:",
+        "opciones": [
+            {"id": "a", "texto": "Exclusivamente de la formación académica"},
+            {"id": "b", "texto": "Solo de la experiencia laboral"},
+            {"id": "c", "texto": "De factores personales y del entorno"},
+            {"id": "d", "texto": "Unicamente de la edad"}
+        ],
+        "correcta": "c",
+        "explicacion": "Es un mix: lo que tú ofreces (actitud, aptitud) y lo que el mercado necesita en ese momento."
+    },
+    {
+        "id": 132,
+        "pregunta": "Las competencias transversales son:",
+        "opciones": [
+            {"id": "a", "texto": "Técnicas exclusivas"},
+            {"id": "b", "texto": "Habilidades aplicables a distintos ámbitos"},
+            {"id": "c", "texto": "Contenidos teóricos"},
+            {"id": "d", "texto": "Conocimientos académicos"}
+        ],
+        "correcta": "b",
+        "explicacion": "Son las habilidades comodín (comunicación, trabajo en equipo) que te sirven seas informático o panadero."
+    },
+    {
+        "id": 133,
+        "pregunta": "La iniciativa personal favorece:",
+        "opciones": [
+            {"id": "a", "texto": "La pasividad laboral"},
+            {"id": "b", "texto": "La mejora de oportunidades profesionales"},
+            {"id": "c", "texto": "El estancamiento profesional"},
+            {"id": "d", "texto": "La falta de motivación"}
+        ],
+        "correcta": "b",
+        "explicacion": "Ser proactivo y no esperar sentado hace que surjan más y mejores opciones laborales."
+    },
+    {
+        "id": 134,
+        "pregunta": "El plan de acción profesional recoge:",
+        "opciones": [
+            {"id": "a", "texto": "Solo los objetivos finales"},
+            {"id": "b", "texto": "Las acciones, plazos y recursos necesarios"},
+            {"id": "c", "texto": "Únicamente la formación académica"},
+            {"id": "d", "texto": "Las normas de la empresa"}
+        ],
+        "correcta": "b",
+        "explicacion": "Es la parte práctica del itinerario: qué voy a hacer, cuándo y con qué herramientas."
+    },
+    {
+        "id": 135,
+        "pregunta": "La evaluación del itinerario profesional permite:",
+        "opciones": [
+            {"id": "a", "texto": "Mantener errores"},
+            {"id": "b", "texto": "Ajustar y mejorar la planificación"},
+            {"id": "c", "texto": "Eliminar objetivos"},
+            {"id": "d", "texto": "Evitar cambios"}
+        ],
+        "correcta": "b",
+        "explicacion": "Revisar cada cierto tiempo te ayuda a corregir el rumbo si ves que no estás llegando a donde querías."
+    },
+    {
+        "id": 136,
+        "pregunta": "El análisis DAFO identifica:",
+        "opciones": [
+            {"id": "a", "texto": "Solo factores externos"},
+            {"id": "b", "texto": "Fortalezas y debilidades internas"},
+            {"id": "c", "texto": "Oportunidades y amenazas externas"},
+            {"id": "d", "texto": "Factores internos y externos"}
+        ],
+        "correcta": "d",
+        "explicacion": "Es la foto completa: lo tuyo (Debilidades/Fortalezas) y lo de fuera (Amenazas/Oportunidades)."
+    },
+    {
+        "id": 137,
+        "pregunta": "Una autoestima ajustada facilita:",
+        "opciones": [
+            {"id": "a", "texto": "Una visión irreal del perfil profesional"},
+            {"id": "b", "texto": "Un análisis realista de la empleabilidad"},
+            {"id": "c", "texto": "La infravaloración personal"},
+            {"id": "d", "texto": "La sobrevaloración profesional"}
+        ],
+        "correcta": "b",
+        "explicacion": "Valorarse ni mucho ni poco, sino en su justa medida, ayuda a saber qué puedes ofrecer realmente."
+    },
+    {
+        "id": 138,
+        "pregunta": "Las hard skills se caracterizan por:",
+        "opciones": [
+            {"id": "a", "texto": "Ser dificiles de acreditar"},
+            {"id": "b", "texto": "Estar relacionadas con actitudes"},
+            {"id": "c", "texto": "Ser competencias técnicas acreditables"},
+            {"id": "d", "texto": "No influir en la empleabilidad"}
+        ],
+        "correcta": "c",
+        "explicacion": "Son las habilidades duras: títulos, idiomas, manejo de software... lo que suele ir en el papel."
+    },
+    {
+        "id": 139,
+        "pregunta": "Las soft skills incluyen:",
+        "opciones": [
+            {"id": "a", "texto": "Conocimientos técnicos"},
+            {"id": "b", "texto": "Habilidades sociales y personales"},
+            {"id": "c", "texto": "Títulos académicos"},
+            {"id": "d", "texto": "Certificaciones oficiales"}
+        ],
+        "correcta": "b",
+        "explicacion": "Son las habilidades blandas: empatía, liderazgo, resolución de conflictos..."
+    },
+    {
+        "id": 140,
+        "pregunta": "El itinerario profesional es importante porque:",
+        "opciones": [
+            {"id": "a", "texto": "Elimina la necesidad de formación"},
+            {"id": "b", "texto": "Permite improvisar decisiones laborales"},
+            {"id": "c", "texto": "Ayuda a dirigir la carrera profesional de forma consciente"},
+            {"id": "d", "texto": "Sustituye la experiencia laboral"}
+        ],
+        "correcta": "c",
+        "explicacion": "Te permite tomar el control de tu vida laboral en lugar de dejar que las cosas pasen por inercia."
+    },
+    {
+        "id": 141,
+        "pregunta": "¿Qué se entiende por empleabilidad?",
+        "opciones": [
+            {"id": "a", "texto": "La capacidad de una persona para encontrar y mantener un empleo"},
+            {"id": "b", "texto": "La cantidad de títulos académicos que posee una persona"},
+            {"id": "c", "texto": "La estabilidad laboral dentro de una empresa"},
+            {"id": "d", "texto": "El salario que percibe un trabajador"}
+        ],
+        "correcta": "a",
+        "explicacion": "No es solo tener títulos, sino la aptitud y actitud para conseguir trabajo y saber conservarlo o mejorar."
+    },
+    {
+        "id": 142,
+        "pregunta": "La empleabilidad depende principalmente de:",
+        "opciones": [
+            {"id": "a", "texto": "La suerte personal"},
+            {"id": "b", "texto": "La formación académica exclusivamente"},
+            {"id": "c", "texto": "Un conjunto de factores personales y del entorno"},
+            {"id": "d", "texto": "El tipo de contrato"}
+        ],
+        "correcta": "c",
+        "explicacion": "Es una mezcla: depende de tus habilidades (interno) y de cómo esté la economía o el mercado (externo)."
+    },
+    {
+        "id": 143,
+        "pregunta": "¿Cuál de los siguientes factores influye directamente en la empleabilidad?",
+        "opciones": [
+            {"id": "a", "texto": "La antigüedad en la empresa"},
+            {"id": "b", "texto": "Las competencias profesionales"},
+            {"id": "c", "texto": "El horario laboral"},
+            {"id": "d", "texto": "El tamaño de la empresa"}
+        ],
+        "correcta": "b",
+        "explicacion": "Lo que realmente te hace valioso para una empresa es lo que sabes hacer y cómo lo haces (competencias)."
+    },
+    {
+        "id": 144,
+        "pregunta": "Las competencias transversales se caracterizan por:",
+        "opciones": [
+            {"id": "a", "texto": "Ser específicas de un puesto concreto"},
+            {"id": "b", "texto": "Aplicarse solo en entornos académicos"},
+            {"id": "c", "texto": "Ser válidas en distintos ámbitos profesionales"},
+            {"id": "d", "texto": "Sustituir a la formación técnica"}
+        ],
+        "correcta": "c",
+        "explicacion": "Son habilidades viajeras; te las llevas contigo a cualquier trabajo (ej. comunicación, responsabilidad)."
+    },
+    {
+        "id": 145,
+        "pregunta": "¿Cuál de las siguientes es una competencia transversal?",
+        "opciones": [
+            {"id": "a", "texto": "Programación en Java"},
+            {"id": "b", "texto": "Trabajo en equipo"},
+            {"id": "c", "texto": "Manejo de maquinaria industrial"},
+            {"id": "d", "texto": "Contabilidad financiera"}
+        ],
+        "correcta": "b",
+        "explicacion": "Trabajar bien con otros es necesario seas programador, médico o camarero; Java es una competencia técnica específica."
+    },
+    {
+        "id": 146,
+        "pregunta": "El aprendizaje autónomo consiste en:",
+        "opciones": [
+            {"id": "a", "texto": "Aprender únicamente mediante formación reglada"},
+            {"id": "b", "texto": "Aprender sin ningún tipo de apoyo"},
+            {"id": "c", "texto": "Gestionar de forma personal el propio proceso de aprendizaje"},
+            {"id": "d", "texto": "Aprender solo dentro del entorno laboral"}
+        ],
+        "correcta": "c",
+        "explicacion": "Es ser el dueño de tu formación: tú decides qué aprender, cuándo y cómo, sin esperar a que te obliguen."
+    },
+    {
+        "id": 147,
+        "pregunta": "¿Qué ventaja tiene el aprendizaje autónomo?",
+        "opciones": [
+            {"id": "a", "texto": "Reduce la necesidad de formación continua"},
+            {"id": "b", "texto": "Facilita la adaptación a los cambios del mercado laboral"},
+            {"id": "c", "texto": "Elimina la necesidad de títulos oficiales"},
+            {"id": "d", "texto": "Sustituye la experiencia laboral"}
+        ],
+        "correcta": "b",
+        "explicacion": "Si sabes aprender por tu cuenta, no te quedas atrás cuando la tecnología o el mercado cambian rápido."
+    },
+    {
+        "id": 148,
+        "pregunta": "El aprendizaje a lo largo de la vida implica:",
+        "opciones": [
+            {"id": "a", "texto": "Formarse solo al inicio de la carrera profesional"},
+            {"id": "b", "texto": "Aprender únicamente mediante cursos presenciales"},
+            {"id": "c", "texto": "Actualizar continuamente conocimientos y competencias"},
+            {"id": "d", "texto": "Limitar la formación a la empresa"}
+        ],
+        "correcta": "c",
+        "explicacion": "El concepto de Lifelong Learning: nunca se deja de estudiar porque el mundo nunca deja de avanzar."
+    },
+    {
+        "id": 149,
+        "pregunta": "¿Cuál de los siguientes recursos favorece el aprendizaje autónomo?",
+        "opciones": [
+            {"id": "a", "texto": "Manuales internos de empresa"},
+            {"id": "b", "texto": "Tecnologías de la información y la comunicación"},
+            {"id": "c", "texto": "Convenios colectivos"},
+            {"id": "d", "texto": "Horarios laborales rígidos"}
+        ],
+        "correcta": "b",
+        "explicacion": "Internet y las TIC son los mejores aliados para quien quiere aprender por su cuenta (tutoriales, cursos online, foros)."
+    },
+    {
+        "id": 150,
+        "pregunta": "La motivación personal influye en:",
+        "opciones": [
+            {"id": "a", "texto": "Solo en el rendimiento académico"},
+            {"id": "b", "texto": "El aprendizaje autónomo y la empleabilidad"},
+            {"id": "c", "texto": "Únicamente en el salario"},
+            {"id": "d", "texto": "La estabilidad del contrato"}
+        ],
+        "correcta": "b",
+        "explicacion": "Sin ganas (motivación) es difícil ponerse a estudiar solo o buscar activamente mejoras laborales."
+    },
+    {
+        "id": 151,
+        "pregunta": "¿Qué actitud favorece la mejora de la empleabilidad?",
+        "opciones": [
+            {"id": "a", "texto": "Resistencia al cambio"},
+            {"id": "b", "texto": "Pasividad profesional"},
+            {"id": "c", "texto": "Iniciativa personal"},
+            {"id": "d", "texto": "Dependencia del entorno"}
+        ],
+        "correcta": "c",
+        "explicacion": "La proactividad es clave; las empresas valoran a quien propone y actúa, no a quien solo espera órdenes."
+    },
+    {
+        "id": 152,
+        "pregunta": "El aprendizaje autónomo requiere principalmente:",
+        "opciones": [
+            {"id": "a", "texto": "Supervisión constante"},
+            {"id": "b", "texto": "Autonomía y responsabilidad"},
+            {"id": "c", "texto": "Formación obligatoria"},
+            {"id": "d", "texto": "Evaluación externa"}
+        ],
+        "correcta": "b",
+        "explicacion": "Al no tener un profesor encima, necesitas disciplina y responsabilidad para cumplir tus propias metas."
+    },
+    {
+        "id": 153,
+        "pregunta": "¿Qué papel juega la formación continua en la empleabilidad?",
+        "opciones": [
+            {"id": "a", "texto": "Es opcional en sectores tecnológicos"},
+            {"id": "b", "texto": "No influye en la carrera profesional"},
+            {"id": "c", "texto": "Permite actualizar competencias profesionales"},
+            {"id": "d", "texto": "Sustituye la experiencia laboral"}
+        ],
+        "correcta": "c",
+        "explicacion": "Es el combustible que mantiene tu perfil profesional fresco y atractivo para las empresas."
+    },
+    {
+        "id": 154,
+        "pregunta": "¿Cuál de las siguientes acciones mejora la empleabilidad?",
+        "opciones": [
+            {"id": "a", "texto": "Rechazar la formación complementaria"},
+            {"id": "b", "texto": "Actualizar conocimientos profesionales"},
+            {"id": "c", "texto": "Mantener siempre el mismo puesto"},
+            {"id": "d", "texto": "Evitar cambios laborales"}
+        ],
+        "correcta": "b",
+        "explicacion": "Estar al día (reciclaje) es la mejor forma de asegurar que sigues siendo útil en tu sector."
+    },
+    {
+        "id": 155,
+        "pregunta": "El aprendizaje informal se produce principalmente a través de:",
+        "opciones": [
+            {"id": "a", "texto": "Cursos oficiales"},
+            {"id": "b", "texto": "Experiencia diaria y práctica profesional"},
+            {"id": "c", "texto": "Formación reglada"},
+            {"id": "d", "texto": "Exámenes académicos"}
+        ],
+        "correcta": "b",
+        "explicacion": "Es lo que aprendes resolviendo problemas en el trabajo o charlando con compañeros, sin darte cuenta."
+    },
+    {
+        "id": 156,
+        "pregunta": "¿Qué elemento NO forma parte del aprendizaje autónomo?",
+        "opciones": [
+            {"id": "a", "texto": "Planificación personal"},
+            {"id": "b", "texto": "Autoevaluación"},
+            {"id": "c", "texto": "Dependencia total del profesorado"},
+            {"id": "d", "texto": "Uso de recursos digitales"}
+        ],
+        "correcta": "c",
+        "explicacion": "Si dependes totalmente de que te enseñen, entonces no es autónomo, es dirigido."
+    },
+    {
+        "id": 157,
+        "pregunta": "La empleabilidad puede verse afectada por:",
+        "opciones": [
+            {"id": "a", "texto": "Solo factores personales"},
+            {"id": "b", "texto": "Solo factores económicos"},
+            {"id": "c", "texto": "Factores personales y del mercado laboral"},
+            {"id": "d", "texto": "Únicamente la edad"}
+        ],
+        "correcta": "c",
+        "explicacion": "Siempre es un equilibrio entre lo que tú ofreces y lo que el mundo necesita en ese momento."
+    },
+    {
+        "id": 158,
+        "pregunta": "¿Qué competencia favorece la adaptación al cambio?",
+        "opciones": [
+            {"id": "a", "texto": "Rutina"},
+            {"id": "b", "texto": "Flexibilidad"},
+            {"id": "c", "texto": "Especialización excesiva"},
+            {"id": "d", "texto": "Antigüedad"}
+        ],
+        "correcta": "b",
+        "explicacion": "Ser flexible es como ser de bambú: te doblas con el viento del cambio pero no te rompes."
+    },
+    {
+        "id": 159,
+        "pregunta": "El aprendizaje autónomo permite:",
+        "opciones": [
+            {"id": "a", "texto": "Reducir la necesidad de trabajar"},
+            {"id": "b", "texto": "Adaptarse a nuevos perfiles profesionales"},
+            {"id": "c", "texto": "Eliminar la formación reglada"},
+            {"id": "d", "texto": "Evitar la evaluación"}
+        ],
+        "correcta": "b",
+        "explicacion": "Te da la libertad de moldear tu perfil para encajar en nuevos roles que vayan surgiendo."
+    },
+    {
+        "id": 160,
+        "pregunta": "¿Por qué es importante el aprendizaje autónomo en el mercado laboral actual?",
+        "opciones": [
+            {"id": "a", "texto": "Porque los empleos no cambian"},
+            {"id": "b", "texto": "Porque reduce la competencia"},
+            {"id": "c", "texto": "Porque el mercado laboral es dinámico y cambiante"},
+            {"id": "d", "texto": "Porque sustituye a la experiencia laboral"}
+        ],
+        "correcta": "c",
+        "explicacion": "En un mundo VUCA (volátil e incierto), quien espera a que le enseñen se queda obsoleto rápido."
+    }
+]
