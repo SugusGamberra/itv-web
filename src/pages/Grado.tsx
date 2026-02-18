@@ -9,12 +9,19 @@ export default function Grado() {
     // poner mas años cuando eso
     const years = [{ id: '2026', title: 'Curso 2025/2026', subtitle: 'Año Actual' }];
 
+    const getTitulo = () => {
+        if (gradoID === '1dam') return '1º DAM/DAW';
+        if (gradoID === '2dam') return '2º DAM';
+        if (gradoID === '2daw') return '2º DAW';
+        return gradoID; 
+    };
+
     return (
         <PageLayout backTo="/" backText="Volver al inicio">
             
             <div className="text-center mb-12">
                 <h1 className="text-5xl md:text-7xl font-serif font-black uppercase mb-4 tracking-tight drop-shadow-sm text-white">
-                    {gradoID}
+                    {getTitulo()}
                 </h1>
                 <p className="text-xl opacity-80 font-medium text-white/60">Selecciona el año académico</p>
             </div>

@@ -1,5 +1,4 @@
-import { useParams } from 'react-router-dom';
-import { BookOpen } from 'lucide-react';
+import { useParams, Link } from 'react-router-dom';
 import ArtCard from '../ui/components/ArtCard';
 import PageLayout from '../ui/layout/PageLayout';
 import { ASIGNATURAS_DB } from '../data/asignaturas';
@@ -20,17 +19,29 @@ export default function SeleccionAsignaturas() {
     const dbKey = `${gradoID}-${year}`;
     const asignaturas = ASIGNATURAS_DB[dbKey] || [];
 
+    const getTitulo = () => {
+        if (gradoID === '1dam') return '1º DAM/DAW';
+        if (gradoID === '2dam') return '2º DAM';
+        if (gradoID === '2daw') return '2º DAW';
+        return gradoID;
+    };
+
     return (
         <PageLayout backTo={`/${gradoID}`} backText="Volver atrás">
             
             <div className="text-center mb-16">
-                <div className="inline-flex items-center justify-center p-3 bg-white/10 rounded-full mb-4 shadow-sm backdrop-blur-sm border border-white/10">
-                    <BookOpen size={32} className="text-white" />
-                </div>
                 <h1 className="text-4xl md:text-6xl font-serif font-black capitalize mb-2 drop-shadow-sm text-white">
-                    {gradoID}
+                    {getTitulo()} 
                 </h1>
-                <p className="text-lg opacity-60 font-medium text-white">Asignaturas del Curso {year}</p>
+                <p className="text-lg opacity-60 font-medium text-white mb-4">Asignaturas del Curso {year}</p>
+
+                <Link 
+                    to="/info-examenes"
+                    className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-black bg-white rounded-full hover:bg-gray-200 transition-colors shadow-lg shadow-white/10"
+                >
+                    Info Exámenes
+                </Link>
+
             </div>
 
             {asignaturas.length === 0 ? (
