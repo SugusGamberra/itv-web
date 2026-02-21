@@ -8,7 +8,7 @@ import Footer from '../ui/components/Footer';
 import NavMenu from '../ui/components/NavMenu';
 
 export default function TestMode() {
-    const { modo, asignaturaID } = useParams();
+    const { modo, asignaturaID, gradoID, year } = useParams();
     const bateriaPreguntas = MAPA_PREGUNTAS[asignaturaID || ''] || [];
 
     const { 
@@ -107,7 +107,7 @@ export default function TestMode() {
                         
                         {/* Boton Secundario */}
                         <Link 
-                            to={`/asignatura/${asignaturaID}`} 
+                            to={`/${gradoID}/${year}/${asignaturaID}`} 
                             className="py-2 text-center text-white/40 hover:text-white transition-colors text-sm uppercase tracking-widest font-bold"
                         >
                             Volver atrás
