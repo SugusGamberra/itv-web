@@ -25,7 +25,7 @@
     },
     {
         "id": 3,
-        "pregunta": "¿Qué característica distingue a los lenguajes de marcas de otros lenguajes?",
+        "pregunta": "¿Qué característica distingue a un lenguaje de marcas frente a uno de programación?",
         "opciones": [
             { "id": "a", "texto": "No utiliza sintaxis" },
             { "id": "b", "texto": "No define estructuras"},
@@ -113,8 +113,8 @@
         "opciones": [
             { "id": "a", "texto": "Está validado" },
             { "id": "b", "texto": "Cumple reglas sintácticas"},
-            { "id": "c", "texto": "Tiene DTD"},
-            { "id": "d", "texto": "Tiene esquema"}
+            { "id": "c", "texto": "Tiene esquema"},
+            { "id": "d", "texto": "Tiene DTD"}
         ],
         "correcta": "b",
         "explicacion": "Un documento bien formado implica que cumple reglas sintácticas, es decir, que tiene una estructura válida según las reglas del lenguaje de marcas utilizado."
@@ -237,7 +237,7 @@
             { "id": "d", "texto": "IETF"}
         ],
         "correcta": "d",
-        "explicacion": "La IETF tuvo un papel clave en la estandarización inicial de los lenguajes de marcas, especialmente con SGML."
+        "explicacion": "La IETF (Internet Engineering Task Force) tuvo un papel clave en la estandarización inicial de HTML (como el estándar HTML 2.0), antes de que el W3C tomara el relevo. SGML, por su parte, fue estandarizado por la ISO."
     },
     {
         "id": 21,
@@ -609,7 +609,7 @@
             { "id": "d", "texto": "INTERNAL"}
         ],
         "correcta": "b",
-        "explicacion": "(Preguntar a Elam porque según yo es INTERNAL)"
+        "explicacion": "La palabra SYSTEM se usa en la declaración DOCTYPE para referenciar un archivo DTD externo que es privado o de uso local. Se diferencia de PUBLIC, que se usa para vocabularios públicos y estandarizados."
     },
     {
         "id": 52,
@@ -735,7 +735,7 @@
         "id": 62,
         "pregunta": "¿Qué significa RSS?",
         "opciones": [
-            { "id": "a", "texto": "Really Simple Syntax" },
+            { "id": "a", "texto": "Real Simple Syntax" },
             { "id": "b", "texto": "Really Simple Syndication"},
             { "id": "c", "texto": "Rapid Site Service"},
             { "id": "d", "texto": "Remote Style System"}
@@ -1185,7 +1185,7 @@
             { "id": "d", "texto": "Se valida el XML"}
         ],
         "correcta": "b",
-        "explicacion": "Si una hoja XSLT no tiene plantillas, se envía el texto directamente sin transformación."
+        "explicacion": "Por las reglas integradas por defecto en XSLT (built-in templates), si no defines ninguna plantilla específica, el procesador recorre todo el árbol de nodos y devuelve únicamente el texto plano que contienen, ignorando las etiquetas."
     },
     {
         "id": 100,
@@ -1221,7 +1221,7 @@
             { "id": "d", "texto": "Orientado a objetos"}
         ],
         "correcta": "b",
-        "explicacion": "XMLTYPE en SQL Server es una base de datos relacional adaptada que permite almacenar y manipular datos XML dentro de un entorno relacional."
+        "explicacion": "El uso de tipos de datos como XMLTYPE (típico de Oracle) o XML (en SQL Server) hace que una base de datos relacional tradicional quede adaptada para almacenar, validar y consultar fragmentos XML de forma nativa."
     },
     {
         "id": 103,
@@ -1347,12 +1347,12 @@
         "id": 113,
         "pregunta": "¿Qué significa BI?",
         "opciones": [
-            { "id": "a", "texto": "Business Intelligence" },
-            { "id": "b", "texto": "Big Information"},
-            { "id": "c", "texto": "Basic Integration"},
-            { "id": "d", "texto": "Binary Interface"}
+            { "id": "a", "texto": "Business Integration" },
+            { "id": "b", "texto": "Business Intelligence"},
+            { "id": "c", "texto": "Binary Information"},
+            { "id": "d", "texto": "Business Interface"}
         ],
-        "correcta": "a",
+        "correcta": "b",
         "explicacion": "BI significa Business Intelligence, que se refiere a las tecnologías y prácticas para recopilar, analizar y presentar datos empresariales."
     },
     {
