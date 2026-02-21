@@ -12,6 +12,7 @@ export default function TestMode() {
     const bateriaPreguntas = MAPA_PREGUNTAS[asignaturaID || ''] || [];
 
     const { 
+        preguntas,
         preguntaActual, 
         indiceActual, 
         total, 
@@ -42,9 +43,12 @@ export default function TestMode() {
         const notaNum = parseFloat(nota);
         const aprobado = notaNum >= 5;
 
+        // pillar las preguntas q no son correctas
+        const fallos = preguntas.filter(p => respuestas[p.id] !== p.correcta);
+
         return (
-            <div className="w-full min-h-[80vh] flex flex-col items-center justify-center animate-in zoom-in-95 duration-500">
-                <div className="p-12 text-center max-w-lg w-full">
+            <div className="w-full min-h-[80vh] flex flex-col items-center justify-center animate-in zoom-in-95 duration-500 py-10">
+                <div className="p-12 text-center max-w-2xl w-full">
                     {/* emojis */}
                     <div className="text-8xl mb-8 drop-shadow-[0_0_25px_rgba(255,255,255,0.2)]">
                         {aprobado ? '🫦' : '💀'}
@@ -60,9 +64,36 @@ export default function TestMode() {
                         {nota}
                     </div>
                     
-                    <p className="opacity-50 mb-12 font-sans text-lg tracking-wide text-white">
+                    <p className="opacity-50 mb-10 font-sans text-lg tracking-wide text-white">
                         {aprobado ? "Vehículo apto. Puedes circular." : "Vehículo no apto. Toca volver al taller."}
                     </p>
+
+                    {/* bloque de repasito pal body */}
+                    {fallos.length > 0 && modo !== 'repaso' && (
+                        <div className="mb-12 text-left bg-[#151520] p-6 rounded-2xl border border-white/10 shadow-lg">
+                            <h3 className="text-xl font-bold mb-4 text-[#ff3333]">Sale repasar estas preguntas bb:</h3>
+                            <div className="flex flex-col gap-4 max-h-[40vh] overflow-y-auto pr-2">
+                                {fallos.map((f, i) => (
+                                    <div key={i} className="bg-white/5 p-4 rounded-xl border border-white/5">
+                                        <p className="font-serif text-white/90 mb-3">{f.pregunta}</p>
+                                        <p className="text-sm text-emerald-400 mb-1">✅ {f.opciones.find(o => o.id === f.correcta)?.texto}</p>
+                                        {respuestas[f.id] ? (
+                                            <p className="text-sm text-[#ff3333]">❌ {f.opciones.find(o => o.id === respuestas[f.id])?.texto}</p>
+                                        ) : (
+                                            <p className="text-sm text-white/40">⚪ La dejaste en blanco</p>
+                                        )}
+                                        {/* explicacion del json */}
+                                        {f.explicacion && (
+                                            <div className="mt-3 pt-3 border-t border-white/10 text-indigo-300 text-sm flex gap-2">
+                                                <AlertCircle size={16} className="shrink-0 mt-0.5" />
+                                                <p>{f.explicacion}</p>
+                                            </div>
+                                        )}
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    )}
 
                     {/* BOTONES */}
                     <div className="flex flex-col gap-4 max-w-xs mx-auto w-full">
@@ -76,10 +107,10 @@ export default function TestMode() {
                         
                         {/* Boton Secundario */}
                         <Link 
-                            to=".." 
+                            to={`/asignatura/${asignaturaID}`} 
                             className="py-2 text-center text-white/40 hover:text-white transition-colors text-sm uppercase tracking-widest font-bold"
                         >
-                            Volver al inicio
+                            Volver atrás
                         </Link>
                     </div>
                 </div>
