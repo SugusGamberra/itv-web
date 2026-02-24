@@ -6,6 +6,7 @@ import { FileText, ExternalLink } from 'lucide-react';
 
 import { MAPA_PREGUNTAS } from '../data/indicePreguntas';
 import imgPlaceholder from '../assets/images/cinnamostrong.png';
+import { ASIGNATURAS_DB } from '../data/asignaturas';
 
 import imgB1 from '../assets/images/b1.jpg';
 import imgB2 from '../assets/images/b2.jpg';
@@ -46,6 +47,10 @@ const DB_APUNTES: Record<string, {titulo: string; url: string; tipo: string }[]>
 export default function AsignaturaDashboard() {
     const { gradoID, year, asignaturaID } = useParams();
     
+    const claveDB = `${gradoID}-${year}`;
+    const asignatura = ASIGNATURAS_DB[claveDB]?.find(a => a.id === asignaturaID);
+    const tituloAsignatura = asignatura?.nombre || asignaturaID?.replace(/-/g, ' ');
+
     // PARA JESUBUNTU
     const IS_JESUBUNTU = asignaturaID === 'jesubuntu';
     
@@ -64,7 +69,7 @@ export default function AsignaturaDashboard() {
             {/* CABECERA */}
             <div className="text-center mb-16">
                 <h1 className="text-5xl md:text-7xl font-serif font-bold mb-4 text-white capitalize">
-                    {asignaturaID?.replace(/-/g, ' ')}
+                    {tituloAsignatura}
                 </h1>
 
                 {/* jesubuntu deidad */}

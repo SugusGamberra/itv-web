@@ -1,0 +1,1802 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Cuál es el objetivo principal de la programación segura?",
+        "opciones": [
+            { "id": "a", "texto": "Mejorar el rendimiento del software" },
+            { "id": "b", "texto": "Evitar errores de compilación" },
+            { "id": "c", "texto": "Proteger aplicaciones frente a amenazas" },
+            { "id": "d", "texto": "Reducir el tamaño del código" }
+        ],
+        "correcta": "c",
+        "explicacion": "La programación segura busca blindar el código desde su desarrollo para evitar que los atacantes puedan explotar fallos o inyectar código malicioso."
+    },
+    {
+        "id": 2,
+        "pregunta": "¿Qué se entiende por vulnerabilidad en una aplicación?",
+        "opciones": [
+            { "id": "a", "texto": "Un error de sintaxis" },
+            { "id": "b", "texto": "Un fallo que puede ser explotado" },
+            { "id": "c", "texto": "Un problema de rendimiento" },
+            { "id": "d", "texto": "Un error visual" }
+        ],
+        "correcta": "b",
+        "explicacion": "Una vulnerabilidad es una debilidad, agujero o fallo en el sistema que un atacante puede aprovechar de forma intencionada para comprometer la seguridad."
+    },
+    {
+        "id": 3,
+        "pregunta": "¿Cuál es una práctica básica de programación segura?",
+        "opciones": [
+            { "id": "a", "texto": "Usar variables globales" },
+            { "id": "b", "texto": "Evitar la validación de datos" },
+            { "id": "c", "texto": "Confiar en la entrada del usuario" },
+            { "id": "d", "texto": "Validar siempre los datos de entrada" }
+        ],
+        "correcta": "d",
+        "explicacion": "Nunca se debe confiar en los datos que introduce el usuario. Validar, limpiar y sanear las entradas previene ataques críticos como la inyección SQL o el Cross-Site Scripting (XSS)."
+    },
+    {
+        "id": 4,
+        "pregunta": "¿Qué objetivo cumple la criptografía en informática?",
+        "opciones": [
+            { "id": "a", "texto": "Aumentar la velocidad de transmisión" },
+            { "id": "b", "texto": "Garantizar la seguridad de la información" },
+            { "id": "c", "texto": "Optimizar el uso de memoria" },
+            { "id": "d", "texto": "Facilitar el diseño de interfaces" }
+        ],
+        "correcta": "b",
+        "explicacion": "La criptografía protege los datos mediante técnicas matemáticas de cifrado, asegurando su confidencialidad, integridad y autenticidad frente a terceros."
+    },
+    {
+        "id": 5,
+        "pregunta": "¿Qué caracteriza a los algoritmos hash?",
+        "opciones": [
+            { "id": "a", "texto": "Usan dos claves" },
+            { "id": "b", "texto": "Son reversibles" },
+            { "id": "c", "texto": "Generan resúmenes irreversibles" },
+            { "id": "d", "texto": "Permiten descifrar el mensaje original" }
+        ],
+        "correcta": "c",
+        "explicacion": "Un algoritmo hash convierte datos de cualquier tamaño en una cadena alfanumérica de tamaño fijo. Por diseño matemático, es una operación unidireccional y no se puede recuperar el dato original."
+    },
+    {
+        "id": 6,
+        "pregunta": "¿Cuál es una función principal de los algoritmos hash?",
+        "opciones": [
+            { "id": "a", "texto": "Cifrar mensajes" },
+            { "id": "b", "texto": "Verificar la integridad de los datos" },
+            { "id": "c", "texto": "Autenticar usuarios" },
+            { "id": "d", "texto": "Intercambiar claves" }
+        ],
+        "correcta": "b",
+        "explicacion": "Al calcular el hash de un archivo original y compararlo con el hash del archivo recibido, podemos saber si el contenido ha sido alterado aunque sea un solo bit."
+    },
+    {
+        "id": 7,
+        "pregunta": "¿Por qué SHA-1 ya no se considera seguro?",
+        "opciones": [
+            { "id": "a", "texto": "Usa claves pequeñas" },
+            { "id": "b", "texto": "Es demasiado lento" },
+            { "id": "c", "texto": "Tiene colisiones conocidas" },
+            { "id": "d", "texto": "No es compatible con TLS" }
+        ],
+        "correcta": "c",
+        "explicacion": "SHA-1 está obsoleto porque se ha demostrado matemáticamente que es posible encontrar dos mensajes o archivos diferentes que generen exactamente el mismo hash (colisión)."
+    },
+    {
+        "id": 8,
+        "pregunta": "¿Qué tipo de criptografía utiliza una única clave?",
+        "opciones": [
+            { "id": "a", "texto": "Asimétrica" },
+            { "id": "b", "texto": "Pública" },
+            { "id": "c", "texto": "Hash" },
+            { "id": "d", "texto": "Simétrica" }
+        ],
+        "correcta": "d",
+        "explicacion": "La criptografía simétrica utiliza exactamente la misma clave secreta tanto para cifrar (ocultar) como para descifrar (revelar) la información."
+    },
+    {
+        "id": 9,
+        "pregunta": "¿Cuál es una característica de la criptografía simétrica?",
+        "opciones": [
+            { "id": "a", "texto": "Usa clave pública y privada" },
+            { "id": "b", "texto": "Es más lenta" },
+            { "id": "c", "texto": "Requiere dos claves distintas" },
+            { "id": "d", "texto": "Emisor y receptor comparten la misma clave" }
+        ],
+        "correcta": "d",
+        "explicacion": "Al utilizar un solo secreto para cifrar y descifrar, el reto principal de la criptografía simétrica es que ambos extremos deben compartir y proteger esa misma clave antes de comunicarse."
+    },
+    {
+        "id": 10,
+        "pregunta": "¿Qué algoritmo simétrico se considera actualmente seguro?",
+        "opciones": [
+            { "id": "a", "texto": "DES" },
+            { "id": "b", "texto": "Triple DES" },
+            { "id": "c", "texto": "AES" },
+            { "id": "d", "texto": "MD5" }
+        ],
+        "correcta": "c",
+        "explicacion": "El Advanced Encryption Standard (AES) es el estándar actual recomendado a nivel mundial, utilizado por gobiernos y empresas por su robustez frente a ataques modernos."
+    },
+    {
+        "id": 11,
+        "pregunta": "¿Qué tamaño de bloque utiliza AES?",
+        "opciones": [
+            { "id": "a", "texto": "64 bits" },
+            { "id": "b", "texto": "128 bits" },
+            { "id": "c", "texto": "256 bits" },
+            { "id": "d", "texto": "Variable" }
+        ],
+        "correcta": "b",
+        "explicacion": "Independientemente del tamaño de la clave utilizada (que puede ser de 128, 192 o 256 bits), el algoritmo AES siempre procesa y cifra los datos en bloques fijos de 128 bit."
+    },
+    {
+        "id": 12,
+        "pregunta": "¿Qué caracteriza a la criptografía asimétrica?",
+        "opciones": [
+            { "id": "a", "texto": "Usa una única clave" },
+            { "id": "b", "texto": "Es más rápida que la simétrica" },
+            { "id": "c", "texto": "No garantiza autenticación" },
+            { "id": "d", "texto": "Usa clave pública y privada" }
+        ],
+        "correcta": "d",
+        "explicacion": "Cada usuario genera un par de claves asociadas matemáticamente: una pública (que comparte libremente para que otros le cifren mensajes) y una privada (que mantiene oculta para descifrarlos)."
+    },
+    {
+        "id": 13,
+        "pregunta": "¿Qué algoritmo asimétrico es base de la firma digital?",
+        "opciones": [
+            { "id": "a", "texto": "AES" },
+            { "id": "b", "texto": "DES" },
+            { "id": "c", "texto": "RSA" },
+            { "id": "d", "texto": "SHA-256" }
+        ],
+        "correcta": "c",
+        "explicacion": "RSA (Rivest-Shamir-Adleman) es uno de los primeros y más utilizados sistemas criptográficos de clave pública, y es una pieza fundamental para la emisión y verificación de firmas digitales."
+    },
+    {
+        "id": 14,
+        "pregunta": "¿Por qué la criptografía asimétrica es más costosa?",
+        "opciones": [
+            { "id": "a", "texto": "Usa bloques pequeños" },
+            { "id": "b", "texto": "Requiere funciones hash" },
+            { "id": "c", "texto": "Utiliza operaciones matemáticas complejas" },
+            { "id": "d", "texto": "Necesita hardware especial" }
+        ],
+        "correcta": "c",
+        "explicacion": "Los algoritmos asimétricos, como RSA, se basan en resolver problemas matemáticos computacionalmente pesados (como la factorización de números primos inmensos), lo que los hace más lentos que los simétricos."
+    },
+    {
+        "id": 15,
+        "pregunta": "¿Qué garantiza la firma digital?",
+        "opciones": [
+            { "id": "a", "texto": "Confidencialidad únicamente" },
+            { "id": "b", "texto": "Autenticación e integridad" },
+            { "id": "c", "texto": "Compresión de datos" },
+            { "id": "d", "texto": "Anonimato" }
+        ],
+        "correcta": "b",
+        "explicacion": "La firma digital nos da certeza de quién originó el documento (autenticación y no repudio) y asegura que el documento no ha sufrido ninguna alteración desde que fue firmado (integridad)."
+    },
+    {
+        "id": 16,
+        "pregunta": "¿Qué entidad emite certificados digitales?",
+        "opciones": [
+            { "id": "a", "texto": "El servidor web" },
+            { "id": "b", "texto": "El cliente" },
+            { "id": "c", "texto": "El sistema operativo" },
+            { "id": "d", "texto": "La Autoridad Certificadora" }
+        ],
+        "correcta": "d",
+        "explicacion": "Las Autoridades Certificadoras (CA) son entidades terceras de confianza encargadas de verificar la identidad de un solicitante y emitirle un certificado digital váliod."
+    },
+    {
+        "id": 17,
+        "pregunta": "¿Qué protocolo añade seguridad a HTTP?",
+        "opciones": [
+            { "id": "a", "texto": "FTP" },
+            { "id": "b", "texto": "SSL" },
+            { "id": "c", "texto": "HTTPS" },
+            { "id": "d", "texto": "SMTP" }
+        ],
+        "correcta": "c",
+        "explicacion": "HTTPS (Hypertext Transfer Protocol Secure) encapsula el tráfico HTTP tradicional dentro de una capa cifrada usando protocolos como TLS o su predecesor SSL."
+    },
+    {
+        "id": 18,
+        "pregunta": "¿Qué puerto utiliza HTTPS por defecto?",
+        "opciones": [
+            { "id": "a", "texto": "80" },
+            { "id": "b", "texto": "21" },
+            { "id": "c", "texto": "22" },
+            { "id": "d", "texto": "443" }
+        ],
+        "correcta": "d",
+        "explicacion": "A nivel de red, el estándar dicta que las conexiones no seguras por HTTP van al puerto 80, mientras que las seguras mediante HTTPS escuchan por defecto en el puerto 443."
+    },
+    {
+        "id": 19,
+        "pregunta": "¿En qué capa del modelo OSI actúa HTTPS?",
+        "opciones": [
+            { "id": "a", "texto": "Transporte" },
+            { "id": "b", "texto": "Red" },
+            { "id": "c", "texto": "Aplicación" },
+            { "id": "d", "texto": "Enlace" }
+        ],
+        "correcta": "c",
+        "explicacion": "HTTPS es un protocolo orientado a los servicios de red que consumen los usuarios web, situándose en la Capa 7 (Aplicación) de la arquitectura OSI."
+    },
+    {
+        "id": 20,
+        "pregunta": "¿Qué protocolo utiliza el puerto 22?",
+        "opciones": [
+            { "id": "a", "texto": "HTTPS" },
+            { "id": "b", "texto": "SSH" },
+            { "id": "c", "texto": "FTP" },
+            { "id": "d", "texto": "SMTP" }
+        ],
+        "correcta": "b",
+        "explicacion": "Secure Shell (SSH), utilizado comúnmente para administrar servidores remotos mediante consola segura, opera por defecto a través del puerto 22 TCP."
+    },
+    {
+        "id": 21,
+        "pregunta": "¿Cuál es la finalidad principal de SSH?",
+        "opciones": [
+            { "id": "a", "texto": "Transferir archivos" },
+            { "id": "b", "texto": "Navegar por la web" },
+            { "id": "c", "texto": "Ejecutar comandos de forma segura" },
+            { "id": "d", "texto": "Enviar correos" }
+        ],
+        "correcta": "c",
+        "explicacion": "SSH (Secure Shell) sirve principalmente para abrir una terminal en un equipo remoto y ejecutar comandos asegurando que todo el tráfico vaya cifrado."
+    },
+    {
+        "id": 22,
+        "pregunta": "¿Qué tipo de cifrado utiliza SSH en la autenticación inicial?",
+        "opciones": [
+            { "id": "a", "texto": "Simétrico" },
+            { "id": "b", "texto": "Hash" },
+            { "id": "c", "texto": "Ninguno" },
+            { "id": "d", "texto": "Asimétrico" }
+        ],
+        "correcta": "d",
+        "explicacion": "En la fase inicial, SSH usa criptografía asimétrica (claves pública y privada) para autenticar al servidor y negociar de forma segura la clave simétrica que se usará después."
+    },
+    {
+        "id": 23,
+        "pregunta": "¿Qué protocolo es una evolución más segura de SSL?",
+        "opciones": [
+            { "id": "a", "texto": "FTP" },
+            { "id": "b", "texto": "TLS" },
+            { "id": "c", "texto": "HTTP" },
+            { "id": "d", "texto": "SMTP" }
+        ],
+        "correcta": "b",
+        "explicacion": "TLS (Transport Layer Security) es el sucesor moderno de SSL, corrigiendo sus vulnerabilidades y ofreciendo algoritmos criptográficos mucho más robustos."
+    },
+    {
+        "id": 24,
+        "pregunta": "¿Por qué se combina cifrado asimétrico y simétrico en TLS?",
+        "opciones": [
+            { "id": "a", "texto": "Para reducir errores" },
+            { "id": "b", "texto": "Para aumentar compatibilidad" },
+            { "id": "c", "texto": "Por motivos de rendimiento y seguridad" },
+            { "id": "d", "texto": "Para evitar certificados" }
+        ],
+        "correcta": "c",
+        "explicacion": "El asimétrico es muy seguro para intercambiar la clave inicial sin que nadie la robe, pero consume muchos recursos. Una vez compartida, se usa el simétrico porque es muchísimo más rápido para cifrar todo el flujo de datos."
+    },
+    {
+        "id": 25,
+        "pregunta": "¿Qué garantiza la integridad de los mensajes en TLS?",
+        "opciones": [
+            { "id": "a", "texto": "Certificados" },
+            { "id": "b", "texto": "Cifrado simétrico" },
+            { "id": "c", "texto": "Puertos" },
+            { "id": "d", "texto": "Funciones hash" }
+        ],
+        "correcta": "d",
+        "explicacion": "TLS utiliza funciones hash (como los códigos MAC) para generar un resumen del mensaje. Si alguien altera el mensaje por el camino, el hash no coincidirá y se rechazará."
+    },
+    {
+        "id": 26,
+        "pregunta": "¿Qué aspecto NO es tratado por un protocolo criptográfico?",
+        "opciones": [
+            { "id": "a", "texto": "Establecimiento de claves" },
+            { "id": "b", "texto": "Autenticación" },
+            { "id": "c", "texto": "Diseño visual" },
+            { "id": "d", "texto": "No repudio" }
+        ],
+        "correcta": "c",
+        "explicacion": "La criptografía se encarga puramente de la seguridad matemática de los datos (confidencialidad, integridad, autenticación). El diseño visual de la aplicación es irrelevante aquí."
+    },
+    {
+        "id": 27,
+        "pregunta": "¿Qué riesgo supone no validar la entrada del usuario?",
+        "opciones": [
+            { "id": "a", "texto": "Bajo rendimiento" },
+            { "id": "b", "texto": "Vulnerabilidades explotables" },
+            { "id": "c", "texto": "Errores de compilación" },
+            { "id": "d", "texto": "Mayor consumo de memoria" }
+        ],
+        "correcta": "b",
+        "explicacion": "Si no filtras lo que el usuario escribe, un atacante puede inyectar código malicioso (como SQL o scripts) y tomar el control del sistema o robar información."
+    },
+    {
+        "id": 28,
+        "pregunta": "¿Qué se busca evitar con políticas de seguridad?",
+        "opciones": [
+            { "id": "a", "texto": "Uso de librerías" },
+            { "id": "b", "texto": "Accesos no autorizados" },
+            { "id": "c", "texto": "Uso de protocolos" },
+            { "id": "d", "texto": "Compilación lenta" }
+        ],
+        "correcta": "b",
+        "explicacion": "Las políticas de seguridad son las reglas del juego: definen quién puede acceder a qué, protegiendo los sistemas de intrusos y usuarios sin permisos."
+    },
+    {
+        "id": 29,
+        "pregunta": "¿Qué protocolo seguro puede proteger FTP o SMTP?",
+        "opciones": [
+            { "id": "a", "texto": "HTTP" },
+            { "id": "b", "texto": "SSL/TLS" },
+            { "id": "c", "texto": "UDP" },
+            { "id": "d", "texto": "Telnet" }
+        ],
+        "correcta": "b",
+        "explicacion": "SSL/TLS actúa como un túnel blindado. Puedes meter protocolos antiguos e inseguros como FTP o SMTP por ese túnel para cifrar sus comunicaciones (convirtiéndolos en FTPS o SMTPS)."
+    },
+    {
+        "id": 30,
+        "pregunta": "¿Qué objetivo tiene la programación de comunicaciones seguras?",
+        "opciones": [
+            { "id": "a", "texto": "Aumentar la latencia" },
+            { "id": "b", "texto": "Reducir el código" },
+            { "id": "c", "texto": "Garantizar confidencialidad e integridad" },
+            { "id": "d", "texto": "Simplificar protocolos" }
+        ],
+        "correcta": "c",
+        "explicacion": "El fin último es asegurar que nadie intercepte y lea los datos (confidencialidad) y que lleguen exactamente igual que como se enviaron, sin modificaciones (integridad)."
+    },
+    {
+        "id": 31,
+        "pregunta": "¿Qué es un proceso en un sistema operativo?",
+        "opciones": [
+            { "id": "a", "texto": "Un programa en ejecución" },
+            { "id": "b", "texto": "Un archivo ejecutable" },
+            { "id": "c", "texto": "Un hilo independiente" },
+            { "id": "d", "texto": "Una instrucción del sistema" }
+        ],
+        "correcta": "a",
+        "explicacion": "El programa es el archivo inerte en tu disco duro. Cuando haces doble clic y el sistema operativo lo carga en la RAM para ejecutarlo, se convierte en un proceso."
+    },
+    {
+        "id": 32,
+        "pregunta": "¿Qué diferencia principal existe entre proceso e hilo?",
+        "opciones": [
+            { "id": "a", "texto": "El proceso es más rápido" },
+            { "id": "b", "texto": "El hilo comparte recursos del proceso" },
+            { "id": "c", "texto": "El hilo es independiente del proceso" },
+            { "id": "d", "texto": "El proceso no tiene estado" }
+        ],
+        "correcta": "b",
+        "explicacion": "Cada proceso tiene su propia memoria aislada. Los hilos, en cambio, viven dentro de un proceso y comparten su memoria y recursos, haciéndolos más ligeros pero propensos a pisarse los datos."
+    },
+    {
+        "id": 33,
+        "pregunta": "¿Qué estado indica que un proceso está esperando un recurso?",
+        "opciones": [
+            { "id": "a", "texto": "Listo" },
+            { "id": "b", "texto": "Ejecutándose" },
+            { "id": "c", "texto": "Bloqueado" },
+            { "id": "d", "texto": "Terminado" }
+        ],
+        "correcta": "c",
+        "explicacion": "Si el proceso necesita algo que tarda (como leer de un disco duro o esperar a que el usuario escriba), el sistema operativo lo pasa a estado bloqueado para que otro proceso pueda usar la CPU mientras tanto."
+    },
+    {
+        "id": 34,
+        "pregunta": "¿Qué componente gestiona la planificación de procesos?",
+        "opciones": [
+            { "id": "a", "texto": "El compilador" },
+            { "id": "b", "texto": "El planificador del sistema operativo" },
+            { "id": "c", "texto": "El intérprete" },
+            { "id": "d", "texto": "La memoria secundaria" }
+        ],
+        "correcta": "b",
+        "explicacion": "El planificador (scheduler) es la pieza del sistema operativo encargada de decidir qué proceso entra a la CPU en cada milisegundo."
+    },
+    {
+        "id": 35,
+        "pregunta": "¿Qué significa multitarea?",
+        "opciones": [
+            { "id": "a", "texto": "Ejecutar un solo proceso" },
+            { "id": "b", "texto": "Ejecutar procesos en paralelo" },
+            { "id": "c", "texto": "Ejecutar múltiples procesos de forma concurrente" },
+            { "id": "d", "texto": "Ejecutar instrucciones secuenciales" }
+        ],
+        "correcta": "c",
+        "explicacion": "La multitarea es la capacidad del sistema para crear la ilusión de que ejecuta muchas cosas a la vez, alternando rápidamente el uso de la CPU entre los distintos procesos (concurrencia)."
+    },
+    {
+        "id": 36,
+        "pregunta": "¿Qué tipo de multitarea permite repartir tiempo de CPU?",
+        "opciones": [
+            { "id": "a", "texto": "Cooperativa" },
+            { "id": "b", "texto": "Preventiva" },
+            { "id": "c", "texto": "Monolítica" },
+            { "id": "d", "texto": "Jerárquica" }
+        ],
+        "correcta": "b",
+        "explicacion": "En la multitarea preventiva, el sistema operativo es el jefe absoluto: asigna tiempos ('cuantos') y, cuando se agotan, suspende al proceso a la fuerza para darle el turno al siguiente."
+    },
+    {
+        "id": 37,
+        "pregunta": "¿Qué problema aparece cuando dos procesos acceden al mismo recurso sin control?",
+        "opciones": [
+            { "id": "a", "texto": "Deadlock" },
+            { "id": "b", "texto": "Inanición" },
+            { "id": "c", "texto": "Condición de carrera" },
+            { "id": "d", "texto": "Interbloqueo circular" }
+        ],
+        "correcta": "c",
+        "explicacion": "La condición de carrera (race condition) sucede cuando el resultado final depende de quién llega primero a modificar una variable compartida, provocando resultados impredecibles."
+    },
+    {
+        "id": 38,
+        "pregunta": "¿Qué secciones del código deben protegerse en concurrencia?",
+        "opciones": [
+            { "id": "a", "texto": "Secciones repetitivas" },
+            { "id": "b", "texto": "Secciones críticas" },
+            { "id": "c", "texto": "Secciones estáticas" },
+            { "id": "d", "texto": "Secciones finales" }
+        ],
+        "correcta": "b",
+        "explicacion": "La sección crítica es ese fragmento de código específico donde se leen o modifican las variables compartidas. Es lo que hay que proteger sí o sí."
+    },
+    {
+        "id": 39,
+        "pregunta": "¿Qué mecanismo permite controlar el acceso a recursos compartidos?",
+        "opciones": [
+            { "id": "a", "texto": "Compilación" },
+            { "id": "b", "texto": "Caché" },
+            { "id": "c", "texto": "Semáforos" },
+            { "id": "d", "texto": "Variables globales" }
+        ],
+        "correcta": "c",
+        "explicacion": "Los semáforos son variables especiales gestionadas por el sistema operativo que actúan como guardianes, indicando si un recurso está libre o bloqueando a los procesos que intentan acceder a él cuando está ocupado."
+    },
+    {
+        "id": 40,
+        "pregunta": "¿Qué valor inicial suele tener un semáforo binario?",
+        "opciones": [
+            { "id": "a", "texto": "0 o 1" },
+            { "id": "b", "texto": "Siempre 1" },
+            { "id": "c", "texto": "Siempre 0" },
+            { "id": "d", "texto": "−1" }
+        ],
+        "correcta": "a",
+        "explicacion": "Un semáforo binario (o mutex) solo puede valer 1 (la puerta está libre para entrar) o 0 (alguien está dentro y está ocupado). Basicamente el mutex tiene la propiedad de pertenencia: solo el hilo que lo bloquea puede desbloquearlo."
+    },
+    {
+        "id": 41,
+        "pregunta": "¿Qué ocurre si un semáforo vale 0?",
+        "opciones": [
+            { "id": "a", "texto": "Permite el acceso" },
+            { "id": "b", "texto": "Incrementa el contador" },
+            { "id": "c", "texto": "Bloquea el proceso" },
+            { "id": "d", "texto": "Finaliza el proceso" }
+        ],
+        "correcta": "c",
+        "explicacion": "Un semáforo en 0 significa que el recurso ya está en uso. El proceso que intenta acceder a él pasa al estado bloqueado hasta que el recurso se libere."
+    },
+    {
+        "id": 42,
+        "pregunta": "¿Qué problema implica que un proceso nunca obtenga el recurso?",
+        "opciones": [
+            { "id": "a", "texto": "Deadlock" },
+            { "id": "b", "texto": "Inanición" },
+            { "id": "c", "texto": "Condición de carrera" },
+            { "id": "d", "texto": "Exclusión mutua" }
+        ],
+        "correcta": "b",
+        "explicacion": "La inanición o starvation ocurre cuando un proceso nunca consigue acceder al recurso que necesita para continuar, quedándose postergado indefinidamente."
+    },
+    {
+        "id": 43,
+        "pregunta": "¿Qué condición es necesaria para que exista interbloqueo?",
+        "opciones": [
+            { "id": "a", "texto": "Exclusión mutua" },
+            { "id": "b", "texto": "Prioridad baja" },
+            { "id": "c", "texto": "Uso de CPU" },
+            { "id": "d", "texto": "Tiempo compartido" }
+        ],
+        "correcta": "a",
+        "explicacion": "Para que se produzca un interbloqueo o deadlock, es imprescindible que los recursos implicados sean de uso exclusivo, es decir, que aplique la exclusión mutua."
+    },
+    {
+        "id": 44,
+        "pregunta": "¿Qué técnica evita el interbloqueo?",
+        "opciones": [
+            { "id": "a", "texto": "Asignación circular" },
+            { "id": "b", "texto": "Eliminación de procesos" },
+            { "id": "c", "texto": "Prevención de condiciones" },
+            { "id": "d", "texto": "Aumento de hilos" }
+        ],
+        "correcta": "c",
+        "explicacion": "El interbloqueo se puede evitar atacando desde el diseño del sistema una de las cuatro condiciones necesarias para que ocurra (prevención)."
+    },
+    {
+        "id": 45,
+        "pregunta": "¿Qué es la comunicación entre procesos (IPC)?",
+        "opciones": [
+            { "id": "a", "texto": "Ejecución paralela" },
+            { "id": "b", "texto": "Intercambio de información entre procesos" },
+            { "id": "c", "texto": "Uso de memoria externa" },
+            { "id": "d", "texto": "Gestión de hilos" }
+        ],
+        "correcta": "b",
+        "explicacion": "IPC (Inter-Process Communication) engloba los distintos mecanismos que permiten a los procesos compartir datos y sincronizarse entre sí."
+    },
+    {
+        "id": 46,
+        "pregunta": "¿Qué mecanismo IPC usa memoria compartida?",
+        "opciones": [
+            { "id": "a", "texto": "Pipes" },
+            { "id": "b", "texto": "Señales" },
+            { "id": "c", "texto": "Sockets" },
+            { "id": "d", "texto": "Memoria compartida" }
+        ],
+        "correcta": "d",
+        "explicacion": "La memoria compartida permite a varios procesos acceder directamente a la misma zona de RAM física, siendo un mecanismo IPC nativo del sistema operativo."
+    },
+    {
+        "id": 47,
+        "pregunta": "¿Qué ventaja tiene la memoria compartida?",
+        "opciones": [
+            { "id": "a", "texto": "Es más segura" },
+            { "id": "b", "texto": "Es más lenta" },
+            { "id": "c", "texto": "Es más rápida" },
+            { "id": "d", "texto": "No necesita sincronización" }
+        ],
+        "correcta": "c",
+        "explicacion": "Al no requerir llamadas constantes al núcleo (kernel) para transferir los datos de un lado a otro, es el mecanismo IPC más rápido."
+    },
+    {
+        "id": 48,
+        "pregunta": "¿Qué inconveniente tiene la memoria compartida?",
+        "opciones": [
+            { "id": "a", "texto": "Necesita semáforos" },
+            { "id": "b", "texto": "Usa disco" },
+            { "id": "c", "texto": "Es síncrona" },
+            { "id": "d", "texto": "No comparte datos" }
+        ],
+        "correcta": "a",
+        "explicacion": "Al estar el espacio expuesto a varios procesos a la vez, es obligatorio usar mecanismos de sincronización adicionales (como semáforos) para evitar corromper los datos."
+    },
+    {
+        "id": 49,
+        "pregunta": "¿Qué mecanismo IPC es unidireccional?",
+        "opciones": [
+            { "id": "a", "texto": "Socket" },
+            { "id": "b", "texto": "Pipe" },
+            { "id": "c", "texto": "Memoria compartida" },
+            { "id": "d", "texto": "Cola de mensajes" }
+        ],
+        "correcta": "b",
+        "explicacion": "Un pipe (tubería) clásico sirve para pasar un flujo de datos en una sola dirección; un proceso escribe por un extremo y otro lee por el contrario."
+    },
+    {
+        "id": 50,
+        "pregunta": "¿Qué mecanismo IPC es bidireccional y en red?",
+        "opciones": [
+            { "id": "a", "texto": "Pipe" },
+            { "id": "b", "texto": "Señales" },
+            { "id": "c", "texto": "Socket" },
+            { "id": "d", "texto": "Archivo" }
+        ],
+        "correcta": "c",
+        "explicacion": "Los sockets permiten la comunicación completa de ida y vuelta y son la base para conectar procesos que se ejecutan en máquinas distintas a través de una red."
+    },
+    {
+        "id": 51,
+        "pregunta": "¿Qué tipo de socket se usa habitualmente con TCP?",
+        "opciones": [
+            { "id": "a", "texto": "Stream" },
+            { "id": "b", "texto": "Datagram" },
+            { "id": "c", "texto": "Raw" },
+            { "id": "d", "texto": "Local" }
+        ],
+        "correcta": "a",
+        "explicacion": "El protocolo TCP asegura la entrega como un flujo de datos continuo y fiable, lo que encaja con el uso de sockets de flujo continuo o tipo Stream."
+    },
+    {
+        "id": 52,
+        "pregunta": "¿Qué ventaja ofrece TCP frente a UDP?",
+        "opciones": [
+            { "id": "a", "texto": "Menor latencia" },
+            { "id": "b", "texto": "Mayor velocidad" },
+            { "id": "c", "texto": "Comunicación fiable" },
+            { "id": "d", "texto": "Menor sobrecarga" }
+        ],
+        "correcta": "c",
+        "explicacion": "TCP establece una conexión previa y cuenta con mecanismos para retransmitir lo que se pierda, asegurando que los paquetes lleguen completos y en orden."
+    },
+    {
+        "id": 53,
+        "pregunta": "¿Qué caracteriza a UDP?",
+        "opciones": [
+            { "id": "a", "texto": "Orientado a conexión" },
+            { "id": "b", "texto": "Fiable" },
+            { "id": "c", "texto": "Control de errores" },
+            { "id": "d", "texto": "No orientado a conexión" }
+        ],
+        "correcta": "d",
+        "explicacion": "UDP lanza los paquetes de datos al destino de forma directa, sin establecer conexión previa ni asegurar si la otra parte los ha recibido."
+    },
+    {
+        "id": 54,
+        "pregunta": "¿Qué ocurre si un proceso entra en estado terminado?",
+        "opciones": [
+            { "id": "a", "texto": "Puede volver a ejecutarse" },
+            { "id": "b", "texto": "Libera sus recursos" },
+            { "id": "c", "texto": "Pasa a estado listo" },
+            { "id": "d", "texto": "Se bloquea" }
+        ],
+        "correcta": "b",
+        "explicacion": "Cuando un proceso acaba, el sistema operativo interviene para limpiar, reclamando la memoria RAM y cerrando los archivos y recursos que tenía bloqueados."
+    },
+    {
+        "id": 55,
+        "pregunta": "¿Qué estructura contiene la información de un proceso?",
+        "opciones": [
+            { "id": "a", "texto": "PCB" },
+            { "id": "b", "texto": "CPU" },
+            { "id": "c", "texto": "Cache" },
+            { "id": "d", "texto": "Heap" }
+        ],
+        "correcta": "a",
+        "explicacion": "El Bloque de Control de Proceso (PCB) es el registro o 'ficha' que usa el sistema operativo para gestionar toda la información de contexto de un proceos."
+    },
+    {
+        "id": 56,
+        "pregunta": "¿Qué información NO contiene el PCB?",
+        "opciones": [
+            { "id": "a", "texto": "Estado del proceso" },
+            { "id": "b", "texto": "Contador de programa" },
+            { "id": "c", "texto": "Código fuente" },
+            { "id": "d", "texto": "Registros" }
+        ],
+        "correcta": "c",
+        "explicacion": "El PCB guarda variables de estado e instrucciones de la máquina virtual para saber por dónde iba, pero el código fuente original del programador no pinta nada ahi."
+    },
+    {
+        "id": 57,
+        "pregunta": "¿Qué es un cambio de contexto?",
+        "opciones": [
+            { "id": "a", "texto": "Cambio de usuario" },
+            { "id": "b", "texto": "Cambio de proceso en CPU" },
+            { "id": "c", "texto": "Cambio de prioridad" },
+            { "id": "d", "texto": "Cambio de memoria" }
+        ],
+        "correcta": "b",
+        "explicacion": "Es el momento exacto en el que el procesador detiene la ejecución del proceso actual, guarda su estado e inyecta el estado del siguiente proceso para que avance."
+    },
+    {
+        "id": 58,
+        "pregunta": "¿Qué coste tiene un cambio de contexto?",
+        "opciones": [
+            { "id": "a", "texto": "Ninguno" },
+            { "id": "b", "texto": "Alto consumo de red" },
+            { "id": "c", "texto": "Tiempo de CPU" },
+            { "id": "d", "texto": "Uso de disco" }
+        ],
+        "correcta": "c",
+        "explicacion": "Ese intercambio de información (guardar un PCB y cargar otro) no ejecuta código útil de tu programa, simplemente consume tiempo y ciclos de reloj del procesador."
+    },
+    {
+        "id": 59,
+        "pregunta": "¿Qué mejora el rendimiento en sistemas concurrentes?",
+        "opciones": [
+            { "id": "a", "texto": "Más procesos bloqueados" },
+            { "id": "b", "texto": "Menos hilos" },
+            { "id": "c", "texto": "Uso correcto de sincronización" },
+            { "id": "d", "texto": "Exclusión total" }
+        ],
+        "correcta": "c",
+        "explicacion": "Para sacarle partido a la concurrencia hay que sincronizar bien, bloqueando solo lo estrictamente necesario para no cuellos de botella artificiales en la aplicación."
+    },
+    {
+        "id": 60,
+        "pregunta": "¿Qué objetivo tiene la sincronización de procesos?",
+        "opciones": [
+            { "id": "a", "texto": "Aumentar velocidad" },
+            { "id": "b", "texto": "Evitar errores de concurrencia" },
+            { "id": "c", "texto": "Reducir memoria" },
+            { "id": "d", "texto": "Simplificar código" }
+        ],
+        "correcta": "b",
+        "explicacion": "Sincronizar garantiza que los accesos a datos y variables compartidas ocurran de forma ordenada, evitando problemas graves como las condiciones de carrera."
+    },
+    {
+        "id": 61,
+        "pregunta": "¿Qué es un hilo en programación?",
+        "opciones": [
+            { "id": "a", "texto": "Una unidad de ejecución dentro de un proceso" },
+            { "id": "b", "texto": "Un proceso independiente" },
+            { "id": "c", "texto": "Un archivo ejecutable" },
+            { "id": "d", "texto": "Un módulo del sistema operativo" }
+        ],
+        "correcta": "a",
+        "explicacion": "Un hilo (o thread) es la unidad más pequeña de procesamiento que el sistema operativo puede gestionar. Vive dentro de un proceso y comparte su entorno."
+    },
+    {
+        "id": 62,
+        "pregunta": "¿Qué ventaja principal aporta el uso de hilos?",
+        "opciones": [
+            { "id": "a", "texto": "Reduce el uso de memoria secundaria" },
+            { "id": "b", "texto": "Permite ejecutar tareas concurrentes" },
+            { "id": "c", "texto": "Elimina la necesidad de procesos" },
+            { "id": "d", "texto": "Simplifica la planificación del sistema" }
+        ],
+        "correcta": "b",
+        "explicacion": "Los hilos permiten que una aplicación realice varias acciones a la vez (como responder a la interfaz mientras procesa datos en segundo plano) de manera eficiente."
+    },
+    {
+        "id": 63,
+        "pregunta": "¿Qué recurso comparten los hilos de un mismo proceso?",
+        "opciones": [
+            { "id": "a", "texto": "El contador de programa" },
+            { "id": "b", "texto": "La pila" },
+            { "id": "c", "texto": "Los registros" },
+            { "id": "d", "texto": "El espacio de memoria" }
+        ],
+        "correcta": "d",
+        "explicacion": "Todos los hilos de un proceso comparten la misma sección de memoria (Heap), código y datos globales, lo que facilita mucho la comunicación entre ellos."
+    },
+    {
+        "id": 64,
+        "pregunta": "¿Qué NO comparten los hilos entre sí?",
+        "opciones": [
+            { "id": "a", "texto": "Memoria dinámica" },
+            { "id": "b", "texto": "Código" },
+            { "id": "c", "texto": "Variables globales" },
+            { "id": "d", "texto": "La pila" }
+        ],
+        "correcta": "d",
+        "explicacion": "Cada hilo necesita su propio espacio de trabajo privado para gestionar sus llamadas a funciones y variables locales, por lo que cada uno tiene su propia pila (Stack)."
+    },
+    {
+        "id": 65,
+        "pregunta": "¿Qué problema puede aparecer al usar varios hilos sin control?",
+        "opciones": [
+            { "id": "a", "texto": "Condiciones de carrera" },
+            { "id": "b", "texto": "Errores de compilación" },
+            { "id": "c", "texto": "Fallos de enlazado" },
+            { "id": "d", "texto": "Errores de sintaxis" }
+        ],
+        "correcta": "a",
+        "explicacion": "Si varios hilos intentan escribir en la misma variable a la vez sin orden, el resultado final es impredecible y erróneo. Eso es una condición de carrera."
+    },
+    {
+        "id": 66,
+        "pregunta": "¿Qué es una condición de carrera?",
+        "opciones": [
+            { "id": "a", "texto": "Acceso concurrente no controlado a un recurso" },
+            { "id": "b", "texto": "Bloqueo permanente de hilos" },
+            { "id": "c", "texto": "Finalización inesperada del proceso" },
+            { "id": "d", "texto": "Retraso en la ejecución" }
+        ],
+        "correcta": "a",
+        "explicacion": "Ocurre cuando el resultado de un programa depende de la secuencia o el momento en que se ejecutan los hilos, compitiendo por llegar primero al recurso."
+    },
+    {
+        "id": 67,
+        "pregunta": "¿Qué mecanismo se utiliza para sincronizar hilos?",
+        "opciones": [
+            { "id": "a", "texto": "Clases abstractas" },
+            { "id": "b", "texto": "Excepciones" },
+            { "id": "c", "texto": "Mutex" },
+            { "id": "d", "texto": "Interfaces" }
+        ],
+        "correcta": "c",
+        "explicacion": "Un Mutex (Mutual Exclusion) es un objeto de bloqueo que permite a los programadores proteger secciones críticas del código para que solo un hilo entre a la vez."
+    },
+    {
+        "id": 68,
+        "pregunta": "¿Qué garantiza un mutex?",
+        "opciones": [
+            { "id": "a", "texto": "Ejecución paralela" },
+            { "id": "b", "texto": "Acceso exclusivo a un recurso" },
+            { "id": "c", "texto": "Comunicación entre procesos" },
+            { "id": "d", "texto": "Eliminación de hilos" }
+        ],
+        "correcta": "b",
+        "explicacion": "Como si fuera la llave del baño, el mutex garantiza que si un hilo tiene la llave, ningún otro puede entrar hasta que el primero salga y devuelva la llave."
+    },
+    {
+        "id": 69,
+        "pregunta": "¿Qué ocurre si un hilo intenta acceder a un mutex bloqueado?",
+        "opciones": [
+            { "id": "a", "texto": "Finaliza" },
+            { "id": "b", "texto": "Continúa sin bloqueo" },
+            { "id": "c", "texto": "Se bloquea hasta liberación" },
+            { "id": "d", "texto": "Crea un nuevo mutex" }
+        ],
+        "correcta": "c",
+        "explicacion": "El hilo se queda dormido (en estado de espera) automáticamente hasta que el mutex sea liberado por el hilo que lo tiene ocupado."
+    },
+    {
+        "id": 70,
+        "pregunta": "¿Qué es un deadlock entre hilos?",
+        "opciones": [
+            { "id": "a", "texto": "Ejecución infinita" },
+            { "id": "b", "texto": "Interbloqueo mutuo" },
+            { "id": "c", "texto": "Error de memoria" },
+            { "id": "d", "texto": "Cambio de contexto" }
+        ],
+        "correcta": "b",
+        "explicacion": "Es un abrazo mortal donde el hilo A espera un recurso que tiene el hilo B, y el hilo B espera un recurso que tiene el hilo A. Nadie avanza nunca."
+    },
+    {
+        "id": 71,
+        "pregunta": "¿Qué condición es necesaria para que exista deadlock?",
+        "opciones": [
+            { "id": "a", "texto": "Exclusión mutua" },
+            { "id": "b", "texto": "Prioridad" },
+            { "id": "c", "texto": "Tiempo compartido" },
+            { "id": "d", "texto": "Multitarea" }
+        ],
+        "correcta": "a",
+        "explicacion": "Sin exclusión mutua (recursos que no se pueden compartir), no habría bloqueo. Es la base del problema, junto con la retención y espera circular."
+    },
+    {
+        "id": 72,
+        "pregunta": "¿Qué estrategia ayuda a evitar deadlocks?",
+        "opciones": [
+            { "id": "a", "texto": "Aumentar el número de hilos" },
+            { "id": "b", "texto": "Eliminar sincronización" },
+            { "id": "c", "texto": "Ordenar la adquisición de recursos" },
+            { "id": "d", "texto": "Usar más memoria" }
+        ],
+        "correcta": "c",
+        "explicacion": "Si obligas a todos los hilos a pedir los recursos siempre en el mismo orden (primero el A, luego el B), rompes la posibilidad de que se forme el círculo vicioso del bloqueo."
+    },
+    {
+        "id": 73,
+        "pregunta": "¿Qué tipo de hilo depende del sistema operativo?",
+        "opciones": [
+            { "id": "a", "texto": "Hilo de usuario" },
+            { "id": "b", "texto": "Hilo ligero" },
+            { "id": "c", "texto": "Hilo de kernel" },
+            { "id": "d", "texto": "Hilo virtual" }
+        ],
+        "correcta": "c",
+        "explicacion": "Los hilos de kernel son gestionados directamente por el núcleo del sistema operativo. Son más pesados de crear pero permiten aprovechar múltiples procesadores reales."
+    },
+    {
+        "id": 74,
+        "pregunta": "¿Qué ventaja tienen los hilos de usuario?",
+        "opciones": [
+            { "id": "a", "texto": "Son más rápidos de crear" },
+            { "id": "b", "texto": "Son más seguros" },
+            { "id": "c", "texto": "Los gestiona el kernel" },
+            { "id": "d", "texto": "No requieren sincronización" }
+        ],
+        "correcta": "a",
+        "explicacion": "Al gestionarse por una librería en el espacio del usuario sin molestar al kernel, su creación y cambio de contexto es extremadamente veloz."
+    },
+    {
+        "id": 75,
+        "pregunta": "¿Qué inconveniente tienen los hilos de usuario?",
+        "opciones": [
+            { "id": "a", "texto": "Mayor consumo de CPU" },
+            { "id": "b", "texto": "Bloquean todo el proceso" },
+            { "id": "c", "texto": "No pueden comunicarse" },
+            { "id": "d", "texto": "No existen realmente" }
+        ],
+        "correcta": "b",
+        "explicacion": "Si un hilo de usuario hace una llamada al sistema que bloquea (como leer un archivo), el sistema operativo bloquea todo el proceso porque no distingue los hilos internos."
+    },
+    {
+        "id": 76,
+        "pregunta": "¿Qué modelo combina hilos de usuario y kernel?",
+        "opciones": [
+            { "id": "a", "texto": "Modelo 1 a 1" },
+            { "id": "b", "texto": "Modelo 1 a N" },
+            { "id": "c", "texto": "Modelo M a N" },
+            { "id": "d", "texto": "Modelo secuencial" }
+        ],
+        "correcta": "c",
+        "explicacion": "El modelo M a N (muchos a muchos) intenta sacar lo mejor de ambos mundos, mapeando varios hilos de usuario sobre un número menor o igual de hilos de kernel."
+    },
+    {
+        "id": 77,
+        "pregunta": "¿Qué método inicia la ejecución de un hilo en Java?",
+        "opciones": [
+            { "id": "a", "texto": "run()" },
+            { "id": "b", "texto": "execute()" },
+            { "id": "c", "texto": "start()" },
+            { "id": "d", "texto": "begin()" }
+        ],
+        "correcta": "c",
+        "explicacion": "El método start() es el que le dice a la Máquina Virtual de Java que cree un nuevo hilo de ejecución y luego llame al método run() dentro de ese nuevo contexto."
+    },
+    {
+        "id": 78,
+        "pregunta": "¿Qué ocurre si se llama directamente a run()?",
+        "opciones": [
+            { "id": "a", "texto": "Se crea un nuevo hilo" },
+            { "id": "b", "texto": "Se ejecuta en el hilo actual" },
+            { "id": "c", "texto": "Da error" },
+            { "id": "d", "texto": "Se bloquea el proceso" }
+        ],
+        "correcta": "b",
+        "explicacion": "Es un error común. Si llamas a run() directamente, el código se ejecuta como un método normal en el mismo hilo principal, sin paralelismo ninguno."
+    },
+    {
+        "id": 79,
+        "pregunta": "¿Qué método pausa temporalmente un hilo?",
+        "opciones": [
+            { "id": "a", "texto": "wait()" },
+            { "id": "b", "texto": "stop()" },
+            { "id": "c", "texto": "pause()" },
+            { "id": "d", "texto": "sleep()" }
+        ],
+        "correcta": "d",
+        "explicacion": "El método sleep(milisegundos) pone al hilo a dormir durante el tiempo especificado, liberando la CPU para otros procesos pero manteniendo el hilo vivo."
+    },
+    {
+        "id": 80,
+        "pregunta": "¿Qué excepción lanza sleep()?",
+        "opciones": [
+            { "id": "a", "texto": "RuntimeException" },
+            { "id": "b", "texto": "IOException" },
+            { "id": "c", "texto": "InterruptedException" },
+            { "id": "d", "texto": "ThreadException" }
+        ],
+        "correcta": "c",
+        "explicacion": "Como un hilo dormido puede ser despertado bruscamente por otro hilo, Java obliga a capturar la InterruptedException para manejar ese despertar inesperado."
+    },
+    {
+        "id": 81,
+        "pregunta": "¿Qué hace el método join()?",
+        "opciones": [
+            { "id": "a", "texto": "Finaliza un hilo" },
+            { "id": "b", "texto": "Une dos procesos" },
+            { "id": "c", "texto": "Espera a que termine otro hilo" },
+            { "id": "d", "texto": "Duplica un hilo" }
+        ],
+        "correcta": "c",
+        "explicacion": "El método join() se usa para que el hilo actual detenga su ejecución y espere a que el hilo sobre el que se llamó termine completamente su trabajo, asegurando así un orden lógico."
+    },
+    {
+        "id": 82,
+        "pregunta": "¿Qué ocurre si un hilo no es sincronizado correctamente?",
+        "opciones": [
+            { "id": "a", "texto": "Mejora el rendimiento" },
+            { "id": "b", "texto": "Puede producir errores impredecibles" },
+            { "id": "c", "texto": "Se ejecuta más rápido" },
+            { "id": "d", "texto": "No ocurre nada" }
+        ],
+        "correcta": "b",
+        "explicacion": "Si los hilos no se sincronizan bien, pueden acceder simultáneamente a recursos compartidos, modificando variables a la vez y provocando condiciones de carrera con datos corruptos."
+    },
+    {
+        "id": 83,
+        "pregunta": "¿Qué palabra clave se usa en Java para sincronizar métodos?",
+        "opciones": [
+            { "id": "a", "texto": "final" },
+            { "id": "b", "texto": "static" },
+            { "id": "c", "texto": "volatile" },
+            { "id": "d", "texto": "synchronized" }
+        ],
+        "correcta": "d",
+        "explicacion": "En Java, la palabra reservada 'synchronized' se aplica a métodos o bloques de código para asegurar que solo un hilo pueda ejecutarlos a la vez sobre un mismo objeto."
+    },
+    {
+        "id": 84,
+        "pregunta": "¿Qué garantiza synchronized en Java?",
+        "opciones": [
+            { "id": "a", "texto": "Ejecución paralela" },
+            { "id": "b", "texto": "Exclusión mutua" },
+            { "id": "c", "texto": "Mayor velocidad" },
+            { "id": "d", "texto": "Menor consumo de memoria" }
+        ],
+        "correcta": "b",
+        "explicacion": "Al usar synchronized, el lenguaje asegura la exclusión mutua, creando un bloqueo (lock) interno e invisible sobre el objeto para evitar que otro hilo interfiera."
+    },
+    {
+        "id": 85,
+        "pregunta": "¿Qué problema resuelve la sincronización?",
+        "opciones": [
+            { "id": "a", "texto": "Deadlock" },
+            { "id": "b", "texto": "Condición de carrera" },
+            { "id": "c", "texto": "Inanición" },
+            { "id": "d", "texto": "Interbloqueo circular" }
+        ],
+        "correcta": "b",
+        "explicacion": "La sincronización es la herramienta directa para evitar las condiciones de carrera, poniendo un orden estricto cuando varios hilos intentan tocar la misma sección crítica."
+    },
+    {
+        "id": 86,
+        "pregunta": "¿Qué es la inanición (starvation)?",
+        "opciones": [
+            { "id": "a", "texto": "Falta de memoria" },
+            { "id": "b", "texto": "Bloqueo mutuo" },
+            { "id": "c", "texto": "Un hilo nunca obtiene CPU" },
+            { "id": "d", "texto": "Ejecución infinita" }
+        ],
+        "correcta": "c",
+        "explicacion": "La inanición sucede cuando un hilo está totalmente listo para trabajar, pero el sistema nunca le asigna tiempo de procesador porque otros hilos se le cuelan constantemente."
+    },
+    {
+        "id": 87,
+        "pregunta": "¿Qué factor puede causar inanición?",
+        "opciones": [
+            { "id": "a", "texto": "Uso de prioridades" },
+            { "id": "b", "texto": "Falta de hilos" },
+            { "id": "c", "texto": "Poca memoria" },
+            { "id": "d", "texto": "Falta de CPU" }
+        ],
+        "correcta": "a",
+        "explicacion": "En sistemas que ordenan los procesos por prioridades, si siempre entran tareas muy urgentes, las tareas de baja prioridad se quedan estancadas sufriendo inanición."
+    },
+    {
+        "id": 88,
+        "pregunta": "¿Qué característica tienen los hilos daemon?",
+        "opciones": [
+            { "id": "a", "texto": "Mantienen viva la aplicación" },
+            { "id": "b", "texto": "Se ejecutan antes que otros" },
+            { "id": "c", "texto": "Finalizan cuando acaba el programa" },
+            { "id": "d", "texto": "No pueden sincronizarse" }
+        ],
+        "correcta": "c",
+        "explicacion": "Los hilos daemon no impiden que el programa termine. Si todos los hilos de usuario principales finalizan, la máquina virtual de Java mata de golpe a los hilos daemon y se cierra."
+    },
+    {
+        "id": 89,
+        "pregunta": "¿Qué uso típico tienen los hilos daemon?",
+        "opciones": [
+            { "id": "a", "texto": "Interfaces gráficas" },
+            { "id": "b", "texto": "Tareas en segundo plano" },
+            { "id": "c", "texto": "Cálculos críticos" },
+            { "id": "d", "texto": "Gestión de memoria" }
+        ],
+        "correcta": "b",
+        "explicacion": "Se utilizan para servicios de soporte en segundo plano, como el Garbage Collector que limpia la memoria, o servicios que simplemente monitorizan el estado de la aplicación."
+    },
+    {
+        "id": 90,
+        "pregunta": "¿Qué ventaja ofrece una correcta programación multihilo?",
+        "opciones": [
+            { "id": "a", "texto": "Menor complejidad" },
+            { "id": "b", "texto": "Mejor aprovechamiento de CPU" },
+            { "id": "c", "texto": "Eliminación de procesos" },
+            { "id": "d", "texto": "Reducción del código fuente" }
+        ],
+        "correcta": "b",
+        "explicacion": "Al dividir las tareas, la aplicación puede aprovechar los diferentes núcleos de los procesadores modernos para hacer más cosas simultáneamente, aumentando notablemente el rendimiento."
+    },
+    {
+        "id": 91,
+        "pregunta": "¿Qué se entiende por arquitectura cliente-servidor?",
+        "opciones": [
+            { "id": "a", "texto": "Un modelo donde clientes solicitan servicios a servidores" },
+            { "id": "b", "texto": "Un sistema sin roles definidos" },
+            { "id": "c", "texto": "Un modelo exclusivo de redes locales" },
+            { "id": "d", "texto": "Un sistema de ejecución secuencial" }
+        ],
+        "correcta": "a",
+        "explicacion": "Es el patrón clásico de las redes donde los roles están muy marcados: equipos clientes que piden información y equipos servidores centralizados que la procesan y sirven."
+    },
+    {
+        "id": 92,
+        "pregunta": "¿Qué función principal tiene un servidor?",
+        "opciones": [
+            { "id": "a", "texto": "Solicitar recursos" },
+            { "id": "b", "texto": "Proporcionar servicios a los clientes" },
+            { "id": "c", "texto": "Ejecutar interfaces gráficas" },
+            { "id": "d", "texto": "Almacenar código fuente" }
+        ],
+        "correcta": "b",
+        "explicacion": "Un servidor es un programa o dispositivo que se queda pasivamente escuchando en la red, preparado para procesar peticiones y enviar la respuesta adecuada a los clientes."
+    },
+    {
+        "id": 93,
+        "pregunta": "¿Qué característica define a un cliente?",
+        "opciones": [
+            { "id": "a", "texto": "Espera conexiones entrantes" },
+            { "id": "b", "texto": "Comparte recursos" },
+            { "id": "c", "texto": "Inicia la comunicación" },
+            { "id": "d", "texto": "Gestiona la red" }
+        ],
+        "correcta": "c",
+        "explicacion": "El cliente siempre toma la iniciativa. Es el componente que arranca la conversación de red contactando activamente con un servidor conocido."
+    },
+    {
+        "id": 94,
+        "pregunta": "¿Qué modelo organiza la comunicación en capas?",
+        "opciones": [
+            { "id": "a", "texto": "TCP/IP" },
+            { "id": "b", "texto": "Cliente-servidor" },
+            { "id": "c", "texto": "Peer to peer" },
+            { "id": "d", "texto": "OSI" }
+        ],
+        "correcta": "d",
+        "explicacion": "El modelo OSI (Open Systems Interconnection) es un marco de referencia teórico que organiza las funciones de la red en distintas capas apiladas para estandarizar las comunicaciones."
+    },
+    {
+        "id": 95,
+        "pregunta": "¿Cuántas capas tiene el modelo OSI?",
+        "opciones": [
+            { "id": "a", "texto": "5" },
+            { "id": "b", "texto": "6" },
+            { "id": "c", "texto": "7" },
+            { "id": "d", "texto": "8" }
+        ],
+        "correcta": "c",
+        "explicacion": "El modelo OSI se compone de 7 capas ordenadas: Física, Enlace de datos, Red, Transporte, Sesión, Presentación y Aplicación."
+    },
+    {
+        "id": 96,
+        "pregunta": "¿En qué capa OSI se encuentran los protocolos TCP y UDP?",
+        "opciones": [
+            { "id": "a", "texto": "Aplicación" },
+            { "id": "b", "texto": "Transporte" },
+            { "id": "c", "texto": "Red" },
+            { "id": "d", "texto": "Sesión" }
+        ],
+        "correcta": "b",
+        "explicacion": "Ambos residen en la Capa 4 (Transporte), cuya función es transferir los datos desde el origen hasta el destino con el nivel de fiabilidad requerido por la aplicación."
+    },
+    {
+        "id": 97,
+        "pregunta": "¿Qué función cumple la capa de red?",
+        "opciones": [
+            { "id": "a", "texto": "Control de errores" },
+            { "id": "b", "texto": "Enrutamiento de paquetes" },
+            { "id": "c", "texto": "Gestión de sesiones" },
+            { "id": "d", "texto": "Compresión de datos" }
+        ],
+        "correcta": "b",
+        "explicacion": "La Capa 3 (Red) se encarga de elegir el mejor camino físico o lógico (enrutamiento) para que los paquetes salten de un router a otro hasta su destino."
+    },
+    {
+        "id": 98,
+        "pregunta": "¿Qué protocolo se encarga del direccionamiento IP?",
+        "opciones": [
+            { "id": "a", "texto": "TCP" },
+            { "id": "b", "texto": "UDP" },
+            { "id": "c", "texto": "HTTP" },
+            { "id": "d", "texto": "IP" }
+        ],
+        "correcta": "d",
+        "explicacion": "El propio protocolo IP (Internet Protocol) es el responsable fundamental del direccionamiento lógico y el encaminamiento a través de las redes."
+    },
+    {
+        "id": 99,
+        "pregunta": "¿Qué identifica de forma única a un dispositivo en la red?",
+        "opciones": [
+            { "id": "a", "texto": "Puerto" },
+            { "id": "b", "texto": "Dirección MAC" },
+            { "id": "c", "texto": "Dirección IP" },
+            { "id": "d", "texto": "Protocolo" }
+        ],
+        "correcta": "c",
+        "explicacion": "La dirección IP funciona como la matrícula o el número de teléfono del equipo; a nivel de red, es lo que permite que el resto del mundo pueda enviarle datos de manera unívoca."
+    },
+    {
+        "id": 100,
+        "pregunta": "¿Qué tipo de dirección IP es 127.0.0.1?",
+        "opciones": [
+            { "id": "a", "texto": "Pública" },
+            { "id": "b", "texto": "Privada" },
+            { "id": "c", "texto": "Multicast" },
+            { "id": "d", "texto": "Loopback" }
+        ],
+        "correcta": "d",
+        "explicacion": "La dirección 127.0.0.1 se conoce como localhost o loopback. Sirve para que tu ordenador pueda enviarse datos de red a sí mismo sin necesidad de salir físicamente a Internet."
+    },
+    {
+        "id": 101,
+        "pregunta": "¿Qué protocolo se utiliza para resolver direcciones IP a MAC?",
+        "opciones": [
+            { "id": "a", "texto": "DNS" },
+            { "id": "b", "texto": "ARP" },
+            { "id": "c", "texto": "DHCP" },
+            { "id": "d", "texto": "ICMP" }
+        ],
+        "correcta": "b",
+        "explicacion": "El protocolo ARP (Address Resolution Protocol) es el traductor encargado de convertir una dirección IP lógica en la dirección física (MAC) de la tarjeta de red del dispositivo."
+    },
+    {
+        "id": 102,
+        "pregunta": "¿Qué función tiene DNS?",
+        "opciones": [
+            { "id": "a", "texto": "Asignar direcciones IP" },
+            { "id": "b", "texto": "Traducir nombres de dominio a IP" },
+            { "id": "c", "texto": "Encriptar comunicaciones" },
+            { "id": "d", "texto": "Controlar puertos" }
+        ],
+        "correcta": "b",
+        "explicacion": "El DNS (Domain Name System) funciona como la agenda de contactos de Internet: traduce nombres legibles para humanos (como google.com) a las direcciones IP numéricas que usan las máquinas."
+    },
+    {
+        "id": 103,
+        "pregunta": "¿Qué protocolo asigna IPs dinámicamente?",
+        "opciones": [
+            { "id": "a", "texto": "DNS" },
+            { "id": "b", "texto": "FTP" },
+            { "id": "c", "texto": "DHCP" },
+            { "id": "d", "texto": "HTTP" }
+        ],
+        "correcta": "c",
+        "explicacion": "El DHCP (Dynamic Host Configuration Protocol) reparte automáticamente las direcciones IP y otra configuración de red a los dispositivos en cuanto se conectan, para que no tengas que configurarlos a mano."
+    },
+    {
+        "id": 104,
+        "pregunta": "¿Qué tipo de comunicación establece TCP?",
+        "opciones": [
+            { "id": "a", "texto": "No orientada a conexión" },
+            { "id": "b", "texto": "No fiable" },
+            { "id": "c", "texto": "Orientada a conexión" },
+            { "id": "d", "texto": "Broadcast" }
+        ],
+        "correcta": "c",
+        "explicacion": "TCP es un protocolo orientado a conexión porque primero realiza un 'saludo' (three-way handshake) para establecer un canal seguro entre emisor y receptor antes de mandar ningún dato."
+    },
+    {
+        "id": 105,
+        "pregunta": "¿Qué ventaja principal ofrece TCP?",
+        "opciones": [
+            { "id": "a", "texto": "Mayor velocidad" },
+            { "id": "b", "texto": "Comunicación fiable" },
+            { "id": "c", "texto": "Menor consumo" },
+            { "id": "d", "texto": "Uso sin puertos" }
+        ],
+        "correcta": "b",
+        "explicacion": "TCP asegura que los datos lleguen completos, en el orden correcto y sin errores, retransmitiendo cualquier paquete que se pierda por el camino (fiabilidad)."
+    },
+    {
+        "id": 106,
+        "pregunta": "¿Qué característica define a UDP?",
+        "opciones": [
+            { "id": "a", "texto": "Orientado a conexión" },
+            { "id": "b", "texto": "Fiable" },
+            { "id": "c", "texto": "Control de errores" },
+            { "id": "d", "texto": "No orientado a conexión" }
+        ],
+        "correcta": "d",
+        "explicacion": "Al contrario que TCP, UDP simplemente dispara los paquetes de datos (datagramas) hacia el destino sin comprobar si el receptor está listo o si el paquete llegó bien."
+    },
+    {
+        "id": 107,
+        "pregunta": "¿Qué protocolo se usa comúnmente para streaming?",
+        "opciones": [
+            { "id": "a", "texto": "TCP" },
+            { "id": "b", "texto": "HTTP" },
+            { "id": "c", "texto": "UDP" },
+            { "id": "d", "texto": "FTP" }
+        ],
+        "correcta": "c",
+        "explicacion": "En el vídeo o audio en directo (streaming), es preferible que se pierda un pequeño fotograma (usando UDP) a que la emisión se detenga por completo esperando a que se retransmita un paquete perdido."
+    },
+    {
+        "id": 108,
+        "pregunta": "¿Qué identifica un puerto en una comunicación?",
+        "opciones": [
+            { "id": "a", "texto": "El dispositivo" },
+            { "id": "b", "texto": "La aplicación" },
+            { "id": "c", "texto": "El protocolo" },
+            { "id": "d", "texto": "El dominio" }
+        ],
+        "correcta": "b",
+        "explicacion": "Mientras que la IP sirve para encontrar el ordenador en la red, el puerto numérico sirve para que el sistema operativo sepa a qué programa o aplicación específica debe entregarle los datos."
+    },
+    {
+        "id": 109,
+        "pregunta": "¿Qué puerto utiliza HTTP por defecto?",
+        "opciones": [
+            { "id": "a", "texto": "80" },
+            { "id": "b", "texto": "21" },
+            { "id": "c", "texto": "22" },
+            { "id": "d", "texto": "443" }
+        ],
+        "correcta": "a",
+        "explicacion": "Históricamente y por estándar, el tráfico web no cifrado (HTTP) viaja siempre apuntando al puerto 80 del servidor web."
+    },
+    {
+        "id": 110,
+        "pregunta": "¿Qué puerto se asocia a HTTPS?",
+        "opciones": [
+            { "id": "a", "texto": "25" },
+            { "id": "b", "texto": "110" },
+            { "id": "c", "texto": "80" },
+            { "id": "d", "texto": "443" }
+        ],
+        "correcta": "d",
+        "explicacion": "El tráfico web seguro y cifrado con SSL/TLS (HTTPS) escucha por defecto en el puerto 443 del servidor."
+    },
+    {
+        "id": 111,
+        "pregunta": "¿Qué es un socket?",
+        "opciones": [
+            { "id": "a", "texto": "Un protocolo" },
+            { "id": "b", "texto": "Una dirección IP" },
+            { "id": "c", "texto": "Un punto de comunicación" },
+            { "id": "d", "texto": "Un puerto físico" }
+        ],
+        "correcta": "c",
+        "explicacion": "Un socket es una abstracción de software, como un enchufe o punto final, a través del cual una aplicación puede enviar y recibir datos por la red."
+    },
+    {
+        "id": 112,
+        "pregunta": "¿Qué información define un socket TCP?",
+        "opciones": [
+            { "id": "a", "texto": "IP origen" },
+            { "id": "b", "texto": "Puerto destino" },
+            { "id": "c", "texto": "IP y puerto" },
+            { "id": "d", "texto": "Solo el puerto" }
+        ],
+        "correcta": "c",
+        "explicacion": "Para que un socket TCP pueda establecer la comunicación correctamente necesita el par completo: la dirección IP (para ubicar la máquina) y el puerto (para ubicar el proceso)."
+    },
+    {
+        "id": 113,
+        "pregunta": "¿Qué método crea un socket servidor en Java?",
+        "opciones": [
+            { "id": "a", "texto": "new Socket()" },
+            { "id": "b", "texto": "openSocket()" },
+            { "id": "c", "texto": "createSocket()" },
+            { "id": "d", "texto": "new ServerSocket()" }
+        ],
+        "correcta": "d",
+        "explicacion": "En el lenguaje Java, la clase 'ServerSocket' es la que se instancia para dejar a la aplicación escuchando conexiones entrantes en un puerto concreto."
+    },
+    {
+        "id": 114,
+        "pregunta": "¿Qué hace el método accept()?",
+        "opciones": [
+            { "id": "a", "texto": "Cierra la conexión" },
+            { "id": "b", "texto": "Envía datos" },
+            { "id": "c", "texto": "Espera conexiones entrantes" },
+            { "id": "d", "texto": "Libera el puerto" }
+        ],
+        "correcta": "c",
+        "explicacion": "El método accept() bloquea la ejecución del hilo de forma pasiva, quedándose en pausa permanente hasta que un cliente externo llame a su puerta e intente conectarse."
+    },
+    {
+        "id": 115,
+        "pregunta": "¿Qué ocurre cuando un servidor acepta un cliente?",
+        "opciones": [
+            { "id": "a", "texto": "Se cierra el socket" },
+            { "id": "b", "texto": "Se crea un nuevo hilo o socket" },
+            { "id": "c", "texto": "Se detiene el servidor" },
+            { "id": "d", "texto": "Se pierde la conexión" }
+        ],
+        "correcta": "b",
+        "explicacion": "Al usar accept(), el servidor original se quita de en medio generando un nuevo socket dedicado exclusivamente para ese cliente, y así puede volver rápidamente a escuchar a nuevos usuarios."
+    },
+    {
+        "id": 116,
+        "pregunta": "¿Qué tipo de servidor atiende múltiples clientes simultáneamente?",
+        "opciones": [
+            { "id": "a", "texto": "Secuencial" },
+            { "id": "b", "texto": "Bloqueante" },
+            { "id": "c", "texto": "Concurrente" },
+            { "id": "d", "texto": "Monohilo" }
+        ],
+        "correcta": "c",
+        "explicacion": "Un servidor concurrente es aquel diseñado para procesar y responder a varios clientes a la vez, en lugar de ponerlos a esperar a que termine con el cliente anterior."
+    },
+    {
+        "id": 117,
+        "pregunta": "¿Qué técnica permite concurrencia en servidores?",
+        "opciones": [
+            { "id": "a", "texto": "Herencia" },
+            { "id": "b", "texto": "Polimorfismo" },
+            { "id": "c", "texto": "Multihilo" },
+            { "id": "d", "texto": "Encapsulación" }
+        ],
+        "correcta": "c",
+        "explicacion": "Crear hilos (multihilo) es la forma más habitual en lenguajes como Java para lograr concurrencia: se arranca un hilo nuevo e independiente por cada cliente que se conecta."
+    },
+    {
+        "id": 118,
+        "pregunta": "¿Qué problema puede surgir en servidores concurrentes?",
+        "opciones": [
+            { "id": "a", "texto": "Errores de compilación" },
+            { "id": "b", "texto": "Condiciones de carrera" },
+            { "id": "c", "texto": "Falta de protocolos" },
+            { "id": "d", "texto": "Baja latencia" }
+        ],
+        "correcta": "b",
+        "explicacion": "Si varios clientes simultáneos intentan acceder y modificar al mismo tiempo un recurso compartido (como un archivo o variable global del servidor), se generará una condición de carrera con datos corruptos."
+    },
+    {
+        "id": 119,
+        "pregunta": "¿Qué mecanismo ayuda a evitar errores de concurrencia en servidores?",
+        "opciones": [
+            { "id": "a", "texto": "Interfaces" },
+            { "id": "b", "texto": "Variables locales" },
+            { "id": "c", "texto": "Sincronización" },
+            { "id": "d", "texto": "Compilación anticipada" }
+        ],
+        "correcta": "c",
+        "explicacion": "Al igual que con los hilos a nivel de proceso, implementar bloqueos mediante sincronización o semáforos previene que los clientes choquen entre ellos."
+    },
+    {
+        "id": 120,
+        "pregunta": "¿Qué ventaja tiene el modelo cliente-servidor frente a peer to peer?",
+        "opciones": [
+            { "id": "a", "texto": "Mayor control y centralización" },
+            { "id": "b", "texto": "Menor coste" },
+            { "id": "c", "texto": "Menor complejidad" },
+            { "id": "d", "texto": "Eliminación del servidor" }
+        ],
+        "correcta": "a",
+        "explicacion": "Al estar la lógica de negocio y los datos alojados en un servidor central, es muchísimo más fácil de actualizar, administrar y asegurar que en una red donde todo el mundo es cliente y servidor a la vez (P2P)."
+    },
+    {
+        "id": 121,
+        "pregunta": "¿Qué es un servicio de red?",
+        "opciones": [
+            { "id": "a", "texto": "Un programa que ofrece funcionalidades a través de la red" },
+            { "id": "b", "texto": "Un dispositivo de red" },
+            { "id": "c", "texto": "Un protocolo de bajo nivel" },
+            { "id": "d", "texto": "Un tipo de hardware" }
+        ],
+        "correcta": "a",
+        "explicacion": "Es una aplicación ejecutándose en un equipo que proporciona alguna utilidad o recurso (como servir webs, enviar emails o alojar archivos) para que otros lo consuman vía red."
+    },
+    {
+        "id": 122,
+        "pregunta": "¿Qué protocolo se utiliza para transferir páginas web?",
+        "opciones": [
+            { "id": "a", "texto": "FTP" },
+            { "id": "b", "texto": "SMTP" },
+            { "id": "c", "texto": "HTTP" },
+            { "id": "d", "texto": "DNS" }
+        ],
+        "correcta": "c",
+        "explicacion": "HTTP (Hypertext Transfer Protocol) es la piedra angular de la World Wide Web y su función es el intercambio de documentos de hipertexto como páginas HTML."
+    },
+    {
+        "id": 123,
+        "pregunta": "¿Qué característica define a HTTP?",
+        "opciones": [
+            { "id": "a", "texto": "Orientado a conexión" },
+            { "id": "b", "texto": "Sin estado (stateless)" },
+            { "id": "c", "texto": "Fiable a nivel de transporte" },
+            { "id": "d", "texto": "Cifrado por defecto" }
+        ],
+        "correcta": "b",
+        "explicacion": "Por diseño, el servidor HTTP olvida al cliente en cuanto le envía la respuesta. No guarda estado ni memoria de peticiones anteriores (por eso se inventaron las cookies y sesiones)."
+    },
+    {
+        "id": 124,
+        "pregunta": "¿Qué método HTTP se utiliza para solicitar un recurso?",
+        "opciones": [
+            { "id": "a", "texto": "GET" },
+            { "id": "b", "texto": "POST" },
+            { "id": "c", "texto": "PUT" },
+            { "id": "d", "texto": "DELETE" }
+        ],
+        "correcta": "a",
+        "explicacion": "El método GET es el verbo estándar para indicar que solo quieres leer u obtener información del servidor, sin enviarle ningún dato pesado ni modificar el recurso."
+    },
+    {
+        "id": 125,
+        "pregunta": "¿Qué método HTTP se usa para enviar datos al servidor?",
+        "opciones": [
+            { "id": "a", "texto": "GET" },
+            { "id": "b", "texto": "HEAD" },
+            { "id": "c", "texto": "POST" },
+            { "id": "d", "texto": "OPTIONS" }
+        ],
+        "correcta": "c",
+        "explicacion": "El método POST está pensado específicamente para encapsular datos (como rellenar un formulario o subir un archivo) y enviarlos hacia el servidor para que los procese."
+    },
+    {
+        "id": 126,
+        "pregunta": "¿Qué código HTTP indica que la petición fue correcta?",
+        "opciones": [
+            { "id": "a", "texto": "404" },
+            { "id": "b", "texto": "500" },
+            { "id": "c", "texto": "301" },
+            { "id": "d", "texto": "200" }
+        ],
+        "correcta": "d",
+        "explicacion": "El código 200 OK es la respuesta estándar que indica que la solicitud del cliente se ha procesado con éxito."
+    },
+    {
+        "id": 127,
+        "pregunta": "¿Qué código HTTP indica recurso no encontrado?",
+        "opciones": [
+            { "id": "a", "texto": "403" },
+            { "id": "b", "texto": "404" },
+            { "id": "c", "texto": "401" },
+            { "id": "d", "texto": "500" }
+        ],
+        "correcta": "b",
+        "explicacion": "El famoso código 404 Not Found aparece cuando el servidor no puede encontrar la página o el archivo solicitado por el cliente"
+    },
+    {
+        "id": 128,
+        "pregunta": "¿Qué protocolo permite la transferencia de archivos?",
+        "opciones": [
+            { "id": "a", "texto": "SMTP" },
+            { "id": "b", "texto": "FTP" },
+            { "id": "c", "texto": "HTTP" },
+            { "id": "d", "texto": "SNMP" }
+        ],
+        "correcta": "b",
+        "explicacion": "FTP (File Transfer Protocol) es el estándar histórico de red utilizado específicamente para subir o descargar archivos entre un cliente y un servidor."
+    },
+    {
+        "id": 129,
+        "pregunta": "¿Qué puerto utiliza FTP para la conexión de control?",
+        "opciones": [
+            { "id": "a", "texto": "20" },
+            { "id": "b", "texto": "22" },
+            { "id": "c", "texto": "21" },
+            { "id": "d", "texto": "25" }
+        ],
+        "correcta": "c",
+        "explicacion": "En FTP, la comunicación se divide en dos: el puerto 20 se usa para transferir los datos y el puerto 21 para enviar los comandos de control."
+    },
+    {
+        "id": 130,
+        "pregunta": "¿Qué diferencia principal existe entre FTP activo y pasivo?",
+        "opciones": [
+            { "id": "a", "texto": "El cifrado" },
+            { "id": "b", "texto": "El uso de TCP" },
+            { "id": "c", "texto": "Quién inicia la conexión de datos" },
+            { "id": "d", "texto": "El puerto de control" }
+        ],
+        "correcta": "c",
+        "explicacion": "En el modo activo, el servidor inicia la conexión de vuelta hacia el cliente para pasar datos; en el pasivo, es el cliente quien inicia ambas conexiones, lo cual evita problemas con los firewalls."
+    },
+    {
+        "id": 131,
+        "pregunta": "¿Qué protocolo se utiliza para el envío de correo electrónico?",
+        "opciones": [
+            { "id": "a", "texto": "POP3" },
+            { "id": "b", "texto": "IMAP" },
+            { "id": "c", "texto": "SMTP" },
+            { "id": "d", "texto": "HTTP" }
+        ],
+        "correcta": "c",
+        "explicacion": "SMTP (Simple Mail Transfer Protocol) es el protocolo de salida, dedicado exclusivamente a enviar y enrutar los mensajes de correo por la red."
+    },
+    {
+        "id": 132,
+        "pregunta": "¿Qué puerto utiliza SMTP por defecto?",
+        "opciones": [
+            { "id": "a", "texto": "25" },
+            { "id": "b", "texto": "110" },
+            { "id": "c", "texto": "143" },
+            { "id": "d", "texto": "443" }
+        ],
+        "correcta": "a",
+        "explicacion": "El tráfico original de correo SMTP sin cifrar viaja por el puerto 25, aunque hoy en día se suelen usar puertos seguros como el 465 o el 587."
+    },
+    {
+        "id": 133,
+        "pregunta": "¿Qué protocolo permite recuperar correos descargándolos al cliente?",
+        "opciones": [
+            { "id": "a", "texto": "SMTP" },
+            { "id": "b", "texto": "IMAP" },
+            { "id": "c", "texto": "HTTP" },
+            { "id": "d", "texto": "POP3" }
+        ],
+        "correcta": "d",
+        "explicacion": "POP3 se conecta al servidor, descarga todos los mensajes a tu disco duro local y, por defecto, los elimina del servidor de origen."
+    },
+    {
+        "id": 134,
+        "pregunta": "¿Qué ventaja ofrece IMAP frente a POP3?",
+        "opciones": [
+            { "id": "a", "texto": "Descarga más rápida" },
+            { "id": "b", "texto": "Permite trabajar con correos en el servidor" },
+            { "id": "c", "texto": "Usa menos memoria" },
+            { "id": "d", "texto": "No requiere autenticación" }
+        ],
+        "correcta": "b",
+        "explicacion": "IMAP sincroniza tus dispositivos con el servidor, permitiéndote leer y organizar carpetas sin tener que descargar y borrar los correos permanentemente."
+    },
+    {
+        "id": 135,
+        "pregunta": "¿Qué protocolo se utiliza para resolución de nombres?",
+        "opciones": [
+            { "id": "a", "texto": "DHCP" },
+            { "id": "b", "texto": "FTP" },
+            { "id": "c", "texto": "DNS" },
+            { "id": "d", "texto": "SNMP" }
+        ],
+        "correcta": "c",
+        "explicacion": "El sistema DNS es vital para no tener que memorizar IPs numéricas, encargándose de resolver y traducir nombres de dominio en direcciones de red."
+    },
+    {
+        "id": 136,
+        "pregunta": "¿Qué puerto utiliza DNS normalmente?",
+        "opciones": [
+            { "id": "a", "texto": "80" },
+            { "id": "b", "texto": "53" },
+            { "id": "c", "texto": "21" },
+            { "id": "d", "texto": "443" }
+        ],
+        "correcta": "b",
+        "explicacion": "Las peticiones para resolver nombres de dominio operan estándar a través del puerto 53."
+    },
+    {
+        "id": 137,
+        "pregunta": "¿Qué tipo de servidor traduce nombres de dominio a direcciones IP?",
+        "opciones": [
+            { "id": "a", "texto": "Servidor web" },
+            { "id": "b", "texto": "Servidor FTP" },
+            { "id": "c", "texto": "Servidor DNS" },
+            { "id": "d", "texto": "Servidor proxy" }
+        ],
+        "correcta": "c",
+        "explicacion": "Los servidores DNS actúan como un directorio distribuido globalmente que recibe el nombre de la web y te devuelve la IP a la que debes conectarte."
+    },
+    {
+        "id": 138,
+        "pregunta": "¿Qué es un servidor web?",
+        "opciones": [
+            { "id": "a", "texto": "Un programa que envía páginas a los clientes" },
+            { "id": "b", "texto": "Un cliente HTTP" },
+            { "id": "c", "texto": "Un servicio de correo" },
+            { "id": "d", "texto": "Un router" }
+        ],
+        "correcta": "a",
+        "explicacion": "Un servidor web es un programa permanentemente en ejecución que atiende las solicitudes HTTP de los navegadores y les envía las páginas y archivos correspondientes."
+    },
+    {
+        "id": 139,
+        "pregunta": "¿Qué servidor web es ampliamente utilizado y de código abierto?",
+        "opciones": [
+            { "id": "a", "texto": "IIS" },
+            { "id": "b", "texto": "Nginx" },
+            { "id": "c", "texto": "Apache" },
+            { "id": "d", "texto": "Tomcat" }
+        ],
+        "correcta": "c",
+        "explicacion": "Apache es históricamente uno de los servidores web de código abierto más populares y estables del mercado."
+    },
+    {
+        "id": 140,
+        "pregunta": "¿Qué significa que un servidor sea concurrente?",
+        "opciones": [
+            { "id": "a", "texto": "Atiende un cliente cada vez" },
+            { "id": "b", "texto": "Usa un solo hilo" },
+            { "id": "c", "texto": "Atiende varios clientes simultáneamente" },
+            { "id": "d", "texto": "No usa red" }
+        ],
+        "correcta": "c",
+        "explicacion": "La concurrencia permite al servidor procesar las peticiones de muchos clientes en paralelo, en lugar de ponerlos a hacer cola."
+    },
+    {
+        "id": 141,
+        "pregunta": "¿Qué técnica se usa comúnmente para implementar concurrencia en servidores?",
+        "opciones": [
+            { "id": "a", "texto": "Herencia" },
+            { "id": "b", "texto": "Polimorfismo" },
+            { "id": "c", "texto": "Multihilo" },
+            { "id": "d", "texto": "Recursividad" }
+        ],
+        "correcta": "c",
+        "explicacion": "El multihilo o multithreading es la técnica estándar en lenguajes como Java para crear un nuevo flujo de ejecución independiente por cada cliente conectado."
+    },
+    {
+        "id": 142,
+        "pregunta": "¿Qué problema puede surgir si no se controla la concurrencia en un servidor?",
+        "opciones": [
+            { "id": "a", "texto": "Bajo consumo de CPU" },
+            { "id": "b", "texto": "Condiciones de carrera" },
+            { "id": "c", "texto": "Mejor rendimiento" },
+            { "id": "d", "texto": "Mayor seguridad" }
+        ],
+        "correcta": "b",
+        "explicacion": "Sin bloqueos o sincronización, varios hilos podrían sobreescribir datos compartidos a la vez, causando condiciones de carrera e inconsistencias graves."
+    },
+    {
+        "id": 143,
+        "pregunta": "¿Qué papel tiene un servidor proxy?",
+        "opciones": [
+            { "id": "a", "texto": "Almacenar bases de datos" },
+            { "id": "b", "texto": "Intermediar entre cliente y servidor" },
+            { "id": "c", "texto": "Cifrar mensajes" },
+            { "id": "d", "texto": "Resolver nombres" }
+        ],
+        "correcta": "b",
+        "explicacion": "El proxy actúa como intermediario o puente, realizando las peticiones web en nombre del cliente para filtrar contenidos u ocultar la identidad."
+    },
+    {
+        "id": 144,
+        "pregunta": "¿Qué ventaja puede ofrecer un proxy?",
+        "opciones": [
+            { "id": "a", "texto": "Mayor latencia" },
+            { "id": "b", "texto": "Reducción de tráfico" },
+            { "id": "c", "texto": "Eliminación de servidores" },
+            { "id": "d", "texto": "Aumento de errores" }
+        ],
+        "correcta": "b",
+        "explicacion": "Al cachear temporalmente las webs más visitadas, el proxy puede enviarlas directamente a los clientes de la red local, reduciendo el consumo de tráfico hacia Internet."
+    },
+    {
+        "id": 145,
+        "pregunta": "¿Qué es un servicio REST?",
+        "opciones": [
+            { "id": "a", "texto": "Un protocolo de transporte" },
+            { "id": "b", "texto": "Un estilo arquitectónico" },
+            { "id": "c", "texto": "Un servidor web" },
+            { "id": "d", "texto": "Un lenguaje" }
+        ],
+        "correcta": "b",
+        "explicacion": "REST es un conjunto de principios arquitectónicos que definen cómo deben diseñarse los servicios web para que sean escalables y eficientes."
+    },
+    {
+        "id": 146,
+        "pregunta": "¿Qué formato se usa habitualmente en servicios REST?",
+        "opciones": [
+            { "id": "a", "texto": "XML exclusivamente" },
+            { "id": "b", "texto": "HTML" },
+            { "id": "c", "texto": "JSON" },
+            { "id": "d", "texto": "TXT" }
+        ],
+        "correcta": "c",
+        "explicacion": "JSON es el formato predilecto por su ligereza y facilidad para ser procesado directamente tanto por clientes como por servidores."
+    },
+    {
+        "id": 147,
+        "pregunta": "¿Qué método HTTP se usa habitualmente para APIs REST?",
+        "opciones": [
+            { "id": "a", "texto": "GET" },
+            { "id": "b", "texto": "POST" },
+            { "id": "c", "texto": "PUT" },
+            { "id": "d", "texto": "Todos los anteriores" }
+        ],
+        "correcta": "d",
+        "explicacion": "Una API REST bien diseñada mapea las operaciones de base de datos usando todos los verbos HTTP: GET para leer, POST para crear, PUT para modificar y DELETE para borrar."
+    },
+    {
+        "id": 148,
+        "pregunta": "¿Qué ventaja tienen los servicios REST?",
+        "opciones": [
+            { "id": "a", "texto": "Son dependientes del lenguaje" },
+            { "id": "b", "texto": "Son simples y escalables" },
+            { "id": "c", "texto": "Requieren estado" },
+            { "id": "d", "texto": "Solo funcionan con HTTP" }
+        ],
+        "correcta": "b",
+        "explicacion": "Su naturaleza sin estado (stateless) permite que sean muy simples de desarrollar y extremadamente fáciles de escalar en entornos de nube"
+    },
+    {
+        "id": 149,
+        "pregunta": "¿Qué problema se evita usando HTTPS en servicios web?",
+        "opciones": [
+            { "id": "a", "texto": "Latencia" },
+            { "id": "b", "texto": "Interceptación de datos" },
+            { "id": "c", "texto": "Errores de servidor" },
+            { "id": "d", "texto": "Caídas del sistema" }
+        ],
+        "correcta": "b",
+        "explicacion": "El uso de HTTPS blinda las comunicaciones del servicio REST, impidiendo que terceros puedan espiar y robar los datos en tránsito"
+    },
+    {
+        "id": 150,
+        "pregunta": "¿Qué objetivo principal tienen los servicios de red en aplicaciones?",
+        "opciones": [
+            { "id": "a", "texto": "Decorar interfaces" },
+            { "id": "b", "texto": "Facilitar la comunicación entre sistemas" },
+            { "id": "c", "texto": "Sustituir bases de datos" },
+            { "id": "d", "texto": "Eliminar protocolos" }
+        ],
+        "correcta": "b",
+        "explicacion": "El propósito final es permitir que aplicaciones escritas en diferentes lenguajes y alojadas en distintos servidores puedan intercambiar información y trabajar juntas de forma transparente."
+    }
+]
