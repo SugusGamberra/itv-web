@@ -37,7 +37,8 @@ const DB_APUNTES: Record<string, {titulo: string; url: string; tipo: string }[]>
     ],
     'jesubuntu': [
         {titulo: 'Los 10 mandamientos de la terminal', url: 'https://docs.google.com/document/d/1Jx2x2Y_U6XJj03okQoZHY_KetQki-9TZGJ6uHh8s1DI/edit?usp=sharing', tipo: 'Piedras sagradas talladas por Jesubuntu'},
-        {titulo: 'Grimorio de Oraciones Bash', url: 'https://github.com/SugusGamberra/AprendiendoBash', tipo: 'Sagrada Jesubiblia'}
+        {titulo: 'Grimorio de Oraciones Bash', url: 'https://github.com/SugusGamberra/AprendiendoBash', tipo: 'Grimorio de hechizos y conjuros para invocar el poder de la terminal'},
+        {titulo: 'Jesubiblia de Python', url: 'https://github.com/SugusGamberra/JesubibliaDePython', tipo: 'Sagrada Jesubiblia'}
     ],
     'empleabilidad': [
         {titulo: 'Apuntes completos hechos por Lidia 🩵', url: 'https://docs.google.com/document/d/1k_VEeWawkLGrhd2iyBojyq7VzoRv4xd-S-wSy4G6Y9c/edit?usp=sharing', tipo: 'Google Docs'}
