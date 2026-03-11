@@ -3,11 +3,15 @@ import ArtCard from '../ui/components/ArtCard';
 import PageLayout from '../ui/layout/PageLayout';
 
 import imgC1 from '../assets/images/c1.jpg';
+import imgF1 from '../assets/images/f1.jpg';
 
 export default function Grado() {
     const { gradoID } = useParams();
     // poner mas años cuando eso
-    const years = [{ id: '2026', title: 'Curso 2025/2026', subtitle: 'Año Actual' }];
+    const years = [
+        { id: '2026', title: 'Curso 2025/2026', subtitle: 'Año Actual', imagen: imgC1 },
+        { id: '2025', title: 'Curso 2024/2025', subtitle: 'Año Anterior', imagen: imgF1}
+    ];
 
     const getTitulo = () => {
         if (gradoID === '1dam') return '1º DAM/DAW';
@@ -33,7 +37,7 @@ export default function Grado() {
                         title={year.title} 
                         subtitle={year.subtitle}
                         to={`/${gradoID}/${year.id}`} 
-                        image={imgC1}
+                        image={year.imagen}
                     />
                 ))}
             </div>

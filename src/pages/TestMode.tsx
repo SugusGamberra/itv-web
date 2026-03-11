@@ -152,6 +152,23 @@ export default function TestMode() {
                     {preguntaActual.pregunta}
                 </h2>
 
+                {/* Imágenes de la pregunta */}
+                {preguntaActual.imagen && (
+                    <div className="mb-12 flex flex-col md:flex-row flex-wrap gap-6 justify-center items-center relative z-10">
+                        {Array.isArray(preguntaActual.imagen) ? (
+                            preguntaActual.imagen.map((imgRuta, idx) => (
+                                <img key={idx} src={imgRuta} alt={`Pregunta ${idx}`} className="max-w-full max-h-72 object-contain rounded-xl border border-white/10 shadow-lg bg-white/5 p-2" />
+                            ))
+                        ) : typeof preguntaActual.imagen === 'string' && preguntaActual.imagen.includes(',') ? (
+                            preguntaActual.imagen.split(',').map((imgRuta, idx) => (
+                                <img key={idx} src={imgRuta.trim()} alt={`Pregunta ${idx}`} className="max-w-full max-h-72 object-contain rounded-xl border border-white/10 shadow-lg bg-white/5 p-2" />
+                            ))
+                        ) : (
+                            <img src={preguntaActual.imagen as string} alt="Pregunta" className="max-w-full max-h-72 object-contain rounded-xl border border-white/10 shadow-lg bg-white/5 p-2" />
+                        )}
+                    </div>
+                )}
+
                 {/* Opciones */}
                 <div className="grid gap-4 relative z-10">
                     {preguntaActual.opciones.map((opcion) => {

@@ -1,0 +1,1102 @@
+[
+    {
+        "id": 1,
+        "pregunta": "En la UC, se encuentra el DI o Decodificador de Instrucciones, cuya función es:",
+        "opciones": [
+            { "id": "a", "texto": "Extrae y analiza el código de la operación de la instrucción contenida en el RDM y genera las señales de control necesarias." },
+            { "id": "b", "texto": "Extrae y analiza la operación de la instrucción contenida en el RI y genera las señales de control necesarias." },
+            { "id": "c", "texto": "Extrae y analiza la operación de la instrucción contenida en el RDM y genera las señales de control necesarias." },
+            { "id": "d", "texto": "Extrae y analiza el código de la operación de la instrucción contenida en el RI y genera las señales de control necesarias." }
+        ],
+        "correcta": "d",
+        "explicacion": "El Decodificador de Instrucciones (DI) toma la instrucción que acaba de llegar al Registro de Instrucción (RI), la analiza y le dice a la Unidad de Control qué operaciones tiene que ejecutar el procesador."
+    },
+    {
+        "id": 2,
+        "pregunta": "La memoria cache se utiliza para:",
+        "opciones": [
+            { "id": "a", "texto": "Guardar la información del disco duro más utilizada. Se incrementa la velocidad de adquisición de datos. Existen los tipos L1, L2 y L3." },
+            { "id": "b", "texto": "Guardar la información de la memoria principal más utilizada. Se decrementa la velocidad de adquisición de datos. Existen los tipos L1, L2 y L3." },
+            { "id": "c", "texto": "Guardar la información de la memoria principal más utilizada. Se incrementa la velocidad de adquisición de datos. Existen los tipos L1 y L2 y L3." },
+            { "id": "d", "texto": "Guardar la información de la memoria principal más utilizada. Se incrementa la velocidad de adquisición de datos. Existen los tipos L1 y L2." }
+        ],
+        "correcta": "c",
+        "explicacion": "La caché es una memoria súper rápida que guarda copias de los datos de la RAM (memoria principal) que el procesador usa con más frecuencia para no tener que ir a buscarlos tan lejos."
+    },
+    {
+        "id": 3,
+        "pregunta": "Según se baja en la pirámide de memoria:",
+        "opciones": [
+            { "id": "a", "texto": "Capacidad de almacenamiento aumenta" },
+            { "id": "b", "texto": "Capacidad de almacenamiento disminuye" },
+            { "id": "c", "texto": "Tiempo de acceso disminuye" },
+            { "id": "d", "texto": "Coste por bit aumenta" }
+        ],
+        "correcta": "a",
+        "explicacion": "Al bajar en la jerarquía de memoria (desde los registros de la CPU hacia el disco duro), ganamos mucha más capacidad de almacenamiento, pero a costa de que sea más lenta (aumenta el tiempo de acceso) y más barata."
+    },
+    {
+        "id": 4,
+        "pregunta": "En la imagen, de la A, a la E, son:",
+        "imagen": "/images/preguntas-sistemas/12.png",
+        "opciones": [
+            { "id": "a", "texto": "PS2 ratón, PS2 teclado, audio digital, usb, conectores audio, conector ethernet, mini usb, displayport" },
+            { "id": "b", "texto": "PS2 raton, PS2 teclado, RJ11, usb, conectores audio, conector ethernet, mini Firewire, dmi" },
+            { "id": "c", "texto": "PS2 ratón, PS2 teclado, audio digital, usb, conectores audio, conector ethernet, mini Firewire, firewire" },
+            { "id": "d", "texto": "PS2 teclado, PS2 ratón, audio analógico, usb, conectores audio, conector ethernet, mini Firewire, firewire" }
+        ],
+        "correcta": "a",
+        "explicacion": "El conector verde es PS/2 para ratón, el morado PS/2 para teclado. El bloque de audio incluye S/PDIF (audio digital). C, D, E y F corresponden a conectores comunes como USB, Ethernet y DisplayPort en placas base modernas."
+    },
+    {
+        "id": 5,
+        "pregunta": "Según la imagen, se identifica:",
+        "imagen": "/images/preguntas-sistemas/13.png",
+        "opciones": [
+            { "id": "a", "texto": "Tarjeta gráfica ATI RADEON 4 GB de tipo GDDR6, para directx12, conectada sobre PCle 8x, accesible a parte de su configuración por Uefi y sin que pueda ejecutar instrucciones del procesador principal" },
+            { "id": "b", "texto": "Tarjeta gráfica ATI RADEON 8 GB de tipo GDDR6, para directx12, conectada sobre PCIe 16x, accesible a parte de su configuración por Uefi y sin que pueda ejecutar instrucciones del procesador principal" },
+            { "id": "c", "texto": "Tarjeta gráfica ATI RADEON 8 GB de tipo GDDR5, para directx11, conectada sobre PCle 16x, accesible a parte de su configuración por Uefi y sin que pueda ejecutar instrucciones del procesador principal" },
+            { "id": "d", "texto": "Tarjeta gráfica ATI RADEON 8 GB de tipo GDDR6, para directx12, conectada sobre PCle 8x, accesible a parte de su configuración por bios y pudiendo ejecutar instrucciones del procesador principal" }
+        ],
+        "correcta": "b",
+        "explicacion": "En GPU-Z se ve claro: Memory Size 8192 MB (8 GB), Memory Type GDDR6, Bus Interface PCIe x16, y soporte para DirectX 12. Al ser una GPU dedicada, no ejecuta instrucciones del procesador principal (CPU)."
+    },
+    {
+        "id": 6,
+        "pregunta": "Estas características son de una:",
+        "imagen": "/imagen/preguntas/14.png",
+        "opciones": [
+            { "id": "a", "texto": "Tarjeta de red inalámbrica" },
+            { "id": "b", "texto": "Tarjeta de red cableada" },
+            { "id": "c", "texto": "Tarjeta expansión de puertos" },
+            { "id": "d", "texto": "Tarjeta capturadora" }
+        ],
+        "correcta": "b",
+        "explicacion": "Al mencionar 'Alámbrico', 'Ethernet', 'RJ-45' y conectarse por 'PCI Express', estamos hablando sin lugar a dudas de una tarjeta de red local (LAN) por cable."
+    },
+    {
+        "id": 7,
+        "pregunta": "El esquema de particiones GPT:",
+        "opciones": [
+            { "id": "a", "texto": "Permite hasta 4 particiones primarias o 3 y una extendida" },
+            { "id": "b", "texto": "No soporta el proceso de POST" },
+            { "id": "c", "texto": "Solo vale para discos con memorias semiconductoras" },
+            { "id": "d", "texto": "Permite hasta n particiones y suele estar en un disco conectado a una placa uefi" }
+        ],
+        "correcta": "d",
+        "explicacion": "GPT (GUID Partition Table) supera las limitaciones de MBR (que solo dejaba 4 primarias), permitiendo hasta 128 particiones en Windows y es el estándar que se usa junto con el firmware UEFI."
+    },
+    {
+        "id": 8,
+        "pregunta": "El orden correcto en el proceso de instalación de un sistema operativo es:",
+        "opciones": [
+            { "id": "a", "texto": "Particionado, formateado, instalación y configuración" },
+            { "id": "b", "texto": "Formateado, particionado, instalación y configuración" },
+            { "id": "c", "texto": "Particionado, formateado, configuración e instalación" },
+            { "id": "d", "texto": "Formateado, formateado, configuración e instalación" }
+        ],
+        "correcta": "a",
+        "explicacion": "Primero creas el 'cajón' (partición), luego le das un sistema de archivos para poder guardar cosas (formateado), copias los archivos del SO (instalación) y por último lo ajustas a tu gusto (configuración)."
+    },
+    {
+        "id": 9,
+        "pregunta": "La diferencia entre usuario local y de dominio en Windows es:",
+        "opciones": [
+            { "id": "a", "texto": "No hay diferencias entre ambos, salvo la forma de loguin" },
+            { "id": "b", "texto": "El primero se gestiona centralizado, el segundo distribuido" },
+            { "id": "c", "texto": "La gestión del primero se hace a nivel del propio sistema operativo anfitrión; en el segundo la gestión se realiza en otro dispositivo." },
+            { "id": "d", "texto": "Para ambos es necesario un sistema operativo server, Windows o ubuntu" }
+        ],
+        "correcta": "c",
+        "explicacion": "Un usuario local solo existe en la máquina donde se creó. Un usuario de dominio existe en un servidor (Active Directory) y puede iniciar sesión en cualquier equipo conectado a esa red."
+    },
+    {
+        "id": 10,
+        "pregunta": "Un servicio en Windows es:",
+        "opciones": [
+            { "id": "a", "texto": "Programa en ejecución en primer plano lanzado por el sistema operativo" },
+            { "id": "b", "texto": "Programa en ejecución en primer plano lanzado por el usuario" },
+            { "id": "c", "texto": "Programa en ejecución en segundo plano lanzado por el sistema operativo" },
+            { "id": "d", "texto": "Programa en ejecución en segundo plano lanzado por el usuario" }
+        ],
+        "correcta": "c",
+        "explicacion": "Los servicios son programas especiales del SO (como el audio, la red o el antivirus) que se ejecutan 'por debajo' (en segundo plano) sin que tú tengas que abrirlos ni interactuar con una ventana."
+    },
+    {
+        "id": 11,
+        "pregunta": "El apartado de Windows donde podemos ver el rendimiento conjunto de procesador, ram y tráfico de red es:",
+        "opciones": [
+            { "id": "a", "texto": "Administración de equipos" },
+            { "id": "b", "texto": "Administrador de dispositivos" },
+            { "id": "c", "texto": "Monitor de rendimiento" },
+            { "id": "d", "texto": "Monitor de recursos" }
+        ],
+        "correcta": "d",
+        "explicacion": "El Monitor de recursos (o la pestaña Rendimiento del Administrador de Tareas) es la herramienta gráfica donde vemos las gráficas de consumo de CPU, Memoria, Disco y Red en tiempo real."
+    },
+    {
+        "id": 12,
+        "pregunta": "Para mostrar los directorios y archivos en Linux, de la ruta /dev/sda1 (suponemos estamos en otro directorio), en formato largo incluyendo los archivos ocultos es:",
+        "opciones": [
+            { "id": "a", "texto": "ls -la" },
+            { "id": "b", "texto": "ls -la /dev/sda1" },
+            { "id": "c", "texto": "tree /dev/sda1" },
+            { "id": "d", "texto": "ls -l /dev/sda > sda1" }
+        ],
+        "correcta": "b",
+        "explicacion": "El comando 'ls' lista. Con '-l' lo hace en formato largo y con '-a' incluye los ocultos. Al no estar en esa carpeta, tenemos que indicarle la ruta absoluta al final: '/dev/sda1'."
+    },
+    {
+        "id": 13,
+        "pregunta": "Para cambiar los permisos de un hipotético archivo en Linux llamado examen.pdf, de la siguiente forma: usuario permisos totales, grupo ningún permiso y otros, permiso de lectura:",
+        "opciones": [
+            { "id": "a", "texto": "chmod 704 examen.pdf" },
+            { "id": "b", "texto": "chmod 407 examen.pdf" },
+            { "id": "c", "texto": "chmod 503 examen.pdf" },
+            { "id": "d", "texto": "chmod 305 examen.pdf" }
+        ],
+        "correcta": "a",
+        "explicacion": "En formato octal: Usuario totales (rwx) es 4+2+1=7. Grupo nada (---) es 0. Otros solo lectura (r--) es 4. Por tanto, el comando es chmod 704."
+    },
+    {
+        "id": 14,
+        "pregunta": "Una tubería en Linux implica:",
+        "opciones": [
+            { "id": "a", "texto": "Existe la redirección en Linux, no las tuberías" },
+            { "id": "b", "texto": "Las tuberías se realizan con el símbolo $" },
+            { "id": "c", "texto": "La entrada de un comando sirve como salida de otro" },
+            { "id": "d", "texto": "La salida de un comando sirve como entrada de otro" }
+        ],
+        "correcta": "d",
+        "explicacion": "Las tuberías o pipes (representadas por el símbolo |) enganchan dos comandos, de forma que lo que escupe el primero por pantalla se le inyecta automáticamente como datos de entrada al segundo."
+    },
+    {
+        "id": 15,
+        "pregunta": "La estructura del prompt de Linux es:",
+        "opciones": [
+            { "id": "a", "texto": "usuario@equipo:~$" },
+            { "id": "b", "texto": "equipo@usuario:~$" },
+            { "id": "c", "texto": "usuario@equipo:~#" },
+            { "id": "d", "texto": "root@equipo:~$" }
+        ],
+        "correcta": "a",
+        "explicacion": "Por defecto, la terminal de Linux te muestra 'quién eres' en 'qué máquina estás' (usuario@equipo), seguido de los dos puntos, la ruta actual (~) y el símbolo $ que indica que eres un usuario sin privilegios root."
+    },
+    {
+        "id": 16,
+        "pregunta": "El comando que permitiría en la ruta /home/irdor, estando en /, crear la carpeta simulacro; seria:",
+        "opciones": [
+            { "id": "a", "texto": "rm simulacro /home/irdor" },
+            { "id": "b", "texto": "mkdir ./simulacro" },
+            { "id": "c", "texto": "mkdir /home/irdor/simulacro" },
+            { "id": "d", "texto": "Ninguna de las anteriores es valida" }
+        ],
+        "correcta": "c",
+        "explicacion": "El comando 'mkdir' (make directory) crea carpetas. Como actualmente estamos en la raíz (/), tenemos que pasarle la ruta absoluta completa para que la cree directamente allí sin tener que movernos nosotros."
+    },
+    {
+        "id": 17,
+        "pregunta": "El archivo donde se puede comprobar en linux que los usuarios han sido creados, es:",
+        "opciones": [
+            { "id": "a", "texto": "/usr/log" },
+            { "id": "b", "texto": "/etc/users" },
+            { "id": "c", "texto": "passwd" },
+            { "id": "d", "texto": "cat /etc/group" }
+        ],
+        "correcta": "c",
+        "explicacion": "El archivo /etc/passwd es la base de datos de usuarios en Linux. Contiene la lista de todos los usuarios registrados en el sistema, sus IDs, directorios home y la shell que usan."
+    },
+    {
+        "id": 18,
+        "pregunta": "El comando, en linux, chmod u+x-rw g+rw-x o-rwx sería equivalente a:",
+        "opciones": [
+            { "id": "a", "texto": "chmod 160" },
+            { "id": "b", "texto": "chmod 161" },
+            { "id": "c", "texto": "chmod 177" },
+            { "id": "d", "texto": "chmod 711" }
+        ],
+        "correcta": "a",
+        "explicacion": "Calculamos en octal: Usuario (u) se queda solo con ejecución (x=1). Grupo (g) se queda con lectura y escritura (r=4 + w=2 = 6). Otros (o) se quedan sin nada (0). Resultado: 160."
+    },
+    {
+        "id": 19,
+        "pregunta": "¿Qué rango corresponde a una IP privada de Clase B?",
+        "opciones": [
+            { "id": "a", "texto": "10.0.0.0-10.255.255.255" },
+            { "id": "b", "texto": "172.16.0.0-172.31.255.255" },
+            { "id": "c", "texto": "192.168.0.0-192.168.255.255" },
+            { "id": "d", "texto": "169.254.0.0-169.254.255.255" }
+        ],
+        "correcta": "b",
+        "explicacion": "Por definición estándar de redes, el rango 10.x es Clase A privada, el 192.168.x es Clase C privada, y el 172.16.0.0 hasta 172.31.255.255 es el bloque reservado para Clase B privada."
+    },
+    {
+        "id": 20,
+        "pregunta": "¿Cuál es la máscara por defecto de la dirección 10.50.0.0?",
+        "opciones": [
+            { "id": "a", "texto": "255.0.0.0" },
+            { "id": "b", "texto": "255.255.0.0" },
+            { "id": "c", "texto": "255.255.255.0" },
+            { "id": "d", "texto": "255.240.0.0" }
+        ],
+        "correcta": "a",
+        "explicacion": "La IP 10.50.0.0 pertenece a la Clase A (su primer octeto está entre 1 y 126). Las redes de Clase A tienen por defecto una máscara de 8 bits, lo que equivale a 255.0.0.0."
+    },
+    {
+        "id": 21,
+        "pregunta": "¿Qué caracteriza a una IP pública dinámica?",
+        "opciones": [
+            { "id": "a", "texto": "Es permanente y no cambia" },
+            { "id": "b", "texto": "Se asigna manualmente" },
+            { "id": "c", "texto": "Cambia periódicamente" },
+            { "id": "d", "texto": "Solo es visible en redes locales" }
+        ],
+        "correcta": "c",
+        "explicacion": "Una IP dinámica es aquella que tu proveedor de Internet (ISP) te presta temporalmente. Cada vez que reinicias el router o pasa un tiempo determinado, esa IP pública puede cambiar."
+    },
+    {
+        "id": 22,
+        "pregunta": "En la subred 172.16.5.0/24, ¿cuál es la dirección de broadcast?",
+        "opciones": [
+            { "id": "a", "texto": "172.16.5.1" },
+            { "id": "b", "texto": "172.16.5.254" },
+            { "id": "c", "texto": "172.16.5.255" },
+            { "id": "d", "texto": "172.16.0.255" }
+        ],
+        "correcta": "c",
+        "explicacion": "Con una máscara /24, los primeros 3 octetos definen la red (172.16.5) y el último octeto es para hosts. La dirección de broadcast siempre es la última posible de la subred, poniendo todos los bits de host a 1 (255)."
+    },
+    {
+        "id": 23,
+        "pregunta": "Si se toman prestados 6 bits de host en 10.0.0.0/8, ¿cuál será la nueva máscara?",
+        "opciones": [
+            { "id": "a", "texto": "/14" },
+            { "id": "b", "texto": "/16" },
+            { "id": "c", "texto": "/18" },
+            { "id": "d", "texto": "/24" }
+        ],
+        "correcta": "a",
+        "explicacion": "Es pura suma matemática: si tu máscara original de red tiene 8 bits (/8) y le robas 6 bits a la parte de los hosts para hacer subredes, tu nueva máscara tendrá 8 + 6 = 14 bits (/14)."
+    },
+    {
+        "id": 24,
+        "pregunta": "Si una red 178.100.0.0/16 necesita 2000 subredes, ¿qué máscara usarías?",
+        "opciones": [
+            { "id": "a", "texto": "/24" },
+            { "id": "b", "texto": "/26" },
+            { "id": "c", "texto": "/22" },
+            { "id": "d", "texto": "/28" }
+        ],
+        "correcta": "d",
+        "explicacion": "Para tener 2000 subredes necesitamos 11 bits (2^11 = 2048). 16 + 11 = /27. Como /27 no está en las opciones, la única válida que cubre esa necesidad sobradamente es la /28 (16+12 bits)."
+    },
+    {
+        "id": 25,
+        "pregunta": "Para una red 172.30.0.0/16 con 55 subredes y 1000 hosts, ¿qué máscara usarías?",
+        "opciones": [
+            { "id": "a", "texto": "255.255.240.0" },
+            { "id": "b", "texto": "255.255.248.0" },
+            { "id": "c", "texto": "255.255.252.0" },
+            { "id": "d", "texto": "255.255.254.0" }
+        ],
+        "correcta": "c",
+        "explicacion": "Para 55 subredes necesitas 6 bits (2^6 = 64). La máscara pasa de /16 a /22. Los 10 bits restantes para hosts (32-22=10) dan 1022 hosts (2^10 - 2), cubriendo de sobra los 1000. La máscara /22 se escribe 255.255.252.0."
+    },
+    {
+        "id": 26,
+        "pregunta": "En 210.100.56.0/24 con 6 subredes, ¿cuántos hosts válidos hay por subred?",
+        "opciones": [
+            { "id": "a", "texto": "30" },
+            { "id": "b", "texto": "14" },
+            { "id": "c", "texto": "62" },
+            { "id": "d", "texto": "126" }
+        ],
+        "correcta": "a",
+        "explicacion": "Para sacar 6 subredes, robamos 3 bits (2^3=8). La máscara /24 pasa a /27. Nos quedan 5 bits para hosts (32-27=5). La fórmula de hosts válidos es 2^5 - 2 = 32 - 2 = 30."
+    },
+    {
+        "id": 27,
+        "pregunta": "Un cambio de estado de procesos que no es válido es:",
+        "opciones": [
+            { "id": "a", "texto": "De preparado a activo" },
+            { "id": "b", "texto": "De nuevo a activo" },
+            { "id": "c", "texto": "DE bloqueado a preparado" },
+            { "id": "d", "texto": "De activo a terminado" }
+        ],
+        "correcta": "b",
+        "explicacion": "Un proceso recién creado (estado 'Nuevo') no puede saltar a ejecutarse directamente en la CPU ('Activo'). Primero tiene que pasar obligatoriamente a la cola de 'Preparado' y esperar su turno."
+    },
+    {
+        "id": 28,
+        "pregunta": "En el siguiente diagrama:",
+        "imagen": "/images/preguntas-sistemas/15.png",
+        "opciones": [
+            { "id": "a", "texto": "El dispatcher entra en acción 5 veces" },
+            { "id": "b", "texto": "El dispatcher entra en acción 6 veces" },
+            { "id": "c", "texto": "El dispatcher entra en acción 7 veces" },
+            { "id": "d", "texto": "El dispatcher entra en acción 8 veces" }
+        ],
+        "correcta": "b",
+        "explicacion": "El despachador (dispatcher) interviene cada vez que hay un cambio de contexto (cuando la CPU deja de ejecutar un proceso para empezar a ejecutar otro)."
+    },
+    {
+        "id": 29,
+        "pregunta": "Con los siguientes datos de ejecución de procesos, el algoritmo que menos tiempo medio de retorno genera es, entre los siguientes: FCFS/FIFO, SJF y SRTN:",
+        "imagen": "/images/preguntas-sistemas/16.png",
+        "opciones": [
+            { "id": "a", "texto": "FCFS" },
+            { "id": "b", "texto": "SJF" },
+            { "id": "c", "texto": "SRTN" },
+            { "id": "d", "texto": "Ninguno de los anteriores" }
+        ],
+        "correcta": "c",
+        "explicacion": "Matemáticamente, el algoritmo SRTN (Shortest Remaining Time Next, la versión expulsiva de SJF) es el algoritmo óptimo que siempre produce el menor tiempo medio de retorno para un conjunto de procesos dado."
+    },
+    {
+        "id": 30,
+        "pregunta": "La fragmentación interna se genera cuando:",
+        "opciones": [
+            { "id": "a", "texto": "Se generan huecos o espacio perdido dentro de las particiones de memoria" },
+            { "id": "b", "texto": "Existen particiones en memoria demasiado pequeñas para almacenar procesos grandes" },
+            { "id": "c", "texto": "Existen espacios de memoria sin utilizar porque se reservan para swapping" },
+            { "id": "d", "texto": "Solo existe la fragmentación externa" }
+        ],
+        "correcta": "a",
+        "explicacion": "Ocurre cuando asignamos a un proceso un bloque de memoria (partición fija o página) que es un poco más grande de lo que realmente necesita. Ese espacio sobrante 'dentro' del bloque se desperdicia."
+    },
+    {
+        "id": 31,
+        "pregunta": "La fragmentación externa se genera cuando:",
+        "opciones": [
+            { "id": "a", "texto": "Se generan huecos o espacio perdido dentro de las particiones de memoria" },
+            { "id": "b", "texto": "Existen particiones en memoria demasiado pequeñas para almacenar procesos grandes" },
+            { "id": "c", "texto": "Existen espacios de memoria sin utilizar porque se reservan para swapping" },
+            { "id": "d", "texto": "Solo existe la fragmentación externa" }
+        ],
+        "correcta": "b",
+        "explicacion": "Se da con particiones dinámicas. Al ir metiendo y sacando procesos, quedan pequeños huecos libres dispersos entre ellos. Si sumas todos los huecos tienes mucha memoria, pero como no están contiguos, no cabe un proceso grande."
+    },
+    {
+        "id": 32,
+        "pregunta": "¿Qué componente es responsable de coordinar y controlar todas las operaciones dentro de un sistema informático?",
+        "opciones": [
+            { "id": "a", "texto": "Unidad de Memoria" },
+            { "id": "b", "texto": "Unidad de Control" },
+            { "id": "c", "texto": "Unidad Aritmética Lógica (ALU)" },
+            { "id": "d", "texto": "Dispositivos de Entrada/Salida" }
+        ],
+        "correcta": "b",
+        "explicacion": "La Unidad de Control (UC) es el verdadero 'cerebro' o director de orquesta dentro de la CPU. Se encarga de buscar las instrucciones, decodificarlas y enviar las señales necesarias al resto de componentes para que las ejecuten."
+    },
+    {
+        "id": 33,
+        "pregunta": "¿Cuál es la función principal de un chipset en una placa base?",
+        "opciones": [
+            { "id": "a", "texto": "Proporcionar salida de audio" },
+            { "id": "b", "texto": "Gestionar el flujo de datos entre el procesador, la memoria y los periféricos" },
+            { "id": "c", "texto": "Regular el voltaje a la CPU" },
+            { "id": "d", "texto": "Conectar la computadora a una red" }
+        ],
+        "correcta": "b",
+        "explicacion": "El chipset es el conjunto de chips (tradicionalmente Puente Norte y Puente Sur) que actúa como el centro de comunicaciones de la placa base, controlando el tráfico de datos entre la CPU, la RAM, las tarjetas gráficas y los puertos."
+    },
+    {
+        "id": 34,
+        "pregunta": "¿Qué tipo de memoria se utiliza principalmente para la memoria caché en las CPUs modernas?",
+        "opciones": [
+            { "id": "a", "texto": "DDR4 SDRAM" },
+            { "id": "b", "texto": "SRAM" },
+            { "id": "c", "texto": "ROM" },
+            { "id": "d", "texto": "Memoria Flash" }
+        ],
+        "correcta": "b",
+        "explicacion": "La memoria caché se construye con SRAM (Static RAM). Es mucho más rápida (y más cara) que la DRAM normal porque no necesita refrescarse constantemente para mantener los datos, lo que la hace ideal para seguirle el ritmo al procesador."
+    },
+    {
+        "id": 35,
+        "pregunta": "¿A qué se refiere el término overclocking?",
+        "opciones": [
+            { "id": "a", "texto": "Reducir la velocidad del reloj de una CPU para ahorrar energía" },
+            { "id": "b", "texto": "Ejecutar una CPU a una velocidad de reloj más alta que su especificación nominal" },
+            { "id": "c", "texto": "Optimizar los tiempos de memoria para un mejor rendimiento" },
+            { "id": "d", "texto": "Actualizar el firmware de una placa base" }
+        ],
+        "correcta": "b",
+        "explicacion": "Hacer overclocking ('sobre el reloj') es forzar a un componente (generalmente la CPU o la GPU) a trabajar a una frecuencia (Hz) mayor de la que el fabricante estableció de fábrica, para obtener más rendimiento a costa de generar más calor."
+    },
+    {
+        "id": 36,
+        "pregunta": "¿Qué interfaz se utiliza comúnmente para tarjetas gráficas de alta velocidad?",
+        "opciones": [
+            { "id": "a", "texto": "PCI" },
+            { "id": "b", "texto": "SATA" },
+            { "id": "c", "texto": "PCle" },
+            { "id": "d", "texto": "USB" }
+        ],
+        "correcta": "c",
+        "explicacion": "PCI Express (PCIe) es el bus estándar actual para conectar tarjetas de expansión de alta velocidad, especialmente las tarjetas gráficas (normalmente usando la ranura PCIe x16)."
+    },
+    {
+        "id": 37,
+        "pregunta": "¿Cuál es la principal ventaja de los SSDs (Unidades de Estado Sólido) sobre los HDDs tradicionales (Unidades de Disco Duro)?",
+        "opciones": [
+            { "id": "a", "texto": "Menor costo por gigabyte" },
+            { "id": "b", "texto": "Mayor capacidad de almacenamiento" },
+            { "id": "c", "texto": "Tiempos de acceso más rápidos y mayor durabilidad" },
+            { "id": "d", "texto": "Recuperación de datos más simple" }
+        ],
+        "correcta": "c",
+        "explicacion": "Al no tener piezas mecánicas móviles (como los platos y cabezales magnéticos de los HDD), los SSD acceden a los datos casi instantáneamente y son mucho más resistentes a golpes y vibraciones."
+    },
+    {
+        "id": 38,
+        "pregunta": "¿Cuál es el propósito de RAID?",
+        "opciones": [
+            { "id": "a", "texto": "Aumentar la velocidad del procesador" },
+            { "id": "b", "texto": "Mejorar el ancho de banda de la red" },
+            { "id": "c", "texto": "Mejorar la fiabilidad y/o el rendimiento del almacenamiento de datos" },
+            { "id": "d", "texto": "Reducir el consumo de energía" }
+        ],
+        "correcta": "c",
+        "explicacion": "RAID (Redundant Array of Independent Disks) combina varios discos duros físicos en una sola unidad lógica para conseguir redundancia (que no se pierdan datos si un disco falla), mayor velocidad de lectura/escritura, o ambas cosas."
+    },
+    {
+        "id": 39,
+        "pregunta": "¿Qué sistema de archivos se utiliza comúnmente por defecto en las distribuciones modernas de Linux?",
+        "opciones": [
+            { "id": "a", "texto": "FAT32" },
+            { "id": "b", "texto": "NTFS" },
+            { "id": "c", "texto": "ext4" },
+            { "id": "d", "texto": "HFS+" }
+        ],
+        "correcta": "c",
+        "explicacion": "El 'Fourth Extended Filesystem' (ext4) es el sistema de archivos estándar, maduro y por defecto en la inmensa mayoría de distribuciones GNU/Linux actuales."
+    },
+    {
+        "id": 40,
+        "pregunta": "De la imagen podemos deducir, al menos, que es un:",
+        "imagen": "/images/preguntas-sistemas/17.png",
+        "opciones": [
+            { "id": "a", "texto": "Un sistema monotarea" },
+            { "id": "b", "texto": "Un sistema multitarea" },
+            { "id": "c", "texto": "Un sistema monoprocesador" },
+            { "id": "d", "texto": "Un sistema multiprocesador" }
+        ],
+        "correcta": "b",
+        "explicacion": "En el gráfico de la derecha se ve claramente cómo la ejecución va saltando (intercalándose en el tiempo) entre los procesos A, B, C y D. Eso es la definición clásica de un sistema multitarea concurrente."
+    },
+    {
+        "id": 41,
+        "pregunta": "¿Cuál es la principal diferencia entre MBR (Master Boot Record) y GPT (GUID Partition Table)?",
+        "opciones": [
+            { "id": "a", "texto": "MBR admite tamaños de disco más grandes y más particiones que GPT" },
+            { "id": "b", "texto": "GPT admite tamaños de disco más grandes y más particiones que MBR" },
+            { "id": "c", "texto": "MBR se utiliza para SSDs, mientras que GPT se utiliza para HDDs" },
+            { "id": "d", "texto": "GPT es un estándar más antiguo que MBR" }
+        ],
+        "correcta": "b",
+        "explicacion": "MBR está limitado a discos de máximo 2 TB y a 4 particiones primarias. GPT es el estándar moderno que soporta discos inmensos y hasta 128 particiones por defecto en Windows."
+    },
+    {
+        "id": 42,
+        "pregunta": "¿Qué es el kernel de un sistema operativo?",
+        "opciones": [
+            { "id": "a", "texto": "Una interfaz de usuario" },
+            { "id": "b", "texto": "El componente central que gestiona los recursos del sistema" },
+            { "id": "c", "texto": "Una colección de aplicaciones preinstaladas" },
+            { "id": "d", "texto": "Un conjunto de controladores de dispositivos" }
+        ],
+        "correcta": "b",
+        "explicacion": "El núcleo o kernel es el corazón del sistema operativo. Se encarga de administrar la memoria, el tiempo de procesador y de servir como puente entre el software y el hardware real."
+    },
+    {
+        "id": 43,
+        "pregunta": "¿Cuál es el propósito de la memoria virtual?",
+        "opciones": [
+            { "id": "a", "texto": "Proporcionar un acceso más rápido a los datos utilizados con frecuencia" },
+            { "id": "b", "texto": "Permitir que un sistema ejecute más aplicaciones de las que tiene RAM física" },
+            { "id": "c", "texto": "Proteger el sistema operativo del malware" },
+            { "id": "d", "texto": "Crear copias de seguridad de archivos importantes" }
+        ],
+        "correcta": "b",
+        "explicacion": "Cuando la memoria RAM se llena, el SO utiliza una parte del disco duro (el archivo de paginación o partición swap) como si fuera RAM adicional. Es más lento, pero evita que los programas se cierren por falta de memoria."
+    },
+    {
+        "id": 44,
+        "pregunta": "¿Cuál es la función de un controlador de dispositivo (driver)?",
+        "opciones": [
+            { "id": "a", "texto": "Controlar el flujo de electricidad a un componente de hardware" },
+            { "id": "b", "texto": "Traducir comandos entre el sistema operativo y un dispositivo de hardware" },
+            { "id": "c", "texto": "Desfragmentar un disco duro" },
+            { "id": "d", "texto": "Gestionar las conexiones de red" }
+        ],
+        "correcta": "b",
+        "explicacion": "Un driver es un pequeño programa que actúa como traductor. Le enseña al sistema operativo cómo 'hablar' y entenderse con un hardware específico (como una impresora o una tarjeta gráfica) que fue fabricado por otra empresa."
+    },
+    {
+        "id": 45,
+        "pregunta": "¿Cuál es la diferencia entre un proceso y un hilo (thread)?",
+        "opciones": [
+            { "id": "a", "texto": "Un proceso es un flujo de control único y secuencial, mientras que un hilo es una colección de procesos" },
+            { "id": "b", "texto": "Un proceso es una unidad de ejecución pesada con su propio espacio de memoria, mientras que un hilo es una unidad de ejecución ligera dentro de un proceso" },
+            { "id": "c", "texto": "Un proceso es una aplicación de usuario, mientras que un hilo es un servicio del sistema" },
+            { "id": "d", "texto": "Los procesos y los hilos son lo mismo" }
+        ],
+        "correcta": "b",
+        "explicacion": "Un proceso es un programa en ejecución completo y aislado. Un hilo es como una 'sub-tarea' dentro de ese proceso. Los hilos de un mismo proceso comparten la memoria y los recursos, por lo que crearlos y cambiarlos es mucho más 'ligero'."
+    },
+    {
+        "id": 46,
+        "pregunta": "¿Cuál es el propósito de un firewall?",
+        "opciones": [
+            { "id": "a", "texto": "Acelerar las conexiones a Internet" },
+            { "id": "b", "texto": "Prevenir el acceso no autorizado a una red o sistema informático" },
+            { "id": "c", "texto": "Escanear archivos en busca de virus" },
+            { "id": "d", "texto": "Gestionar la configuración de la red inalámbrica" }
+        ],
+        "correcta": "b",
+        "explicacion": "Un cortafuegos (firewall) actúa como el portero de una discoteca: analiza todo el tráfico de red entrante y saliente y bloquea los paquetes sospechosos o no autorizados para proteger el sistema."
+    },
+    {
+        "id": 47,
+        "pregunta": "¿Cuál es la dirección de broadcast para la subred 10.0.0.0/24?",
+        "opciones": [
+            { "id": "a", "texto": "10.0.0.0" },
+            { "id": "b", "texto": "10.0.0.1" },
+            { "id": "c", "texto": "10.0.0.254" },
+            { "id": "d", "texto": "10.0.0.255" }
+        ],
+        "correcta": "d",
+        "explicacion": "En una subred /24 (255.255.255.0), los tres primeros números definen la red y el último el host. La dirección de broadcast siempre es la última posible de ese rango, poniendo los bits de host a 1 (lo que en decimal es 255)."
+    },
+    {
+        "id": 48,
+        "pregunta": "¿Cuántas direcciones de host utilizables están disponibles en una subred /27?",
+        "opciones": [
+            { "id": "a", "texto": "32" },
+            { "id": "b", "texto": "30" },
+            { "id": "c", "texto": "254" },
+            { "id": "d", "texto": "256" }
+        ],
+        "correcta": "b",
+        "explicacion": "Una máscara /27 deja 5 bits libres para hosts (32 - 27 = 5). Si aplicamos la fórmula para sacar los hosts útiles (2^5 - 2), tenemos 32 - 2 = 30 direcciones."
+    },
+    {
+        "id": 49,
+        "pregunta": "¿Qué máscara de subred proporcionaría el mayor número de direcciones de host utilizables?",
+        "opciones": [
+            { "id": "a", "texto": "/24" },
+            { "id": "b", "texto": "/25" },
+            { "id": "c", "texto": "/26" },
+            { "id": "d", "texto": "/27" }
+        ],
+        "correcta": "a",
+        "explicacion": "Cuanto más pequeña sea la máscara de red (el número después de la barra), más bits quedan libres para los hosts. Una /24 te da 254 hosts útiles, bastante más que cualquiera de las otras."
+    },
+    {
+        "id": 50,
+        "pregunta": "¿Cuál es el número máximo de subredes que puedes crear a partir de una red /24 si necesitas al menos 10 hosts por subred?",
+        "opciones": [
+            { "id": "a", "texto": "4" },
+            { "id": "b", "texto": "8" },
+            { "id": "c", "texto": "16" },
+            { "id": "d", "texto": "32" }
+        ],
+        "correcta": "c",
+        "explicacion": "Para tener al menos 10 hosts necesitas 4 bits libres (2^4 - 2 = 14 hosts útiles). Como de base tenías 8 bits libres (porque es una /24), te sobran otros 4 bits para hacer subredes (8 - 4 = 4). Y 2^4 = 16 subredes."
+    },
+    {
+        "id": 51,
+        "pregunta": "Si necesitas crear una red con 50 hosts, ¿qué máscara de subred deberías usar?",
+        "opciones": [
+            { "id": "a", "texto": "255.255.255.0" },
+            { "id": "b", "texto": "255.255.255.128" },
+            { "id": "c", "texto": "255.255.255.192" },
+            { "id": "d", "texto": "255.255.255.224" }
+        ],
+        "correcta": "c",
+        "explicacion": "Para 50 hosts necesitas 6 bits (2^6 - 2 = 62 hosts útiles). La máscara queda en 32 - 6 = 26 bits (/26). En decimal, esa máscara /26 equivale a 255.255.255.192."
+    },
+    {
+        "id": 52,
+        "pregunta": "¿Qué comando se utiliza para listar archivos y directorios en Linux?",
+        "opciones": [
+            { "id": "a", "texto": "cd" },
+            { "id": "b", "texto": "ls" },
+            { "id": "c", "texto": "mkdir" },
+            { "id": "d", "texto": "rm" }
+        ],
+        "correcta": "b",
+        "explicacion": "El comando 'ls' (viene de list) es la orden básica para mostrar por pantalla todos los archivos y carpetas que hay en el directorio donde te encuentras."
+    },
+    {
+        "id": 53,
+        "pregunta": "¿Qué comando se utiliza para cambiar el directorio actual en Linux?",
+        "opciones": [
+            { "id": "a", "texto": "pwd" },
+            { "id": "b", "texto": "cp" },
+            { "id": "c", "texto": "mv" },
+            { "id": "d", "texto": "cd" }
+        ],
+        "correcta": "d",
+        "explicacion": "El comando 'cd' (change directory) te permite moverte entre carpetas y cambiar tu ubicación actual en el árbol de directorios del sistema."
+    },
+    {
+        "id": 54,
+        "pregunta": "¿Qué comando se utiliza para copiar archivos en Linux?",
+        "opciones": [
+            { "id": "a", "texto": "rm" },
+            { "id": "b", "texto": "cp" },
+            { "id": "c", "texto": "mv" },
+            { "id": "d", "texto": "cat" }
+        ],
+        "correcta": "b",
+        "explicacion": "El comando 'cp' (copy) clona un archivo dejándolo en la ruta de destino que le indiques. Si le añades el modificador '-r' también puede copiar carpetas enteras."
+    },
+    {
+        "id": 55,
+        "pregunta": "¿Qué comando se utiliza para eliminar archivos o directorios en Linux?",
+        "opciones": [
+            { "id": "a", "texto": "mkdir" },
+            { "id": "b", "texto": "touch" },
+            { "id": "c", "texto": "rm" },
+            { "id": "d", "texto": "chmod" }
+        ],
+        "correcta": "c",
+        "explicacion": "El comando 'rm' (remove) es el encargado de borrar cosas. Si vas a borrar una carpeta que tenga contenido dentro, necesitarás usarlo con 'rm -r' de forma recursiva."
+    },
+    {
+        "id": 56,
+        "pregunta": "¿Qué comando se utiliza para mostrar el contenido de un archivo de texto en Linux?",
+        "opciones": [
+            { "id": "a", "texto": "head" },
+            { "id": "b", "texto": "tail" },
+            { "id": "c", "texto": "cat" },
+            { "id": "d", "texto": "grep" }
+        ],
+        "correcta": "c",
+        "explicacion": "El comando 'cat' (concatenate) lee cualquier archivo que le pases y te vomita todo su contenido de texto de golpe por la pantalla de la terminal."
+    },
+    {
+        "id": 57,
+        "pregunta": "¿Cuál es el propósito del control de cuentas de usuario (UAC) en Windows?",
+        "opciones": [
+            { "id": "a", "texto": "Gestionar las licencias de software" },
+            { "id": "b", "texto": "Evitar cambios no autorizados en el sistema operativo" },
+            { "id": "c", "texto": "Cifrar los datos del usuario" },
+            { "id": "d", "texto": "Supervisar la actividad de la red" }
+        ],
+        "correcta": "b",
+        "explicacion": "El UAC (User Account Control) es ese famoso cuadro de diálogo que te salta preguntando '¿Quieres permitir que esta aplicación haga cambios en el dispositivo?' y sirve precisamente para frenar al malware antes de que se instale sin tu permiso."
+    },
+    {
+        "id": 58,
+        "pregunta": "El desfragmentador de disco, tiene su utilidad en:",
+        "opciones": [
+            { "id": "a", "texto": "Mejora la tecnología de almacenamiento del disco duro" },
+            { "id": "b", "texto": "Recolocar datos en el disco duro para ser más eficiente en futuros accesos" },
+            { "id": "c", "texto": "Permite disponer de mayor capacidad de almacenamiento en el disco duro" },
+            { "id": "d", "texto": "Optimizar la comunicación con la controladora o driver" }
+        ],
+        "correcta": "b",
+        "explicacion": "En los discos duros mecánicos clásicos, los archivos se van partiendo en trozos. El desfragmentador coge esos trocitos esparcidos por el plato físico y los vuelve a juntar, para que la aguja tarde menos en leerlos."
+    },
+    {
+        "id": 59,
+        "pregunta": "Windows 11 home edition es un sistema operativo:",
+        "opciones": [
+            { "id": "a", "texto": "Monousuario" },
+            { "id": "b", "texto": "Multiusuario" },
+            { "id": "c", "texto": "Monotarea" },
+            { "id": "d", "texto": "Multiprocesador" }
+        ],
+        "correcta": "b",
+        "explicacion": "Toda la familia de Windows NT (incluyendo Windows 11 Home) es un sistema multiusuario. Te permite crear distintas cuentas (tuya, de invitados, etc.) cada una con sus propios permisos y archivos aislados."
+    },
+    {
+        "id": 60,
+        "pregunta": "Si se produce un error en mi sistema operativo, puedo recurrir a la herramienta:",
+        "opciones": [
+            { "id": "a", "texto": "Regedit o editor del registro" },
+            { "id": "b", "texto": "Monitor de rendimiento" },
+            { "id": "c", "texto": "Log system partition" },
+            { "id": "d", "texto": "Visor de sucesos" }
+        ],
+        "correcta": "d",
+        "explicacion": "El Visor de sucesos (Event Viewer) es la libreta de registro de Windows. Ahí se apuntan en forma de 'logs' todos los errores, bloqueos de programas y advertencias del sistema para que puedas investigar qué falló."
+    },
+    {
+        "id": 61,
+        "pregunta": "Si quiero ver si me faltan drivers de alguna tarjeta de red, lo puedo ver en Windows en:",
+        "opciones": [
+            { "id": "a", "texto": "Administración de discos" },
+            { "id": "b", "texto": "Administración de equipos" },
+            { "id": "c", "texto": "Administrador de dispositivos" },
+            { "id": "d", "texto": "Administrador de tareas" }
+        ],
+        "correcta": "c",
+        "explicacion": "El Administrador de dispositivos te lista todo el hardware conectado. Si algún componente no tiene sus drivers instalados, te aparecerá marcado claramente con un triángulo amarillo de advertencia."
+    },
+    {
+        "id": 62,
+        "pregunta": "¿Qué técnica permite a una CPU ejecutar instrucciones fuera de orden para mejorar el rendimiento, siempre y cuando se mantenga la dependencia de los datos?",
+        "opciones": [
+            { "id": "a", "texto": "Multihilo (Simultaneous Multithreading - SMT)" },
+            { "id": "b", "texto": "Predicción de saltos (Branch Prediction)" },
+            { "id": "c", "texto": "Ejecución especulativa (Speculative Execution)" },
+            { "id": "d", "texto": "Overclocking" }
+        ],
+        "correcta": "c",
+        "explicacion": "La ejecución especulativa permite al procesador adelantarse y ejecutar instrucciones antes de saber si realmente van a ser necesarias, ahorrando tiempo si acierta."
+    },
+    {
+        "id": 63,
+        "pregunta": "¿Qué factor limita principalmente la cantidad de bahías PCle disponibles en una placa base?",
+        "opciones": [
+            { "id": "a", "texto": "El tamaño físico de la placa base" },
+            { "id": "b", "texto": "La capacidad del chipset" },
+            { "id": "c", "texto": "El número de ranuras de memoria RAM" },
+            { "id": "d", "texto": "El número de puertos SATA" }
+        ],
+        "correcta": "b",
+        "explicacion": "Aunque el tamaño físico importa, es el chipset de la placa base (y el propio procesador) el que dicta cuántas 'líneas' o carriles PCIe (PCIe lanes) se pueden gestionar a la vez."
+    },
+    {
+        "id": 64,
+        "pregunta": "¿Qué tecnología permite combinar múltiples unidades SSD en un solo volumen lógico para mejorar el rendimiento o la redundancia?",
+        "opciones": [
+            { "id": "a", "texto": "NVMe (Non-Volatile Memory Express)" },
+            { "id": "b", "texto": "SATA (Serial ATA)" },
+            { "id": "c", "texto": "RAID (Redundant Array of Independent Disks)" },
+            { "id": "d", "texto": "AHCI (Advanced Host Controller Interface)" }
+        ],
+        "correcta": "c",
+        "explicacion": "RAID es la tecnología estándar para agrupar varios discos físicos y que el sistema operativo los vea como uno solo, ya sea para sumar velocidades o para tener copias de seguridad en espejo."
+    },
+    {
+        "id": 65,
+        "pregunta": "¿A qué se refiere el término \"CUDA\" en el ámbito de las tarjetas gráficas?",
+        "opciones": [
+            { "id": "a", "texto": "Reducir la velocidad del reloj de una GCPU para ahorrar energía" },
+            { "id": "b", "texto": "Ejecutar una GPU en tareas no graficas para ayudar en momentos puntuales al procesador" },
+            { "id": "c", "texto": "A conectar dos tarjetas gráficas en paralelo" },
+            { "id": "d", "texto": "A ejecutar en Full HD las instrucciones graficas si la tarjeta gráfica lo permite" }
+        ],
+        "correcta": "b",
+        "explicacion": "CUDA es una plataforma de NVIDIA que permite usar los miles de núcleos pequeños de la tarjeta gráfica (GPU) para hacer cálculos matemáticos generales, quitándole carga de trabajo al procesador (CPU)."
+    },
+    {
+        "id": 66,
+        "pregunta": "¿Con que combinación, el rendimiento de un teórico pc irá más fluido?",
+        "opciones": [
+            { "id": "a", "texto": "Intel Core i9 + 4 GB DDR4" },
+            { "id": "b", "texto": "Intel Core i7 + 8 GB DDR5" },
+            { "id": "c", "texto": "AMD Ryzen 7 + 4 GB DDR4" },
+            { "id": "d", "texto": "Dependería de en qué placa base se monten o el sistema operativo que ejecuten, entre otras variables" }
+        ],
+        "correcta": "d",
+        "explicacion": "Un PC es un ecosistema. De nada sirve tener un i9 o memoria DDR5 rapidísima si la placa base hace cuello de botella, el disco duro es mecánico y lento, o el sistema operativo está mal configurado."
+    },
+    {
+        "id": 67,
+        "pregunta": "¿Qué protocolo de almacenamiento ofrece las latencias más bajas y el mayor rendimiento para SSDs?",
+        "opciones": [
+            { "id": "a", "texto": "SATA (Serial ATA)" },
+            { "id": "b", "texto": "SAS (Serial Attached SCSI)" },
+            { "id": "c", "texto": "NVMe (Non-Volatile Memory Express)" },
+            { "id": "d", "texto": "USB (Universal Serial Bus)" }
+        ],
+        "correcta": "c",
+        "explicacion": "NVMe fue diseñado específicamente para aprovechar al máximo la velocidad de las memorias flash de los SSD, conectándose directamente a través del bus PCIe en lugar de usar los antiguos cables SATA."
+    },
+    {
+        "id": 68,
+        "pregunta": "¿Qué configuración RAID ofrece tolerancia a fallos sin duplicar la capacidad de almacenamiento?",
+        "opciones": [
+            { "id": "a", "texto": "RAID 0" },
+            { "id": "b", "texto": "RAID 1" },
+            { "id": "c", "texto": "RAID 5" },
+            { "id": "d", "texto": "RAID 10 (RAID 1+0)" }
+        ],
+        "correcta": "c",
+        "explicacion": "RAID 5 utiliza un sistema de paridad distribuida. Te permite perder un disco entero sin perder datos, y aprovecha mucho mejor el espacio total que un RAID 1 (que es un espejo literal y gasta la mitad de la capacidad)."
+    },
+    {
+        "id": 69,
+        "pregunta": "¿Qué tecnología permite a un disco duro registrar información de auto-monitoreo y reportar su estado de salud al sistema operativo?",
+        "opciones": [
+            { "id": "a", "texto": "RAID (Redundant Array of Independent Disks)" },
+            { "id": "b", "texto": "SMART (Self-Monitoring, Analysis and Reporting Technology)" },
+            { "id": "c", "texto": "TRIM" },
+            { "id": "d", "texto": "AHCI (Advanced Host Controller Interface)" }
+        ],
+        "correcta": "b",
+        "explicacion": "S.M.A.R.T. es un chip integrado en el disco que vigila constantemente parámetros físicos (temperatura, sectores defectuosos) para avisar a Windows si el disco está a punto de romperse."
+    },
+    {
+        "id": 70,
+        "pregunta": "Los bloques grises podríamos decir que son tiempo de procesos:",
+        "imagen": "/images/preguntas-sistemas/18.png",
+        "opciones": [
+            { "id": "a", "texto": "Bloqueados" },
+            { "id": "b", "texto": "Preparados" },
+            { "id": "c", "texto": "Zombis" },
+            { "id": "d", "texto": "En ejecución" }
+        ],
+        "correcta": "a",
+        "explicacion": "En el gráfico se ve que cuando 'Comienza una E/S' (Entrada/Salida, como pedirle a la impresora que imprima), la CPU se queda en gris. Eso significa que el proceso pasa a estado Bloqueado esperando a que termine el periférico."
+    },
+    {
+        "id": 71,
+        "pregunta": "Si quiero formatear todas las particiones, una de las siguientes NO es una opción:",
+        "opciones": [
+            { "id": "a", "texto": "En la propia instalación del sistema operativo Windows" },
+            { "id": "b", "texto": "Usando un programa de particionado desde un pendrive" },
+            { "id": "c", "texto": "Usando un programa de particionado instalado en Windows" },
+            { "id": "d", "texto": "Usando la carga de una maqueta desde un programa de restauración de particiones" }
+        ],
+        "correcta": "c",
+        "explicacion": "No puedes usar un programa abierto dentro de Windows para formatear la partición C: donde está ejecutándose ese mismo Windows. Es como intentar borrar la rama del árbol sobre la que estás sentado."
+    },
+    {
+        "id": 72,
+        "pregunta": "¿Qué componente del kernel es responsable de asignar tiempo de CPU a los diferentes procesos en un sistema operativo?",
+        "opciones": [
+            { "id": "a", "texto": "El gestor de memoria" },
+            { "id": "b", "texto": "El planificador (scheduler)" },
+            { "id": "c", "texto": "El sistema de archivos" },
+            { "id": "d", "texto": "El gestor de dispositivos" }
+        ],
+        "correcta": "b",
+        "explicacion": "El planificador (scheduler) es el algoritmo del núcleo que decide qué proceso entra a la CPU, cuánto tiempo se queda (quantum) y cuál es el siguiente de la cola."
+    },
+    {
+        "id": 73,
+        "pregunta": "¿Qué es una llamada al sistema (system call) en un sistema operativo?",
+        "opciones": [
+            { "id": "a", "texto": "Una función que se ejecuta automáticamente al arrancar el sistema" },
+            { "id": "b", "texto": "Una interfaz para que las aplicaciones de usuario soliciten servicios del kernel" },
+            { "id": "c", "texto": "Un tipo de error que causa la detención del sistema" },
+            { "id": "d", "texto": "Un comando para gestionar la configuración del hardware" }
+        ],
+        "correcta": "b",
+        "explicacion": "Los programas normales no tienen permiso para tocar el hardware directamente. Si necesitan leer un archivo o enviar datos por red, tienen que 'llamar a la puerta' del Kernel usando una system call para que el SO lo haga por ellos."
+    },
+    {
+        "id": 74,
+        "pregunta": "¿Qué tecnología de virtualización permite ejecutar múltiples sistemas operativos simultáneamente compartiendo el mismo kernel?",
+        "opciones": [
+            { "id": "a", "texto": "Virtualización completa" },
+            { "id": "b", "texto": "Paravirtualización" },
+            { "id": "c", "texto": "Virtualización a nivel de sistema operativo" },
+            { "id": "d", "texto": "Emulación" }
+        ],
+        "correcta": "c",
+        "explicacion": "La virtualización a nivel de sistema operativo (como Docker o los contenedores LXC) usa el kernel de la máquina anfitriona para hacer funcionar todas las máquinas virtuales, haciéndolas súper ligeras."
+    },
+    {
+        "id": 75,
+        "pregunta": "¿Cuándo un proceso se queda en estado zombi?",
+        "opciones": [
+            { "id": "a", "texto": "Un proceso que pide un recurso, pero no se le asigna porque lo tiene otro" },
+            { "id": "b", "texto": "Un proceso que pasa directamente a ejecución" },
+            { "id": "c", "texto": "Un proceso que lleva mucho tiempo bloqueado" },
+            { "id": "d", "texto": "Un proceso finalizado, pero sigue estando su información en la tabla de procesos" }
+        ],
+        "correcta": "d",
+        "explicacion": "Un proceso zombi es aquel que ya ha terminado de hacer todo lo que tenía que hacer (está 'muerto'), pero su padre aún no ha leído su estado de salida, por lo que su cadáver sigue ocupando un hueco en la tabla de procesos del SO."
+    },
+    {
+        "id": 76,
+        "pregunta": "¿Por qué se produce el estado de interbloqueo entre dos procesos?",
+        "opciones": [
+            { "id": "a", "texto": "Porque los dos quieren ejecutar el mismo programa" },
+            { "id": "b", "texto": "Los dos quieren usar un recurso que tiene el otro, y no va a dejar libre hasta usar el recurso que necesita" },
+            { "id": "c", "texto": "Porque los dos finalizan en el mismo instante" },
+            { "id": "d", "texto": "Ninguna de las anteriores" }
+        ],
+        "correcta": "b",
+        "explicacion": "El interbloqueo (deadlock) es como un atasco perfecto. El proceso A tiene la impresora y necesita el disco. El proceso B tiene el disco y necesita la impresora. Ninguno suelta lo suyo hasta conseguir lo del otro, así que se quedan bloqueados para siempre."
+    },
+    {
+        "id": 77,
+        "pregunta": "¿Qué protocolo se utiliza para asignar direcciones IP dinámicamente a los dispositivos en una red?",
+        "opciones": [
+            { "id": "a", "texto": "DNS (Domain Name System)" },
+            { "id": "b", "texto": "DHCP (Dynamic Host Configuration Protocol)" },
+            { "id": "c", "texto": "ARP (Address Resolution Protocol)" },
+            { "id": "d", "texto": "ICMP (Internet Control Message Protocol)" }
+        ],
+        "correcta": "b",
+        "explicacion": "El protocolo DHCP asigna automáticamente las IPs, la máscara de subred y la puerta de enlace a los dispositivos que se conectan para que no tengas que ir uno por uno poniéndolo a mano."
+    },
+    {
+        "id": 78,
+        "pregunta": "¿Qué protocolo se utiliza para convertir nombres de dominio a direcciones IP?",
+        "opciones": [
+            { "id": "a", "texto": "HTTP (Hypertext Transfer Protocol)" },
+            { "id": "b", "texto": "SMTP (Simple Mail Transfer Protocol)" },
+            { "id": "c", "texto": "DNS (Domain Name System)" },
+            { "id": "d", "texto": "FTP (File Transfer Protocol)" }
+        ],
+        "correcta": "c",
+        "explicacion": "El DNS es como la agenda de contactos de Internet. En lugar de tener que recordar números (IPs como 142.250.184.46), tú escribes 'google.com' y el DNS lo traduce por ti."
+    },
+    {
+        "id": 79,
+        "pregunta": "¿Qué protocolo se utiliza para asegurar la comunicación a través de la web mediante el cifrado de los datos transmitidos?",
+        "opciones": [
+            { "id": "a", "texto": "HTTP (Hypertext Transfer Protocol)" },
+            { "id": "b", "texto": "HTTPS (Hypertext Transfer Protocol Secure)" },
+            { "id": "c", "texto": "FTP (File Transfer Protocol)" },
+            { "id": "d", "texto": "SMTP (Simple Mail Transfer Protocol)" }
+        ],
+        "correcta": "b",
+        "explicacion": "HTTPS es la versión segura (la S es de Secure) de HTTP. Cifra los datos usando TLS/SSL para que si alguien los intercepta por el camino, solo vea ruido indescifrable."
+    },
+    {
+        "id": 80,
+        "pregunta": "¿Cuál es el tipo de red que une dos edificios de la Universidad de Ucademy en Madrid, si existieran?",
+        "opciones": [
+            { "id": "a", "texto": "LAN" },
+            { "id": "b", "texto": "WAN" },
+            { "id": "c", "texto": "MAN" },
+            { "id": "d", "texto": "PAN" }
+        ],
+        "correcta": "c",
+        "explicacion": "Una MAN (Metropolitan Area Network) es una red que abarca un área geográfica como una ciudad o un campus universitario grande, interconectando varias redes locales (LAN) de distintos edificios."
+    },
+    {
+        "id": 81,
+        "pregunta": "Como se llama, en terminología de redes, la empresa que nos provee de servicio de internet en casa?",
+        "opciones": [
+            { "id": "a", "texto": "Telefónica" },
+            { "id": "b", "texto": "ISP" },
+            { "id": "c", "texto": "AJP" },
+            { "id": "d", "texto": "EMP" }
+        ],
+        "correcta": "b",
+        "explicacion": "ISP son las siglas de Internet Service Provider (Proveedor de Servicios de Internet). Son las empresas (como Movistar, Vodafone, Digi...) que te dan la conexión a la red global."
+    },
+    {
+        "id": 82,
+        "pregunta": "¿Qué comando se utiliza para buscar patrones de texto dentro de archivos en Linux, incluyendo la capacidad de usar expresiones regulares?",
+        "opciones": [
+            { "id": "a", "texto": "grep" },
+            { "id": "b", "texto": "free" },
+            { "id": "c", "texto": "find" },
+            { "id": "d", "texto": "ls" }
+        ],
+        "correcta": "a",
+        "explicacion": "El comando 'grep' te permite buscar una palabra, una frase o un patrón (expresión regular) concreto dentro de todo el texto que contiene un archivo."
+    },
+    {
+        "id": 83,
+        "pregunta": "¿Qué comando se utiliza para cambiar los permisos de un archivo o directorio en Linux, y qué significan los números 755 en este contexto?",
+        "opciones": [
+            { "id": "a", "texto": "chmod, 755 significa rwxr-xr-x (lectura, escritura y ejecución para el propietario, lectura y ejecución para el grupo y otros)" },
+            { "id": "b", "texto": "chown, 755 significa lectura, escritura y ejecución para todos" },
+            { "id": "c", "texto": "chgrp, 755 significa solo lectura para el propietario" },
+            { "id": "d", "texto": "ls -l, 755 significa permisos especiales" }
+        ],
+        "correcta": "a",
+        "explicacion": "'chmod' cambia los permisos. En octal, el 7 es rwx (4+2+1) para el propietario. El 5 es r-x (4+0+1) para el grupo, y el otro 5 es igual (r-x) para los demás usuarios."
+    },
+    {
+        "id": 84,
+        "pregunta": "¿Qué comando se utiliza para mostrar los procesos que se están ejecutando en Linux, y cómo se puede filtrar la salida para encontrar un proceso específico?",
+        "opciones": [
+            { "id": "a", "texto": "netstat, filtrando por PID" },
+            { "id": "b", "texto": "ps, filtrando con grep" },
+            { "id": "c", "texto": "kill, enviando una señal al proceso" },
+            { "id": "d", "texto": "ifconfig, mostrando los procesos en red" }
+        ],
+        "correcta": "b",
+        "explicacion": "'ps' lista los procesos. Si usas una tubería y le pasas esa lista a 'grep' (ejemplo: ps aux | grep firefox), filtrará y te mostrará solo las líneas de los procesos que tengan ese nombre."
+    },
+    {
+        "id": 85,
+        "pregunta": "¿Qué comando se utiliza para crear una tubería que busque patrones de la salida de mostrar los directorios de una ruta?",
+        "opciones": [
+            { "id": "a", "texto": "ls | grep" },
+            { "id": "b", "texto": "touch \\ mkdir" },
+            { "id": "c", "texto": "ls \\ find" },
+            { "id": "d", "texto": "chmod | find" }
+        ],
+        "correcta": "a",
+        "explicacion": "El símbolo de la tubería o pipe es la barra vertical (|). Con 'ls' listas los directorios y con '| grep patron' filtras esa lista para encontrar lo que buscas."
+    },
+    {
+        "id": 86,
+        "pregunta": "¿Qué comando se utiliza para crear un archivo en Linux sin abrir un editor de texto?",
+        "opciones": [
+            { "id": "a", "texto": "nano nombrearchivo" },
+            { "id": "b", "texto": "cat nombrearchivo" },
+            { "id": "c", "texto": "touch nombrearchivo" },
+            { "id": "d", "texto": "vi nombrearchivo" }
+        ],
+        "correcta": "c",
+        "explicacion": "El comando 'touch' originalmente sirve para cambiar la fecha de modificación de un archivo, pero si el archivo que le indicas no existe, te crea uno nuevo en blanco al instante."
+    },
+    {
+        "id": 87,
+        "pregunta": "¿Qué es la autenticación de dos factores (2FA) y cómo mejora la seguridad de una cuenta?",
+        "opciones": [
+            { "id": "a", "texto": "Un sistema que requiere dos contraseñas diferentes" },
+            { "id": "b", "texto": "Un sistema que requiere una contraseña y una pregunta de seguridad" },
+            { "id": "c", "texto": "Un sistema que requiere algo que conoces (contraseña) y algo que tienes (código en tu teléfono)" },
+            { "id": "d", "texto": "Un sistema que cifra la contraseña dos veces" }
+        ],
+        "correcta": "c",
+        "explicacion": "El 2FA suma una capa extra: no basta con saberse la clave ('algo que sabes'), también necesitas tener físicamente tu móvil para recibir el SMS o usar el Authenticator ('algo que tienes')."
+    },
+    {
+        "id": 88,
+        "pregunta": "La herramienta de Windows que permite ejecutar comandos de administración es:",
+        "opciones": [
+            { "id": "a", "texto": "Visor de eventos" },
+            { "id": "b", "texto": "Monitor de configuración" },
+            { "id": "c", "texto": "Powershell" },
+            { "id": "d", "texto": "Regedit" }
+        ],
+        "correcta": "c",
+        "explicacion": "PowerShell es la terminal de línea de comandos avanzada de Microsoft. Permite automatizar tareas y administrar todo el sistema operativo mediante scripts."
+    },
+    {
+        "id": 89,
+        "pregunta": "El registro de Windows es:",
+        "opciones": [
+            { "id": "a", "texto": "Una base de datos" },
+            { "id": "b", "texto": "Una herramienta de gestión de eventos" },
+            { "id": "c", "texto": "Aplicación extra para registrar los accesos del usuario" },
+            { "id": "d", "texto": "Ninguna de las anteriores" }
+        ],
+        "correcta": "a",
+        "explicacion": "El Registro de Windows es una inmensa base de datos jerárquica central donde el SO y los programas guardan todas sus configuraciones y ajustes importantes."
+    },
+    {
+        "id": 90,
+        "pregunta": "Si por la razón X, mi sistema operativo Windows no arranca, me queda como opción:",
+        "opciones": [
+            { "id": "a", "texto": "Usar la herramienta de inicio de Windows de punto de restauración" },
+            { "id": "b", "texto": "Cargar una imagen con un programa de clonado por usb" },
+            { "id": "c", "texto": "Formatear la partición y volver a instalar" },
+            { "id": "d", "texto": "Todas las anteriores" }
+        ],
+        "correcta": "d",
+        "explicacion": "Todas son válidas. Puedes intentar repararlo restaurando un punto anterior, volcar una copia de seguridad clónica que tuvieras guardada, o tirar por lo drástico y formatear desde cero."
+    },
+    {
+        "id": 91,
+        "pregunta": "Esta ventana la obtengo en:",
+        "imagen": "/images/preguntas-sistemas/19.png",
+        "opciones": [
+            { "id": "a", "texto": "Administración de discos" },
+            { "id": "b", "texto": "Administración de equipos" },
+            { "id": "c", "texto": "Administrador de dispositivos" },
+            { "id": "d", "texto": "Administrador de tareas" }
+        ],
+        "correcta": "b",
+        "explicacion": "La ventana de Administración de Equipos (Computer Management) agrupa en un solo panel izquierdo el Programador de tareas, Visor de eventos, Carpetas compartidas, Usuarios locales, Rendimiento y Discos."
+    }
+]

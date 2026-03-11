@@ -26,10 +26,12 @@ export interface Opcion {
 export interface Pregunta {
     id: number;
     pregunta: string;
+    imagen?: string | string[]; // imagenes opcionales x si las hay
     opciones: Opcion[];
     correcta: 'a' | 'b' | 'c' | 'd';
     explicacion?: string;
 }
+
 
 export type ModoTest = 
     | 'repaso'

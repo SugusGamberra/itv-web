@@ -150,15 +150,15 @@ export default function InfoExamenes() {
                     onClick={() => toggleSection('2dam')}
                 >
                     <ul className="space-y-2 text-sm">
-                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Acceso a datos</span> <b>10:00</b></li>
-                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Desarrollo de interfaces</span> <b>11:00</b></li>
-                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Prog. servicios y procesos</span> <b>12:00</b></li>
-                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Prog. multimedia y dispositivos</span> <b>13:00</b></li>
-                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Sistemas de gestión empresarial</span> <b>14:00</b></li>
-                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Sostenibilidad</span> <b>15:30</b></li>
-                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Digitalización</span> <b>16:30</b></li>
-                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Inglés</span> <b>17:30</b></li>
-                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Itinerario personal empleabilidad II</span> <b>18:30</b></li>
+                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Acceso a datos</span> <b>09:00</b></li>
+                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Desarrollo de interfaces</span> <b>10:00</b></li>
+                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Prog. servicios y procesos</span> <b>11:00</b></li>
+                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Prog. multimedia y dispositivos</span> <b>12:00</b></li>
+                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Sistemas de gestión empresarial</span> <b>13:00</b></li>
+                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Sostenibilidad</span> <b>14:00</b></li>
+                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Digitalización</span> <b>16:00</b></li>
+                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Inglés</span> <b>17:00</b></li>
+                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Itinerario personal empleabilidad II</span> <b>18:00</b></li>
                     </ul>
                 </AccordionItem>
 
@@ -168,14 +168,14 @@ export default function InfoExamenes() {
                     onClick={() => toggleSection('2daw')}
                 >
                     <ul className="space-y-2 text-sm">
-                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Desarrollo web entorno cliente</span> <b>11:00</b></li>
-                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Desarrollo web entorno servidor</span> <b>12:00</b></li>
-                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Despliegue de aplicaciones web</span> <b>13:00</b></li>
-                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Diseño de interfaces web</span> <b>14:00</b></li>
-                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Sostenibilidad</span> <b>15:30</b></li>
-                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Digitalización</span> <b>16:30</b></li>
-                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Inglés técnico</span> <b>17:30</b></li>
-                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Itinerario personal empleabilidad II</span> <b>18:30</b></li>
+                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Desarrollo web entorno cliente</span> <b>10:00</b></li>
+                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Desarrollo web entorno servidor</span> <b>11:00</b></li>
+                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Despliegue de aplicaciones web</span> <b>12:00</b></li>
+                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Diseño de interfaces web</span> <b>13:00</b></li>
+                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Sostenibilidad</span> <b>14:00</b></li>
+                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Digitalización</span> <b>16:00</b></li>
+                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Inglés técnico</span> <b>17:00</b></li>
+                        <li className="flex justify-between border-b border-white/5 pb-1"><span>Itinerario personal empleabilidad II</span> <b>18:00</b></li>
                     </ul>
                 </AccordionItem>
 

@@ -36,4 +36,8 @@ export const ASIGNATURAS_DB: Record<string, Asignatura[]> = {
         { id: 'jesubuntu', nombre: 'Dios Jesubuntu'},
         { id: 'empleabilidad', nombre: 'Empleabilidad'}
     ],
+    '1dam-2025': [
+        { id: 'entornos-2025', nombre: 'Entornos de Desarrollo'},
+        { id: 'sistemas-2025', nombre: 'Sistemas Informáticos'}
+    ]
 };
