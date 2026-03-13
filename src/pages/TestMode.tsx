@@ -120,7 +120,7 @@ export default function TestMode() {
 
     // PANTALLA TEST (PREGUNTAS)
     return (
-        <div className="w-full max-w-4xl mx-auto pt-8 pb-20 flex flex-col items-center">
+        <div className="w-full max-w-4xl mx-auto pt-8 pb-20 flex flex-col items-center min-h-screen">
             
             {/* Barra superior */}
             <div className="w-full mb-8 relative flex items-center justify-center min-h-[40px]">
