@@ -38,7 +38,7 @@
     {
         "id": 4,
         "pregunta": "En la imagen, de la A, a la E, son:",
-        "imagen": "/images/preguntas-sistemas/12.png",
+        "imagen": "/images/preguntas/12.png",
         "opciones": [
             { "id": "a", "texto": "PS2 ratón, PS2 teclado, audio digital, usb, conectores audio, conector ethernet, mini usb, displayport" },
             { "id": "b", "texto": "PS2 raton, PS2 teclado, RJ11, usb, conectores audio, conector ethernet, mini Firewire, dmi" },
@@ -51,7 +51,7 @@
     {
         "id": 5,
         "pregunta": "Según la imagen, se identifica:",
-        "imagen": "/images/preguntas-sistemas/13.png",
+        "imagen": "/images/preguntas/13.png",
         "opciones": [
             { "id": "a", "texto": "Tarjeta gráfica ATI RADEON 4 GB de tipo GDDR6, para directx12, conectada sobre PCle 8x, accesible a parte de su configuración por Uefi y sin que pueda ejecutar instrucciones del procesador principal" },
             { "id": "b", "texto": "Tarjeta gráfica ATI RADEON 8 GB de tipo GDDR6, para directx12, conectada sobre PCIe 16x, accesible a parte de su configuración por Uefi y sin que pueda ejecutar instrucciones del procesador principal" },
@@ -329,7 +329,7 @@
     {
         "id": 28,
         "pregunta": "En el siguiente diagrama:",
-        "imagen": "/images/preguntas-sistemas/15.png",
+        "imagen": "/images/preguntas/15.png",
         "opciones": [
             { "id": "a", "texto": "El dispatcher entra en acción 5 veces" },
             { "id": "b", "texto": "El dispatcher entra en acción 6 veces" },
@@ -342,7 +342,7 @@
     {
         "id": 29,
         "pregunta": "Con los siguientes datos de ejecución de procesos, el algoritmo que menos tiempo medio de retorno genera es, entre los siguientes: FCFS/FIFO, SJF y SRTN:",
-        "imagen": "/images/preguntas-sistemas/16.png",
+        "imagen": "/images/preguntas/16.png",
         "opciones": [
             { "id": "a", "texto": "FCFS" },
             { "id": "b", "texto": "SJF" },
@@ -475,7 +475,7 @@
     {
         "id": 40,
         "pregunta": "De la imagen podemos deducir, al menos, que es un:",
-        "imagen": "/images/preguntas-sistemas/17.png",
+        "imagen": "/images/preguntas/17.png",
         "opciones": [
             { "id": "a", "texto": "Un sistema monotarea" },
             { "id": "b", "texto": "Un sistema multitarea" },
@@ -836,7 +836,7 @@
     {
         "id": 70,
         "pregunta": "Los bloques grises podríamos decir que son tiempo de procesos:",
-        "imagen": "/images/preguntas-sistemas/18.png",
+        "imagen": "/images/preguntas/18.png",
         "opciones": [
             { "id": "a", "texto": "Bloqueados" },
             { "id": "b", "texto": "Preparados" },
@@ -1089,7 +1089,7 @@
     {
         "id": 91,
         "pregunta": "Esta ventana la obtengo en:",
-        "imagen": "/images/preguntas-sistemas/19.png",
+        "imagen": "/images/preguntas/19.png",
         "opciones": [
             { "id": "a", "texto": "Administración de discos" },
             { "id": "b", "texto": "Administración de equipos" },
