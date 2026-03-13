@@ -8,7 +8,7 @@ export const useTestEngine = (todasLasPreguntas: Pregunta[], modo: ModoTest) => 
     const [finalizado, setFinalizado] = useState(false);
 
     // barajar
-    const shuffle = (array: Pregunta[]) => {
+    const shuffle = <T,>(array: T[]): T[] => {
         return [...array].sort(() => Math.random() - 0.5);
     };
 
@@ -16,15 +16,36 @@ export const useTestEngine = (todasLasPreguntas: Pregunta[], modo: ModoTest) => 
     useEffect(() => {
         if (!todasLasPreguntas || todasLasPreguntas.length === 0) return;
 
+        // funcion para mezclar las opciones y reasignar a, b, c, d
+        const barajarOpciones = (listaPreguntas: Pregunta[]) => {
+            return listaPreguntas.map(p => {
+                const opcionesMezcladas = shuffle([...p.opciones]);
+                const letras: ('a' | 'b' | 'c' | 'd')[] = ['a', 'b', 'c', 'd'];
+                let nuevaCorrecta = p.correcta;
+
+                const nuevasOpciones = opcionesMezcladas.map((opc, index) => {
+                    const nuevaLetra = letras[index];
+                    // si la opcion que estamos mirando era la correcta, actualizamos su letra chivata
+                    if (opc.id === p.correcta) {
+                        nuevaCorrecta = nuevaLetra;
+                    }
+                    return { ...opc, id: nuevaLetra };
+                });
+
+                return { ...p, opciones: nuevasOpciones, correcta: nuevaCorrecta };
+            });
+        };
+
         let seleccion: Pregunta[] = [];
 
         switch (modo) {
             case 'examen_easy':
             case 'examen_hard':
-                seleccion = shuffle(todasLasPreguntas).slice(0, 30);
+                seleccion = barajarOpciones(shuffle(todasLasPreguntas).slice(0, 30));
                 break;
             case 'puntuar':
-                seleccion = shuffle(todasLasPreguntas);
+                // limite de 150 preguntas y con las respuestas totalmente randomizadas
+                seleccion = barajarOpciones(shuffle(todasLasPreguntas).slice(0, 150));
                 break;
             case 'repaso':
             default:
