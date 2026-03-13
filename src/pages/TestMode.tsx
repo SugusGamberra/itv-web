@@ -31,10 +31,20 @@ export default function TestMode() {
             if (['a', 'b', 'c', 'd'].includes(e.key.toLowerCase())) {
                 responder(e.key.toLowerCase() as 'a' | 'b' | 'c' | 'd');
             }
+            
+            if (modo === 'repaso') {
+                if (e.key === 'ArrowRight') {
+                    siguiente();
+                }
+                if (e.key === 'ArrowLeft') {
+                    anterior();
+                }
+            }
         };
+        
         window.addEventListener('keydown', handleKeyDown);
         return () => window.removeEventListener('keydown', handleKeyDown);
-    }, [responder]);
+    }, [responder, siguiente, anterior, modo]);
 
     if (!preguntaActual && !finalizado) return <div className="text-center pt-20 text-white animate-pulse">Invocando preguntas...</div>;
 
