@@ -380,7 +380,7 @@
             { "id": "d", "texto": "No pueden implementar programación orientada a objetos" }
         ],
         "correcta": "b",
-        "explicacion": "Los lenguajes compilados traducen todo el código fuente de una vez y generan un archivo binario/ejecutable (como un .exe) que la máquina puede entender directamente[cite: 241, 243]."
+        "explicacion": "Los lenguajes compilados traducen todo el código fuente de una vez y generan un archivo binario/ejecutable (como un .exe) que la máquina puede entender directamente."
     },
     {
         "id": 32,
@@ -392,7 +392,7 @@
             { "id": "d", "texto": "Depender de la herencia para la reutilización de código" }
         ],
         "correcta": "b",
-        "explicacion": "El paradigma funcional evita los estados compartidos y los datos mutables, basándose casi exclusivamente en la evaluación de funciones matemáticas puras donde la misma entrada siempre da la misma salida[cite: 246, 248]."
+        "explicacion": "El paradigma funcional evita los estados compartidos y los datos mutables, basándose casi exclusivamente en la evaluación de funciones matemáticas puras donde la misma entrada siempre da la misma salida."
     },
     {
         "id": 33,
@@ -404,7 +404,7 @@
             { "id": "d", "texto": "Ejecutar código en paralelo" }
         ],
         "correcta": "a",
-        "explicacion": "La encapsulación agrupa los datos y los métodos que los manipulan, ocultando los detalles internos y protegiendo el estado del objeto desde el exterior (usando private, protected, etc.)[cite: 251, 252]."
+        "explicacion": "La encapsulación agrupa los datos y los métodos que los manipulan, ocultando los detalles internos y protegiendo el estado del objeto desde el exterior (usando private, protected, etc.)"
     },
     {
         "id": 34,
@@ -416,7 +416,7 @@
             { "id": "d", "texto": "Código maquina a código objeto" }
         ],
         "correcta": "c",
-        "explicacion": "La función principal de un compilador es coger el código fuente escrito por el programador (alto nivel) y traducirlo a código máquina (ceros y unos) que el procesador pueda ejecutar[cite: 256, 259]."
+        "explicacion": "La función principal de un compilador es coger el código fuente escrito por el programador (alto nivel) y traducirlo a código máquina (ceros y unos) que el procesador pueda ejecutar."
     },
     {
         "id": 35,
@@ -428,7 +428,7 @@
             { "id": "d", "texto": "Que cada etapa es totalmente independiente de las anteriores" }
         ],
         "correcta": "b",
-        "explicacion": "El modelo clásico en Cascada es lineal e inflexible: no puedes pasar a la siguiente fase sin haber cerrado la anterior, y es muy costoso volver atrás ante cambios[cite: 261, 263]."
+        "explicacion": "El modelo clásico en Cascada es lineal e inflexible: no puedes pasar a la siguiente fase sin haber cerrado la anterior, y es muy costoso volver atrás ante cambios."
     },
     {
         "id": 36,
@@ -440,7 +440,7 @@
             { "id": "d", "texto": "IntelliJ IDEA" }
         ],
         "correcta": "b",
-        "explicacion": "Visual Studio Code (VS Code) es el editor/IDE ligero de Microsoft que destaca por su inmenso ecosistema de extensiones y su integración nativa con Git[cite: 267, 268, 270]."
+        "explicacion": "Visual Studio Code (VS Code) es el editor/IDE ligero de Microsoft que destaca por su inmenso ecosistema de extensiones y su integración nativa con Git."
     },
     {
         "id": 37,
@@ -452,7 +452,7 @@
             { "id": "d", "texto": "Codemirror" }
         ],
         "correcta": "c",
-        "explicacion": "StackBlitz y Repl.it son entornos 100% online. Visual Studio Code es, en su origen y uso principal, una aplicación de escritorio local[cite: 273, 276]."
+        "explicacion": "StackBlitz y Repl.it son entornos 100% online. Visual Studio Code es, en su origen y uso principal, una aplicación de escritorio local."
     },
     {
         "id": 38,
@@ -464,7 +464,7 @@
             { "id": "d", "texto": "Code::Blocks" }
         ],
         "correcta": "c",
-        "explicacion": "Visual Studio (el IDE pesado de Microsoft, no el Code) en sus versiones más completas históricamente ha estado muy ligado a Windows y requiere cuenta de Microsoft, ofreciendo una versión 'Community' gratuita[cite: 278, 281]."
+        "explicacion": "Visual Studio (el IDE pesado de Microsoft, no el Code) en sus versiones más completas históricamente ha estado muy ligado a Windows y requiere cuenta de Microsoft, ofreciendo una versión 'Community' gratuita."
     },
     {
         "id": 39,
@@ -476,7 +476,7 @@
             { "id": "d", "texto": "Un programa para la gestión de bases de datos" }
         ],
         "correcta": "c",
-        "explicacion": "Un Entorno de Desarrollo Integrado (IDE) es el 'todo en uno' del programador, agrupando editor, compilador, consola, herramientas de testeo y depuración en una sola interfaz[cite: 283, 286, 287]."
+        "explicacion": "Un Entorno de Desarrollo Integrado (IDE) es el 'todo en uno' del programador, agrupando editor, compilador, consola, herramientas de testeo y depuración en una sola interfaz"
     },
     {
         "id": 40,
@@ -488,7 +488,7 @@
             { "id": "d", "texto": "Soporte nativo para más lenguajes de programación" }
         ],
         "correcta": "c",
-        "explicacion": "Al no tener tantas herramientas integradas por defecto como un IDE pesado, los editores ligeros abren casi al instante y consumen mucha menos memoria RAM y CPU[cite: 289, 292]."
+        "explicacion": "Al no tener tantas herramientas integradas por defecto como un IDE pesado, los editores ligeros abren casi al instante y consumen mucha menos memoria RAM y CPU."
     },
     {
         "id": 41,
@@ -500,7 +500,7 @@
             { "id": "d", "texto": "Aumentar la cantidad de funciones disponibles" }
         ],
         "correcta": "a",
-        "explicacion": "El testing busca asegurar la calidad del producto, validando que cumple con los requisitos y que funciona sin fallos graves antes de llegar al usuario[cite: 295, 296]."
+        "explicacion": "El testing busca asegurar la calidad del producto, validando que cumple con los requisitos y que funciona sin fallos graves antes de llegar al usuario."
     },
     {
         "id": 42,
@@ -512,7 +512,7 @@
             { "id": "d", "texto": "Prueba de aceptación" }
         ],
         "correcta": "c",
-        "explicacion": "Las pruebas de caja blanca ('white-box testing') requieren ver y comprender el código fuente interno, probando los flujos, bucles y condiciones lógicas específicas[cite: 300, 303]."
+        "explicacion": "Las pruebas de caja blanca ('white-box testing') requieren ver y comprender el código fuente interno, probando los flujos, bucles y condiciones lógicas específicas."
     },
     {
         "id": 43,
@@ -524,7 +524,7 @@
             { "id": "d", "texto": "Criterios de aceptación" }
         ],
         "correcta": "c",
-        "explicacion": "Un plan de pruebas detalla el 'qué' y el 'cómo' se va a testear (estrategias, criterios de éxito, recursos técnicos), pero no incluye la lista del personal de desarrollo[cite: 305, 308]."
+        "explicacion": "Un plan de pruebas detalla el 'qué' y el 'cómo' se va a testear (estrategias, criterios de éxito, recursos técnicos), pero no incluye la lista del personal de desarrollo."
     },
     {
         "id": 44,
@@ -536,7 +536,7 @@
             { "id": "d", "texto": "El número de funciones implementadas" }
         ],
         "correcta": "b",
-        "explicacion": "La fiabilidad mide la estabilidad del sistema, calculando estadísticamente la probabilidad de que realice su función sin fallos durante un periodo de uso específico[cite: 310, 312]."
+        "explicacion": "La fiabilidad mide la estabilidad del sistema, calculando estadísticamente la probabilidad de que realice su función sin fallos durante un periodo de uso específico."
     },
     {
         "id": 45,
@@ -548,7 +548,7 @@
             { "id": "d", "texto": "Un plan de desarrollo del software" }
         ],
         "correcta": "b",
-        "explicacion": "Un Test Case define una situación a probar: qué datos le vas a meter al sistema, en qué condiciones, y qué resultado exacto esperas obtener para dar la prueba por válida[cite: 315, 317]."
+        "explicacion": "Un Test Case define una situación a probar: qué datos le vas a meter al sistema, en qué condiciones, y qué resultado exacto esperas obtener para dar la prueba por válida"
     },
     {
         "id": 46,
