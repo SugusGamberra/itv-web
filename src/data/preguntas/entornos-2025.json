@@ -1381,7 +1381,8 @@
     },
     {
         "id": 115,
-        "pregunta": "En el sistema anterior, si un Viaje siempre debe estar asociado a un Vehículo y, si se elimina el Viaje, el Vehículo sigue existiendo, ¿qué tipo de relación es?",
+        "pregunta": "Dado el fragmento de diagrama siguiente, si un Viaje siempre debe estar asociado a un Vehículo y, si se elimina el Viaje, el Vehículo sigue existiendo, ¿qué tipo de relación es?",
+        "imagen": "/images/preguntas/10.png",
         "opciones": [
             { "id": "a", "texto": "Asociación" },
             { "id": "b", "texto": "Agregación" },
