@@ -45,7 +45,7 @@
             { "id": "d", "texto": "XHTML"}
         ],
         "correcta": "c",
-        "explicacion": "Los lenguajes de marcas utilizan etiquetas para dar estructura y semántica a la información."
+        "explicacion": "SGML (Standard Generalized Markup Language) es un metalenguaje porque no es un lenguaje de marcado en sí mismo, sino un estándar para definir otros lenguajes de marcado (como HTML o XML). Proporciona las reglas sintácticas para estructurar documentos, permitiendo crear etiquetas personalizadas independientes de cualquier plataforma o software."
     },
     {
         "id": 5,
