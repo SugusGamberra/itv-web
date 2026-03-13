@@ -7,6 +7,19 @@ import type { ModoTest } from '../types/index';
 import Footer from '../ui/components/Footer';
 import NavMenu from '../ui/components/NavMenu';
 
+//img
+import imgB1 from '../assets/images/b1.jpg';
+import imgB2 from '../assets/images/b2.jpg';
+import imgB3 from '../assets/images/b3.jpg';
+import imgB4 from '../assets/images/b4.jpg';
+
+const fondosModos: Record<string, string> = {
+    'repaso': imgB1,
+    'puntuar': imgB2,
+    'examen_easy': imgB3,
+    'examen_hard': imgB4
+};
+
 export default function TestMode() {
     const { modo, asignaturaID, gradoID, year } = useParams();
     const bateriaPreguntas = MAPA_PREGUNTAS[asignaturaID || ''] || [];
@@ -152,76 +165,86 @@ export default function TestMode() {
             </div>
 
             {/* tarjeta pregunta */}
-            <div className="w-full bg-[#0a0a0a] border border-white/10 rounded-[30px] p-8 sm:p-14 shadow-2xl relative overflow-hidden">
-                
-                {/* Deco de fondo*/}
-                <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/2 pointer-events-none"></div>
+            <div className="w-full border border-white/10 rounded-[30px] shadow-2xl relative overflow-hidden">
+                <img 
+                    src={fondosModos[modo || 'repaso']} 
+                    alt={`Fondo del modo ${modo}`} 
+                    className="absolute inset-0 w-full h-full object-cover z-0 opacity-60"
+                    onError={(e) => { e.currentTarget.style.display = 'none'; }}
+                />
 
-                {/* Texto pregunta*/}
-                <h2 className="text-2xl sm:text-4xl font-serif font-bold mb-12 leading-relaxed text-[#fbf7ef]">
-                    {preguntaActual.pregunta}
-                </h2>
+                <div className="absolute inset-0 bg-[#050505]/75 backdrop-blur-xl z-0"></div>
+                <div className="relative z-10 p-8 sm:p-14 w-full h-full">
+                    
+                    {/* Deco de fondo*/}
+                    <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/2 pointer-events-none"></div>
 
-                {/* Imágenes de la pregunta */}
-                {preguntaActual.imagen && (
-                    <div className="mb-12 flex flex-col md:flex-row flex-wrap gap-6 justify-center items-center relative z-10">
-                        {Array.isArray(preguntaActual.imagen) ? (
-                            preguntaActual.imagen.map((imgRuta, idx) => (
-                                <img key={idx} src={imgRuta} alt={`Pregunta ${idx}`} className="max-w-full max-h-72 object-contain rounded-xl border border-white/10 shadow-lg bg-white/5 p-2" />
-                            ))
-                        ) : typeof preguntaActual.imagen === 'string' && preguntaActual.imagen.includes(',') ? (
-                            preguntaActual.imagen.split(',').map((imgRuta, idx) => (
-                                <img key={idx} src={imgRuta.trim()} alt={`Pregunta ${idx}`} className="max-w-full max-h-72 object-contain rounded-xl border border-white/10 shadow-lg bg-white/5 p-2" />
-                            ))
-                        ) : (
-                            <img src={preguntaActual.imagen as string} alt="Pregunta" className="max-w-full max-h-72 object-contain rounded-xl border border-white/10 shadow-lg bg-white/5 p-2" />
-                        )}
-                    </div>
-                )}
+                    {/* Texto pregunta*/}
+                    <h2 className="text-2xl sm:text-4xl font-serif font-bold mb-12 leading-relaxed text-[#fbf7ef] drop-shadow-md">
+                        {preguntaActual.pregunta}
+                    </h2>
 
-                {/* Opciones */}
-                <div className="grid gap-4 relative z-10">
-                    {preguntaActual.opciones.map((opcion) => {
-                        const isSelected = respuestas[preguntaActual.id] === opcion.id;
-                        const isCorrect = opcion.id === preguntaActual.correcta;
-                        
-                        // Logica de colores
-                        let btnClass = "border border-white/10 bg-white/5 hover:bg-white/10 text-white/70";
-                        
-                        if (modo === 'repaso' && isSelected) {
-                            if (isCorrect) btnClass = "bg-emerald-900/40 border-emerald-500/50 text-emerald-200";
-                            else btnClass = "bg-red-900/40 border-red-500/50 text-red-200";
-                        } else if (isSelected) {
-                            // seleccionado normal
-                            btnClass = "bg-[#fbf7ef] text-black border-[#fbf7ef] shadow-[0_0_20px_rgba(255,255,255,0.15)]";
-                        }
-
-                        return (
-                            <button
-                                key={opcion.id}
-                                onClick={() => responder(opcion.id)}
-                                className={`w-full text-left p-6 rounded-2xl transition-all duration-200 flex items-center gap-6 text-lg group ${btnClass}`}
-                            >
-                                {/* opcion */}
-                                <span className={`w-10 h-10 flex items-center justify-center rounded-lg text-sm font-bold uppercase tracking-wider transition-colors ${isSelected ? 'bg-black text-white' : 'bg-white/10 text-white/40 group-hover:bg-white/20'}`}>
-                                    {opcion.id}
-                                </span>
-                                <span className="font-sans font-medium">{opcion.texto}</span>
-                            </button>
-                        );
-                    })}
-                </div>
-
-                {/* Explicacion (solo repaso) */}
-                {modo === 'repaso' && respuestas[preguntaActual.id] && (
-                    <div className="mt-10 p-8 bg-[#151520] rounded-2xl border border-white/10 flex gap-5 text-indigo-200 animate-in fade-in slide-in-from-top-2">
-                        <AlertCircle className="shrink-0 mt-1 text-indigo-400" size={24} />
-                        <div>
-                            <p className="font-bold mb-2 uppercase tracking-widest text-xs text-indigo-400">Explicación</p>
-                            <p className="text-lg leading-relaxed opacity-90 font-serif text-white/90">{preguntaActual.explicacion}</p>
+                    {/* Imágenes de la pregunta */}
+                    {preguntaActual.imagen && (
+                        <div className="mb-12 flex flex-col md:flex-row flex-wrap gap-6 justify-center items-center relative z-10">
+                            {Array.isArray(preguntaActual.imagen) ? (
+                                preguntaActual.imagen.map((imgRuta, idx) => (
+                                    <img key={idx} src={imgRuta} alt={`Pregunta ${idx}`} className="max-w-full max-h-72 object-contain rounded-xl border border-white/10 shadow-lg bg-white/5 p-2" />
+                                ))
+                            ) : typeof preguntaActual.imagen === 'string' && preguntaActual.imagen.includes(',') ? (
+                                preguntaActual.imagen.split(',').map((imgRuta, idx) => (
+                                    <img key={idx} src={imgRuta.trim()} alt={`Pregunta ${idx}`} className="max-w-full max-h-72 object-contain rounded-xl border border-white/10 shadow-lg bg-white/5 p-2" />
+                                ))
+                            ) : (
+                                <img src={preguntaActual.imagen as string} alt="Pregunta" className="max-w-full max-h-72 object-contain rounded-xl border border-white/10 shadow-lg bg-white/5 p-2" />
+                            )}
                         </div>
+                    )}
+
+                    {/* Opciones */}
+                    <div className="grid gap-4 relative z-10">
+                        {preguntaActual.opciones.map((opcion) => {
+                            const isSelected = respuestas[preguntaActual.id] === opcion.id;
+                            const isCorrect = opcion.id === preguntaActual.correcta;
+                            
+                            // Logica de colores
+                            let btnClass = "border border-white/10 bg-white/5 hover:bg-white/10 text-white/70";
+                            
+                            if (modo === 'repaso' && isSelected) {
+                                if (isCorrect) btnClass = "bg-emerald-900/40 border-emerald-500/50 text-emerald-200";
+                                else btnClass = "bg-red-900/40 border-red-500/50 text-red-200";
+                            } else if (isSelected) {
+                                // seleccionado normal
+                                btnClass = "bg-[#fbf7ef] text-black border-[#fbf7ef] shadow-[0_0_20px_rgba(255,255,255,0.15)]";
+                            }
+
+                            return (
+                                <button
+                                    key={opcion.id}
+                                    onClick={() => responder(opcion.id)}
+                                    className={`w-full text-left p-6 rounded-2xl transition-all duration-200 flex items-center gap-6 text-lg group ${btnClass}`}
+                                >
+                                    {/* opcion */}
+                                    <span className={`w-10 h-10 flex items-center justify-center rounded-lg text-sm font-bold uppercase tracking-wider transition-colors ${isSelected ? 'bg-black text-white' : 'bg-white/10 text-white/40 group-hover:bg-white/20'}`}>
+                                        {opcion.id}
+                                    </span>
+                                    <span className="font-sans font-medium">{opcion.texto}</span>
+                                </button>
+                            );
+                        })}
                     </div>
-                )}
+
+                    {/* Explicacion (solo repaso) */}
+                    {modo === 'repaso' && respuestas[preguntaActual.id] && (
+                        <div className="mt-10 p-8 bg-[#151520] rounded-2xl border border-white/10 flex gap-5 text-indigo-200 animate-in fade-in slide-in-from-top-2">
+                            <AlertCircle className="shrink-0 mt-1 text-indigo-400" size={24} />
+                            <div>
+                                <p className="font-bold mb-2 uppercase tracking-widest text-xs text-indigo-400">Explicación</p>
+                                <p className="text-lg leading-relaxed opacity-90 font-serif text-white/90">{preguntaActual.explicacion}</p>
+                            </div>
+                        </div>
+                    )}
+                </div>
             </div>
 
             {/* Navegacion inferior (solo repaso) */}
