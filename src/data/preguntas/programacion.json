@@ -1,0 +1,962 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Qué es un algoritmo?",
+        "opciones": [
+            {"id": "a", "texto": "Un tipo de dato en Java"},
+            {"id": "b", "texto": "Una secuencia ordenada de pasos para resolver un problema"},
+            {"id": "c", "texto": "Un bucle infinito"},
+            {"id": "d", "texto": "Un método de la clase String"}
+        ],
+        "correcta": "b",
+        "explicacion": "Un algoritmo es una secuencia finita y ordenada de pasos que permite resolver un problema."
+    },
+    {
+        "id": 2,
+        "pregunta": "¿Cuál de los siguientes es un lenguaje de alto nivel?",
+        "opciones": [
+            {"id": "a", "texto": "Ensamblador"},
+            {"id": "b", "texto": "Código máquina"},
+            {"id": "c", "texto": "Java"},
+            {"id": "d", "texto": "Binario"}
+        ],
+        "correcta": "c",
+        "explicacion": "Java es un lenguaje de alto nivel, mientras que el ensamblador y el código máquina son de bajo nivel"
+    },
+    {
+        "id": 3,
+        "pregunta": "¿Qué hace un compilador?",
+        "opciones": [
+            {"id": "a", "texto": "Ejecuta el programa línea a línea"},
+            {"id": "b", "texto": "Traduce el código fuente a código máquina"},
+            {"id": "c", "texto": "Gestiona la memoria RAM"},
+            {"id": "d", "texto": "Depura errores en tiempo real"}
+        ],
+        "correcta": "b",
+        "explicacion": "Un compilador traduce todo el código fuente a código máquina antes de ejecutarlo"
+    },
+    {
+        "id": 4,
+        "pregunta": "¿Qué es la programación?",
+        "opciones": [
+            {"id": "a", "texto": "El diseño de hardware"},
+            {"id": "b", "texto": "El proceso de escribir instrucciones para que un ordenador resuelva problemas"},
+            {"id": "c", "texto": "La instalación de sistemas operativos"},
+            {"id": "d", "texto": "El mantenimiento de redes"}
+        ],
+        "correcta": "b",
+        "explicacion": "Programar consiste en escribir instrucciones (código) que un ordenador puede entender y ejecutar."
+    },
+    {
+        "id": 5,
+        "pregunta": "¿Qué es un pseudocódigo?",
+        "opciones": [
+            {"id": "a", "texto": "Un lenguaje de programación oficial"},
+            {"id": "b", "texto": "Una representación informal de un algoritmo en lenguaje natural estructurado"},
+            {"id": "c", "texto": "El código binario de un programa"},
+            {"id": "d", "texto": "Una herramienta de depuración"}
+        ],
+        "correcta": "b",
+        "explicacion": "El pseudocódigo es una forma de describir algoritmos en lenguaje natural con cierta estructura, sin seguir la sintaxis de ningún lenguaje concreto"
+    },
+    {
+        "id": 6,
+        "pregunta": "¿Cuál es la diferencia entre un intérprete y un compilador?",
+        "opciones": [
+            {"id": "a", "texto": "No hay diferencia"},
+            {"id": "b", "texto": "El compilador traduce todo el programa de una vez; el intérprete lo hace línea a línea"},
+            {"id": "c", "texto": "El intérprete es más rápido en ejecución"},
+            {"id": "d", "texto": "El compilador solo funciona en Java"}
+        ],
+        "correcta": "b",
+        "explicacion": "El compilador genera un ejecutable completo; el intérprete procesa y ejecuta cada instrucción una a una."
+    },
+    {
+        "id": 7,
+        "pregunta": "¿Qué es el JDK en Java?",
+        "opciones": [
+            {"id": "a", "texto": "Un editor de texto"},
+            {"id": "b", "texto": "El entorno de ejecución de Java"},
+            {"id": "c", "texto": "El kit de desarrollo de Java que incluye compilador y herramientas"},
+            {"id": "d", "texto": "Una librería gráfica"}
+        ],
+        "correcta": "c",
+        "explicacion": "El JDK (Java Development Kit) incluye el compilador javac, la JVM y otras herramientas necesarias para desarrollar en Java"
+    },
+    {
+        "id": 8,
+        "pregunta": "¿Qué extensión tienen los ficheros fuente de Java?",
+        "opciones": [
+            {"id": "a", "texto": ".class"},
+            {"id": "b", "texto": ".exe"},
+            {"id": "c", "texto": ".java"},
+            {"id": "d", "texto": ".jar"}
+        ],
+        "correcta": "c",
+        "explicacion": "Los ficheros fuente de Java tienen la extensión .java. Tras compilarlos se generan ficheros .class."
+    },
+    {
+        "id": 9,
+        "pregunta": "¿Qué es la JVM?",
+        "opciones": [
+            {"id": "a", "texto": "Un editor de código Java"},
+            {"id": "b", "texto": "La máquina virtual que ejecuta el bytecode de Java"},
+            {"id": "c", "texto": "El compilador de Java"},
+            {"id": "d", "texto": "Una base de datos"}
+        ],
+        "correcta": "b",
+        "explicacion": "La JVM (Java Virtual Machine) es la encargada de ejecutar el bytecode generado al compilar un programa Java."
+    },
+    {
+        "id": 10,
+        "pregunta": "¿Cuál de estos es un ejemplo de diagrama de flujo?",
+        "opciones": [
+            {"id": "a", "texto": "Una tabla de variables"},
+            {"id": "b", "texto": "Una representación gráfica de los pasos de un algoritmo usando símbolos"},
+            {"id": "c", "texto": "Un fragmento de código Java"},
+            {"id": "d", "texto": "Un archivo .class"}
+        ],
+        "correcta": "b",
+        "explicacion": "Un diagrama de flujo representa gráficamente los pasos de un algoritmo usando símbolos como rombos (decisiones) y rectángulos (procesos)"
+    },
+    {
+        "id": 11,
+        "pregunta": "¿Cómo se escribe el método principal en Java?",
+        "opciones": [
+            {"id": "a", "texto": "public void main()"},
+            {"id": "b", "texto": "public static void main(String[] args)"},
+            {"id": "c", "texto": "static main(String args)"},
+            {"id": "d", "texto": "void main()"}
+        ],
+        "correcta": "b",
+        "explicacion": "El método principal en Java debe declararse exactamente como: public static void main(String[] args)"
+    },
+    {
+        "id": 12,
+        "pregunta": "¿Cuál es la forma correcta de declarar una variable entera en Java?",
+        "opciones": [
+            {"id": "a", "texto": "integer x = 5;"},
+            {"id": "b", "texto": "int x = 5;"},
+            {"id": "c", "texto": "var x = 5;"},
+            {"id": "d", "texto": "number x = 5;"}
+        ],
+        "correcta": "b",
+        "explicacion": "En Java, los enteros se declaran con el tipo primitivo 'int'"
+    },
+    {
+        "id": 13,
+        "pregunta": "¿Qué hace System.out.println() en Java?",
+        "opciones": [
+            {"id": "a", "texto": "Lee datos del teclado"},
+            {"id": "b", "texto": "Imprime un texto en la consola con salto de línea"},
+            {"id": "c", "texto": "Declara una variable"},
+            {"id": "d", "texto": "Abre un fichero"}
+        ],
+        "correcta": "b",
+        "explicacion": "System.out.println() imprime el valor indicado en la consola y añade un salto de línea al final."
+    },
+    {
+        "id": 14,
+        "pregunta": "¿Cuál de estos tipos de datos es primitivo en Java?",
+        "opciones": [
+            {"id": "a", "texto": "String"},
+            {"id": "b", "texto": "ArrayList"},
+            {"id": "c", "texto": "double"},
+            {"id": "d", "texto": "Scanner"}
+        ],
+        "correcta": "c",
+        "explicacion": "double es un tipo primitivo de Java. String, ArrayList y Scanner son clases (tipos referencia)"
+    },
+    {
+        "id": 15,
+        "pregunta": "¿Cómo se declara una constante en Java?",
+        "opciones": [
+            {"id": "a", "texto": "const int MAX = 10;"},
+            {"id": "b", "texto": "final int MAX = 10;"},
+            {"id": "c", "texto": "static int MAX = 10;"},
+            {"id": "d", "texto": "int final MAX = 10;"}
+        ],
+        "correcta": "b",
+        "explicacion": "En Java las constantes se declaran con la palabra clave 'final'."
+    },
+    {
+        "id": 16,
+        "pregunta": "¿Qué símbolo se usa para los comentarios de una sola línea en Java?",
+        "opciones": [
+            {"id": "a", "texto": "/* */"},
+            {"id": "b", "texto": "#"},
+            {"id": "c", "texto": "//"},
+            {"id": "d", "texto": "--"}
+        ],
+        "correcta": "c",
+        "explicacion": "En Java, los comentarios de una línea comienzan con //."
+    },
+    {
+        "id": 17,
+        "pregunta": "¿Cuál es el rango del tipo 'byte' en Java?",
+        "opciones": [
+            {"id": "a", "texto": "0 a 255"},
+            {"id": "b", "texto": "-128 a 127"},
+            {"id": "c", "texto": "-32768 a 32767"},
+            {"id": "d", "texto": "0 a 127"}
+        ],
+        "correcta": "b",
+        "explicacion": "El tipo byte en Java ocupa 8 bits y su rango es de -128 a 127"
+    },
+    {
+        "id": 18,
+        "pregunta": "¿Qué valor tiene un boolean por defecto en Java?",
+        "opciones": [
+            {"id": "a", "texto": "null"},
+            {"id": "b", "texto": "0"},
+            {"id": "c", "texto": "false"},
+            {"id": "d", "texto": "true"}
+        ],
+        "correcta": "c",
+        "explicacion": "Las variables booleanas en Java se inicializan a false por defecto como atributo de clase."
+    },
+    {
+        "id": 19,
+        "pregunta": "¿Cuál de estas palabras es una palabra reservada en Java?",
+        "opciones": [
+            {"id": "a", "texto": "numero"},
+            {"id": "b", "texto": "resultado"},
+            {"id": "c", "texto": "class"},
+            {"id": "d", "texto": "dato"}
+        ],
+        "correcta": "c",
+        "explicacion": "class es una palabra reservada en Java usada para definir clases."
+    },
+    {
+        "id": 20,
+        "pregunta": "¿Qué operador se usa para concatenar cadenas en Java?",
+        "opciones": [
+            {"id": "a", "texto": "*"},
+            {"id": "b", "texto": "&"},
+            {"id": "c", "texto": "+"},
+            {"id": "d", "texto": "."}
+        ],
+        "correcta": "c",
+        "explicacion": "En Java el operador + se usa para concatenar (unir) cadenas de texto"
+    },
+    {
+        "id": 21,
+        "pregunta": "¿Cuál es la sintaxis correcta de un if en Java?",
+        "opciones": [
+            {"id": "a", "texto": "if x > 0 then {}"},
+            {"id": "b", "texto": "if (x > 0) {}"},
+            {"id": "c", "texto": "if x > 0 {}"},
+            {"id": "d", "texto": "IF (x > 0) THEN {}"}
+        ],
+        "correcta": "b",
+        "explicacion": "En Java el if requiere la condición entre paréntesis: if (condicion) { }"
+    },
+    {
+        "id": 22,
+        "pregunta": "¿Qué hace un bucle while?",
+        "opciones": [
+            {"id": "a", "texto": "Ejecuta el bloque una sola vez"},
+            {"id": "b", "texto": "Repite el bloque mientras la condición sea verdadera"},
+            {"id": "c", "texto": "Repite el bloque un número fijo de veces"},
+            {"id": "d", "texto": "Siempre se ejecuta al menos dos veces"}
+        ],
+        "correcta": "b",
+        "explicacion": "El bucle while repite su bloque de código mientras la condición indicada sea true"
+    },
+    {
+        "id": 23,
+        "pregunta": "¿Cuántas veces se ejecuta un bucle do-while si la condición es falsa desde el inicio?",
+        "opciones": [
+            {"id": "a", "texto": "0 veces"},
+            {"id": "b", "texto": "1 vez"},
+            {"id": "c", "texto": "2 veces"},
+            {"id": "d", "texto": "Infinitas veces"}
+        ],
+        "correcta": "b",
+        "explicacion": "El bucle do-while evalúa la condición al final, por lo que su cuerpo se ejecuta al menos una vez."
+    },
+    {
+        "id": 24,
+        "pregunta": "¿Qué estructura se usa para elegir entre múltiples opciones en Java?",
+        "opciones": [
+            {"id": "a", "texto": "loop"},
+            {"id": "b", "texto": "switch"},
+            {"id": "c", "texto": "repeat"},
+            {"id": "d", "texto": "choose"}
+        ],
+        "correcta": "b",
+        "explicacion": "La estructura switch permite seleccionar entre varios casos según el valor de una variable"
+    },
+    {
+        "id": 25,
+        "pregunta": "¿Qué hace la sentencia break dentro de un switch?",
+        "opciones": [
+            {"id": "a", "texto": "Sale del programa"},
+            {"id": "b", "texto": "Continúa con el siguiente case"},
+            {"id": "c", "texto": "Sale del bloque switch"},
+            {"id": "d", "texto": "Reinicia el switch"}
+        ],
+        "correcta": "c",
+        "explicacion": "break dentro de switch hace que el programa salga del bloque switch y no ejecute los cases siguientes."
+    },
+    {
+        "id": 26,
+        "pregunta": "¿Cuál es la salida de: for(int i=0; i<3; i++) System.out.print(i);?",
+        "opciones": [
+            {"id": "a", "texto": "123"},
+            {"id": "b", "texto": "012"},
+            {"id": "c", "texto": "0123"},
+            {"id": "d", "texto": "1234"}
+        ],
+        "correcta": "b",
+        "explicacion": "El bucle va de i=0 a i=2 (mientras i<3), imprimiendo 0, 1 y 2"
+    },
+    {
+        "id": 27,
+        "pregunta": "¿Para qué sirve la sentencia continue en un bucle?",
+        "opciones": [
+            {"id": "a", "texto": "Sale del bucle inmediatamente"},
+            {"id": "b", "texto": "Salta a la siguiente iteración del bucle"},
+            {"id": "c", "texto": "Reinicia el contador"},
+            {"id": "d", "texto": "Detiene el programa"}
+        ],
+        "correcta": "b",
+        "explicacion": "continue omite el resto del cuerpo del bucle en la iteración actual y pasa a la siguiente"
+    },
+    {
+        "id": 28,
+        "pregunta": "¿Cuál es el operador lógico AND en Java?",
+        "opciones": [
+            {"id": "a", "texto": "and"},
+            {"id": "b", "texto": "||"},
+            {"id": "c", "texto": "&&"},
+            {"id": "d", "texto": "&|"}
+        ],
+        "correcta": "c",
+        "explicacion": "En Java el operador lógico AND se escribe &&"
+    },
+    {
+        "id": 29,
+        "pregunta": "¿Qué imprime: int x=10; if(x>5) System.out.print(\"A\"); else System.out.print(\"B\");?",
+        "opciones": [
+            {"id": "a", "texto": "B"},
+            {"id": "b", "texto": "AB"},
+            {"id": "c", "texto": "A"},
+            {"id": "d", "texto": "Nada"}
+        ],
+        "correcta": "c",
+        "explicacion": "Como x=10 es mayor que 5, se cumple la condición y se imprime A."
+    },
+    {
+        "id": 30,
+        "pregunta": "¿Cuántas veces itera: for(int i=1; i<=5; i++)?",
+        "opciones": [
+            {"id": "a", "texto": "4"},
+            {"id": "b", "texto": "5"},
+            {"id": "c", "texto": "6"},
+            {"id": "d", "texto": "Infinitas"}
+        ],
+        "correcta": "b",
+        "explicacion": "El bucle va de 1 a 5 inclusive, por lo que itera 5 veces"
+    },
+    {
+        "id": 31,
+        "pregunta": "¿Qué es un método en Java?",
+        "opciones": [
+            {"id": "a", "texto": "Una variable de tipo especial"},
+            {"id": "b", "texto": "Un bloque de código con nombre que realiza una tarea concreta"},
+            {"id": "c", "texto": "Un tipo de bucle"},
+            {"id": "d", "texto": "Una clase anidada"}
+        ],
+        "correcta": "b",
+        "explicacion": "Un método es un bloque de código identificado por un nombre que agrupa instrucciones para realizar una tarea"
+    },
+    {
+        "id": 32,
+        "pregunta": "¿Qué indica 'void' en la declaración de un método?",
+        "opciones": [
+            {"id": "a", "texto": "Que el método devuelve un entero"},
+            {"id": "b", "texto": "Que el método no devuelve ningún valor"},
+            {"id": "c", "texto": "Que el método es privado"},
+            {"id": "d", "texto": "Que el método es abstracto"}
+        ],
+        "correcta": "b",
+        "explicacion": "void indica que el método no devuelve ningún valor al finalizar su ejecución"
+    },
+    {
+        "id": 33,
+        "pregunta": "¿Cómo se llama a un método llamado 'saludar' sin parámetros?",
+        "opciones": [
+            {"id": "a", "texto": "call saludar();"},
+            {"id": "b", "texto": "saludar();"},
+            {"id": "c", "texto": "run saludar;"},
+            {"id": "d", "texto": "invoke saludar();"}
+        ],
+        "correcta": "b",
+        "explicacion": "En Java un método se invoca escribiendo su nombre seguido de paréntesis y punto y coma"
+    },
+    {
+        "id": 34,
+        "pregunta": "¿Qué son los parámetros de un método?",
+        "opciones": [
+            {"id": "a", "texto": "Variables locales que se crean automáticamente"},
+            {"id": "b", "texto": "Valores que se pasan al método cuando se llama"},
+            {"id": "c", "texto": "El valor que devuelve el método"},
+            {"id": "d", "texto": "Los modificadores de acceso"}
+        ],
+        "correcta": "b",
+        "explicacion": "Los parámetros son variables que reciben los valores (argumentos) que se pasan al método en la llamada"
+    },
+    {
+        "id": 35,
+        "pregunta": "¿Qué es la sobrecarga de métodos (overloading)?",
+        "opciones": [
+            {"id": "a", "texto": "Llamar a un método desde otro"},
+            {"id": "b", "texto": "Tener varios métodos con el mismo nombre pero distintos parámetros"},
+            {"id": "c", "texto": "Sobreescribir un método de la clase padre"},
+            {"id": "d", "texto": "Declarar un método como estático"}
+        ],
+        "correcta": "b",
+        "explicacion": "La sobrecarga permite definir varios métodos con el mismo nombre si difieren en el número o tipo de parámetros"
+    },
+    {
+        "id": 36,
+        "pregunta": "¿Cuál es el ámbito (scope) de una variable local?",
+        "opciones": [
+            {"id": "a", "texto": "Todo el programa"},
+            {"id": "b", "texto": "Solo dentro del método o bloque donde se declara"},
+            {"id": "c", "texto": "Toda la clase"},
+            {"id": "d", "texto": "Todos los métodos del paquete"}
+        ],
+        "correcta": "b",
+        "explicacion": "Una variable local solo existe y es accesible dentro del bloque o método donde se declaró"
+    },
+    {
+        "id": 37,
+        "pregunta": "¿Qué palabra se usa para devolver un valor en un método Java?",
+        "opciones": [
+            {"id": "a", "texto": "output"},
+            {"id": "b", "texto": "give"},
+            {"id": "c", "texto": "return"},
+            {"id": "d", "texto": "send"}
+        ],
+        "correcta": "c",
+        "explicacion": "La sentencia return devuelve un valor al punto donde se llamó al método"
+    },
+    {
+        "id": 38,
+        "pregunta": "¿Qué tipo de paso de parámetros usa Java con tipos primitivos?",
+        "opciones": [
+            {"id": "a", "texto": "Paso por referencia"},
+            {"id": "b", "texto": "Paso por valor"},
+            {"id": "c", "texto": "Paso por puntero"},
+            {"id": "d", "texto": "Paso por nombre"}
+        ],
+        "correcta": "b",
+        "explicacion": "Java usa paso por valor para los tipos primitivos: se copia el valor, no se modifica el original"
+    },
+    {
+        "id": 39,
+        "pregunta": "¿Qué es la recursividad?",
+        "opciones": [
+            {"id": "a", "texto": "Un método que llama a otro método"},
+            {"id": "b", "texto": "Un método que se llama a sí mismo"},
+            {"id": "c", "texto": "Un bucle infinito"},
+            {"id": "d", "texto": "Una técnica de ordenación"}
+        ],
+        "correcta": "b",
+        "explicacion": "La recursividad consiste en que un método se llama a sí mismo para resolver un problema dividiéndolo en casos más pequeños"
+    },
+    {
+        "id": 40,
+        "pregunta": "¿Dónde se declaran los métodos estáticos en Java?",
+        "opciones": [
+            {"id": "a", "texto": "Fuera de cualquier clase"},
+            {"id": "b", "texto": "Dentro de una clase, con la palabra clave static"},
+            {"id": "c", "texto": "Solo en la clase Main"},
+            {"id": "d", "texto": "Dentro del método main"}
+        ],
+        "correcta": "b",
+        "explicacion": "Los métodos estáticos se declaran dentro de una clase usando el modificador static y se llaman sin instanciar la clase"
+    },
+    {
+        "id": 41,
+        "pregunta": "¿Qué clase de Java se usa para leer texto de un fichero?",
+        "opciones": [
+            {"id": "a", "texto": "FileWriter"},
+            {"id": "b", "texto": "BufferedReader"},
+            {"id": "c", "texto": "PrintWriter"},
+            {"id": "d", "texto": "FileOutputStream"}
+        ],
+        "correcta": "b",
+        "explicacion": "BufferedReader junto con FileReader es la forma habitual de leer texto línea a línea de un fichero en Java"
+    },
+    {
+        "id": 42,
+        "pregunta": "¿Qué clase se usa para escribir texto en un fichero en Java?",
+        "opciones": [
+            {"id": "a", "texto": "FileReader"},
+            {"id": "b", "texto": "Scanner"},
+            {"id": "c", "texto": "FileWriter"},
+            {"id": "d", "texto": "DataInputStream"}
+        ],
+        "correcta": "c",
+        "explicacion": "FileWriter permite abrir un fichero y escribir texto en él"
+    },
+    {
+        "id": 43,
+        "pregunta": "¿Qué excepción se debe gestionar al trabajar con ficheros en Java?",
+        "opciones": [
+            {"id": "a", "texto": "NullPointerException"},
+            {"id": "b", "texto": "IOException"},
+            {"id": "c", "texto": "ArithmeticException"},
+            {"id": "d", "texto": "ClassNotFoundException"}
+        ],
+        "correcta": "b",
+        "explicacion": "Las operaciones de entrada/salida en Java pueden lanzar IOException, que debe capturarse o declararse"
+    },
+    {
+        "id": 44,
+        "pregunta": "¿Qué hace el método close() sobre un fichero?",
+        "opciones": [
+            {"id": "a", "texto": "Elimina el fichero"},
+            {"id": "b", "texto": "Libera los recursos asociados al fichero"},
+            {"id": "c", "texto": "Crea una copia del fichero"},
+            {"id": "d", "texto": "Bloquea el fichero para otros procesos"}
+        ],
+        "correcta": "b",
+        "explicacion": "Es importante llamar a close() para liberar los recursos del sistema asociados al flujo de datos."
+    },
+    {
+        "id": 45,
+        "pregunta": "¿Cómo se añade texto al final de un fichero existente con FileWriter?",
+        "opciones": [
+            {"id": "a", "texto": "new FileWriter(\"f.txt\")"},
+            {"id": "b", "texto": "new FileWriter(\"f.txt\", true)"},
+            {"id": "c", "texto": "new FileWriter(\"f.txt\", false)"},
+            {"id": "d", "texto": "new FileWriter(\"f.txt\", append)"}
+        ],
+        "correcta": "b",
+        "explicacion": "Pasando true como segundo parámetro a FileWriter se activa el modo append, que añade sin sobrescribir."
+    },
+    {
+        "id": 46,
+        "pregunta": "¿Qué clase permite leer datos de teclado en Java?",
+        "opciones": [
+            {"id": "a", "texto": "FileReader"},
+            {"id": "b", "texto": "BufferedReader"},
+            {"id": "c", "texto": "Scanner"},
+            {"id": "d", "texto": "PrintWriter"}
+        ],
+        "correcta": "c",
+        "explicacion": "La clase Scanner puede leer datos tanto del teclado (System.in) como de ficheros"
+    },
+    {
+        "id": 47,
+        "pregunta": "¿Qué hace BufferedReader.readLine()?",
+        "opciones": [
+            {"id": "a", "texto": "Lee un carácter"},
+            {"id": "b", "texto": "Lee una línea completa como String"},
+            {"id": "c", "texto": "Lee el fichero entero"},
+            {"id": "d", "texto": "Escribe una línea"}
+        ],
+        "correcta": "b",
+        "explicacion": "readLine() lee una línea de texto del flujo y la devuelve como String, o null si se llegó al final."
+    },
+    {
+        "id": 48,
+        "pregunta": "¿Qué bloque garantiza el cierre de un fichero aunque ocurra una excepción?",
+        "opciones": [
+            {"id": "a", "texto": "try-catch"},
+            {"id": "b", "texto": "finally"},
+            {"id": "c", "texto": "throws"},
+            {"id": "d", "texto": "catch"}
+        ],
+        "correcta": "b",
+        "explicacion": "El bloque finally se ejecuta siempre, con o sin excepción, por lo que es el lugar adecuado para cerrar ficheros"
+    },
+    {
+        "id": 49,
+        "pregunta": " ¿Qué clase representa un fichero o directorio en el sistema de archivos en Java?",
+        "opciones": [
+            {"id": "a", "texto": "FileStream"},
+            {"id": "b", "texto": "File"},
+            {"id": "c", "texto": "Path"},
+            {"id": "d", "texto": "Directory"}
+        ],
+        "correcta": "b",
+        "explicacion": "La clase java.io.File representa rutas de ficheros y directorios y permite consultar su existencia, tamaño, etc"
+    },
+    {
+        "id": 50,
+        "pregunta": "¿Qué devuelve file.exists() si el fichero no existe?",
+        "opciones": [
+            {"id": "a", "texto": "null"},
+            {"id": "b", "texto": "0"},
+            {"id": "c", "texto": "false"},
+            {"id": "d", "texto": "true"}
+        ],
+        "correcta": "c",
+        "explicacion": "El método exists() devuelve false si el fichero o directorio indicado no existe en el sistema."
+    },
+    {
+        "id": 51,
+        "pregunta": "¿Qué es una clase en Java?",
+        "opciones": [
+            {"id": "a", "texto": "Un objeto concreto en memoria"},
+            {"id": "b", "texto": "Una plantilla que define atributos y métodos de un tipo de objeto"},
+            {"id": "c", "texto": "Un método especial del programa"},
+            {"id": "d", "texto": "Un tipo de dato primitivo"}
+        ],
+        "correcta": "b",
+        "explicacion": "Una clase es una plantilla o molde que describe los atributos (datos) y métodos (comportamiento) de sus objetos."
+    },
+    {
+        "id": 52,
+        "pregunta": "¿Qué es un objeto en POO?",
+        "opciones": [
+            {"id": "a", "texto": "Una clase sin instanciar"},
+            {"id": "b", "texto": "Una instancia concreta de una clase"},
+            {"id": "c", "texto": "Un método estático"},
+            {"id": "d", "texto": "Una variable primitiva"}
+        ],
+        "correcta": "b",
+        "explicacion": "Un objeto es una instancia concreta de una clase, con sus propios valores en los atributos"
+    },
+    {
+        "id": 53,
+        "pregunta": "¿Qué es un constructor en Java?",
+        "opciones": [
+            {"id": "a", "texto": "Un método que destruye objetos"},
+            {"id": "b", "texto": "Un método especial que inicializa un objeto al crearlo"},
+            {"id": "c", "texto": "Un tipo de bucle"},
+            {"id": "d", "texto": "Una variable de clase"}
+        ],
+        "correcta": "b",
+        "explicacion": "El constructor es un método especial con el mismo nombre que la clase que se ejecuta al crear un objeto con new"
+    },
+    {
+        "id": 54,
+        "pregunta": "¿Qué operador se usa para crear un objeto en Java?",
+        "opciones": [
+            {"id": "a", "texto": "create"},
+            {"id": "b", "texto": "new"},
+            {"id": "c", "texto": "make"},
+            {"id": "d", "texto": "object"}
+        ],
+        "correcta": "b",
+        "explicacion": "El operador new reserva memoria y llama al constructor para crear una nueva instancia de la clase"
+    },
+    {
+        "id": 55,
+        "pregunta": "¿Qué es la encapsulación?",
+        "opciones": [
+            {"id": "a", "texto": "Heredar métodos de otra clase"},
+            {"id": "b", "texto": "Ocultar los detalles internos y exponer solo lo necesario"},
+            {"id": "c", "texto": "Crear múltiples objetos"},
+            {"id": "d", "texto": "Sobrecargar métodos"}
+        ],
+        "correcta": "b",
+        "explicacion": "La encapsulación consiste en ocultar los atributos y la lógica interna, accediendo a ellos solo mediante métodos públicos."
+    },
+    {
+        "id": 56,
+        "pregunta": "¿Qué modificador hace que un atributo solo sea accesible dentro de su clase?",
+        "opciones": [
+            {"id": "a", "texto": "public"},
+            {"id": "b", "texto": "protected"},
+            {"id": "c", "texto": "private"},
+            {"id": "d", "texto": "static"}
+        ],
+        "correcta": "c",
+        "explicacion": "El modificador private restringe el acceso al atributo solo a la propia clase donde se declara"
+    },
+    {
+        "id": 57,
+        "pregunta": "¿Para qué sirven los métodos getter y setter?",
+        "opciones": [
+            {"id": "a", "texto": "Para crear y destruir objetos"},
+            {"id": "b", "texto": "Para acceder y modificar atributos privados de forma controlada"},
+            {"id": "c", "texto": "Para heredar clases"},
+            {"id": "d", "texto": "Para sobrecargar operadores"}
+        ],
+        "correcta": "b",
+        "explicacion": "Los getters devuelven el valor de un atributo y los setters lo modifican, respetando la encapsulación"
+    },
+    {
+        "id": 58,
+        "pregunta": "¿Qué es la herencia en POO?",
+        "opciones": [
+            {"id": "a", "texto": "Copiar el código de otra clase"},
+            {"id": "b", "texto": "Una clase que adquiere atributos y métodos de otra clase"},
+            {"id": "c", "texto": "Crear varios objetos de una clase"},
+            {"id": "d", "texto": "Implementar interfaces"}
+        ],
+        "correcta": "b",
+        "explicacion": "La herencia permite que una clase hija reutilice y extienda los atributos y métodos de una clase padre"
+    },
+    {
+        "id": 59,
+        "pregunta": "¿Qué palabra se usa en Java para que una clase herede de otra?",
+        "opciones": [
+            {"id": "a", "texto": "implements"},
+            {"id": "b", "texto": "extends"},
+            {"id": "c", "texto": "inherits"},
+            {"id": "d", "texto": "uses"}
+        ],
+        "correcta": "b",
+        "explicacion": "La palabra clave extends indica que una clase hereda de otra en Java."
+    },
+    {
+        "id": 60,
+        "pregunta": "¿Qué es el polimorfismo?",
+        "opciones": [
+            {"id": "a", "texto": "Tener varios constructores"},
+            {"id": "b", "texto": "La capacidad de un objeto de comportarse de distintas formas según el contexto"},
+            {"id": "c", "texto": "Declarar varios atributos del mismo tipo"},
+            {"id": "d", "texto": "Crear clases abstractas"}
+        ],
+        "correcta": "b",
+        "explicacion": "El polimorfismo permite que objetos de distintas clases respondan de forma diferente al mismo mensaje o llamada de método"
+    },
+    {
+        "id": 61,
+        "pregunta": "¿Qué palabra se usa para llamar al constructor de la clase padre en Java?",
+        "opciones": [
+            {"id": "a", "texto": "parent()"},
+            {"id": "b", "texto": "super()"},
+            {"id": "c", "texto": "base()"},
+            {"id": "d", "texto": "this()"}
+        ],
+        "correcta": "b",
+        "explicacion": "super() llama al constructor de la clase padre y debe ser la primera instrucción del constructor hijo"
+    },
+    {
+        "id": 62,
+        "pregunta": "¿Qué es la sobreescritura (override) de métodos?",
+        "opciones": [
+            {"id": "a", "texto": "Tener dos métodos con el mismo nombre en la misma clase"},
+            {"id": "b", "texto": "Redefinir en una subclase un método heredado de la superclase"},
+            {"id": "c", "texto": "Declarar un método como final"},
+            {"id": "d", "texto": "Llamar a un método estático"}
+        ],
+        "correcta": "b",
+        "explicacion": "Override permite que la subclase proporcione su propia implementación de un método definido en la superclase"
+    },
+    {
+        "id": 63,
+        "pregunta": "¿Qué anotación se usa en Java para indicar que un método sobreescribe al de la clase padre?",
+        "opciones": [
+            {"id": "a", "texto": "@Override"},
+            {"id": "b", "texto": "@Inherit"},
+            {"id": "c", "texto": "@Super"},
+            {"id": "d", "texto": "@Replace"}
+        ],
+        "correcta": "a",
+        "explicacion": "@Override indica al compilador que el método reemplaza uno heredado y permite detectar errores si no es así"
+    },
+    {
+        "id": 64,
+        "pregunta": "¿Qué es una clase abstracta en Java?",
+        "opciones": [
+            {"id": "a", "texto": "Una clase sin atributos"},
+            {"id": "b", "texto": "Una clase que no puede instanciarse directamente y puede tener métodos abstractos"},
+            {"id": "c", "texto": "Una clase con solo métodos estáticos"},
+            {"id": "d", "texto": "Una clase privada"}
+        ],
+        "correcta": "b",
+        "explicacion": "Una clase abstracta sirve como base para otras clases; no se puede instanciar directamente con new"
+    },
+    {
+        "id": 65,
+        "pregunta": "¿Qué es una interfaz en Java?",
+        "opciones": [
+            {"id": "a", "texto": "Una clase con atributos privados"},
+            {"id": "b", "texto": "Un contrato que define métodos que una clase debe implementar"},
+            {"id": "c", "texto": "Un tipo de bucle avanzado"},
+            {"id": "d", "texto": "Un método estático especial"}
+        ],
+        "correcta": "b",
+        "explicacion": " Una interfaz define un conjunto de métodos abstractos que las clases que la implementen deben proporcionar"
+    },
+    {
+        "id": 66,
+        "pregunta": "¿Qué palabra se usa para implementar una interfaz en Java?",
+        "opciones": [
+            {"id": "a", "texto": "extends"},
+            {"id": "b", "texto": "implements"},
+            {"id": "c", "texto": "inherits"},
+            {"id": "d", "texto": "uses"}
+        ],
+        "correcta": "b",
+        "explicacion": "La palabra clave implements se usa para que una clase implemente los métodos declarados en una interfaz"
+    },
+    {
+        "id": 67,
+        "pregunta": "¿Qué hace la palabra clave 'this' dentro de una clase?",
+        "opciones": [
+            {"id": "a", "texto": "Llama al constructor padre"},
+            {"id": "b", "texto": "Hace referencia al objeto actual"},
+            {"id": "c", "texto": "Declara un método estático"},
+            {"id": "d", "texto": "Crea una nueva instancia"}
+        ],
+        "correcta": "b",
+        "explicacion": "this hace referencia a la instancia actual del objeto, útil para distinguir atributos de parámetros con el mismo nombre"
+    },
+    {
+        "id": 68,
+        "pregunta": "¿Qué es un paquete (package) en Java?",
+        "opciones": [
+            {"id": "a", "texto": "Un tipo de variable"},
+            {"id": "b", "texto": "Un agrupamiento de clases relacionadas"},
+            {"id": "c", "texto": "Un método especial"},
+            {"id": "d", "texto": "Una excepción"}
+        ],
+        "correcta": "b",
+        "explicacion": "Los paquetes agrupan clases relacionadas, organizando el código y evitando conflictos de nombres."
+    },
+    {
+        "id": 69,
+        "pregunta": "¿Cómo se importa una clase de otro paquete en Java?",
+        "opciones": [
+            {"id": "a", "texto": "include java.util.ArrayList;"},
+            {"id": "b", "texto": "import java.util.ArrayList;"},
+            {"id": "c", "texto": "use java.util.ArrayList;"},
+            {"id": "d", "texto": "require java.util.ArrayList;"}
+        ],
+        "correcta": "b",
+        "explicacion": "La sentencia import permite usar clases de otros paquetes sin escribir el nombre completo cada vez."
+    },
+    {
+        "id": 70,
+        "pregunta": "¿Cuál de estas es una clase de la librería estándar de Java para listas dinámicas?",
+        "opciones": [
+            {"id": "a", "texto": "DynamicArray"},
+            {"id": "b", "texto": "ArrayList"},
+            {"id": "c", "texto": "LinkedArray"},
+            {"id": "d", "texto": "FlexList"}
+        ],
+        "correcta": "b",
+        "explicacion": "ArrayList es la clase de java.util que implementa una lista dinámica de tamaño variable."
+    },
+    {
+        "id": 71,
+        "pregunta": "¿Qué es una clase genérica en Java?",
+        "opciones": [
+            {"id": "a", "texto": "Una clase sin métodos"},
+            {"id": "b", "texto": "Una clase que puede trabajar con distintos tipos de datos usando parámetros de tipo"},
+            {"id": "c", "texto": "Una clase abstracta"},
+            {"id": "d", "texto": "Una clase con solo atributos estáticos"}
+        ],
+        "correcta": "b",
+        "explicacion": " Los genéricos permiten definir clases y métodos que funcionan con cualquier tipo, indicándolo entre <>"
+    },
+    {
+        "id": 72,
+        "pregunta": "¿Cuál es la sintaxis de una clase genérica simple en Java?",
+        "opciones": [
+            {"id": "a", "texto": "class Caja(T) {}"},
+            {"id": "b", "texto": "class Caja<T> {}"},
+            {"id": "c", "texto": "class Caja[T] {}"},
+            {"id": "d", "texto": "generic class Caja {}"}
+        ],
+        "correcta": "b",
+        "explicacion": "Los parámetros de tipo se indican entre < > después del nombre de la clase: class Caja<T> {}"
+    },
+    {
+        "id": 73,
+        "pregunta": "¿Qué es una excepción en Java?",
+        "opciones": [
+            {"id": "a", "texto": "Un tipo de bucle"},
+            {"id": "b", "texto": "Un evento anormal que interrumpe el flujo normal del programa"},
+            {"id": "c", "texto": "Un método de la clase Math"},
+            {"id": "d", "texto": "Un tipo de variable"}
+        ],
+        "correcta": "b",
+        "explicacion": "Una excepción es una condición anormal (error en tiempo de ejecución) que puede interrumpir la ejecución del programa"
+    },
+    {
+        "id": 74,
+        "pregunta": "¿Qué bloque captura una excepción en Java?",
+        "opciones": [
+            {"id": "a", "texto": "try"},
+            {"id": "b", "texto": "catch"},
+            {"id": "c", "texto": "finally"},
+            {"id": "d", "texto": "throw"}
+        ],
+        "correcta": "b",
+        "explicacion": "El bloque catch captura y gestiona la excepción lanzada en el bloque try correspondiente"
+    },
+    {
+        "id": 75,
+        "pregunta": "¿Qué hace la sentencia throw en Java?",
+        "opciones": [
+            {"id": "a", "texto": "Captura una excepción"},
+            {"id": "b", "texto": "Lanza una excepción manualmente"},
+            {"id": "c", "texto": "Declara una excepción"},
+            {"id": "d", "texto": "Ignora una excepción"}
+        ],
+        "correcta": "b",
+        "explicacion": "throw permite lanzar una excepción de forma explícita desde cualquier punto del código"
+    },
+    {
+        "id": 76,
+        "pregunta": "¿Qué interfaz deben implementar los objetos para poder ordenarse con Collections.sort()?",
+        "opciones": [
+            {"id": "a", "texto": "Serializable"},
+            {"id": "b", "texto": "Comparable"},
+            {"id": "c", "texto": "Iterable"},
+            {"id": "d", "texto": "Cloneable"}
+        ],
+        "correcta": "b",
+        "explicacion": "Collections.sort() requiere que los objetos implementen Comparable y su método compareTo()"
+    },
+    {
+        "id": 77,
+        "pregunta": "¿Qué colección Java no permite elementos duplicados?",
+        "opciones": [
+            {"id": "a", "texto": "ArrayList"},
+            {"id": "b", "texto": "LinkedList"},
+            {"id": "c", "texto": "HashSet"},
+            {"id": "d", "texto": "Vector"}
+        ],
+        "correcta": "c",
+        "explicacion": "HashSet implementa la interfaz Set, que por definición no permite elementos duplicados."
+    },
+    {
+        "id": 78,
+        "pregunta": "¿Qué es el patrón Singleton?",
+        "opciones": [
+            {"id": "a", "texto": "Una clase con muchas instancias"},
+            {"id": "b", "texto": "Un patrón que asegura que una clase solo tenga una instancia"},
+            {"id": "c", "texto": "Una forma de herencia múltiple"},
+            {"id": "d", "texto": "Un tipo de interfaz"}
+        ],
+        "correcta": "b",
+        "explicacion": "El patrón Singleton garantiza que solo exista una instancia de una clase y proporciona un punto de acceso global a ella."
+    },
+    {
+        "id": 79,
+        "pregunta": "¿Qué clase de Java se usa para ordenar elementos en un Map por clave?",
+        "opciones": [
+            {"id": "a", "texto": "HashMap"},
+            {"id": "b", "texto": "LinkedHashMap"},
+            {"id": "c", "texto": "TreeMap"},
+            {"id": "d", "texto": "Hashtable"}
+        ],
+        "correcta": "c",
+        "explicacion": "TreeMap almacena las entradas ordenadas por clave según su orden natural o un Comparator."
+    },
+    {
+        "id": 80,
+        "pregunta": "¿Qué es la serialización en Java?",
+        "opciones": [
+            {"id": "a", "texto": "Convertir un objeto en una secuencia de bytes para almacenarlo o transmitirlo"},
+            {"id": "b", "texto": "Ordenar una lista de objetos"},
+            {"id": "c", "texto": "Crear copias de un objeto"},
+            {"id": "d", "texto": "Destruir un objeto en memoria"}
+        ],
+        "correcta": "a",
+        "explicacion": "La serialización convierte el estado de un objeto en bytes, permitiendo guardarlo en fichero o enviarlo por red."
+    }
+]
