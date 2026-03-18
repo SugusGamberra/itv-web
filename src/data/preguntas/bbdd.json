@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Qué es un Sistema de Gestión de Bases de Datos (SGBD)?",
+        "opciones": [
+            { "id": "a", "texto": "Un lenguaje de programación orientado a objetos" },
+            { "id": "b", "texto": "Un software que permite crear, gestionar y consultar bases de datos" },
+            { "id": "c", "texto": "Un sistema operativo especializado en redes" },
+            { "id": "d", "texto": "Un protocolo de comunicación entre servidores" }
+        ],
+        "correcta": "b",
+        "explicacion": "Un SGBD es un conjunto de programas que permiten gestionar de forma eficiente el almacenamiento, consulta y modificación de datos."
+    },
+    {
+        "id": 2,
+        "pregunta": "¿Cuál de los siguientes es un ejemplo de SGBD relacional?",
+        "opciones": [
+            {"id": "a", "texto": "MongoDB"},
+            {"id": "b", "texto": "Redis"},
+            {"id": "c", "texto": "Oracle Database"},
+            {"id": "d", "texto": "Cassandra"}
+        ],
+        "correcta": "c",
+        "explicacion": "Oracle Database es un SGBD relacional clásico, mientras que los otros son bases de datos NoSQL."
+    },
+    {
+        "id": 3,
+        "pregunta": "¿Qué función cumple el administrador de bases de datos (DBA)?",
+        "opciones": [
+            {"id": "a", "texto": "Diseñar interfaces de usuario"},
+            {"id": "b", "texto": "Programar aplicaciones móviles"},
+            {"id": "c", "texto": "Gestionar, mantener y optimizar la base de datos"},
+            {"id": "d", "texto": "Configurar redes LAN"}
+        ],
+        "correcta": "c",
+        "explicacion": "El DBA es responsable de la instalación, configuración, seguridad y rendimiento del SGBD"
+    },
+    {
+        "id": 4,
+        "pregunta": "¿Cuál es la principal ventaja de usar un SGBD frente a ficheros planos?",
+        "opciones": [
+            {"id": "a", "texto": "Mayor velocidad de escritura en disco"},
+            {"id": "b", "texto": "Eliminación de redundancia e inconsistencia de datos"},
+            {"id": "c", "texto": "Menor coste de hardware"},
+            {"id": "d", "texto": "Compatibilidad con más sistemas operativos"}
+        ],
+        "correcta": "b",
+        "explicacion": "Los SGBD controlan la redundancia e inconsistencia que surgen al gestionar datos con ficheros independientes."
+    },
+    {
+        "id": 5,
+        "pregunta": "¿Qué nivel de abstracción describe cómo se almacenan físicamente los datos?",
+        "opciones": [
+            {"id": "a", "texto": "Nivel conceptual"},
+            {"id": "b", "texto": "Nivel externo"},
+            {"id": "c", "texto": "Nivel interno o físico"},
+            {"id": "d", "texto": "Nivel lógico"}
+        ],
+        "correcta": "c",
+        "explicacion": "El nivel interno describe la estructura física de almacenamiento: ficheros, índices, rutas, etc"
+    },
+    {
+        "id": 6,
+        "pregunta": "¿Qué propiedad garantiza que los datos sean correctos y coherentes en un SGBD?",
+        "opciones": [
+            {"id": "a", "texto": "Disponibilidad"},
+            {"id": "b", "texto": "Integridad"},
+            {"id": "c", "texto": "Escalabilidad"},
+            {"id": "d", "texto": "Portabilidad"}
+        ],
+        "correcta": "b",
+        "explicacion": "La integridad asegura que los datos cumplen reglas y restricciones definidas, manteniéndose coherentes"
+    },
+    {
+        "id": 7,
+        "pregunta": "¿Qué tipo de SGBD organiza los datos en tablas con filas y columnas?",
+        "opciones": [
+            {"id": "a", "texto": "Jerárquico"},
+            {"id": "b", "texto": "En red"},
+            {"id": "c", "texto": "Orientado a objetos"},
+            {"id": "d", "texto": "Relacional"}
+        ],
+        "correcta": "d",
+        "explicacion": "El modelo relacional organiza los datos en tablas (relaciones) formadas por filas (tuplas) y columnas (atributos)"
+    },
+    {
+        "id": 8,
+        "pregunta": "¿Qué concepto describe la capacidad de un SGBD de ocultar detalles de implementación al usuario?",
+        "opciones": [
+            {"id": "a", "texto": "Concurrencia"},
+            {"id": "b", "texto": "Abstracción de datos"},
+            {"id": "c", "texto": "Normalización"},
+            {"id": "d", "texto": "Replicación"}
+        ],
+        "correcta": "b",
+        "explicacion": "La abstracción de datos permite que los usuarios trabajen con los datos sin conocer cómo se almacenan físicamente."
+    },
+    {
+        "id": 9,
+        "pregunta": "¿Cuál de las siguientes NO es una función típica de un SGBD?",
+        "opciones": [
+            {"id": "a", "texto": "Control de acceso y seguridad"},
+            {"id": "b", "texto": "Gestión de transacciones"},
+            {"id": "c", "texto": "Compilación de código fuente"},
+            {"id": "d", "texto": "Recuperación ante fallos"}
+        ],
+        "correcta": "c",
+        "explicacion": " La compilación de código fuente es tarea de un compilador, no de un SGBD"
+    },
+    {
+        "id": 10,
+        "pregunta": "¿Qué significa ACID en el contexto de las transacciones de un SGBD?",
+        "opciones": [
+            {"id": "a", "texto": "Atomicidad, Consistencia, Integridad, Durabilidad"},
+            {"id": "b", "texto": "Atomicidad, Consistencia, Aislamiento, Durabilidad"},
+            {"id": "c", "texto": "Autenticación, Consistencia, Integridad, Disponibilidad"},
+            {"id": "d", "texto": "Acceso, Control, Integridad, Datos"}
+        ],
+        "correcta": "b",
+        "explicacion": "ACID son las propiedades que garantizan la fiabilidad de las transacciones: Atomicity, Consistency, Isolation, Durability."
+    },
+    {
+        "id": 11,
+        "pregunta": "¿Qué representa una entidad en un diagrama Entidad-Relación?",
+        "opciones": [
+            {"id": "a", "texto": "Una columna de una tabla"},
+            {"id": "b", "texto": "Un objeto o concepto del mundo real con existencia independiente"},
+            {"id": "c", "texto": "Una restricción de integridad"},
+            {"id": "d", "texto": "Un índice de búsqueda"}
+        ],
+        "correcta": "b",
+        "explicacion": "Una entidad representa un objeto distinguible del mundo real sobre el que se almacena información."
+    },
+    {
+        "id": 12,
+        "pregunta": "¿Cómo se representa una relación en un diagrama ER clásico (notación Chen)?",
+        "opciones": [
+            {"id": "a", "texto": "Con un rectángulo"},
+            {"id": "b", "texto": "Con un óvalo"},
+            {"id": "c", "texto": "Con un rombo"},
+            {"id": "d", "texto": "Con un triángulo"}
+        ],
+        "correcta": "c",
+        "explicacion": "En la notación de Chen, los rombos representan relaciones entre entidades"
+    },
+    {
+        "id": 13,
+        "pregunta": "¿Qué es un atributo clave o identificador en un modelo ER?",
+        "opciones": [
+            {"id": "a", "texto": "Un atributo que puede tomar valores nulos"},
+            {"id": "b", "texto": "Un atributo que identifica de forma única cada instancia de una entidad"},
+            {"id": "c", "texto": "Un atributo que relaciona dos entidades"},
+            {"id": "d", "texto": "Un atributo multivaluado"}
+        ],
+        "correcta": "b",
+        "explicacion": "El atributo clave permite distinguir unívocamente cada ocurrencia de una entidad"
+    },
+    {
+        "id": 14,
+        "pregunta": "¿Qué tipo de cardinalidad indica que una instancia de A se relaciona con muchas de B y viceversa?",
+        "opciones": [
+            {"id": "a", "texto": "1:1"},
+            {"id": "b", "texto": "1:N"},
+            {"id": "c", "texto": "N:M"},
+            {"id": "d", "texto": "0:1"}
+        ],
+        "correcta": "c",
+        "explicacion": " La cardinalidad N:M (muchos a muchos) indica que múltiples instancias de ambas entidades pueden relacionarse entre sí."
+    },
+    {
+        "id": 15,
+        "pregunta": "¿Qué es una entidad débil?",
+        "opciones": [
+            {"id": "a", "texto": "Una entidad con pocos atributos"},
+            {"id": "b", "texto": "Una entidad que no puede existir sin estar asociada a otra entidad"},
+            {"id": "c", "texto": "Una entidad con cardinalidad 1:1"},
+            {"id": "d", "texto": "Una entidad sin relaciones"}
+        ],
+        "correcta": "b",
+        "explicacion": "Una entidad débil depende de otra (entidad fuerte) para existir y no tiene clave propia suficiente."
+    },
+    {
+        "id": 16,
+        "pregunta": "¿Cuál es el objetivo principal del modelo Entidad-Relación?",
+        "opciones": [
+            {"id": "a", "texto": "Optimizar consultas SQL"},
+            {"id": "b", "texto": "Representar conceptualmente la estructura de los datos de un sistema"},
+            {"id": "c", "texto": "Definir los tipos de datos de las columnas"},
+            {"id": "d", "texto": "Crear índices para mejorar el rendimiento"}
+        ],
+        "correcta": "b",
+        "explicacion": "El modelo ER es una herramienta de diseño conceptual que representa entidades, atributos y relaciones antes de la implementación."
+    },
+    {
+        "id": 17,
+        "pregunta": "¿Qué es un atributo multivaluado?",
+        "opciones": [
+            {"id": "a", "texto": "Un atributo que siempre tiene valor nulo"},
+            {"id": "b", "texto": " Un atributo que puede tener varios valores para una misma entidad"},
+            {"id": "c", "texto": "Un atributo que sirve como clave foránea"},
+            {"id": "d", "texto": "Un atributo derivado de otro"}
+        ],
+        "correcta": "b",
+        "explicacion": "Un atributo multivaluado puede contener más de un valor, por ejemplo los teléfonos de una persona."
+    },
+    {
+        "id": 18,
+        "pregunta": "Al pasar del modelo ER al modelo relacional, ¿cómo se transforma una relación N:M?",
+        "opciones": [
+            {"id": "a", "texto": "Se elimina y sus atributos pasan a una de las entidades"},
+            {"id": "b", "texto": "Se convierte en una nueva tabla con las claves de ambas entidades"},
+            {"id": "c", "texto": "Se fusiona con la entidad de mayor cardinalidad"},
+            {"id": "d", "texto": "Se convierte en un atributo de la entidad débil"}
+        ],
+        "correcta": "b",
+        "explicacion": "Las relaciones N:M se transforman en una tabla intermedia que contiene las claves primarias de las dos entidades relacionadas."
+    },
+    {
+        "id": 19,
+        "pregunta": "¿Qué representa la participación total de una entidad en una relación?",
+        "opciones": [
+            {"id": "a", "texto": "Que la entidad tiene atributos opcionales"},
+            {"id": "b", "texto": "Que todas las instancias de esa entidad deben participar en la relación"},
+            {"id": "c", "texto": "Que la entidad no tiene clave primaria"},
+            {"id": "d", "texto": "Que la relación es de tipo 1:1"}
+        ],
+        "correcta": "b",
+        "explicacion": "La participación total (línea doble en Chen) indica que cada instancia de la entidad debe estar en al menos una ocurrencia de la relación."
+    },
+    {
+        "id": 20,
+        "pregunta": "¿Qué es la especialización en un diagrama ER extendido?",
+        "opciones": [
+            {"id": "a", "texto": "La eliminación de atributos redundantes"},
+            {"id": "b", "texto": "El proceso de definir subentidades a partir de una entidad general"},
+            {"id": "c", "texto": "La unión de dos entidades en una sola"},
+            {"id": "d", "texto": "La conversión de relaciones en atributos"}
+        ],
+        "correcta": "b",
+        "explicacion": "La especialización crea subtipos (subentidades) que heredan atributos de una superentidad y añaden atributos específicos."
+    },
+    {
+        "id": 21,
+        "pregunta": "¿Cuál es la instrucción SQL para crear una nueva base de datos en MySQL?",
+        "opciones": [
+            {"id": "a", "texto": "NEW DATABASE nombre;"},
+            {"id": "b", "texto": "CREATE DATABASE nombre;"},
+            {"id": "c", "texto": "MAKE DATABASE nombre;"},
+            {"id": "d", "texto": "BUILD DATABASE nombre;"}
+        ],
+        "correcta": "b",
+        "explicacion": "En MySQL la instrucción CREATE DATABASE crea una nueva base de datos"
+    },
+    {
+        "id": 22,
+        "pregunta": "¿Qué instrucción se usa para crear una tabla en MySQL?",
+        "opciones": [
+            {"id": "a", "texto": "ADD TABLE empleados (...);"},
+            {"id": "b", "texto": "INSERT TABLE empleados (...);"},
+            {"id": "c", "texto": "CREATE TABLE empleados (...);"},
+            {"id": "d", "texto": "MAKE TABLE empleados (...);"}
+        ],
+        "correcta": "c",
+        "explicacion": "CREATE TABLE es la instrucción DDL estándar para definir una nueva tabla"
+    },
+    {
+        "id": 23,
+        "pregunta": "¿Qué restricción garantiza que una columna no pueda tener valores repetidos?",
+        "opciones": [
+            {"id": "a", "texto": "NOT NULL"},
+            {"id": "b", "texto": "DEFAULT"},
+            {"id": "c", "texto": "UNIQUE"},
+            {"id": "d", "texto": "CHECK"}
+        ],
+        "correcta": "c",
+        "explicacion": "La restricción UNIQUE impide que dos filas tengan el mismo valor en esa columna"
+    },
+    {
+        "id": 24,
+        "pregunta": "¿Cuál de las siguientes sentencias elimina una tabla y todos sus datos en MySQL?",
+        "opciones": [
+            {"id": "a", "texto": "DELETE TABLE empleados;"},
+            {"id": "b", "texto": "REMOVE TABLE empleados;"},
+            {"id": "c", "texto": "DROP TABLE empleados;"},
+            {"id": "d", "texto": "ERASE TABLE empleados;"}
+        ],
+        "correcta": "c",
+        "explicacion": "DROP TABLE elimina la definición de la tabla y todos sus datos de forma permanente"
+    },
+    {
+        "id": 25,
+        "pregunta": "¿Qué instrucción permite añadir una nueva columna a una tabla existente en MySQL?",
+        "opciones": [
+            {"id": "a", "texto": "UPDATE TABLE clientes ADD COLUMN email VARCHAR(100);"},
+            {"id": "b", "texto": "ALTER TABLE clientes ADD COLUMN email VARCHAR(100);"},
+            {"id": "c", "texto": "MODIFY TABLE clientes ADD email VARCHAR(100);"},
+            {"id": "d", "texto": "INSERT COLUMN email VARCHAR(100) INTO clientes;"}
+        ],
+        "correcta": "b",
+        "explicacion": "ALTER TABLE con la cláusula ADD COLUMN permite modificar la estructura de una tabla existente."
+    },
+    {
+        "id": 26,
+        "pregunta": "¿Qué tipo de dato se usa en MySQL para almacenar texto de longitud variable de hasta 255 caracteres?",
+        "opciones": [
+            {"id": "a", "texto": "CHAR"},
+            {"id": "b", "texto": "TEXT"},
+            {"id": "c", "texto": "VARCHAR"},
+            {"id": "d", "texto": "BLOB"}
+        ],
+        "correcta": "c",
+        "explicacion": "VARCHAR permite almacenar cadenas de longitud variable hasta el límite especificado, ahorrando espacio."
+    },
+    {
+        "id": 27,
+        "pregunta": "¿Cuál es la función de la cláusula PRIMARY KEY en una tabla MySQL?",
+        "opciones": [
+            {"id": "a", "texto": "Permitir valores nulos en la columna"},
+            {"id": "b", "texto": "Identificar de forma única cada fila de la tabla"},
+            {"id": "c", "texto": "Enlazar dos tablas mediante una referencia"},
+            {"id": "d", "texto": "Limitar el número de filas insertadas"}
+        ],
+        "correcta": "b",
+        "explicacion": "La PRIMARY KEY identifica unívocamente cada registro; implica NOT NULL y UNIQUE"
+    },
+    {
+        "id": 28,
+        "pregunta": "¿Qué hace la cláusula FOREIGN KEY en MySQL?",
+        "opciones": [
+            {"id": "a", "texto": "Crea un índice automático en la columna"},
+            {"id": "b", "texto": "Establece una relación de integridad referencial con otra tabla"},
+            {"id": "c", "texto": "Impide que se actualicen los datos de la columna"},
+            {"id": "d", "texto": "Genera valores automáticos en la columna"}
+        ],
+        "correcta": "b",
+        "explicacion": "La FOREIGN KEY vincula una columna con la clave primaria de otra tabla, garantizando la integridad referencial"
+    },
+    {
+        "id": 29,
+        "pregunta": "¿Qué instrucción se usa para eliminar la base de datos activa en MySQL?",
+        "opciones": [
+            {"id": "a", "texto": "DELETE DATABASE nombre;"},
+            {"id": "b", "texto": "TRUNCATE DATABASE nombre;"},
+            {"id": "c", "texto": "DROP DATABASE nombre;"},
+            {"id": "d", "texto": "REMOVE DATABASE nombre;"}
+        ],
+        "correcta": "c",
+        "explicacion": "DROP DATABASE elimina la base de datos y todas las tablas que contiene."
+    },
+    {
+        "id": 30,
+        "pregunta": "¿Cuál es el efecto de AUTO_INCREMENT en una columna de MySQL?",
+        "opciones": [
+            {"id": "a", "texto": "Rellena la columna con ceros automáticamente"},
+            {"id": "b", "texto": "Genera un valor numérico único y creciente en cada inserción"},
+            {"id": "c", "texto": "Incrementa el valor de la columna en cada consulta"},
+            {"id": "d", "texto": "Suma automáticamente los valores de otras columnas"}
+        ],
+        "correcta": "b",
+        "explicacion": "AUTO_INCREMENT asigna automáticamente un entero mayor al anterior cada vez que se inserta una fila, muy usado en claves primarias"
+    },
+    {
+        "id": 31,
+        "pregunta": "¿Qué instrucción SQL se usa para recuperar datos de una tabla?",
+        "opciones": [
+            {"id": "a", "texto": "GET * FROM tabla;"},
+            {"id": "b", "texto": "FETCH * FROM tabla;"},
+            {"id": "c", "texto": "SELECT * FROM tabla;"},
+            {"id": "d", "texto": "READ * FROM tabla;"}
+        ],
+        "correcta": "c",
+        "explicacion": "SELECT es la instrucción DML que permite consultar datos en MySQL"
+    },
+    {
+        "id": 32,
+        "pregunta": "¿Qué cláusula se usa para filtrar filas en una consulta SELECT?",
+        "opciones": [
+            {"id": "a", "texto": "HAVING"},
+            {"id": "b", "texto": "WHERE"},
+            {"id": "c", "texto": "GROUP BY"},
+            {"id": "d", "texto": "ORDER BY"}
+        ],
+        "correcta": "b",
+        "explicacion": "WHERE filtra las filas que cumplen la condición indicada antes de agrupar o ordenar"
+    },
+    {
+        "id": 33,
+        "pregunta": "¿Cuál es la diferencia entre WHERE y HAVING en MySQL?",
+        "opciones": [
+            {"id": "a", "texto": "No hay diferencia, son sinónimos"},
+            {"id": "b", "texto": "WHERE filtra filas antes de agrupar; HAVING filtra grupos después de GROUP BY"},
+            {"id": "c", "texto": "HAVING filtra filas individuales; WHERE filtra grupos"},
+            {"id": "d", "texto": "WHERE solo se usa con JOIN; HAVING con subconsultas"}
+        ],
+        "correcta": "b",
+        "explicacion": "WHERE actúa sobre filas individuales antes de agrupar; HAVING actúa sobre los grupos resultantes de GROUP BY."
+    },
+    {
+        "id": 34,
+        "pregunta": "¿Qué función SQL devuelve el número de filas de un resultado?",
+        "opciones": [
+            {"id": "a", "texto": "SUM()"},
+            {"id": "b", "texto": "AVG()"},
+            {"id": "c", "texto": "COUNT()"},
+            {"id": "d", "texto": "MAX()"}
+        ],
+        "correcta": "c",
+        "explicacion": "COUNT() cuenta el número de filas (o valores no nulos de una columna) en el resultado"
+    },
+    {
+        "id": 35,
+        "pregunta": "¿Qué tipo de JOIN devuelve solo las filas que tienen coincidencia en ambas tablas?",
+        "opciones": [
+            {"id": "a", "texto": "LEFT JOIN"},
+            {"id": "b", "texto": "RIGHT JOIN"},
+            {"id": "c", "texto": "FULL OUTER JOIN"},
+            {"id": "d", "texto": "INNER JOIN"}
+        ],
+        "correcta": "d",
+        "explicacion": " INNER JOIN devuelve únicamente las filas donde existe coincidencia en las dos tablas unidas"
+    },
+    {
+        "id": 36,
+        "pregunta": "¿Qué hace la cláusula ORDER BY en una consulta?",
+        "opciones": [
+            {"id": "a", "texto": "Agrupa las filas por un criterio"},
+            {"id": "b", "texto": "Ordena el resultado de la consulta por una o varias columnas"},
+            {"id": "c", "texto": "Limita el número de filas devueltas"},
+            {"id": "d", "texto": "Filtra filas según una condición"}
+        ],
+        "correcta": "b",
+        "explicacion": "ORDER BY ordena el conjunto de resultados de forma ascendente (ASC) o descendente (DESC)"
+    },
+    {
+        "id": 37,
+        "pregunta": "¿Cuál es el uso de GROUP BY en una consulta MySQL?",
+        "opciones": [
+            {"id": "a", "texto": "Ordenar los resultados alfabéticamente"},
+            {"id": "b", "texto": "Agrupar filas con el mismo valor en una columna para aplicar funciones de agregación"},
+            {"id": "c", "texto": "Unir dos tablas por una columna común"},
+            {"id": "d", "texto": "Limitar el número de filas del resultado"}
+        ],
+        "correcta": "b",
+        "explicacion": "GROUP BY agrupa filas que comparten el mismo valor en la columna indicada, permitiendo usar SUM, COUNT, AVG, etc."
+    },
+    {
+        "id": 38,
+        "pregunta": "¿Qué hace la cláusula LIMIT en MySQL?",
+        "opciones": [
+            {"id": "a", "texto": "Impone un límite máximo al valor de una columna"},
+            {"id": "b", "texto": "Restringe el número de filas devueltas por la consulta"},
+            {"id": "c", "texto": "Limita el número de columnas seleccionadas"},
+            {"id": "d", "texto": "Limita la duración de la consulta"}
+        ],
+        "correcta": "b",
+        "explicacion": "LIMIT n devuelve solo las primeras n filas del resultado, muy útil para paginación."
+    },
+    {
+        "id": 39,
+        "pregunta": "¿Cuál de las siguientes consultas obtiene el salario máximo de la tabla empleados?",
+        "opciones": [
+            {"id": "a", "texto": "SELECT UPPER(salario) FROM empleados;"},
+            {"id": "b", "texto": "SELECT LAST(salario) FROM empleados;"},
+            {"id": "c", "texto": "SELECT MAX(salario) FROM empleados;"},
+            {"id": "d", "texto": "SELECT TOP(salario) FROM empleados;"}
+        ],
+        "correcta": "c",
+        "explicacion": "MAX() es la función de agregación que devuelve el valor máximo de una columna numérica."
+    },
+    {
+        "id": 40,
+        "pregunta": "¿Qué palabra clave elimina filas duplicadas en el resultado de un SELECT?",
+        "opciones": [
+            {"id": "a", "texto": "UNIQUE"},
+            {"id": "b", "texto": "DISTINCT"},
+            {"id": "c", "texto": "DIFFERENT"},
+            {"id": "d", "texto": "FILTER"}
+        ],
+        "correcta": "b",
+        "explicacion": "DISTINCT hace que el SELECT devuelva solo filas con valores únicos, eliminando duplicados"
+    },
+    {
+        "id": 41,
+        "pregunta": "¿Qué es un procedimiento almacenado en MySQL?",
+        "opciones": [
+            {"id": "a", "texto": "Una consulta SELECT guardada como vista"},
+            {"id": "b", "texto": "Un bloque de código SQL con nombre que se almacena en el servidor y se puede invocar"},
+            {"id": "c", "texto": "Un índice especial de búsqueda"},
+            {"id": "d", "texto": "Una restricción de integridad avanzada"}
+        ],
+        "correcta": "b",
+        "explicacion": "Un procedimiento almacenado es un programa SQL guardado en el servidor que puede ejecutarse con CALL nombre()"
+    },
+    {
+        "id": 42,
+        "pregunta": "¿Cuál es la sintaxis básica para crear un procedimiento en MySQL?",
+        "opciones": [
+            {"id": "a", "texto": "MAKE PROCEDURE nombre() BEGIN ... END;"},
+            {"id": "b", "texto": "CREATE PROCEDURE nombre() BEGIN ... END;"},
+            {"id": "c", "texto": "NEW PROCEDURE nombre() BEGIN ... END;"},
+            {"id": "d", "texto": "DEFINE PROCEDURE nombre() BEGIN ... END;"}
+        ],
+        "correcta": "b",
+        "explicacion": "La instrucción estándar MySQL para crear procedimientos es CREATE PROCEDURE nombre() BEGIN ... END."
+    },
+    {
+        "id": 43,
+        "pregunta": "¿Qué es un trigger (disparador) en MySQL?",
+        "opciones": [
+            {"id": "a", "texto": "Un tipo especial de índice"},
+            {"id": "b", "texto": "Una función que devuelve un valor escalar"},
+            {"id": "c", "texto": "Un bloque de código que se ejecuta automáticamente ante un evento sobre una tabla"},
+            {"id": "d", "texto": "Una restricción de clave foránea"}
+        ],
+        "correcta": "c",
+        "explicacion": "Un trigger se dispara automáticamente BEFORE o AFTER operaciones INSERT, UPDATE o DELETE sobre una tabla."
+    },
+    {
+        "id": 44,
+        "pregunta": "¿En qué momentos puede ejecutarse un trigger en MySQL?",
+        "opciones": [
+            {"id": "a", "texto": "Solo después de un SELECT"},
+            {"id": "b", "texto": "Antes (BEFORE) o después (AFTER) de INSERT, UPDATE o DELETE"},
+            {"id": "c", "texto": "Solo durante transacciones COMMIT"},
+            {"id": "d", "texto": "Solo al crear o eliminar tablas"}
+        ],
+        "correcta": "b",
+        "explicacion": "MySQL permite definir triggers BEFORE o AFTER para los eventos INSERT, UPDATE y DELETE"
+    },
+    {
+        "id": 45,
+        "pregunta": "¿Qué es un cursor en MySQL?",
+        "opciones": [
+            {"id": "a", "texto": "Un puntero al registro activo en un resultado de consulta, que permite recorrerlo fila a fila"},
+            {"id": "b", "texto": "Una variable que almacena un número entero"},
+            {"id": "c", "texto": "Un tipo de índice para búsquedas rápidas"},
+            {"id": "d", "texto": "Una función de agregación especial"}
+        ],
+        "correcta": "a",
+        "explicacion": "Un cursor permite iterar fila a fila sobre el resultado de una consulta dentro de un procedimiento o función."
+    },
+    {
+        "id": 46,
+        "pregunta": "¿Cuál es el orden correcto de operaciones con un cursor en MySQL?",
+        "opciones": [
+            {"id": "a", "texto": "OPEN - DECLARE - FETCH - CLOSE"},
+            {"id": "b", "texto": "DECLARE - FETCH - OPEN - CLOSE"},
+            {"id": "c", "texto": "DECLARE - OPEN - FETCH - CLOSE"},
+            {"id": "d", "texto": "FETCH - DECLARE - OPEN - CLOSE"}
+        ],
+        "correcta": "c",
+        "explicacion": "El flujo correcto es: DECLARE (definir), OPEN (abrir), FETCH (leer filas en bucle), CLOSE (cerrar)"
+    },
+    {
+        "id": 47,
+        "pregunta": "¿Qué diferencia hay entre una función y un procedimiento almacenado en MySQL?",
+        "opciones": [
+            {"id": "a", "texto": "No hay ninguna diferencia"},
+            {"id": "b", "texto": "Una función devuelve un valor y puede usarse en expresiones; un procedimiento no devuelve valor directamente"},
+            {"id": "c", "texto": "Un procedimiento puede tener parámetros y una función no"},
+            {"id": "d", "texto": "Las funciones solo se usan con triggers"}
+        ],
+        "correcta": "b",
+        "explicacion": "Las funciones (CREATE FUNCTION) devuelven un valor y se usan dentro de consultas; los procedimientos se invocan con CALL y no devuelven valor directamente."
+    },
+    {
+        "id": 48,
+        "pregunta": "¿Cómo se llama a un procedimiento almacenado en MySQL?",
+        "opciones": [
+            {"id": "a", "texto": "EXECUTE nombre();"},
+            {"id": "b", "texto": "RUN nombre();"},
+            {"id": "c", "texto": "CALL nombre();"},
+            {"id": "d", "texto": "START nombre();"}
+        ],
+        "correcta": "c",
+        "explicacion": "La instrucción CALL nombre() invoca un procedimiento almacenado en MySQL"
+    },
+    {
+        "id": 49,
+        "pregunta": "¿Para qué sirve el manejador CONTINUE HANDLER FOR NOT FOUND en un cursor MySQL?",
+        "opciones": [
+            {"id": "a", "texto": "Para relanzar el cursor al inicio"},
+            {"id": "b", "texto": "Para detectar cuando el cursor ha llegado al final del resultado y controlar el bucle"},
+            {"id": "c", "texto": "Para saltar filas con valores nulos"},
+            {"id": "d", "texto": "Para cerrar automáticamente el cursor"}
+        ],
+        "correcta": "b",
+        "explicacion": "DECLARE CONTINUE HANDLER FOR NOT FOUND captura la condición que se produce cuando FETCH ya no tiene más filas, permitiendo terminar el bucle"
+    },
+    {
+        "id": 50,
+        "pregunta": "¿Qué palabras clave se usan para referenciar los valores nuevo y antiguo dentro de un trigger en MySQL?",
+        "opciones": [
+            {"id": "a", "texto": "INSERTED y DELETED"},
+            {"id": "b", "texto": "NEW y OLD"},
+            {"id": "c", "texto": "AFTER y BEFORE"},
+            {"id": "d", "texto": "CURRENT y PREVIOUS"}
+        ],
+        "correcta": "b",
+        "explicacion": "Dentro de un trigger, NEW hace referencia al nuevo valor de la fila y OLD al valor anterior (en UPDATE y DELETE)."
+    }
+]

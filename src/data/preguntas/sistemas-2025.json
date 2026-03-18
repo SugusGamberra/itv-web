@@ -64,7 +64,7 @@
     {
         "id": 6,
         "pregunta": "Estas características son de una:",
-        "imagen": "/imagen/preguntas/14.png",
+        "imagen": "/images/preguntas/14.png",
         "opciones": [
             { "id": "a", "texto": "Tarjeta de red inalámbrica" },
             { "id": "b", "texto": "Tarjeta de red cableada" },
