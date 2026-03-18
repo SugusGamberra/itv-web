@@ -5,7 +5,7 @@ import lenguajeMarcas from './preguntas/lenguaje-marcas.json';
 import empleabilidad from './preguntas/empleabilidad.json';
 import servproc from './preguntas/servproc.json';
 import bbdd from './preguntas/bbdd.json';
-import programacion from './preguntas/programacion.json'
+import programacion from './preguntas/programacion.json';
 
 // AÑO 2025:
 import entornos from './preguntas/entornos-2025.json';
