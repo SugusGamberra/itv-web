@@ -20,6 +20,7 @@ export const MAPA_PREGUNTAS: Record<string, Pregunta[]> = {
     'servproc' : servproc as Pregunta[],
     'bbdd' : bbdd as Pregunta[],
     'programacion' : programacion as Pregunta[],
+    'sistemas' : sistemas as Pregunta[],
   // importar el resto segun lleguen aqui
 
   //2025
