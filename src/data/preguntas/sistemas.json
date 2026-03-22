@@ -1,0 +1,1264 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Cuál es la principal función de la memoria caché L1 en un procesador?",
+        "opciones": [
+            { "id": "a", "texto": "Almacenar instrucciones y datos de acceso frecuente" },
+            { "id": "b", "texto": "Aumentar la velocidad del disco duro" },
+            { "id": "c", "texto": "Mejorar la calidad gráfica" },
+            { "id": "d", "texto": "Gestionar la red local" }
+        ],
+        "correcta": "a",
+        "explicacion": "La caché L1 es la memoria más rápida y próxima al núcleo de la CPU, guardando lo que el procesador necesita usar de forma inmediata."
+    },
+    {
+        "id": 2,
+        "pregunta": "El parámetro que mide la calidad de escaneo de un escáner es (en castellano):",
+        "opciones": [
+            { "id": "a", "texto": "Ppt" },
+            { "id": "b", "texto": "Ppi" },
+            { "id": "c", "texto": "Ppp" },
+            { "id": "d", "texto": "Ninguna de las anteriores" }
+        ],
+        "correcta": "c",
+        "explicacion": "Significa 'Puntos por pulgada', y es la medida estándar en español para indicar la resolución de una imagen o escáner."
+    },
+    {
+        "id": 3,
+        "pregunta": "¿Qué tecnología permite utilizar varias tarjetas gráficas en paralelo para mejorar el rendimiento gráfico?",
+        "opciones": [
+            { "id": "a", "texto": "SLI o CrossFire" },
+            { "id": "b", "texto": "RAID" },
+            { "id": "c", "texto": "AHCI" },
+            { "id": "d", "texto": "NVMe" }
+        ],
+        "correcta": "a",
+        "explicacion": "SLI (NVIDIA) y CrossFire (AMD) son los protocolos que permiten enlazar dos o más GPUs para que trabajen de forma conjunta."
+    },
+    {
+        "id": 4,
+        "pregunta": "¿Qué indica la profundidad de color de un monitor?",
+        "opciones": [
+            { "id": "a", "texto": "El número de píxeles que puede mostrar la pantalla" },
+            { "id": "b", "texto": "La cantidad de colores diferentes que puede representar cada píxel" },
+            { "id": "c", "texto": "El tamaño máximo de la pantalla en pulgadas" },
+            { "id": "d", "texto": "La frecuencia de refresco máxima soportada" }
+        ],
+        "correcta": "b",
+        "explicacion": "A mayor profundidad de color (medida en bits), mayor es el abanico cromático que el monitor es capaz de reproducir por píxel."
+    },
+    {
+        "id": 5,
+        "pregunta": "¿Cuál es el principio fundamental de funcionamiento de una impresora 3D doméstica de tipo FDM?",
+        "opciones": [
+            { "id": "a", "texto": "Solidifica resina líquida mediante un láser ultravioleta" },
+            { "id": "b", "texto": "Deposita material fundido capa por capa según un modelo digital" },
+            { "id": "c", "texto": "Imprime tinta sobre papel mediante inyección de microgotas" },
+            { "id": "d", "texto": "Graba patrones sobre metal usando un haz de electrones" }
+        ],
+        "correcta": "b",
+        "explicacion": "FDM (Modelado por Deposición Fundida) calienta un filamento plástico y lo extruye capa a capa para formar el objeto 3D."
+    },
+    {
+        "id": 6,
+        "pregunta": "¿Qué sistema de archivos es nativo de Linux?",
+        "opciones": [
+            { "id": "a", "texto": "ext4" },
+            { "id": "b", "texto": "NTFS" },
+            { "id": "c", "texto": "FAT32" },
+            { "id": "d", "texto": "HFS+" }
+        ],
+        "correcta": "a",
+        "explicacion": "ext4 es el sistema de archivos estándar y más utilizado en la inmensa mayoría de distribuciones GNU/Linux."
+    },
+    {
+        "id": 7,
+        "pregunta": "¿Cuál es la principal ventaja de un SSD frente a un HDD?",
+        "opciones": [
+            { "id": "a", "texto": "Mayor velocidad de acceso" },
+            { "id": "b", "texto": "Mayor peso" },
+            { "id": "c", "texto": "Menor capacidad" },
+            { "id": "d", "texto": "Mayor consumo energético" }
+        ],
+        "correcta": "a",
+        "explicacion": "Al usar memoria flash y carecer de piezas mecánicas, los SSD ofrecen velocidades de lectura y escritura muchísimo más altas que los discos duros tradicionales."
+    },
+    {
+        "id": 8,
+        "pregunta": "¿Qué función tiene el comando fsck en Linux?",
+        "opciones": [
+            { "id": "a", "texto": "Comprobar y reparar sistemas de archivos" },
+            { "id": "b", "texto": "Formatear el disco" },
+            { "id": "c", "texto": "Cambiar permisos" },
+            { "id": "d", "texto": "Mostrar el espacio libre" }
+        ],
+        "correcta": "a",
+        "explicacion": "File System Consistency Check (fsck) es la utilidad para escanear y arreglar errores lógicos en el disco."
+    },
+    {
+        "id": 9,
+        "pregunta": "El siguiente disco duro está particionado siguiendo el modelo:",
+        "imagen": "/images/preguntas/20.png",
+        "opciones": [
+            { "id": "a", "texto": "GPT" },
+            { "id": "b", "texto": "MBR" },
+            { "id": "c", "texto": "NTFS" },
+            { "id": "d", "texto": "FAT32" }
+        ],
+        "correcta": "a",
+        "explicacion": "En la captura de pantalla se especifica una partición 'GPT EFI System', lo que delata que el esquema de particionado en uso es GPT."
+    },
+    {
+        "id": 10,
+        "pregunta": "¿Qué significa el término hot swap en almacenamiento?",
+        "opciones": [
+            { "id": "a", "texto": "Cambiar discos sin apagar el sistema" },
+            { "id": "b", "texto": "Instalar más memoria RAM" },
+            { "id": "c", "texto": "Actualizar el sistema operativo" },
+            { "id": "d", "texto": "Cambiar la fuente de alimentación" }
+        ],
+        "correcta": "a",
+        "explicacion": "El 'intercambio en caliente' te permite conectar o desconectar un disco duro en un servidor o equipo sin necesidad de reiniciarlo."
+    },
+    {
+        "id": 11,
+        "pregunta": "¿Cuál es la función del gestor de arranque (bootloader)?",
+        "opciones": [
+            { "id": "a", "texto": "Cargar el sistema operativo en memoria" },
+            { "id": "b", "texto": "Gestionar la red" },
+            { "id": "c", "texto": "Administrar la impresora" },
+            { "id": "d", "texto": "Actualizar el hardware" }
+        ],
+        "correcta": "a",
+        "explicacion": "Es el primer programa que se ejecuta tras la BIOS/UEFI, encargado de inicializar los parámetros y cargar el kernel del sistema operativo en la RAM."
+    },
+    {
+        "id": 12,
+        "pregunta": "¿Qué es un kernel monolítico?",
+        "opciones": [
+            { "id": "a", "texto": "Un núcleo que incluye todos los servicios básicos en un solo módulo" },
+            { "id": "b", "texto": "Un sistema de archivos" },
+            { "id": "c", "texto": "Un tipo de memoria virtual" },
+            { "id": "d", "texto": "Un protocolo de red" }
+        ],
+        "correcta": "a",
+        "explicacion": "En esta arquitectura, el núcleo entero corre en el mismo espacio de memoria, gestionando hardware, archivos y red desde un único bloque grande (como hace Linux)."
+    },
+    {
+        "id": 13,
+        "pregunta": "¿Qué comando de Linux permite ver el uso de memoria en tiempo real?",
+        "opciones": [
+            { "id": "a", "texto": "top" },
+            { "id": "b", "texto": "ls - lista" },
+            { "id": "c", "texto": "mkdir crea directorio" },
+            { "id": "d", "texto": "chmod - cambia permisos" }
+        ],
+        "correcta": "a",
+        "explicacion": "El comando 'top' (o 'htop') despliega un monitor interactivo de los procesos del sistema, CPU y RAM en vivo."
+    },
+    {
+        "id": 14,
+        "pregunta": "¿Cuál de las siguientes acciones puede provocar la acumulación de procesos zombis en un sistema operativo tipo UNIX?",
+        "opciones": [
+            { "id": "a", "texto": "El proceso padre no recoge el estado de salida de sus procesos hijos finalizados" },
+            { "id": "b", "texto": "El proceso hijo entra en un bucle infinito sin terminar" },
+            { "id": "c", "texto": "El proceso padre termina antes que el proceso hijo" },
+            { "id": "d", "texto": "El proceso hijo solicita más memoria de la disponible" }
+        ],
+        "correcta": "a",
+        "explicacion": "Un proceso se queda 'zombi' cuando termina su ejecución, pero su proceso padre aún no ha leído su código de salida mediante una llamada 'wait'."
+    },
+    {
+        "id": 15,
+        "pregunta": "¿Qué es la fragmentación en un sistema de archivos?",
+        "opciones": [
+            { "id": "a", "texto": "Almacenamiento de archivos en bloques no contiguos" },
+            { "id": "b", "texto": "Fallo del disco duro" },
+            { "id": "c", "texto": "Pérdida de datos por virus" },
+            { "id": "d", "texto": "Error en la RAM" }
+        ],
+        "correcta": "a",
+        "explicacion": "Ocurre cuando los datos de un único archivo se guardan en sectores dispersos del disco, ralentizando su lectura mecánica."
+    },
+    {
+        "id": 16,
+        "pregunta": "¿Cuál es la máscara de subred mínima necesaria para dividir la red 192.168.10.0/24 en al menos 6 subredes?",
+        "opciones": [
+            { "id": "a", "texto": "255.255.255.224 (127)" },
+            { "id": "b", "texto": "255.255.255.240 (/28)" },
+            { "id": "c", "texto": "255.255.255.192 (/26)" },
+            { "id": "d", "texto": "255.255.255.248 (/29)" }
+        ],
+        "correcta": "a",
+        "explicacion": "2^3=8 2^2=4 C -> 255.255.255.0 => /24 -> 27 : Para 6 subredes necesitas robar 3 bits (2^3 = 8). Sumando esos 3 al /24 inicial, te queda un prefijo /27, que equivale a la máscara 255.255.255.224."
+    },
+    {
+        "id": 17,
+        "pregunta": "Si tienes la red 10.0.0.0/8 y necesitas al menos 500 subredes, ¿cuántos bits debes tomar prestados de la porción de host para las subredes?",
+        "opciones": [
+            { "id": "a", "texto": "7" },
+            { "id": "b", "texto": "8" },
+            { "id": "c", "texto": "9" },
+            { "id": "d", "texto": "10" }
+        ],
+        "correcta": "c",
+        "explicacion": "clase A -> 255.0.0.0 => /8 2^9=512 ->/17 : Con 8 bits solo tendrías 256 subredes. Tomando 9 bits llegas a 2^9 = 512 subredes, cubriendo las 500 que te piden."
+    },
+    {
+        "id": 18,
+        "pregunta": "¿Cuál es la dirección de broadcast de la subred a la que pertenece la IP 172.16.33.77 con máscara 255.255.255.240 (/28)?",
+        "opciones": [
+            { "id": "a", "texto": "172.16.33.79" },
+            { "id": "b", "texto": "172.16.33.95" },
+            { "id": "c", "texto": "172.16.33.80" },
+            { "id": "d", "texto": "172.16.33.78" }
+        ],
+        "correcta": "a",
+        "explicacion": "10101100.00010000.00100001.01001101 | 10101100.00010000.00100001.00011111 : Una máscara /28 va de 16 en 16. La subred correspondiente va desde la .64 hasta la .79, por lo que la .79 es la IP de difusión (broadcast)."
+    },
+    {
+        "id": 19,
+        "pregunta": "¿Qué significa NAT en redes?",
+        "opciones": [
+            { "id": "a", "texto": "Traducción de direcciones de red" },
+            { "id": "b", "texto": "Acceso remoto seguro" },
+            { "id": "c", "texto": "Protocolo de autenticación" },
+            { "id": "d", "texto": "Gestión de impresoras compartidas" }
+        ],
+        "correcta": "a",
+        "explicacion": "Network Address Translation permite a los equipos de tu red local privada salir a internet utilizando todos una misma dirección IP pública."
+    },
+    {
+        "id": 20,
+        "pregunta": "¿Qué tipo de cable se utiliza comúnmente en redes Ethernet?",
+        "opciones": [
+            { "id": "a", "texto": "Par trenzado (UTP) cat5, cat6 etc" },
+            { "id": "b", "texto": "Coaxial" },
+            { "id": "c", "texto": "Fibra óptica" },
+            { "id": "d", "texto": "HDMI" }
+        ],
+        "correcta": "a",
+        "explicacion": "El par trenzado (UTP) es el estándar por defecto para la conexión cableada de la inmensa mayoría de las redes locales de ordenadores."
+    },
+    {
+        "id": 21,
+        "pregunta": "¿Qué comando muestra el contenido de un archivo en pantalla?",
+        "opciones": [
+            { "id": "a", "texto": "cat" },
+            { "id": "b", "texto": "rm" },
+            { "id": "c", "texto": "mkdir" },
+            { "id": "d", "texto": "cp" }
+        ],
+        "correcta": "a",
+        "explicacion": "El comando 'cat' (concatenate) lee los datos de un fichero de texto y los vuelca directamente en la consola para que puedas leerlos."
+    },
+    {
+        "id": 22,
+        "pregunta": "¿Qué comando se usa para copiar archivos en Linux?",
+        "opciones": [
+            { "id": "a", "texto": "cp" },
+            { "id": "b", "texto": "mv" },
+            { "id": "c", "texto": "rm" },
+            { "id": "d", "texto": "ls" }
+        ],
+        "correcta": "a",
+        "explicacion": "'cp' es la abreviatura de 'copy', usado para duplicar ficheros o directorios completos a otra ruta."
+    },
+    {
+        "id": 23,
+        "pregunta": "¿Qué comando permite ver la ruta absoluta del directorio actual?",
+        "opciones": [
+            { "id": "a", "texto": "pwd print working directory" },
+            { "id": "b", "texto": "cd change directory" },
+            { "id": "c", "texto": "echo - mostrar texto por pantalla" },
+            { "id": "d", "texto": "touch - crea archivos" }
+        ],
+        "correcta": "a",
+        "explicacion": "'pwd' imprime en pantalla la ruta exacta del sistema de archivos en la que te encuentras posicionado en ese momento."
+    },
+    {
+        "id": 24,
+        "pregunta": "¿Qué comando permite cambiar el grupo de un archivo?",
+        "opciones": [
+            { "id": "a", "texto": "chgrp change group" },
+            { "id": "b", "texto": "chmod" },
+            { "id": "c", "texto": "ps procesos en ejecución (ps aux)" },
+            { "id": "d", "texto": "kill - mata procesos por PID" }
+        ],
+        "correcta": "a",
+        "explicacion": "'chgrp' (change group) sirve específicamente para reasignar el grupo propietario de un archivo o carpeta en Linux."
+    },
+    {
+        "id": 25,
+        "pregunta": "¿Qué comando permite ver las interfaces de red configuradas en Linux?",
+        "opciones": [
+            { "id": "a", "texto": "ifconfig-configuración de red" },
+            { "id": "b", "texto": "ls lista" },
+            { "id": "c", "texto": "df disk free - espacio disco libre por particiones" },
+            { "id": "d", "texto": "grep - buscar patrones en archivos" }
+        ],
+        "correcta": "a",
+        "explicacion": "Aunque actualmente el comando más moderno es 'ip a', 'ifconfig' es el clásico tradicional para consultar IPs y estados de las tarjetas de red."
+    },
+    {
+        "id": 26,
+        "pregunta": "¿Qué es una política de contraseñas?",
+        "opciones": [
+            { "id": "a", "texto": "Conjunto de reglas para crear contraseñas seguras" },
+            { "id": "b", "texto": "Un software de cifrado" },
+            { "id": "c", "texto": "Un tipo de firewall" },
+            { "id": "d", "texto": "Un sistema de respaldo" }
+        ],
+        "correcta": "a",
+        "explicacion": "Establece los requisitos mínimos (como longitud, uso de mayúsculas o caducidad) que un sistema exige para proteger la autenticación de usuarios."
+    },
+    {
+        "id": 27,
+        "pregunta": "¿Qué herramienta de Windows permite ver los eventos del sistema?",
+        "opciones": [
+            { "id": "a", "texto": "Visor de eventos" },
+            { "id": "b", "texto": "Administrador de tareas" },
+            { "id": "c", "texto": "Panel de control" },
+            { "id": "d", "texto": "Administrador de dispositivos" }
+        ],
+        "correcta": "a",
+        "explicacion": "El Visor de eventos (Event Viewer) es la bitácora de Windows donde quedan registrados todos los errores, alertas e informaciones de las aplicaciones y servicios."
+    },
+    {
+        "id": 28,
+        "pregunta": "¿Qué comando debes escribir en la ventana 'Ejecutar' de Windows para abrir directamente el Administrador de tareas?",
+        "opciones": [
+            { "id": "a", "texto": "msconfig" },
+            { "id": "b", "texto": "taskmgr" },
+            { "id": "c", "texto": "services.msc" },
+            { "id": "d", "texto": "explorer" }
+        ],
+        "correcta": "b",
+        "explicacion": "'taskmgr' es el nombre del ejecutable nativo del Task Manager (Administrador de tareas) en el entorno de Windows."
+    },
+    {
+        "id": 29,
+        "pregunta": "¿Qué permite el comando msconfig en Windows?",
+        "opciones": [
+            { "id": "a", "texto": "Configurar opciones de arranque y servicios" },
+            { "id": "b", "texto": "Actualizar el sistema" },
+            { "id": "c", "texto": "Cambiar la resolución de pantalla" },
+            { "id": "d", "texto": "Instalar impresoras" }
+        ],
+        "correcta": "a",
+        "explicacion": "Lanza la Utilidad de configuración del sistema, excelente para definir arranques a prueba de fallos o deshabilitar servicios no críticos."
+    },
+    {
+        "id": 30,
+        "pregunta": "¿Qué función cumple el firewall de Windows?",
+        "opciones": [
+            { "id": "a", "texto": "Controlar el tráfico de red entrante y saliente" },
+            { "id": "b", "texto": "Mejorar la velocidad del disco duro" },
+            { "id": "c", "texto": "Administrar usuarios" },
+            { "id": "d", "texto": "Optimizar la memoria RAM" }
+        ],
+        "correcta": "a",
+        "explicacion": "Actúa como un filtro de seguridad que bloquea conexiones no deseadas hacia tu PC o evita que ciertos programas salgan a internet sin tu permiso."
+    },
+    {
+        "id": 31,
+        "pregunta": "¿Cuál es la principal diferencia entre la memoria caché L2 y L3 en procesadores modernos?",
+        "opciones": [
+            { "id": "a", "texto": "La L2 es exclusiva por núcleo y la L3 es compartida entre varios núcleos" },
+            { "id": "b", "texto": "La L2 es más grande que la L3" },
+            { "id": "c", "texto": "La L3 es más rápida que la L2" },
+            { "id": "d", "texto": "La L2 almacena instrucciones y la L3 solo datos" }
+        ],
+        "correcta": "a",
+        "explicacion": "La L2 suele ser un espacio de memoria rápido y dedicado a cada núcleo individual, mientras que la L3 actúa como un gran bloque común compartido por todos los núcleos."
+    },
+    {
+        "id": 32,
+        "pregunta": "¿Qué impacto tiene la política de reemplazo de caché en el rendimiento de la CPU?",
+        "opciones": [
+            { "id": "a", "texto": "Determina qué datos se descartan, afectando la tasa de aciertos" },
+            { "id": "b", "texto": "Solo influye en la velocidad del disco duro" },
+            { "id": "c", "texto": "No tiene impacto en el rendimiento" },
+            { "id": "d", "texto": "Aumenta la capacidad de la RAM" }
+        ],
+        "correcta": "a",
+        "explicacion": "Una política de reemplazo eficiente y bien diseñada maximiza los aciertos en la caché, evitando accesos lentos a la memoria principal y mejorando el rendimiento global."
+    },
+    {
+        "id": 33,
+        "pregunta": "¿Cuál es la función principal del bus de direcciones en una computadora?",
+        "opciones": [
+            { "id": "a", "texto": "Transportar direcciones de memoria entre la CPU y otros componentes" },
+            { "id": "b", "texto": "Transferir datos entre la CPU y la memoria" },
+            { "id": "c", "texto": "Sincronizar el reloj del sistema" },
+            { "id": "d", "texto": "Controlar el acceso a dispositivos periféricos" }
+        ],
+        "correcta": "a",
+        "explicacion": "Este bus específico se encarga únicamente de indicar la ubicación o dirección exacta de memoria a la que la CPU necesita acceder."
+    },
+    {
+        "id": 34,
+        "pregunta": "¿Qué característica distingue a una arquitectura RISC de una CISC?",
+        "opciones": [
+            { "id": "a", "texto": "Instrucciones simples y de longitud fija" },
+            { "id": "b", "texto": "Mayor cantidad de instrucciones complejas" },
+            { "id": "c", "texto": "Uso exclusivo de memoria caché" },
+            { "id": "d", "texto": "Solo se utiliza en servidores" }
+        ],
+        "correcta": "a",
+        "explicacion": "La filosofía RISC (Reduced Instruction Set Computer) se basa en ejecutar instrucciones muy básicas, cortas y uniformes para ganar velocidad de procesamiento."
+    },
+    {
+        "id": 35,
+        "pregunta": "¿Qué tipo de memoria se utiliza para almacenar la tabla de páginas en sistemas con paginación?",
+        "opciones": [
+            { "id": "a", "texto": "RAM" },
+            { "id": "b", "texto": "ROM" },
+            { "id": "c", "texto": "Caché" },
+            { "id": "d", "texto": "TLB (Translation Lookaside Buffer)" }
+        ],
+        "correcta": "a",
+        "explicacion": "Aunque la TLB actúa como caché para acelerar consultas, la tabla de páginas completa reside siempre en la memoria principal (RAM) gestionada por el sistema operativo."
+    },
+    {
+        "id": 36,
+        "pregunta": "¿Cuál es la principal diferencia entre los sistemas de archivos ext4 y NTFS en cuanto a gestión de archivos grandes?",
+        "opciones": [
+            { "id": "a", "texto": "ext4 usa extents para evitar fragmentación" },
+            { "id": "b", "texto": "NTFS no soporta archivos grandes" },
+            { "id": "c", "texto": "ext4 no permite permisos de archivo" },
+            { "id": "d", "texto": "NTFS no tiene journaling" }
+        ],
+        "correcta": "a",
+        "explicacion": "Los 'extents' en ext4 son punteros que asignan grandes bloques de espacio físico contiguo en el disco duro de una sola vez, combatiendo drásticamente la fragmentación."
+    },
+    {
+        "id": 37,
+        "pregunta": "¿Qué comando de Linux permite montar un sistema de archivos en un directorio?",
+        "opciones": [
+            { "id": "a", "texto": "mount" },
+            { "id": "b", "texto": "fsck" },
+            { "id": "c", "texto": "umount" },
+            { "id": "d", "texto": "fdisk" }
+        ],
+        "correcta": "a",
+        "explicacion": "Es el comando troncal en Unix/Linux para acoplar una partición, disco o recurso remoto al árbol de directorios del sistema operativo."
+    },
+    {
+        "id": 38,
+        "pregunta": "¿Qué ocurre si se pierde el sector de arranque en un disco con particiones MBR?",
+        "opciones": [
+            { "id": "a", "texto": "El sistema no podrá arrancar" },
+            { "id": "b", "texto": "Se pierden todos los datos" },
+            { "id": "c", "texto": "Solo afecta a la velocidad de acceso" },
+            { "id": "d", "texto": "El disco pasa a ser de solo lectura" }
+        ],
+        "correcta": "a",
+        "explicacion": "El primer sector físico del disco (MBR) guarda el código ejecutable indispensable para arrancar; sin él, la BIOS no sabe cómo cargar el sistema."
+    },
+    {
+        "id": 39,
+        "pregunta": "¿Qué ventaja ofrece el sistema de archivos ZFS respecto a ext4?",
+        "opciones": [
+            { "id": "a", "texto": "Integridad de datos mediante sumas de verificación" },
+            { "id": "b", "texto": "Mayor compatibilidad con Windows" },
+            { "id": "c", "texto": "Menor consumo de memoria" },
+            { "id": "d", "texto": "No soporta snapshots" }
+        ],
+        "correcta": "a",
+        "explicacion": "ZFS destaca a nivel empresarial porque calcula hashes de bloque constantemente para detectar y reparar corrupciones de datos silenciosas."
+    },
+    {
+        "id": 40,
+        "pregunta": "¿Cuál es la función del elemento de Windows de la imagen?",
+        "imagen": "/images/preguntas/21.png",
+        "opciones": [
+            { "id": "a", "texto": "Copiar y convertir archivos a bajo nivel" },
+            { "id": "b", "texto": "Cambiar permisos" },
+            { "id": "c", "texto": "Desfragmentar" },
+            { "id": "d", "texto": "Reparar sistemas de archivos" }
+        ],
+        "correcta": "c",
+        "explicacion": "La captura muestra la utilidad 'Optimizar unidades' de Windows, la cual se encarga de analizar y desfragmentar tanto unidades SSD como discos duros mecánicos (HDD)."
+    },
+    {
+        "id": 41,
+        "pregunta": "¿Qué diferencia principal existe entre un kernel monolítico y un microkernel?",
+        "opciones": [
+            { "id": "a", "texto": "El microkernel ejecuta servicios fuera del núcleo" },
+            { "id": "b", "texto": "El monolítico no gestiona memoria" },
+            { "id": "c", "texto": "El microkernel es más grande" },
+            { "id": "d", "texto": "El monolítico no soporta multitarea" }
+        ],
+        "correcta": "a",
+        "explicacion": "Un microkernel delega casi todo (sistemas de archivos, red, etc.) a procesos externos en el espacio de usuario, manteniendo el núcleo lo más ligero y seguro posible."
+    },
+    {
+        "id": 42,
+        "pregunta": "¿Cuál es el propósito de la llamada al sistema fork() en UNIX?",
+        "opciones": [
+            { "id": "a", "texto": "Crear un nuevo proceso hijo" },
+            { "id": "b", "texto": "Finalizar un proceso" },
+            { "id": "c", "texto": "Cambiar permisos de archivos" },
+            { "id": "d", "texto": "Sincronizar procesos" }
+        ],
+        "correcta": "a",
+        "explicacion": "La primitiva `fork()` clona el proceso actual, generando un 'hijo' exacto al proceso 'padre', pero con su propio identificador de proceso (PID)."
+    },
+    {
+        "id": 43,
+        "pregunta": "¿Qué comando en Windows nos permite ver el registro?",
+        "opciones": [
+            { "id": "a", "texto": "regedit" },
+            { "id": "b", "texto": "cmd" },
+            { "id": "c", "texto": "netstat" },
+            { "id": "d", "texto": "regmap" }
+        ],
+        "correcta": "a",
+        "explicacion": "Es el ejecutable oficial que abre el Editor del Registro, desde donde se modifican las configuraciones críticas del sistema operativo Windows."
+    },
+    {
+        "id": 44,
+        "pregunta": "¿Qué mecanismo utiliza un sistema operativo para evitar interbloqueos en el acceso a recursos compartidos?",
+        "opciones": [
+            { "id": "a", "texto": "Semáforos" },
+            { "id": "b", "texto": "Fragmentación" },
+            { "id": "c", "texto": "Swapping" },
+            { "id": "d", "texto": "Scheduling round-robin" }
+        ],
+        "correcta": "a",
+        "explicacion": "Los semáforos funcionan como señales (flags) que permiten o deniegan el paso a la sección crítica de la memoria, evitando que varios procesos choquen."
+    },
+    {
+        "id": 45,
+        "pregunta": "¿Qué es el swapping en sistemas operativos?",
+        "opciones": [
+            { "id": "a", "texto": "Intercambiar procesos entre memoria principal y secundaria" },
+            { "id": "b", "texto": "Cambiar permisos de archivos" },
+            { "id": "c", "texto": "Sincronizar dispositivos de E/S" },
+            { "id": "d", "texto": "Fragmentar archivos grandes" }
+        ],
+        "correcta": "a",
+        "explicacion": "Es la técnica de mover información inactiva de la memoria RAM hacia una partición especial del disco duro (swap) cuando se necesita liberar espacio urgente."
+    },
+    {
+        "id": 46,
+        "pregunta": "¿Cuál es la máscara de subred mínima necesaria para dividir la red 172.16.0.0/16 en al menos 100 subredes?",
+        "opciones": [
+            { "id": "a", "texto": "255.255.255.192 (/26)" },
+            { "id": "b", "texto": "255.255.255.128 (/25)" },
+            { "id": "c", "texto": "255.255.254.0 (/23)" },
+            { "id": "d", "texto": "255.255.252.0 (/22)" }
+        ],
+        "correcta": "c",
+        "explicacion": "Para lograr 100 subredes necesitas robar 7 bits a la porción de host (2^7 = 128). Sumando 16 + 7 obtenemos una máscara /23."
+    },
+    {
+        "id": 47,
+        "pregunta": "Si tienes la red 192.168.50.0/24 y necesitas crear subredes para al menos 20 hosts cada una, ¿cuántas subredes puedes obtener y cuál sería la máscara adecuada?",
+        "opciones": [
+            { "id": "a", "texto": "8 subredes, máscara /28" },
+            { "id": "b", "texto": "16 subredes, máscara /28" },
+            { "id": "c", "texto": "8 subredes, máscara /27" },
+            { "id": "d", "texto": "16 subredes, máscara /27" }
+        ],
+        "correcta": "c",
+        "explicacion": "Para 20 hosts necesitas 5 bits libres (2^5 - 2 = 30 IPs útiles). Te quedan 3 bits disponibles para crear subredes (2^3 = 8 subredes), resultando en un /27."
+    },
+    {
+        "id": 48,
+        "pregunta": "¿Cuál es la dirección de red y la dirección de broadcast de la subred a la que pertenece la IP 10.10.17.45 con máscara 255.255.255.224 (/27)?",
+        "opciones": [
+            { "id": "a", "texto": "Red: 10.10.17.32, Broadcast: 10.10.17.63" },
+            { "id": "b", "texto": "Red: 10.10.17.0, Broadcast: 10.10.17.31" },
+            { "id": "c", "texto": "Red: 10.10.17.40, Broadcast: 10.10.17.63" },
+            { "id": "d", "texto": "Red: 10.10.17.32, Broadcast: 10.10.17.47" }
+        ],
+        "correcta": "a",
+        "explicacion": "Una máscara /27 crea saltos de 32. La red a la que pertenece la .45 empieza en la .32 y su broadcast llega justo antes de la siguiente red (.64), es decir, la .63."
+    },
+    {
+        "id": 49,
+        "pregunta": "Una empresa tiene la red 192.168.100.0/24 y necesita 5 subredes con al menos 40 hosts cada una. ¿Cuál es la máscara de subred más adecuada y cuántas direcciones IP desperdiciadas habrá en total?",
+        "opciones": [
+            { "id": "a", "texto": "/26, 8 IPs" },
+            { "id": "b", "texto": "/27, 28 IPs" },
+            { "id": "c", "texto": "/25, 54 IPs" },
+            { "id": "d", "texto": "/28, 12 IPs" }
+        ],
+        "correcta": "a",
+        "explicacion": "Para alojar 40 hosts necesitas imperativamente un bloque de 64 direcciones (máscara /26). Aunque teóricamente un /24 solo admite 4 subredes /26, es la única máscara viable mostrada en las opciones."
+    },
+    {
+        "id": 50,
+        "pregunta": "¿Cuántos bits debes tomar prestados de la porción de host para obtener al menos 30 subredes a partir de una red de clase B (172.20.0.0/16)?",
+        "opciones": [
+            { "id": "a", "texto": "3" },
+            { "id": "b", "texto": "4" },
+            { "id": "c", "texto": "5" },
+            { "id": "d", "texto": "6" }
+        ],
+        "correcta": "c",
+        "explicacion": "Aplicando la fórmula 2^n >= subredes: 2^5 = 32. Por tanto, 5 bits son suficientes para cubrir el requisito de 30 subredes."
+    },
+    {
+        "id": 51,
+        "pregunta": "Si tienes la dirección 192.168.1.0/24 y necesitas subredes para 3 departamentos con 50, 25 y 10 hosts respectivamente, ¿qué máscaras asignarías a cada subred usando VLSM?",
+        "opciones": [
+            { "id": "a", "texto": "/26, 127, 128" },
+            { "id": "b", "texto": "/25, /26, /27" },
+            { "id": "c", "texto": "/27, 128, 129" },
+            { "id": "d", "texto": "/28, 129,/30" }
+        ],
+        "correcta": "a",
+        "explicacion": "Para 50 hosts necesitas un /26. Las opciones '127' y '128' dadas en la pregunta corresponden a errores tipográficos en el documento original, refiriéndose claramente a /27 (para 25 hosts) y /28 (para 10 hosts)."
+    },
+    {
+        "id": 52,
+        "pregunta": "¿Cuál es la dirección de broadcast de la tercera subred creada al dividir la red 200.3.25.0/24 en 8 subredes iguales?",
+        "opciones": [
+            { "id": "a", "texto": "200.3.25.63" },
+            { "id": "b", "texto": "200.3.25.95" },
+            { "id": "c", "texto": "200.3.25.47" },
+            { "id": "d", "texto": "200.3.25.31" }
+        ],
+        "correcta": "b",
+        "explicacion": "Al dividir en 8 subredes usas un /27 (saltos de 32). Las subredes serían .0, .32 y .64. El broadcast de esa tercera subred es la IP anterior al inicio de la cuarta (.96), es decir, la .95."
+    },
+    {
+        "id": 53,
+        "pregunta": "¿Cuál sería el rango de direcciones IP válidas para hosts en la subred 165.100.4.0/26?",
+        "opciones": [
+            { "id": "a", "texto": "165.100.4.1-165.100.4.62" },
+            { "id": "b", "texto": "165.100.4.1-165.100.4.63" },
+            { "id": "c", "texto": "165.100.4.1-165.100.4.126" },
+            { "id": "d", "texto": "165.100.4.1-165.100.4.65" }
+        ],
+        "correcta": "a",
+        "explicacion": "El tamaño del bloque de un /26 es de 64. La IP .0 es la red, el rango válido para equipos abarca de la .1 a la .62, y la .63 queda reservada para broadcast."
+    },
+    {
+        "id": 54,
+        "pregunta": "Si tienes la red 10.0.0.0/8 y necesitas subredes con al menos 2000 hosts cada una, ¿cuál es la máscara de subred más adecuada?",
+        "opciones": [
+            { "id": "a", "texto": "/20" },
+            { "id": "b", "texto": "/21" },
+            { "id": "c", "texto": "/22" },
+            { "id": "d", "texto": "/23" }
+        ],
+        "correcta": "b",
+        "explicacion": "Para asegurar 2000 hosts requieres 11 bits (2^11 = 2048). Restando estos 11 bits a los 32 totales de una IPv4, obtienes el prefijo /21."
+    },
+    {
+        "id": 55,
+        "pregunta": "¿Qué ocurre si asignas la misma dirección de red a dos interfaces diferentes en la misma red física?",
+        "opciones": [
+            { "id": "a", "texto": "Se genera un conflicto y la comunicación puede fallar" },
+            { "id": "b", "texto": "No sucede nada" },
+            { "id": "c", "texto": "Solo una interfaz podrá comunicarse" },
+            { "id": "d", "texto": "Ambas interfaces funcionarán normalmente" }
+        ],
+        "correcta": "a",
+        "explicacion": "Tener IPs de red idénticas o solapadas en la misma capa física rompe las tablas de enrutamiento y genera colisiones constantes de paquetes."
+    },
+    {
+        "id": 56,
+        "pregunta": "¿Qué comando muestra el número total de archivos en el directorio actual y todos sus subdirectorios?",
+        "opciones": [
+            { "id": "a", "texto": "find. -type f | wc -l" },
+            { "id": "b", "texto": "ls -l  wc -l" },
+            { "id": "c", "texto": "du -a | grep file" },
+            { "id": "d", "texto": "cat * | wc -l" }
+        ],
+        "correcta": "a",
+        "explicacion": "El comando 'find' con la bandera '-type f' lista únicamente archivos, y la tubería hacia 'wc -l' (word count) devuelve el número total de líneas emitidas."
+    },
+    {
+        "id": 57,
+        "pregunta": "¿Cómo rediriges tanto la salida estándar como la de error de un comando al mismo archivo?",
+        "opciones": [
+            { "id": "a", "texto": "comando > archivo 2>&1" },
+            { "id": "b", "texto": "comando >> archivo 2> archivo" },
+            { "id": "c", "texto": "comando > archivo | comando2" },
+            { "id": "d", "texto": "comando < archivo > archivo2" }
+        ],
+        "correcta": "a",
+        "explicacion": "Con la notación '2>&1' le indicas a la consola que apunte el flujo de errores (descriptor 2) hacia el mismo destino donde ya va el flujo de salida normal (descriptor 1)."
+    },
+    {
+        "id": 58,
+        "pregunta": "¿Qué comando muestra todos los procesos que contienen la palabra \"ssh\" (sin distinguir mayúsculas/minúsculas) y guarda el resultado en procesos.txt?",
+        "opciones": [
+            { "id": "a", "texto": "ps aux | grep -i ssh > procesos.txt" },
+            { "id": "b", "texto": "ps aux | grep ssh | procesos.txt" },
+            { "id": "c", "texto": "ps aux > procesos.txt | grep ssh" },
+            { "id": "d", "texto": "ps aux | grep ssh >> procesos.txt mu" }
+        ],
+        "correcta": "a",
+        "explicacion": "El flag '-i' de grep fuerza la insensibilidad a mayúsculas/minúsculas, y el operador '>' redirige limpiamente esa salida a un nuevo fichero de texto."
+    },
+    {
+        "id": 59,
+        "pregunta": "¿Cómo ordenas los archivos del directorio /etc por tamaño de mayor a menor y muestras solo los 5 más grandes?",
+        "opciones": [
+            { "id": "a", "texto": "ls -IS /etc | head -n 5" },
+            { "id": "b", "texto": "ls -IS /etc | tail -n 5" },
+            { "id": "c", "texto": "ls -lh /etc | sort -nrk 5 | head -n 5" },
+            { "id": "d", "texto": "ls -lhS /etc | head -n 5" }
+        ],
+        "correcta": "d",
+        "explicacion": "La opción '-S' mayúscula de 'ls' realiza el ordenado por tamaño automáticamente; combinándolo con 'head -n 5' filtramos los resultados para ver solo la parte superior de la lista."
+    },
+    {
+        "id": 60,
+        "pregunta": "¿Cómo puedes concatenar el contenido de dos archivos (a.txt y b.txt) y redirigir el resultado a un archivo nuevo (c.txt)?",
+        "opciones": [
+            { "id": "a", "texto": "cat a.txt b.txt > c.txt" },
+            { "id": "b", "texto": "cat a.txt > b.txt > c.txt" },
+            { "id": "c", "texto": "cat a.txt | b.txt > c.txt" },
+            { "id": "d", "texto": "cat a.txt b.txt | c.txt" }
+        ],
+        "correcta": "a",
+        "explicacion": "El comando 'cat' puede recibir múltiples ficheros como argumentos, uniendo su contenido en bloque antes de volcarlo en el archivo de destino."
+    },
+    {
+        "id": 61,
+        "pregunta": "¿Qué comando muestra las líneas del archivo /var/log/syslog que contienen la palabra \"error\" y las guarda en error.log, añadiendo al final del archivo si ya existe?",
+        "opciones": [
+            { "id": "a", "texto": "grep error /var/log/syslog >> error.log" },
+            { "id": "b", "texto": "grep error /var/log/syslog > error.log" },
+            { "id": "c", "texto": "grep error /var/log/syslog | error.log" },
+            { "id": "d", "texto": "grep error /var/log/syslog | tee error.log" }
+        ],
+        "correcta": "a",
+        "explicacion": "El uso del operador doble '>>' es imperativo aquí, ya que instruye al sistema a hacer un 'append' (añadir) de los datos al final del documento en lugar de sobreescribirlo por completo."
+    },
+    {
+        "id": 62,
+        "pregunta": "¿Cómo ordenas alfabéticamente el contenido de un archivo llamado lista.txt y lo guardas en ordenada.txt?",
+        "opciones": [
+            { "id": "a", "texto": "sort lista.txt > ordenada.txt" },
+            { "id": "b", "texto": "sort lista.txt | ordenada.txt" },
+            { "id": "c", "texto": "sort > lista.txt ordenada.txt" },
+            { "id": "d", "texto": "sort < lista.txt > ordenada.txt" }
+        ],
+        "correcta": "a",
+        "explicacion": "El comando 'sort' procesa nativamente los documentos pasados por argumento de la A a la Z, y su redirección estándar se encarga del guardado final."
+    },
+    {
+        "id": 63,
+        "pregunta": "¿Qué comando permite visualizar el contenido de un archivo largo página a página y filtrar solo las líneas que contienen \"root\"?",
+        "opciones": [
+            { "id": "a", "texto": "grep root archivo.txt | less" },
+            { "id": "b", "texto": "cat archivo.txt | less | grep root" },
+            { "id": "c", "texto": "less archivo.txt | grep root" },
+            { "id": "d", "texto": "grep root | less archivo.txt" }
+        ],
+        "correcta": "a",
+        "explicacion": "Filtrar primero la información de interés con 'grep' y luego pasar ese volumen reducido de datos por tubería al paginador interactivo 'less' es el procedimiento más lógico."
+    },
+    {
+        "id": 64,
+        "pregunta": "¿Cómo rediriges solo los errores de un comando a un archivo llamado errores.txt, sin guardar la salida estándar?",
+        "opciones": [
+            { "id": "a", "texto": "comando 2> errores.txt" },
+            { "id": "b", "texto": "comando > errores.txt" },
+            { "id": "c", "texto": "comando >> errores.txt" },
+            { "id": "d", "texto": "comando 2>> errores.txt" }
+        ],
+        "correcta": "a",
+        "explicacion": "Al aislar específicamente el descriptor '2' (Standard Error) seguido del operador de inyección de texto, consigues que los mensajes buenos vayan a pantalla y los errores al fichero."
+    },
+    {
+        "id": 65,
+        "pregunta": "¿Qué comando crea un archivo vacío llamado prueba.txt y, si ya existe, no lo modifica?",
+        "opciones": [
+            { "id": "a", "texto": "touch prueba.txt" },
+            { "id": "b", "texto": "cat > prueba.txt" },
+            { "id": "c", "texto": "echo > prueba.txt" },
+            { "id": "d", "texto": "cp /dev/null prueba.txt" }
+        ],
+        "correcta": "a",
+        "explicacion": "La principal función de 'touch' es alterar las marcas temporales, pero si el fichero objetivo no está presente en el directorio, se ocupa de instanciarlo de cero con tamaño nulo."
+    },
+    {
+        "id": 66,
+        "pregunta": "¿Qué es el mantenimiento de un PC?",
+        "opciones": [
+            { "id": "a", "texto": "Actividades periódicas para mantener el PC en óptimo estado" },
+            { "id": "b", "texto": "Solo reparaciones tras averías graves" },
+            { "id": "c", "texto": "Instalación de nuevos periféricos" },
+            { "id": "d", "texto": "Actualizaciones de software mensuales" }
+        ],
+        "correcta": "a",
+        "explicacion": "El mantenimiento engloba las rutinas y cuidados continuos (limpieza, revisiones) para prevenir fallos y alargar la vida útil del equipo."
+    },
+    {
+        "id": 67,
+        "pregunta": "El mantenimiento constructivo consiste principalmente en...",
+        "opciones": [
+            { "id": "a", "texto": "Detectar fallos futuros" },
+            { "id": "b", "texto": "Limpiar el polvo del exterior" },
+            { "id": "c", "texto": "Reparar o cambiar componentes de la computadora" },
+            { "id": "d", "texto": "Desfragmentar discos rígidos" }
+        ],
+        "correcta": "c",
+        "explicacion": "El término constructivo (o evolutivo/adaptativo) se refiere a intervenir físicamente el hardware para actualizarlo, mejorarlo o reemplazar piezas defectuosas."
+    },
+    {
+        "id": 68,
+        "pregunta": "¿Qué caracteriza al mantenimiento correctivo no planificado?",
+        "opciones": [
+            { "id": "a", "texto": "Es predictivo y programado" },
+            { "id": "b", "texto": "Corrige averías cuando se presentan sin planificación" },
+            { "id": "c", "texto": "Solo se aplica a software" },
+            { "id": "d", "texto": "Aumenta la capacidad de almacenamiento" }
+        ],
+        "correcta": "b",
+        "explicacion": "Como su nombre indica, actúa de emergencia; ocurre cuando una pieza ya se ha roto por sorpresa y hay que arreglarla para que el equipo vuelva a funcionar."
+    },
+    {
+        "id": 69,
+        "pregunta": "El mantenimiento predictivo se basa en...",
+        "opciones": [
+            { "id": "a", "texto": "Reparaciones urgentes" },
+            { "id": "b", "texto": "Detectar un fallo antes de que suceda" },
+            { "id": "c", "texto": "Limpieza física exclusiva" },
+            { "id": "d", "texto": "Instalación de periféricos nuevos" }
+        ],
+        "correcta": "b",
+        "explicacion": "Utiliza diagnósticos, métricas y monitorización constante para anticiparse y predecir exactamente cuándo un componente está a punto de fallar."
+    },
+    {
+        "id": 70,
+        "pregunta": "¿Cuál es un paso inicial en el mantenimiento preventivo?",
+        "opciones": [
+            { "id": "a", "texto": "Usar pulsera y mantel antiestática" },
+            { "id": "b", "texto": "Abrir el disco duro" },
+            { "id": "c", "texto": "Conectar el equipo a internet" },
+            { "id": "d", "texto": "Actualizar el BIOS" }
+        ],
+        "correcta": "a",
+        "explicacion": "La electricidad estática de nuestro propio cuerpo puede freír los componentes internos al instante, por lo que descargarse es siempre el paso cero."
+    },
+    {
+        "id": 71,
+        "pregunta": "¿Qué herramienta NO se recomienda para limpieza de tarjetas?",
+        "opciones": [
+            { "id": "a", "texto": "Cepillo pequeño o pincel suave" },
+            { "id": "b", "texto": "Esponjas libres de pelusa" },
+            { "id": "c", "texto": "Trapo de algodón que deje pelusa" },
+            { "id": "d", "texto": "Aire comprimido" }
+        ],
+        "correcta": "c",
+        "explicacion": "Las pelusas o hilos se pueden quedar enganchados fácilmente en las soldaduras y pines de las tarjetas, pudiendo causar cortocircuitos o sobrecalentamientos."
+    },
+    {
+        "id": 72,
+        "pregunta": "Para la fuente de alimentación, se recomienda limpiar con...",
+        "opciones": [
+            { "id": "a", "texto": "Agua y jabón" },
+            { "id": "b", "texto": "Manos desnudas" },
+            { "id": "c", "texto": "Aire comprimido evitando girar el aspa del ventilador" },
+            { "id": "d", "texto": "Alcohol isopropílico directamente" }
+        ],
+        "correcta": "c",
+        "explicacion": "El aire comprimido saca el polvo interno, pero es vital bloquear el ventilador; si gira demasiado rápido por el aire, actúa como dínamo y puede generar corriente que dañe la placa."
+    },
+    {
+        "id": 73,
+        "pregunta": "En el mantenimiento del microprocesador, se debe...",
+        "opciones": [
+            { "id": "a", "texto": "Reponer pasta térmica y revisar ventilador" },
+            { "id": "b", "texto": "Golpear el disipador" },
+            { "id": "c", "texto": "Dejar sin pasta térmica" },
+            { "id": "d", "texto": "Usar lubricante de silicona" }
+        ],
+        "correcta": "a",
+        "explicacion": "La pasta térmica se reseca con el tiempo perdiendo su conductividad. Limpiarla, reponerla y comprobar que el ventilador no esté atascado es fundamental para evitar calentamientos."
+    },
+    {
+        "id": 74,
+        "pregunta": "¿Cómo limpiar los contactos de la RAM?",
+        "opciones": [
+            { "id": "a", "texto": "Con goma de borrar y paño sin pelusa" },
+            { "id": "b", "texto": "Con imanes" },
+            { "id": "c", "texto": "Sumergir en agua" },
+            { "id": "d", "texto": "Con lima metálica" }
+        ],
+        "correcta": "a",
+        "explicacion": "Pasar suavemente una goma de borrar blanca ('de nata') elimina perfectamente la sulfatación y suciedad de los contactos dorados sin rayarlos."
+    },
+    {
+        "id": 75,
+        "pregunta": "¿Qué NO hacer en el mantenimiento del disco duro?",
+        "opciones": [
+            { "id": "a", "texto": "Desfragmentar" },
+            { "id": "b", "texto": "Pasar elementos magnéticos cerca" },
+            { "id": "c", "texto": "Escanear con utilidades" },
+            { "id": "d", "texto": "Limpiar con aire comprimido" }
+        ],
+        "correcta": "b",
+        "explicacion": "Los discos duros mecánicos (HDD) almacenan la información gracias al magnetismo. Acercar un imán puede corromper o borrar irremediablemente tus datos."
+    },
+    {
+        "id": 76,
+        "pregunta": "Para el teclado, una recomendación es...",
+        "opciones": [
+            { "id": "a", "texto": "Voltearlo y aspirarlo" },
+            { "id": "b", "texto": "Sumergirlo en alcohol" },
+            { "id": "c", "texto": "Golpearlo para soltar suciedad" },
+            { "id": "d", "texto": "Usar detergente fuerte" }
+        ],
+        "correcta": "a",
+        "explicacion": "Ponerlo boca abajo y usar un aspirador de mano (o aire a presión) es la forma más rápida y segura de sacar migas, pelo y polvo atrapado bajo las teclas."
+    },
+    {
+        "id": 77,
+        "pregunta": "Al limpiar el monitor, se debe usar...",
+        "opciones": [
+            { "id": "a", "texto": "Paño sin pelusa con monitor apagado" },
+            { "id": "b", "texto": "Productos directamente sobre la pantalla encendida" },
+            { "id": "c", "texto": "Elementos magnéticos" },
+            { "id": "d", "texto": "Trapos abrasivos" }
+        ],
+        "correcta": "a",
+        "explicacion": "Las pantallas son súper delicadas. Se limpian siempre en frío (apagadas) y con microfibra para no rayar los recubrimientos antirreflejos ni dañar píxeles."
+    },
+    {
+        "id": 78,
+        "pregunta": "En impresoras, ante derrame de tóner, usar...",
+        "opciones": [
+            { "id": "a", "texto": "Productos de limpieza comunes" },
+            { "id": "b", "texto": "Papeles secantes para absorber" },
+            { "id": "c", "texto": "Forzar la limpieza con agua" },
+            { "id": "d", "texto": "Esparcir el líquido" }
+        ],
+        "correcta": "b",
+        "explicacion": "El tóner es un polvo finísimo. Nunca se debe usar agua (hace una pasta) ni aspiradoras normales (lo esparcen en el aire). El papel o paños en seco es lo más seguro."
+    },
+    {
+        "id": 79,
+        "pregunta": "¿Qué significa RAID?",
+        "opciones": [
+            { "id": "a", "texto": "Matriz redundante de discos independientes" },
+            { "id": "b", "texto": "Red de acceso instantáneo directo" },
+            { "id": "c", "texto": "Registro avanzado de información digital" },
+            { "id": "d", "texto": "Repositorio de archivos independientes" }
+        ],
+        "correcta": "a",
+        "explicacion": "Sus siglas en inglés (Redundant Array of Independent Disks) definen la tecnología que agrupa varios discos físicos para que trabajen juntos."
+    },
+    {
+        "id": 80,
+        "pregunta": "RAID aparece para el SO como...",
+        "opciones": [
+            { "id": "a", "texto": "Un solo disco duro lógico" },
+            { "id": "b", "texto": "Múltiples discos independientes" },
+            { "id": "c", "texto": "Un dispositivo de red externo" },
+            { "id": "d", "texto": "Una unidad de memoria RAM" }
+        ],
+        "correcta": "a",
+        "explicacion": "Esa es la magia del RAID: abstrae el hardware. Aunque físicamente haya 4 discos montados, tu Windows o Linux solo verá un único volumen (como 'C:')."
+    },
+    {
+        "id": 81,
+        "pregunta": "¿Qué tipo de RAID usa la CPU del host para funciones?",
+        "opciones": [
+            { "id": "a", "texto": "RAID basado en hardware externo" },
+            { "id": "b", "texto": "RAID basado en software" },
+            { "id": "c", "texto": "RAID híbrido 10" },
+            { "id": "d", "texto": "RAID nivel 6" }
+        ],
+        "correcta": "b",
+        "explicacion": "Al no tener una tarjeta controladora dedicada, el propio sistema operativo utiliza el procesador principal del ordenador para gestionar cómo se reparten los datos."
+    },
+    {
+        "id": 82,
+        "pregunta": "RAID 0 se conoce como...",
+        "opciones": [
+            { "id": "a", "texto": "Mirroring o duplicación" },
+            { "id": "b", "texto": "Disk striping sin tolerancia a fallos" },
+            { "id": "c", "texto": "Paridad distribuida" },
+            { "id": "d", "texto": "Doble redundancia" }
+        ],
+        "correcta": "b",
+        "explicacion": "El RAID 0 reparte fragmentos de datos ('striping') entre los discos para ir rapidísimo, pero si uno solo de los discos falla, se pierde toda la información al no haber respaldos."
+    },
+    {
+        "id": 83,
+        "pregunta": "¿Mínimo discos para RAID 1?",
+        "opciones": [
+            { "id": "a", "texto": "Tres" },
+            { "id": "b", "texto": "Cuatro" },
+            { "id": "c", "texto": "Uno" },
+            { "id": "d", "texto": "Dos" }
+        ],
+        "correcta": "d",
+        "explicacion": "Como RAID 1 es un sistema de 'espejo' (mirroring) que duplica la información exacta de un disco en otro, se necesitan lógicamente 2 discos como mínimo."
+    },
+    {
+        "id": 84,
+        "pregunta": "RAID 5 optimiza capacidad hasta...",
+        "opciones": [
+            { "id": "a", "texto": "50% del conjunto" },
+            { "id": "b", "texto": "80% del conjunto con paridad distribuida" },
+            { "id": "c", "texto": "100% sin pérdida" },
+            { "id": "d", "texto": "20% para redundancia" }
+        ],
+        "correcta": "b",
+        "explicacion": "En RAID 5 se pierde el equivalente a un disco para guardar los cálculos de paridad. Si montas el ejemplo clásico de 5 discos, aprovechas 4 (el 80% de la capacidad bruta)."
+    },
+    {
+        "id": 85,
+        "pregunta": "¿Qué ofrece RAID para tolerancia a fallos?",
+        "opciones": [
+            { "id": "a", "texto": "Mantiene el servidor activo al fallar un disco" },
+            { "id": "b", "texto": "Desconecta todo el sistema" },
+            { "id": "c", "texto": "Elimina copias de seguridad" },
+            { "id": "d", "texto": "Reduce rendimiento al 50%" }
+        ],
+        "correcta": "a",
+        "explicacion": "Su objetivo principal en servidores es la alta disponibilidad: si un disco físico 'muere', el sistema sigue encendido y accesible tirando de los datos redundantes."
+    },
+    {
+        "id": 86,
+        "pregunta": "En RAID 2, la redundancia se hace vía...",
+        "opciones": [
+            { "id": "a", "texto": "Paridad dedicada" },
+            { "id": "b", "texto": "Código Hamming" },
+            { "id": "c", "texto": "Mirroring simple" },
+            { "id": "d", "texto": "Striping puro" }
+        ],
+        "correcta": "b",
+        "explicacion": "RAID 2 (que ya casi no se usa) dividía la información a nivel de bit y empleaba complejos códigos de Hamming guardados en discos dedicados para corregir errores al vuelo."
+    },
+    {
+        "id": 87,
+        "pregunta": "¿Mínimo discos para RAID 5?",
+        "opciones": [
+            { "id": "a", "texto": "Dos" },
+            { "id": "b", "texto": "Cuatro" },
+            { "id": "c", "texto": "Tres" },
+            { "id": "d", "texto": "Cinco" }
+        ],
+        "correcta": "c",
+        "explicacion": "Requiere mínimo 3 discos porque entrelaza los bloques de datos y además distribuye la información de paridad (el respaldo) entre todos ellos."
+    },
+    {
+        "id": 88,
+        "pregunta": "RAID basado en hardware es ventajoso porque...",
+        "opciones": [
+            { "id": "a", "texto": "Depende del SO" },
+            { "id": "b", "texto": "Es independiente de plataforma y más rápido" },
+            { "id": "c", "texto": "Siempre más lento" },
+            { "id": "d", "texto": "Usa solo software" }
+        ],
+        "correcta": "b",
+        "explicacion": "Al tener su propia tarjeta física (controladora con su propia memoria y chip), libera a la CPU de tu ordenador de ese trabajo y funciona rapidísimo sin importar qué SO instales."
+    },
+    {
+        "id": 89,
+        "pregunta": "¿Para qué se usa RAID 01/10?",
+        "opciones": [
+            { "id": "a", "texto": "Solo alta capacidad" },
+            { "id": "b", "texto": "Velocidad y tolerancia a fallos simultáneos" },
+            { "id": "c", "texto": "Bajo coste sin redundancia" },
+            { "id": "d", "texto": "Acceso síncrono" }
+        ],
+        "correcta": "b",
+        "explicacion": "Combina lo mejor de dos mundos: la suma de velocidad extrema que da el RAID 0 ('striping') y la seguridad de tenerlo todo duplicado del RAID 1 ('mirroring')."
+    },
+    {
+        "id": 90,
+        "pregunta": "En RAID 6, se incluye...",
+        "opciones": [
+            { "id": "a", "texto": "Doble paridad distribuida" },
+            { "id": "b", "texto": "Un solo disco de paridad" },
+            { "id": "c", "texto": "Sin tolerancia a fallos" },
+            { "id": "d", "texto": "Striping sin redundancia" }
+        ],
+        "correcta": "a",
+        "explicacion": "Es el paso siguiente al RAID 5. Calcula y guarda dos bloques de paridad diferentes, lo que te permite el lujo de que se rompan 2 discos enteros a la vez sin perder datos."
+    },
+    {
+        "id": 91,
+        "pregunta": "¿Cuál es el objetivo principal del responsable de informática al implantar clonación de sistemas en una empresa?",
+        "opciones": [
+            { "id": "a", "texto": "Reducir el tamaño de los discos duros" },
+            { "id": "b", "texto": "Crear instalaciones idénticas de forma automatizada en varios equipos" },
+            { "id": "c", "texto": "Aumentar la velocidad de la CPU" },
+            { "id": "d", "texto": "Instalar distintos sistemas operativos en cada equipo" }
+        ],
+        "correcta": "b",
+        "explicacion": "La clonación masiva ahorra horas de trabajo infinito: dejas un PC perfecto y planchas esa imagen exacta en 50 ordenadores iguales con un par de clics."
+    },
+    {
+        "id": 92,
+        "pregunta": "¿Cuál es el primer paso para preparar una estación de trabajo modelo antes de clonar?",
+        "opciones": [
+            { "id": "a", "texto": "Instalar las aplicaciones de usuario finales" },
+            { "id": "b", "texto": "Crear la imagen del disco" },
+            { "id": "c", "texto": "Configurar la red corporativa" },
+            { "id": "d", "texto": "Probar el sistema en producción" }
+        ],
+        "correcta": "a",
+        "explicacion": "El equipo base (maestro) debe configurarse a la perfección con el SO, los drivers y el software que va a usar la plantilla antes de capturar la imagen."
+    },
+    {
+        "id": 93,
+        "pregunta": "¿Qué se copia exactamente al clonar un disco duro \"disco a disco\"?",
+        "opciones": [
+            { "id": "a", "texto": "Solo los datos de usuario" },
+            { "id": "b", "texto": "Solo el sistema operativo" },
+            { "id": "c", "texto": "El disco completo, datos y configuración incluidos" },
+            { "id": "d", "texto": "Únicamente el sector de arranque" }
+        ],
+        "correcta": "c",
+        "explicacion": "Es una copia sector por sector (a bajo nivel). El disco de destino queda como una réplica gemela del disco origen, incluyendo particiones, SO y archivos ocultos."
+    },
+    {
+        "id": 94,
+        "pregunta": "¿Qué tipo de clonación genera un archivo que luego puede almacenarse en un disco externo o en un recurso compartido de red?",
+        "opciones": [
+            { "id": "a", "texto": "Disco a disco" },
+            { "id": "b", "texto": "Partición a partición" },
+            { "id": "c", "texto": "A archivo de imagen" },
+            { "id": "d", "texto": "Clonación incremental" }
+        ],
+        "correcta": "c",
+        "explicacion": "Al hacer una imagen (archivo .iso o propietario), empaquetas todo el disco en un solo fichero que puedes guardar en un USB o servidor para desplegarlo más tarde."
+    },
+    {
+        "id": 95,
+        "pregunta": "¿Qué herramienta de clonación, basada en Debian, permite clonar más de 40 discos a la vez mediante arranque PXE?",
+        "opciones": [
+            { "id": "a", "texto": "Norton Ghost" },
+            { "id": "b", "texto": "Clonezilla" },
+            { "id": "c", "texto": "Macrium Reflect" },
+            { "id": "d", "texto": "EASEUS Partition Master" }
+        ],
+        "correcta": "b",
+        "explicacion": "Clonezilla (sobre todo su versión Server) es la suite libre por excelencia en entornos Linux para hacer despliegues masivos a través de la red."
+    },
+    {
+        "id": 96,
+        "pregunta": "¿Qué afirmación describe mejor una partición de disco duro?",
+        "opciones": [
+            { "id": "a", "texto": "Un conjunto de archivos comprimidos" },
+            { "id": "b", "texto": "Una unidad lógica definida dentro de una unidad física" },
+            { "id": "c", "texto": "Un tipo de memoria caché" },
+            { "id": "d", "texto": "Un sistema de archivos específico" }
+        ],
+        "correcta": "b",
+        "explicacion": "Particionar es dividir el disco físicamente de forma virtual, de tal modo que cada trozo actúa de cara al SO como si fuera un disco duro independiente."
+    },
+    {
+        "id": 97,
+        "pregunta": "¿Cuántas particiones primarias como máximo puede tener un disco con esquema MBR?",
+        "opciones": [
+            { "id": "a", "texto": "2" },
+            { "id": "b", "texto": "3" },
+            { "id": "c", "texto": "4" },
+            { "id": "d", "texto": "8" }
+        ],
+        "correcta": "c",
+        "explicacion": "Es una de las grandes limitaciones históricas del antiguo estándar MBR (Master Boot Record): la tabla no da para más de 4 primarias."
+    },
+    {
+        "id": 98,
+        "pregunta": "¿Cuál es la función principal de la partición extendida en un disco MBR?",
+        "opciones": [
+            { "id": "a", "texto": "Almacenar el sistema operativo" },
+            { "id": "b", "texto": "Servir como partición autoarrancable" },
+            { "id": "c", "texto": "Alojar particiones lógicas" },
+            { "id": "d", "texto": "Realizar copias de seguridad automáticas" }
+        ],
+        "correcta": "c",
+        "explicacion": "Para saltarse el límite de 4 particiones primarias, conviertes una en 'extendida', la cual actúa como un contenedor donde puedes crear multitud de unidades lógicas dentro."
+    },
+    {
+        "id": 99,
+        "pregunta": "¿Qué limitación tiene FAT32 respecto al tamaño máximo de archivo?",
+        "opciones": [
+            { "id": "a", "texto": "2 GB" },
+            { "id": "b", "texto": "4 GB" },
+            { "id": "c", "texto": "8 GB" },
+            { "id": "d", "texto": "16 TB" }
+        ],
+        "correcta": "b",
+        "explicacion": "FAT32 es súper compatible, pero no soporta que un solo archivo individual pese más de 4 Gigabytes (un engorro para películas o ISOs modernas)."
+    },
+    {
+        "id": 100,
+        "pregunta": "¿Qué característica distingue a NTFS frente a FAT32 en Windows?",
+        "opciones": [
+            { "id": "a", "texto": "No permite asignar permisos" },
+            { "id": "b", "texto": "Solo sirve para discos externos" },
+            { "id": "c", "texto": "Admite archivos de hasta 16 TB y ofrece más seguridad" },
+            { "id": "d", "texto": "No es compatible con particiones grandes" }
+        ],
+        "correcta": "c",
+        "explicacion": "NTFS es el sistema de archivos profesional de Windows: quita el límite de tamaño, añade cifrado y permite configurar políticas de seguridad para carpetas."
+    },
+    {
+        "id": 101,
+        "pregunta": "¿Qué sistema de archivos se usa habitualmente en GNU/Linux como estándar actual con journaling?",
+        "opciones": [
+            { "id": "a", "texto": "ext2" },
+            { "id": "b", "texto": "ext3" },
+            { "id": "c", "texto": "ext4" },
+            { "id": "d", "texto": "FAT32" }
+        ],
+        "correcta": "c",
+        "explicacion": "ext4 es el rey indiscutible y el formato por defecto de la inmensa mayoría de distribuciones modernas de Linux, destacando por su robustez y su 'journaling' para evitar daños."
+    },
+    {
+        "id": 102,
+        "pregunta": "¿Cuál es una razón habitual para crear varias particiones en un mismo disco duro?",
+        "opciones": [
+            { "id": "a", "texto": "Reducir el número de sectores físicos" },
+            { "id": "b", "texto": "Evitar el uso de sistemas de archivos" },
+            { "id": "c", "texto": "Separar datos de usuario y sistema, mejorando organización y seguridad" },
+            { "id": "d", "texto": "Forzar el uso de un solo sistema operativo" }
+        ],
+        "correcta": "c",
+        "explicacion": "Si tienes 'C:' para Windows y 'D:' para tus cosas, puedes formatear o reinstalar el sistema operativo si coge un virus sin perder ni uno solo de tus archivos personales."
+    },
+    {
+        "id": 103,
+        "pregunta": "¿Qué tipo de esquema de particionado permite crear hasta 128 particiones por disco?",
+        "opciones": [
+            { "id": "a", "texto": "CHS" },
+            { "id": "b", "texto": "MBR" },
+            { "id": "c", "texto": "GPT/EFI" },
+            { "id": "d", "texto": "LVM" }
+        ],
+        "correcta": "c",
+        "explicacion": "GPT (GUID Partition Table) es la respuesta moderna al viejo MBR, diseñado para trabajar con sistemas UEFI y soportar discos de muchísimos Terabytes sin sudar."
+    },
+    {
+        "id": 104,
+        "pregunta": "¿Qué herramienta de particionado se caracteriza por ser gráfica, libre y propia del escritorio GNOME en GNU/Linux?",
+        "opciones": [
+            { "id": "a", "texto": "FDISK" },
+            { "id": "b", "texto": "GParted" },
+            { "id": "c", "texto": "Diskpart" },
+            { "id": "d", "texto": "Macrium Reflect" }
+        ],
+        "correcta": "b",
+        "explicacion": "GParted (GNOME Partition Editor) es la app visual más famosa y accesible del entorno Linux para trastear, redimensionar o borrar particiones a golpe de ratón."
+    },
+    {
+        "id": 105,
+        "pregunta": "¿Qué comando de Windows permite consultar y modificar la configuración del gestor de arranque (BCD)?",
+        "opciones": [
+            { "id": "a", "texto": "chkdsk" },
+            { "id": "b", "texto": "bootrec" },
+            { "id": "c", "texto": "msconfig" },
+            { "id": "d", "texto": "bcdedit" }
+        ],
+        "correcta": "d",
+        "explicacion": "El 'Boot Configuration Data Editor' (bcdedit) es la herramienta nativa que se usa desde consola para arreglar o cambiar las opciones de inicio de Windows."
+    }
+]
