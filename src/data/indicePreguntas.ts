@@ -6,10 +6,11 @@ import empleabilidad from './preguntas/empleabilidad.json';
 import servproc from './preguntas/servproc.json';
 import bbdd from './preguntas/bbdd.json';
 import programacion from './preguntas/programacion.json';
+import sistemas from './preguntas/sistemas.json';
 
 // AÑO 2025:
-import entornos from './preguntas/entornos-2025.json';
-import sistemas from './preguntas/sistemas-2025.json';
+import entornos2025 from './preguntas/entornos-2025.json';
+import sistemas2025 from './preguntas/sistemas-2025.json';
 
 // importar el resto d json cuando los tenga
 
@@ -24,6 +25,6 @@ export const MAPA_PREGUNTAS: Record<string, Pregunta[]> = {
   // importar el resto segun lleguen aqui
 
   //2025
-    'entornos-2025' : entornos as Pregunta[],
-    'sistemas-2025' : sistemas as Pregunta[]
+    'entornos-2025' : entornos2025 as Pregunta[],
+    'sistemas-2025' : sistemas2025 as Pregunta[]
 };
