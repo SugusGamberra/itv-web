@@ -92,11 +92,18 @@ export default function InfoExamenes() {
                     isOpen={openSection === 'madrid'} 
                     onClick={() => toggleSection('madrid')}
                 >
-                    <p className="mb-2">Cuando se confirme ubis lo pongo!</p>
-                    <div className="h-40 bg-white/10 rounded flex items-center justify-center mb-2">
-                        [MAPA MADRID]
+                    <p className="mb-4 text-white">📍 <b>CTO:</b> C. de Albarracín, 34, San Blas-Canillejas, 28037 Madrid</p>
+                    <div className="h-64 w-full rounded-xl overflow-hidden border border-white/20">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.1424911099684!2d-3.6300188!3d40.4389659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422f2835978a3f%3A0x6e96906a28246e75!2sC.%20de%20Albarrac%C3%ADn%2C%2034%2C%20San%20Blas-Canillejas%2C%2028037%20Madrid!5e0!3m2!1ses!2ses!4v1711380000000!5m2!1ses!2ses" 
+                            width="100%" 
+                            height="100%" 
+                            style={{ border: 0 }} 
+                            allowFullScreen 
+                            loading="lazy" 
+                            referrerPolicy="no-referrer-when-downgrade"
+                        ></iframe>
                     </div>
-                    <p className="text-sm opacity-60">Aquí irá la direccion :P</p>
                 </AccordionItem>
 
                 <AccordionItem 
@@ -104,23 +111,38 @@ export default function InfoExamenes() {
                     isOpen={openSection === 'bcn'} 
                     onClick={() => toggleSection('bcn')}
                 >
-                    <p className="mb-2">Cuando se confirme ubis lo pongo!</p>
-                    <div className="h-40 bg-white/10 rounded flex items-center justify-center mb-2">
-                        [MAPA BARNA]
+                    <p className="mb-4 text-white">📍 <b>CTO:</b> Carrer de Tarragona, 78, 82, Eixample, 08015 Barcelona</p>
+                    <div className="h-64 w-full rounded-xl overflow-hidden border border-white/20">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.8863674253164!2d2.1436423!3d41.3787358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2632239f60d%3A0x8670c538a7c2f82c!2sCarrer%20de%20Tarragona%2C%2078%2C%2008015%20Barcelona!5e0!3m2!1ses!2ses!4v1711380200000!5m2!1ses!2ses" 
+                            width="100%" 
+                            height="100%" 
+                            style={{ border: 0 }} 
+                            allowFullScreen 
+                            loading="lazy" 
+                        ></iframe>
                     </div>
-                    <p className="text-sm opacity-60">Aqui ira la dirección :P</p>
                 </AccordionItem>
 
                 <AccordionItem 
-                    title="Sevilla" 
+                    title="Sevilla (Utrera)" 
                     isOpen={openSection === 'sevilla'} 
                     onClick={() => toggleSection('sevilla')}
                 >
-                    <p className="mb-2">Cuando se confirme ubis lo pongo!</p>
-                    <div className="h-40 bg-white/10 rounded flex items-center justify-center mb-2">
-                        [MAPA SEVILLA]
+                    <p className="mb-4 text-white">
+                        📍 <b>Salesianos Utrera:</b> C. de San Juan Bosco, 13, 41710 Utrera, Sevilla
+                    </p>
+                    <div className="h-64 w-full rounded-xl overflow-hidden border border-white/20">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6357.588006505689!2d-5.7779703!3d37.1813662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd127f0c6313e5b5%3A0x4dc8be9ee98a1198!2sSalesianos%20Utrera%20Colegio%20Nuestra%20Se%C3%B1ora%20del%20Carmen!5e0!3m2!1ses!2ses!4v1774451663999!5m2!1ses!2ses" 
+                            width="100%" 
+                            height="100%" 
+                            style={{ border: 0 }} 
+                            allowFullScreen 
+                            loading="lazy" 
+                            referrerPolicy="no-referrer-when-downgrade"
+                        ></iframe>
                     </div>
-                    <p className="text-sm opacity-60">Aqui ira la direccion!!</p>
                 </AccordionItem>
 
 
