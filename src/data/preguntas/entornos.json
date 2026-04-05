@@ -1,0 +1,1480 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Qué caracteriza a los lenguajes interpretados?",
+        "opciones": [
+            { "id": "a", "texto": "Se convierten a código máquina antes de ejecutarse." },
+            { "id": "b", "texto": "Se ejecutan línea por línea sin compilación previa." },
+            { "id": "c", "texto": "Generan archivos objeto intermedios." },
+            { "id": "d", "texto": "Son exclusivos de sistemas operativos Windows." }
+        ],
+        "correcta": "b",
+        "explicacion": "Los lenguajes interpretados no pasan por una fase de compilación a código máquina previa, sino que un intérprete lee y ejecuta el código línea a línea en tiempo de ejecución."
+    },
+    {
+        "id": 2,
+        "pregunta": "El paradigma imperativo se enfoca en:",
+        "opciones": [
+            { "id": "a", "texto": "Describir el resultado deseado." },
+            { "id": "b", "texto": "Especificar pasos detallados para resolver un problema." },
+            { "id": "c", "texto": "Evitar cambios de estado en los datos." },
+            { "id": "d", "texto": "Priorizar la recursividad sobre los bucles." }
+        ],
+        "correcta": "b",
+        "explicacion": "El paradigma imperativo se basa en darle al ordenador instrucciones detalladas paso a paso (el 'cómo') para modificar el estado del programa y llegar a la solución."
+    },
+    {
+        "id": 3,
+        "pregunta": "La programación orientada a objetos (OOP) se basa en:",
+        "opciones": [
+            { "id": "a", "texto": "Funciones matemáticas puras" },
+            { "id": "b", "texto": "Objetos que encapsulan datos y métodos" },
+            { "id": "c", "texto": "Flujos de datos reactivos" },
+            { "id": "d", "texto": "Estructuras de control secuenciales" }
+        ],
+        "correcta": "b",
+        "explicacion": "La OOP organiza el diseño de software en torno a datos u 'objetos', en lugar de funciones y lógica, encapsulando sus atributos (datos) y comportamientos (métodos)."
+    },
+    {
+        "id": 4,
+        "pregunta": "La programación declarativa se diferencia de la imperativa porque:",
+        "opciones": [
+            { "id": "a", "texto": "Describe el 'qué' en lugar del 'cómo'" },
+            { "id": "b", "texto": "Requiere compilación previa" },
+            { "id": "c", "texto": "Utiliza objetos jerárquicos" },
+            { "id": "d", "texto": "Es incompatible con lenguajes modernos" }
+        ],
+        "correcta": "a",
+        "explicacion": "En la programación declarativa defines el resultado que quieres obtener sin detallar explícitamente el flujo de control o los pasos exactos para conseguirlo."
+    },
+    {
+        "id": 5,
+        "pregunta": "Un intérprete se diferencia de un compilador en que:",
+        "opciones": [
+            { "id": "a", "texto": "Genera código objeto" },
+            { "id": "b", "texto": "Ejecuta instrucciones directamente sin generar archivos intermedios" },
+            { "id": "c", "texto": "Optimiza el rendimiento en tiempo de ejecución" },
+            { "id": "d", "texto": "Requiere un sistema operativo específico" }
+        ],
+        "correcta": "b",
+        "explicacion": "Mientras que el compilador traduce todo el código fuente a un archivo ejecutable antes de correrlo, el intérprete procesa y ejecuta cada línea al vuelo."
+    },
+    {
+        "id": 6,
+        "pregunta": "Las metodologías ágiles priorizan:",
+        "opciones": [
+            { "id": "a", "texto": "Planificación detallada desde el inicio" },
+            { "id": "b", "texto": "Entregas frecuentes y adaptación a cambios" },
+            { "id": "c", "texto": "Documentación exhaustiva" },
+            { "id": "d", "texto": "Jerarquías de equipo estrictas" }
+        ],
+        "correcta": "b",
+        "explicacion": "El manifiesto ágil valora la respuesta ante el cambio y la entrega de software funcional de manera temprana y continua, por encima de una planificación rígida o seguir un plan estricto."
+    },
+    {
+        "id": 7,
+        "pregunta": "En metodologías tradicionales:",
+        "opciones": [
+            { "id": "a", "texto": "Las fases son iterativas" },
+            { "id": "b", "texto": "Se completan etapas secuencialmente antes de avanzar" },
+            { "id": "c", "texto": "La retroalimentación del cliente es constante" },
+            { "id": "d", "texto": "Los requisitos son flexibles durante el desarrollo" }
+        ],
+        "correcta": "b",
+        "explicacion": "Las metodologías tradicionales, como el modelo en cascada, siguen un enfoque lineal y secuencial donde una fase (ej. diseño) debe terminar por completo antes de empezar la siguiente (ej. implementación)."
+    },
+    {
+        "id": 8,
+        "pregunta": "¿Cuál NO es un marco ágil?:",
+        "opciones": [
+            { "id": "a", "texto": "Scrum" },
+            { "id": "b", "texto": "Kanban" },
+            { "id": "c", "texto": "Cascada." },
+            { "id": "d", "texto": "XP (Extreme Programming)" }
+        ],
+        "correcta": "c",
+        "explicacion": "El modelo en Cascada (Waterfall) es el ejemplo más clásico de metodología predictiva o tradicional, todo lo contrario a los marcos ágiles como Scrum o Kanban."
+    },
+    {
+        "id": 9,
+        "pregunta": "¿Cuál es la función principal de un IDE?:",
+        "opciones": [
+            { "id": "a", "texto": "Ejecutar aplicaciones en la nube" },
+            { "id": "b", "texto": "Simplificar la programación integrando herramientas esenciales" },
+            { "id": "c", "texto": "Diseñar interfaces gráficas sin código" },
+            { "id": "d", "texto": "Gestionar bases de datos" }
+        ],
+        "correcta": "b",
+        "explicacion": "Un Entorno de Desarrollo Integrado (IDE) tiene como objetivo maximizar la productividad del programador juntando en un solo programa las herramientas clave: editor de código, compilador y depurador."
+    },
+    {
+        "id": 10,
+        "pregunta": "Un entorno de desarrollo integrado (IDE) se caracteriza por:",
+        "opciones": [
+            { "id": "a", "texto": "Ser exclusivo para lenguajes compilados" },
+            { "id": "b", "texto": "Agrupar herramientas como editor, depurador y compilador" },
+            { "id": "c", "texto": "Requerir hardware especializado" },
+            { "id": "d", "texto": "No admitir control de versiones" }
+        ],
+        "correcta": "b",
+        "explicacion": "La esencia de un IDE es agrupar en una sola interfaz gráfica y cohesionada las herramientas básicas que un desarrollador necesita para construir software cómodamente."
+    },
+    {
+        "id": 11,
+        "pregunta": "¿Qué herramienta permite identificar y corregir errores en tiempo real?:",
+        "opciones": [
+            { "id": "a", "texto": "Compilador" },
+            { "id": "b", "texto": "Depurador" },
+            { "id": "c", "texto": "Editor de texto" },
+            { "id": "d", "texto": "Control de versiones" }
+        ],
+        "correcta": "b",
+        "explicacion": "El depurador (debugger) es la herramienta mágica que nos permite ejecutar el programa paso a paso, inspeccionar variables y encontrar el origen exacto de los fallos o 'bugs'."
+    },
+    {
+        "id": 12,
+        "pregunta": "¿Qué característica NO es típica de un IDE?:",
+        "opciones": [
+            { "id": "a", "texto": "Soporte para pruebas automatizadas" },
+            { "id": "b", "texto": "Integración con editores de imagen" },
+            { "id": "c", "texto": "Control de versiones integrado" },
+            { "id": "d", "texto": "Refactorización de código" }
+        ],
+        "correcta": "b",
+        "explicacion": "Aunque los IDEs son muy completos e incluyen Git, refactorización y testing, no suelen integrar editores de imagen, ya que están enfocados puramente en el desarrollo de código."
+    },
+    {
+        "id": 13,
+        "pregunta": "El estándar internacional que establece los requisitos y las mejores prácticas para llevar a cabo pruebas de software efectivas es:",
+        "opciones": [
+            { "id": "a", "texto": "ISO 29000" },
+            { "id": "b", "texto": "ASO 29119" },
+            { "id": "c", "texto": "ISO 29119" },
+            { "id": "d", "texto": "ISO 199119" }
+        ],
+        "correcta": "c",
+        "explicacion": "La norma ISO/IEC/IEEE 29119 es el estándar internacionalmente aceptado y unificado para los procesos de pruebas de software (Software Testing)."
+    },
+    {
+        "id": 14,
+        "pregunta": "En el IDE Eclipse, ¿qué acción permite ejecutar un proyecto?:",
+        "opciones": [
+            { "id": "a", "texto": "Run As" },
+            { "id": "b", "texto": "Export" },
+            { "id": "c", "texto": "Debug As" },
+            { "id": "d", "texto": "Build Path" }
+        ],
+        "correcta": "a",
+        "explicacion": "En Eclipse, la opción 'Run As' se utiliza para lanzar la aplicación indicándole al entorno de qué forma específica debe ejecutarse (por ejemplo, como 'Java Application')."
+    },
+    {
+        "id": 15,
+        "pregunta": "Las pruebas de cubrimiento se basan en:",
+        "opciones": [
+            { "id": "a", "texto": "Ejecutar las sentencias incluidas en iteraciones y condicionales" },
+            { "id": "b", "texto": "Ejecutar todas las sentencias del programa una vez cada una" },
+            { "id": "c", "texto": "Ejecutar, al menos una vez, todas las sentencias del programa" },
+            { "id": "d", "texto": "No existen esas pruebas" }
+        ],
+        "correcta": "c",
+        "explicacion": "Las pruebas de cubrimiento (coverage) buscan garantizar que cada línea de código fuente se haya ejecutado por lo menos una vez durante la fase de pruebas para asegurar que nada se queda sin testear."
+    },
+    {
+        "id": 16,
+        "pregunta": "Las clases de equivalencia son necesarias para:",
+        "opciones": [
+            { "id": "a", "texto": "Pruebas de caja negra" },
+            { "id": "b", "texto": "Pruebas de caja blanca" },
+            { "id": "c", "texto": "Pruebas de recubrimiento" },
+            { "id": "d", "texto": "Pruebas unitarias" }
+        ],
+        "correcta": "a",
+        "explicacion": "La partición en clases de equivalencia es una técnica clásica de diseño de pruebas de caja negra, donde se dividen los datos de entrada en grupos que se espera que el sistema trate de la misma manera."
+    },
+    {
+        "id": 17,
+        "pregunta": "La palabra que falta donde está la línea roja es:",
+        "imagen": "/images/preguntas/1.png",
+        "opciones": [
+            { "id": "a", "texto": "Recubrimiento" },
+            { "id": "b", "texto": "Integración" },
+            { "id": "c", "texto": "Adición" },
+            { "id": "d", "texto": "Validación" }
+        ],
+        "correcta": "b",
+        "explicacion": "El gráfico muestra un enfoque Bottom-up (de abajo hacia arriba), que es una estrategia típica de las Pruebas de Integración para ir juntando módulos pequeños hasta formar el sistema completo."
+    },
+    {
+        "id": 18,
+        "pregunta": "El siguiente caso de uso es:",
+        "imagen": "/images/preguntas/2.png",
+        "opciones": [
+            { "id": "a", "texto": "Prueba de caja blanca" },
+            { "id": "b", "texto": "Prueba de caja negra" },
+            { "id": "c", "texto": "Prueba de regresión" },
+            { "id": "d", "texto": "Prueba de validación" }
+        ],
+        "correcta": "b",
+        "explicacion": "Los Casos de Uso describen la interacción del usuario con el sistema (entradas y salidas esperadas), por lo que son la base principal para diseñar Pruebas de Caja Negra (pruebas funcionales)."
+    },
+    {
+        "id": 19,
+        "pregunta": "Dado el siguiente código, si realizo la siguiente prueba es:",
+        "imagen": [
+            "/images/preguntas/3.png",
+            "/images/preguntas/4.png"
+        ],
+        "opciones": [
+            { "id": "a", "texto": "Prueba de caja blanca" },
+            { "id": "b", "texto": "Prueba de caja negra" },
+            { "id": "c", "texto": "Prueba de caja gris" },
+            { "id": "d", "texto": "Ninguna de las anteriores" }
+        ],
+        "correcta": "a",
+        "explicacion": "Al estar analizando directamente el código fuente (el if/else) para crear pruebas unitarias que cubran los caminos del código (positivo y negativo), estamos haciendo pruebas de Caja Blanca."
+    },
+    {
+        "id": 20,
+        "pregunta": "Refactorizar consiste en:",
+        "opciones": [
+            { "id": "a", "texto": "Existe factorizar, que es crear una función que aglutine a otras" },
+            { "id": "b", "texto": "Volver a codificar de forma recursiva" },
+            { "id": "c", "texto": "Volver a codificar aquello que no sea eficiente" },
+            { "id": "d", "texto": "Hacer que un código sea más fácil de entender y mantener" }
+        ],
+        "correcta": "d",
+        "explicacion": "Refactorizar es alterar la estructura interna del código sin cambiar su comportamiento externo, con el único fin de hacerlo más limpio, legible y mantenible."
+    },
+    {
+        "id": 21,
+        "pregunta": "El siguiente código:",
+        "imagen": "/images/preguntas/9.png",
+        "opciones": [
+            { "id": "a", "texto": "Esta refactorizado" },
+            { "id": "b", "texto": "Esta sin refactorizar" },
+            { "id": "c", "texto": "Tiene errores de sintaxis" },
+            { "id": "d", "texto": "No necesita ningún tratamiento de modificación o actualización" }
+        ],
+        "correcta": "b",
+        "explicacion": "El código está sin refactorizar porque utiliza 'números mágicos' (como el 0.21 del impuesto directo en el código) y mezcla lógica de negocio con lógica de presentación (el Console.WriteLine)."
+    },
+    {
+        "id": 22,
+        "pregunta": "Un método que NO es refactorizar, es:",
+        "opciones": [
+            { "id": "a", "texto": "Usar constantes" },
+            { "id": "b", "texto": "Clases delegadas" },
+            { "id": "c", "texto": "Encapsular arrays" },
+            { "id": "d", "texto": "Usar variables" }
+        ],
+        "correcta": "d",
+        "explicacion": "Simplemente 'usar variables' es parte normal de la programación, no es una técnica de refactorización per se. Las otras opciones sí corresponden a técnicas para limpiar código."
+    },
+    {
+        "id": 23,
+        "pregunta": "Los patrones de diseño se basan en:",
+        "opciones": [
+            { "id": "a", "texto": "Principios SACUR" },
+            { "id": "b", "texto": "Principios wait4" },
+            { "id": "c", "texto": "Principios design" },
+            { "id": "d", "texto": "Principios SOLID" }
+        ],
+        "correcta": "d",
+        "explicacion": "Los patrones de diseño orientado a objetos suelen apoyarse fuertemente en los principios SOLID, que son 5 principios básicos para un diseño de software limpio y mantenible."
+    },
+    {
+        "id": 24,
+        "pregunta": "Git es un software de control de versiones:",
+        "opciones": [
+            { "id": "a", "texto": "Centralizado" },
+            { "id": "b", "texto": "Distribuido" },
+            { "id": "c", "texto": "Modularizado" },
+            { "id": "d", "texto": "Ninguna de las anteriores" }
+        ],
+        "correcta": "b",
+        "explicacion": "Git es un sistema Distribuido, lo que significa que cada desarrollador tiene una copia local completa de todo el historial del repositorio, no solo de los archivos actuales."
+    },
+    {
+        "id": 25,
+        "pregunta": "En una de las siguientes fases, no necesitamos documentación:",
+        "opciones": [
+            { "id": "a", "texto": "Análisis" },
+            { "id": "b", "texto": "Diseño" },
+            { "id": "c", "texto": "Implementación" },
+            { "id": "d", "texto": "Ninguna de las anteriores" }
+        ],
+        "correcta": "d",
+        "explicacion": "En todas las fases del ciclo de vida del software (análisis, diseño, implementación, pruebas...) se genera y es necesaria algún tipo de documentación, incluso en metodologías ágiles."
+    },
+    {
+        "id": 26,
+        "pregunta": "Esta relación es de:",
+        "imagen": "/images/preguntas/5.png",
+        "opciones": [
+            { "id": "a", "texto": "Asociación" },
+            { "id": "b", "texto": "Agregación" },
+            { "id": "c", "texto": "Composición" },
+            { "id": "d", "texto": "Herencia" }
+        ],
+        "correcta": "a",
+        "explicacion": "Una línea sólida con una flecha abierta al final representa una relación de Asociación simple y unidireccional entre dos clases en UML."
+    },
+    {
+        "id": 27,
+        "pregunta": "Que sean interfaces, volante o pito....:",
+        "imagen": "/images/preguntas/6.png",
+        "opciones": [
+            { "id": "a", "texto": "Que puedan transmitir información con otras entidades como Coche" },
+            { "id": "b", "texto": "Que puedan implementar funcionalidad de otras entidades como Coche" },
+            { "id": "c", "texto": "Que puedan serializarse en bases de datos" },
+            { "id": "d", "texto": "Que puedan instanciar objetos de otras clases como Coche" }
+        ],
+        "correcta": "b",
+        "explicacion": "Las interfaces (indicadas con <<Interface>>) definen un contrato de comportamiento (métodos como girar() o pitar()) que las clases que las implementen están obligadas a codificar."
+    },
+    {
+        "id": 28,
+        "pregunta": "En la imagen, vemos un ejemplo de:",
+        "imagen": "/images/preguntas/7.png",
+        "opciones": [
+            { "id": "a", "texto": "Extensión" },
+            { "id": "b", "texto": "Herencia" },
+            { "id": "c", "texto": "Agregación" },
+            { "id": "d", "texto": "Composición" }
+        ],
+        "correcta": "d",
+        "explicacion": "La imagen muestra tanto Agregación (rombo blanco en Driver) como Composición (rombo negro en Engine). El rombo negro indica que Transport está compuesto por un Engine y su ciclo de vida depende de él."
+    },
+    {
+        "id": 29,
+        "pregunta": "En diagramas de casos de uso, una relación que NO existe es:",
+        "opciones": [
+            { "id": "a", "texto": "Inclusión" },
+            { "id": "b", "texto": "Extensión" },
+            { "id": "c", "texto": "Exclusión" },
+            { "id": "d", "texto": "Generalización" }
+        ],
+        "correcta": "c",
+        "explicacion": "En UML para Casos de Uso, existen las relaciones de <<include>> (inclusión), <<extend>> (extensión) y la generalización (herencia), pero la 'Exclusión' no existe."
+    },
+    {
+        "id": 30,
+        "pregunta": "En la imagen se observa:",
+        "imagen": "/images/preguntas/8.png",
+        "opciones": [
+            { "id": "a", "texto": "Un diagrama de colaboración" },
+            { "id": "b", "texto": "Un diagrama de estados" },
+            { "id": "c", "texto": "Un diagrama de secuencia" },
+            { "id": "d", "texto": "Un diagrama de actividades" }
+        ],
+        "correcta": "c",
+        "explicacion": "Es un diagrama de Secuencia de UML. Se identifica fácilmente por las líneas de vida verticales punteadas (lifelines) y los mensajes enviados horizontalmente en orden cronológico."
+    },
+    {
+        "id": 31,
+        "pregunta": "¿Qué caracteriza a los lenguajes compilados?:",
+        "opciones": [
+            { "id": "a", "texto": "Se ejecutan directamente sin transformación previa" },
+            { "id": "b", "texto": "Generan un archivo ejecutable antes de la ejecución" },
+            { "id": "c", "texto": "Requieren un intérprete durante la ejecución" },
+            { "id": "d", "texto": "No pueden implementar programación orientada a objetos" }
+        ],
+        "correcta": "b",
+        "explicacion": "Los lenguajes compilados traducen todo el código fuente de una vez y generan un archivo binario/ejecutable (como un .exe) que la máquina puede entender directamente."
+    },
+    {
+        "id": 32,
+        "pregunta": "El paradigma funcional se caracteriza por:",
+        "opciones": [
+            { "id": "a", "texto": "Utilizar estados mutables y efectos secundarios" },
+            { "id": "b", "texto": "Basar la programación en funciones matemáticas puras" },
+            { "id": "c", "texto": "Priorizar los bucles sobre las funciones recursivas" },
+            { "id": "d", "texto": "Depender de la herencia para la reutilización de código" }
+        ],
+        "correcta": "b",
+        "explicacion": "El paradigma funcional evita los estados compartidos y los datos mutables, basándose casi exclusivamente en la evaluación de funciones matemáticas puras donde la misma entrada siempre da la misma salida."
+    },
+    {
+        "id": 33,
+        "pregunta": "La encapsulación en programación orientada a objetos permite:",
+        "opciones": [
+            { "id": "a", "texto": "Ocultar la implementación interna de una clase" },
+            { "id": "b", "texto": "Crear múltiples instancias de una clase abstracta" },
+            { "id": "c", "texto": "Compartir métodos entre clases no relacionadas" },
+            { "id": "d", "texto": "Ejecutar código en paralelo" }
+        ],
+        "correcta": "a",
+        "explicacion": "La encapsulación agrupa los datos y los métodos que los manipulan, ocultando los detalles internos y protegiendo el estado del objeto desde el exterior (usando private, protected, etc.)"
+    },
+    {
+        "id": 34,
+        "pregunta": "El compilador traduce de:",
+        "opciones": [
+            { "id": "a", "texto": "Código objeto a código maquina" },
+            { "id": "b", "texto": "Código maquina a código objeto" },
+            { "id": "c", "texto": "Código fuente a código maquina" },
+            { "id": "d", "texto": "Código maquina a código objeto" }
+        ],
+        "correcta": "c",
+        "explicacion": "La función principal de un compilador es coger el código fuente escrito por el programador (alto nivel) y traducirlo a código máquina (ceros y unos) que el procesador pueda ejecutar."
+    },
+    {
+        "id": 35,
+        "pregunta": "Los paradigmas de desarrollo clásicos se basan en:",
+        "opciones": [
+            { "id": "a", "texto": "El modelo en cascada, el cual es muy flexible" },
+            { "id": "b", "texto": "El modelo en cascada, el cual es muy inflexible" },
+            { "id": "c", "texto": "En lo mismo que los paradigmas SCRUM" },
+            { "id": "d", "texto": "Que cada etapa es totalmente independiente de las anteriores" }
+        ],
+        "correcta": "b",
+        "explicacion": "El modelo clásico en Cascada es lineal e inflexible: no puedes pasar a la siguiente fase sin haber cerrado la anterior, y es muy costoso volver atrás ante cambios."
+    },
+    {
+        "id": 36,
+        "pregunta": "¿Qué IDE, desarrollado por Microsoft, ofrece soporte nativo para GIT y es altamente personalizable mediante extensiones?:",
+        "opciones": [
+            { "id": "a", "texto": "Visual Studio" },
+            { "id": "b", "texto": "Visual Studio Code" },
+            { "id": "c", "texto": "Eclipse" },
+            { "id": "d", "texto": "IntelliJ IDEA" }
+        ],
+        "correcta": "b",
+        "explicacion": "Visual Studio Code (VS Code) es el editor/IDE ligero de Microsoft que destaca por su inmenso ecosistema de extensiones y su integración nativa con Git."
+    },
+    {
+        "id": 37,
+        "pregunta": "¿Cuál de los siguientes NO es un entorno de desarrollo online?:",
+        "opciones": [
+            { "id": "a", "texto": "StackBlitz" },
+            { "id": "b", "texto": "Repl.it" },
+            { "id": "c", "texto": "Visual Studio Code" },
+            { "id": "d", "texto": "Codemirror" }
+        ],
+        "correcta": "c",
+        "explicacion": "StackBlitz y Repl.it son entornos 100% online. Visual Studio Code es, en su origen y uso principal, una aplicación de escritorio local."
+    },
+    {
+        "id": 38,
+        "pregunta": "¿Qué IDE requiere tener una cuenta registrada, aunque existe una versión Community gratuita, y solo funciona en entornos Windows?:",
+        "opciones": [
+            { "id": "a", "texto": "Eclipse" },
+            { "id": "b", "texto": "Visual Studio Code" },
+            { "id": "c", "texto": "Visual Studio" },
+            { "id": "d", "texto": "Code::Blocks" }
+        ],
+        "correcta": "c",
+        "explicacion": "Visual Studio (el IDE pesado de Microsoft, no el Code) en sus versiones más completas históricamente ha estado muy ligado a Windows y requiere cuenta de Microsoft, ofreciendo una versión 'Community' gratuita."
+    },
+    {
+        "id": 39,
+        "pregunta": "¿Cuál de las siguientes opciones describe mejor la función principal de un IDE?:",
+        "opciones": [
+            { "id": "a", "texto": "Un simple editor de texto para escribir código" },
+            { "id": "b", "texto": "Un entorno que solo sirve para la compilación de programas" },
+            { "id": "c", "texto": "Un conjunto de procedimientos y herramientas que facilitan el desarrollo de aplicaciones integrando compilación, ejecución y testeo." },
+            { "id": "d", "texto": "Un programa para la gestión de bases de datos" }
+        ],
+        "correcta": "c",
+        "explicacion": "Un Entorno de Desarrollo Integrado (IDE) es el 'todo en uno' del programador, agrupando editor, compilador, consola, herramientas de testeo y depuración en una sola interfaz"
+    },
+    {
+        "id": 40,
+        "pregunta": "La principal ventaja de un editor de código ligero frente a un IDE completo es:",
+        "opciones": [
+            { "id": "a", "texto": "Mayor capacidad de depuración" },
+            { "id": "b", "texto": "Mejor integración con sistemas de control de versiones" },
+            { "id": "c", "texto": "Menor consumo de recursos y mayor velocidad" },
+            { "id": "d", "texto": "Soporte nativo para más lenguajes de programación" }
+        ],
+        "correcta": "c",
+        "explicacion": "Al no tener tantas herramientas integradas por defecto como un IDE pesado, los editores ligeros abren casi al instante y consumen mucha menos memoria RAM y CPU."
+    },
+    {
+        "id": 41,
+        "pregunta": "¿Cuál es el objetivo principal de realizar pruebas de software?:",
+        "opciones": [
+            { "id": "a", "texto": "Garantizar que el software es robusto y funciona correctamente" },
+            { "id": "b", "texto": "Mejorar la velocidad de ejecución del software" },
+            { "id": "c", "texto": "Reducir el tamaño del código fuente" },
+            { "id": "d", "texto": "Aumentar la cantidad de funciones disponibles" }
+        ],
+        "correcta": "a",
+        "explicacion": "El testing busca asegurar la calidad del producto, validando que cumple con los requisitos y que funciona sin fallos graves antes de llegar al usuario."
+    },
+    {
+        "id": 42,
+        "pregunta": "¿Qué tipo de prueba se basa en analizar la estructura interna del código?:",
+        "opciones": [
+            { "id": "a", "texto": "Prueba de caja negra" },
+            { "id": "b", "texto": "Prueba funcional" },
+            { "id": "c", "texto": "Prueba de caja blanca" },
+            { "id": "d", "texto": "Prueba de aceptación" }
+        ],
+        "correcta": "c",
+        "explicacion": "Las pruebas de caja blanca ('white-box testing') requieren ver y comprender el código fuente interno, probando los flujos, bucles y condiciones lógicas específicas."
+    },
+    {
+        "id": 43,
+        "pregunta": "¿Qué elemento NO suele formar parte de un plan de pruebas?:",
+        "opciones": [
+            { "id": "a", "texto": "Introducción y objetivos" },
+            { "id": "b", "texto": "Estrategia de pruebas" },
+            { "id": "c", "texto": "Lista de programadores" },
+            { "id": "d", "texto": "Criterios de aceptación" }
+        ],
+        "correcta": "c",
+        "explicacion": "Un plan de pruebas detalla el 'qué' y el 'cómo' se va a testear (estrategias, criterios de éxito, recursos técnicos), pero no incluye la lista del personal de desarrollo."
+    },
+    {
+        "id": 44,
+        "pregunta": "¿Qué es la fiabilidad en el contexto de las pruebas de software?:",
+        "opciones": [
+            { "id": "a", "texto": "La facilidad de uso de la aplicación" },
+            { "id": "b", "texto": "La probabilidad de que el software funcione sin errores en un tiempo determinado" },
+            { "id": "c", "texto": "El tiempo de respuesta ante una petición" },
+            { "id": "d", "texto": "El número de funciones implementadas" }
+        ],
+        "correcta": "b",
+        "explicacion": "La fiabilidad mide la estabilidad del sistema, calculando estadísticamente la probabilidad de que realice su función sin fallos durante un periodo de uso específico."
+    },
+    {
+        "id": 45,
+        "pregunta": "¿Qué es un caso de prueba?:",
+        "opciones": [
+            { "id": "a", "texto": "Un documento que describe la arquitectura del sistema" },
+            { "id": "b", "texto": "Un conjunto de entradas, condiciones de ejecución y salidas esperadas" },
+            { "id": "c", "texto": "Un informe de errores detectados" },
+            { "id": "d", "texto": "Un plan de desarrollo del software" }
+        ],
+        "correcta": "b",
+        "explicacion": "Un Test Case define una situación a probar: qué datos le vas a meter al sistema, en qué condiciones, y qué resultado exacto esperas obtener para dar la prueba por válida"
+    },
+    {
+        "id": 46,
+        "pregunta": "¿Cuál de las siguientes opciones describe mejor el propósito de la refactorización de código?:",
+        "opciones": [
+            { "id": "a", "texto": "Añadir nuevas funcionalidades a una aplicación" },
+            { "id": "b", "texto": "Corregir errores en el código" },
+            { "id": "c", "texto": "Mejorar la legibilidad, mantenibilidad y estructura interna del código sin alterar su comportamiento externo" },
+            { "id": "d", "texto": "Optimizar el rendimiento de la aplicación" }
+        ],
+        "correcta": "c",
+        "explicacion": "Refactorizar es limpiar la casa por dentro. El programa sigue haciendo exactamente lo mismo de cara al usuario, pero por dentro el código está mucho más ordenado y es más fácil de mantener."
+    },
+    {
+        "id": 47,
+        "pregunta": "¿Cuál es una ventaja de la refactorización?:",
+        "opciones": [
+            { "id": "a", "texto": "Aumenta la complejidad del código." },
+            { "id": "b", "texto": "Dificulta la detección de errores" },
+            { "id": "c", "texto": "Ayuda a programar más rápido y facilita la interpretación del código" },
+            { "id": "d", "texto": "Duplica la lógica de los programas" }
+        ],
+        "correcta": "c",
+        "explicacion": "Al tener un código más limpio y sin redundancias, añadir cosas nuevas en el futuro o encontrar fallos es muchísimo más rápido."
+    },
+    {
+        "id": 48,
+        "pregunta": "En el contexto de la refactorización, ¿qué se entiende por 'Code Smell'?:",
+        "opciones": [
+            { "id": "a", "texto": "Un estilo de codificación elegante y eficiente" },
+            { "id": "b", "texto": "Código que indica la necesidad de una refactorización" },
+            { "id": "c", "texto": "Una técnica de encriptación de código" },
+            { "id": "d", "texto": "Un comentario explicativo en el código" }
+        ],
+        "correcta": "b",
+        "explicacion": "Un 'Code Smell' (literalmente 'código que huele mal') es cualquier pista o síntoma en el código (como métodos larguísimos o variables sin sentido) que nos avisa de que ahí hace falta refactorizar."
+    },
+    {
+        "id": 49,
+        "pregunta": "¿Cuál es el objetivo principal de la Ley de Demeter?:",
+        "opciones": [
+            { "id": "a", "texto": "Aumentar la interdependencia entre objetos" },
+            { "id": "b", "texto": "Reducir la interdependencia entre objetos" },
+            { "id": "c", "texto": "Estandarizar la documentación del código" },
+            { "id": "d", "texto": "Simplificar el proceso de compilación" }
+        ],
+        "correcta": "b",
+        "explicacion": "También conocida como el 'Principio del menor conocimiento', dicta que un objeto no debería conocer los detalles internos de otros objetos, reduciendo así el acoplamiento (interdependencia)."
+    },
+    {
+        "id": 50,
+        "pregunta": "¿Qué se recomienda hacer al sustituir algoritmos durante la refactorización?:",
+        "opciones": [
+            { "id": "a", "texto": "No utilizar pruebas de regresión para comparar los resultados" },
+            { "id": "b", "texto": "Usar pruebas de regresión para comparar los resultados" },
+            { "id": "c", "texto": "Ignorar la legibilidad del código en favor del rendimiento" },
+            { "id": "d", "texto": "No usar librerías externas" }
+        ],
+        "correcta": "b",
+        "explicacion": "Las pruebas de regresión son vitales aquí. Aseguran que tu nuevo algoritmo hiper optimizado sigue devolviendo exactamente los mismos resultados correctos que el algoritmo antiguo."
+    },
+    {
+        "id": 51,
+        "pregunta": "¿Qué tipo de relación en UML implica que un objeto solo puede existir como parte de otro objeto?:",
+        "opciones": [
+            { "id": "a", "texto": "Agregación" },
+            { "id": "b", "texto": "Dependencia" },
+            { "id": "c", "texto": "Asociación" },
+            { "id": "d", "texto": "Composición" }
+        ],
+        "correcta": "d",
+        "explicacion": "En la Composición (el rombo negro), la vida de la parte depende estrictamente de la vida del todo. Si se destruye el objeto contenedor, las partes mueren con él."
+    },
+    {
+        "id": 52,
+        "pregunta": "Considera el siguiente escenario: una clase Pedido contiene una lista de objetos de la clase Producto. Si al eliminar un objeto Pedido, los objetos Producto contenidos también deben ser eliminados, ¿qué tipo de relación UML describe mejor esta situación?",
+        "opciones": [
+            { "id": "a", "texto": "Agregación" },
+            { "id": "b", "texto": "Asociación" },
+            { "id": "c", "texto": "Composición" },
+            { "id": "d", "texto": "Dependencia" }
+        ],
+        "correcta": "c",
+        "explicacion": "Como el Producto se destruye obligatoriamente cuando se elimina el Pedido, es una relación de Composición."
+    },
+    {
+        "id": 53,
+        "pregunta": "¿Qué significa el modificador protected en un atributo o método en el contexto de UML y POO?:",
+        "opciones": [
+            { "id": "a", "texto": "Solo accesible dentro de la misma clase" },
+            { "id": "b", "texto": "Accesible desde cualquier clase" },
+            { "id": "c", "texto": "Accesible dentro de la misma clase y sus subclases" },
+            { "id": "d", "texto": "Accesible solo desde clases del mismo paquete" }
+        ],
+        "correcta": "c",
+        "explicacion": "El modificador protected (representado con un # en UML) hace que el atributo sea visible para la propia clase y para todas sus hijas (clases que hereden de ella)."
+    },
+    {
+        "id": 54,
+        "pregunta": "En un diagrama de clases, si una clase A utiliza una clase B como tipo de parámetro en uno de sus métodos, ¿qué tipo de relación se establece entre A y B?:",
+        "opciones": [
+            { "id": "a", "texto": "Agregación" },
+            { "id": "b", "texto": "Composición" },
+            { "id": "c", "texto": "Herencia" },
+            { "id": "d", "texto": "Dependencia" }
+        ],
+        "correcta": "d",
+        "explicacion": "Cuando una clase usa a otra solo momentáneamente para ejecutar un método (pasándola como parámetro), se marca como Dependencia (una línea punteada con flecha)."
+    },
+    {
+        "id": 55,
+        "pregunta": "Un objeto de una subclase está siendo utilizado donde se espera un objeto de la superclase. ¿Qué concepto de POO está demostrando este escenario?:",
+        "opciones": [
+            { "id": "a", "texto": "Encapsulamiento" },
+            { "id": "b", "texto": "Herencia" },
+            { "id": "c", "texto": "Polimorfismo" },
+            { "id": "d", "texto": "Abstracción" }
+        ],
+        "correcta": "c",
+        "explicacion": "El Polimorfismo es la capacidad que tienen los objetos de distintas subclases de responder de forma diferente ante el mismo mensaje que se espera de su clase padre (superclase)."
+    },
+    {
+        "id": 56,
+        "pregunta": "¿Qué tipo de diagrama de comportamiento permite añadir la variable tiempo a las interacciones del sistema?:",
+        "opciones": [
+            { "id": "a", "texto": "Diagrama de casos de uso" },
+            { "id": "b", "texto": "Diagrama de colaboración" },
+            { "id": "c", "texto": "Diagrama de actividades" },
+            { "id": "d", "texto": "Diagrama de secuencia" }
+        ],
+        "correcta": "d",
+        "explicacion": "El Diagrama de Secuencia muestra cómo los objetos interactúan entre sí ordenando los mensajes cronológicamente de arriba hacia abajo a través de sus 'líneas de vida'."
+    },
+    {
+        "id": 57,
+        "pregunta": "¿Qué representa un actor en un diagrama de casos de uso?:",
+        "opciones": [
+            { "id": "a", "texto": "Un caso de uso específico" },
+            { "id": "b", "texto": "Una persona o rol que usa el sistema" },
+            { "id": "c", "texto": "Un componente del sistema" },
+            { "id": "d", "texto": "Una relación entre casos de uso" }
+        ],
+        "correcta": "b",
+        "explicacion": "Un actor (los monigotes en UML) representa a cualquier entidad externa (humano, dispositivo físico u otro sistema) que interactúa directamente con nuestro sistema."
+    },
+    {
+        "id": 58,
+        "pregunta": "¿Qué tipo de relación entre casos de uso se utiliza para representar una variación de un caso de uso?:",
+        "opciones": [
+            { "id": "a", "texto": "Inclusión (include)" },
+            { "id": "b", "texto": "Extensión (extends)" },
+            { "id": "c", "texto": "Generalización" },
+            { "id": "d", "texto": "Asociación" }
+        ],
+        "correcta": "b",
+        "explicacion": "La relación <<extend>> se utiliza cuando un caso de uso añade comportamiento o variaciones a un caso de uso base, normalmente bajo ciertas condiciones opcionales."
+    },
+    {
+        "id": 59,
+        "pregunta": "En un diagrama de secuencia, ¿qué representa la línea de vida de un objeto?:",
+        "opciones": [
+            { "id": "a", "texto": "El estado actual del objeto" },
+            { "id": "b", "texto": "El tiempo de vida del objeto" },
+            { "id": "c", "texto": "Los atributos del objeto" },
+            { "id": "d", "texto": "Los métodos del objeto" }
+        ],
+        "correcta": "b",
+        "explicacion": "La línea punteada vertical que baja desde el objeto representa el tiempo que ese objeto existe e interactúa durante el proceso dibujado."
+    },
+    {
+        "id": 60,
+        "pregunta": "¿Qué tipo de diagrama permite representar los diferentes eventos que provocan un cambio de estado en el sistema?:",
+        "opciones": [
+            { "id": "a", "texto": "Diagrama de actividades" },
+            { "id": "b", "texto": "Diagrama de secuencia" },
+            { "id": "c", "texto": "Diagrama de colaboración" },
+            { "id": "d", "texto": "Diagrama de estados" }
+        ],
+        "correcta": "d",
+        "explicacion": "Los Diagramas de Estados modelan el comportamiento de un único objeto detallando todos los estados por los que puede pasar a lo largo de su vida y qué eventos disparan esos cambios."
+    },
+    {
+        "id": 61,
+        "pregunta": "De las siguientes, según Su, ¿Cuáles se pueden englobar en la categoría mierda?",
+        "opciones": [
+            { "id": "a", "texto": "Diagrama de estados" },
+            { "id": "b", "texto": "Diagrama de secuencia" },
+            { "id": "c", "texto": "Diagrama de colaboración" },
+            { "id": "d", "texto": "Todas las anteriores" }
+        ],
+        "correcta": "d",
+        "explicacion": "No tengo el gusto de conocer a Su pero seguro que todas las opciones HAHAHAH Una grande, me cae bien"
+    },
+    {
+        "id": 62,
+        "pregunta": "¿Cuál de los siguientes lenguajes es típicamente interpretado?",
+        "opciones": [
+            { "id": "a", "texto": "C" },
+            { "id": "b", "texto": "Java" },
+            { "id": "c", "texto": "Python" },
+            { "id": "d", "texto": "C++" }
+        ],
+        "correcta": "c",
+        "explicacion": "Python es un lenguaje de alto nivel interpretado, lo que significa que ejecuta su código línea a línea a través de un intérprete, a diferencia de C o C++ que se compilan a código máquina."
+    },
+    {
+        "id": 63,
+        "pregunta": "¿Qué paradigma prioriza el uso de objetos y mensajes entre ellos?",
+        "opciones": [
+            { "id": "a", "texto": "Paradigma funcional" },
+            { "id": "b", "texto": "Paradigma orientado a objetos" },
+            { "id": "c", "texto": "Paradigma lógico" },
+            { "id": "d", "texto": "Paradigma estructurado" }
+        ],
+        "correcta": "b",
+        "explicacion": "La POO (Programación Orientada a Objetos) se basa precisamente en crear entidades llamadas 'objetos' que encapsulan estado y comportamiento, y que interactúan enviándose mensajes."
+    },
+    {
+        "id": 64,
+        "pregunta": "¿Qué ventaja principal aporta la herencia en POO?",
+        "opciones": [
+            { "id": "a", "texto": "Oculta la implementación interna de las clases" },
+            { "id": "b", "texto": "Permite reutilizar código entre clases relacionadas" },
+            { "id": "c", "texto": "Facilita la ejecución concurrente" },
+            { "id": "d", "texto": "Mejora el rendimiento del programa" }
+        ],
+        "correcta": "b",
+        "explicacion": "La herencia permite que una clase 'hija' herede automáticamente los atributos y métodos de una clase 'padre', fomentando la reutilización y evitando escribir código duplicado."
+    },
+    {
+        "id": 65,
+        "pregunta": "¿Qué genera el proceso de compilación?",
+        "opciones": [
+            { "id": "a", "texto": "Código fuente" },
+            { "id": "b", "texto": "Código intermedio" },
+            { "id": "c", "texto": "Código objeto o ejecutable" },
+            { "id": "d", "texto": "Bytecode" }
+        ],
+        "correcta": "c",
+        "explicacion": "El compilador coge todo tu código fuente de golpe y lo traduce a código objeto (o código máquina), generando un archivo ejecutable (como un .exe) listo para que lo lea el ordenador."
+    },
+    {
+        "id": 66,
+        "pregunta": "¿Cuál de los siguientes NO es un modelo clásico de desarrollo?",
+        "opciones": [
+            { "id": "a", "texto": "Cascada" },
+            { "id": "b", "texto": "Prototipos" },
+            { "id": "c", "texto": "Scrum" },
+            { "id": "d", "texto": "Espiral" }
+        ],
+        "correcta": "c",
+        "explicacion": "Scrum es un framework moderno perteneciente a las metodologías Ágiles. Cascada, Prototipos y Espiral son modelos clásicos o tradicionales (predictivos)."
+    },
+    {
+        "id": 67,
+        "pregunta": "¿Qué componente NO suele encontrarse integrado en un entorno de desarrollo integrado (IDE)?",
+        "opciones": [
+            { "id": "a", "texto": "Herramientas de automatización de compilación" },
+            { "id": "b", "texto": "Resaltado de sintaxis" },
+            { "id": "c", "texto": "Motor de base de datos" },
+            { "id": "d", "texto": "Depurador" }
+        ],
+        "correcta": "c",
+        "explicacion": "Los IDEs incluyen editor, depurador y compilador. Puedes conectarlos a bases de datos mediante plugins, pero no traen un Motor de Base de Datos (como MySQL o SQL Server) embebido por defecto."
+    },
+    {
+        "id": 68,
+        "pregunta": "¿Cuál de los siguientes Sí es un entorno de desarrollo online?",
+        "opciones": [
+            { "id": "a", "texto": "NetBeans" },
+            { "id": "b", "texto": "GitHub Codespaces" },
+            { "id": "c", "texto": "Android Studio" },
+            { "id": "d", "texto": "BlueJ" }
+        ],
+        "correcta": "b",
+        "explicacion": "GitHub Codespaces te permite alojar y ejecutar un entorno de desarrollo completo (basado en VS Code) directamente en la nube y accesible desde el navegador."
+    },
+    {
+        "id": 69,
+        "pregunta": "¿Qué entorno requiere suscripción para acceder a todas sus funciones profesionales?",
+        "opciones": [
+            { "id": "a", "texto": "Visual Studio Community" },
+            { "id": "b", "texto": "IntelliJ IDEA Ultimate" },
+            { "id": "c", "texto": "Eclipse" },
+            { "id": "d", "texto": "PyCharm Community" }
+        ],
+        "correcta": "b",
+        "explicacion": "Los IDEs de JetBrains tienen versiones 'Community' gratuitas, pero sus versiones 'Ultimate' (como IntelliJ IDEA Ultimate) son de pago y requieren suscripción para las herramientas avanzadas."
+    },
+    {
+        "id": 70,
+        "pregunta": "¿Qué característica NO es propia de un IDE?",
+        "opciones": [
+            { "id": "a", "texto": "Depurador integrado" },
+            { "id": "b", "texto": "Editor de texto enriquecido" },
+            { "id": "c", "texto": "Navegador web incorporado" },
+            { "id": "d", "texto": "Integración con sistemas de control de versiones" }
+        ],
+        "correcta": "c",
+        "explicacion": "Aunque algunos editores permiten vistas previas, tener un navegador web completo (tipo Chrome o Firefox) no es una característica propia ni principal de la definición de un IDE."
+    },
+    {
+        "id": 71,
+        "pregunta": "¿Qué ventaja suelen tener los editores ligeros frente a los IDE completos?",
+        "opciones": [
+            { "id": "a", "texto": "Mejor soporte para grandes proyectos" },
+            { "id": "b", "texto": "Menor consumo de recursos" },
+            { "id": "c", "texto": "Mayor número de herramientas integradas" },
+            { "id": "d", "texto": "Compilador propio" }
+        ],
+        "correcta": "b",
+        "explicacion": "Al prescindir de tantas herramientas pre-cargadas y funcionalidades pesadas, los editores ligeros consumen muchísima menos memoria RAM y procesador."
+    },
+    {
+        "id": 72,
+        "pregunta": "¿Cuál es la finalidad de las pruebas de integración?",
+        "opciones": [
+            { "id": "a", "texto": "Verificar cada módulo de forma aislada" },
+            { "id": "b", "texto": "Comprobar la interacción entre varios módulos" },
+            { "id": "c", "texto": "Medir el rendimiento del software" },
+            { "id": "d", "texto": "Probar la interfaz de usuario" }
+        ],
+        "correcta": "b",
+        "explicacion": "Las pruebas unitarias prueban los módulos aislados. Una vez pasadas, las pruebas de integración verifican que esos módulos se comunican y funcionan correctamente al juntarlos."
+    },
+    {
+        "id": 73,
+        "pregunta": "¿Qué tipo de prueba se centra en las funcionalidades sin conocer el código?",
+        "opciones": [
+            { "id": "a", "texto": "Prueba de caja blanca" },
+            { "id": "b", "texto": "Prueba de caja negra" },
+            { "id": "c", "texto": "Prueba de integración" },
+            { "id": "d", "texto": "Prueba de regresión" }
+        ],
+        "correcta": "b",
+        "explicacion": "En las pruebas de Caja Negra, el tester solo evalúa las entradas que le da al sistema y las salidas que recibe, comprobando que cumpla los requisitos sin ver su código fuente interno."
+    },
+    {
+        "id": 74,
+        "pregunta": "¿Qué elemento NO suele estar en un informe de pruebas?",
+        "opciones": [
+            { "id": "a", "texto": "Resultados obtenidos" },
+            { "id": "b", "texto": "Descripción de los errores hallados" },
+            { "id": "c", "texto": "Planificación de sprints" },
+            { "id": "d", "texto": "Recomendaciones de mejora" }
+        ],
+        "correcta": "c",
+        "explicacion": "La 'Planificación de sprints' es un documento propio de la gestión del proyecto ágil (Scrum), no tiene nada que ver con el informe técnico de los resultados de testing."
+    },
+    {
+        "id": 75,
+        "pregunta": "¿Qué mide la usabilidad en pruebas de software?",
+        "opciones": [
+            { "id": "a", "texto": "Facilidad de uso para el usuario final" },
+            { "id": "b", "texto": "Tiempo de respuesta ante errores" },
+            { "id": "c", "texto": "Consumo de memoria" },
+            { "id": "d", "texto": "Número de líneas de código" }
+        ],
+        "correcta": "a",
+        "explicacion": "Las pruebas de usabilidad evalúan lo intuitiva, amigable y fácil de aprender que resulta la aplicación para los humanos que la van a utilizar en el mundo real."
+    },
+    {
+        "id": 76,
+        "pregunta": "¿Qué es un informe de error?",
+        "opciones": [
+            { "id": "a", "texto": "Documento que describe un fallo detectado y sus circunstancias" },
+            { "id": "b", "texto": "Documento que describe la arquitectura del sistema" },
+            { "id": "c", "texto": "Documento que lista los casos de prueba" },
+            { "id": "d", "texto": "Documento que planifica el desarrollo" }
+        ],
+        "correcta": "a",
+        "explicacion": "También conocido como 'Bug Report', documenta un fallo detallando cómo reproducirlo, qué se esperaba que pasara y qué pasó realmente."
+    },
+    {
+        "id": 77,
+        "pregunta": "¿Qué se busca al aplicar patrones de diseño?",
+        "opciones": [
+            { "id": "a", "texto": "Solucionar problemas comunes de forma reutilizable" },
+            { "id": "b", "texto": "Mejorar la eficiencia del hardware" },
+            { "id": "c", "texto": "Reducir el tamaño de los ejecutables" },
+            { "id": "d", "texto": "Facilitar la traducción del código" }
+        ],
+        "correcta": "a",
+        "explicacion": "Los patrones de diseño son plantillas o soluciones estandarizadas, creadas por expertos, para resolver problemas de diseño de software que se repiten con frecuencia."
+    },
+    {
+        "id": 78,
+        "pregunta": "¿Qué patrón fomenta la creación de objetos sin exponer la lógica de creación al cliente?",
+        "opciones": [
+            { "id": "a", "texto": "Singleton" },
+            { "id": "b", "texto": "Factory" },
+            { "id": "c", "texto": "Observer" },
+            { "id": "d", "texto": "Decorator" }
+        ],
+        "correcta": "b",
+        "explicacion": "El patrón Factory (o Método Fábrica) delega la creación de objetos a una clase o método específico, ocultando la complejidad del 'new' y la lógica de instanciación al resto del código."
+    },
+    {
+        "id": 79,
+        "pregunta": "¿Qué se considera un 'antipatrón' en desarrollo de software?",
+        "opciones": [
+            { "id": "a", "texto": "Una solución recomendada por la industria" },
+            { "id": "b", "texto": "Una práctica que genera problemas recurrentes" },
+            { "id": "c", "texto": "Un patrón de diseño estructural" },
+            { "id": "d", "texto": "Un tipo de prueba automatizada" }
+        ],
+        "correcta": "b",
+        "explicacion": "Un antipatrón es como una 'mala costumbre' en la programación: parece una buena idea al principio para resolver un problema, pero a la larga trae más dolores de cabeza y bugs."
+    },
+    {
+        "id": 80,
+        "pregunta": "¿Cuál es el objetivo de la cohesión en el diseño de software?",
+        "opciones": [
+            { "id": "a", "texto": "Reducir la dependencia entre módulos" },
+            { "id": "b", "texto": "Agrupar funcionalidades relacionadas en un mismo módulo" },
+            { "id": "c", "texto": "Aumentar el número de clases" },
+            { "id": "d", "texto": "Mejorar la velocidad de compilación" }
+        ],
+        "correcta": "b",
+        "explicacion": "La cohesión mide lo enfocada que está una clase o módulo. Una 'alta cohesión' (que es lo ideal) significa que todo lo que hay dentro de ese módulo está fuertemente relacionado para cumplir un único propósito."
+    },
+    {
+        "id": 81,
+        "pregunta": "¿Qué significa el principio DRY?",
+        "opciones": [
+            { "id": "a", "texto": "Don't Repeat Yourself" },
+            { "id": "b", "texto": "Develop Rapidly Yourself" },
+            { "id": "c", "texto": "Design Robust Yields" },
+            { "id": "d", "texto": "Debugging Requires Yield" }
+        ],
+        "correcta": "a",
+        "explicacion": "DRY ('No te repitas') es un principio básico que nos dice que cada pieza de lógica o conocimiento debe tener una representación única en el sistema. Vamos, ¡que no copies y pegues el mismo código en veinte sitios!"
+    },
+    {
+        "id": 82,
+        "pregunta": "¿Qué relación UML indica que una clase es una especialización de otra?",
+        "opciones": [
+            { "id": "a", "texto": "Asociación" },
+            { "id": "b", "texto": "Herencia" },
+            { "id": "c", "texto": "Composición" },
+            { "id": "d", "texto": "Dependencia" }
+        ],
+        "correcta": "b",
+        "explicacion": "La Herencia (o Generalización en UML, representada con una flecha de punta blanca vacía) indica que una clase hija es una versión más especializada de la clase padre."
+    },
+    {
+        "id": 83,
+        "pregunta": "Si una clase 'Motor' solo puede existir como parte de 'Coche', ¿qué relación es?",
+        "opciones": [
+            { "id": "a", "texto": "Asociación" },
+            { "id": "b", "texto": "Agregación" },
+            { "id": "c", "texto": "Composición" },
+            { "id": "d", "texto": "Dependencia" }
+        ],
+        "correcta": "c",
+        "explicacion": "Como la existencia del Motor está ligada estrictamente al Coche (si destruyes el coche, se destruye el motor), estamos hablando de una relación fuerte de Composición (el rombo negro)."
+    },
+    {
+        "id": 84,
+        "pregunta": "¿Qué significa el modificador 'private' en UML?",
+        "opciones": [
+            { "id": "a", "texto": "Accesible solo desde la clase" },
+            { "id": "b", "texto": "Accesible desde subclases" },
+            { "id": "c", "texto": "Accesible desde cualquier clase" },
+            { "id": "d", "texto": "Accesible desde el mismo paquete" }
+        ],
+        "correcta": "a",
+        "explicacion": "El modificador private (representado con un signo '-' en UML) encapsula el dato al máximo, permitiendo que solo los métodos internos de esa misma clase puedan leerlo o modificarlo."
+    },
+    {
+        "id": 85,
+        "pregunta": "Si una clase 'A' utiliza un objeto de clase 'B' como parámetro en un método, ¿qué relación hay?",
+        "opciones": [
+            { "id": "a", "texto": "Herencia" },
+            { "id": "b", "texto": "Composición" },
+            { "id": "c", "texto": "Dependencia" },
+            { "id": "d", "texto": "Agregación" }
+        ],
+        "correcta": "c",
+        "explicacion": "Es una Dependencia (línea punteada con flecha). La clase A no se guarda el objeto B como un atributo propio, solo lo 'usa' temporalmente mientras ejecuta ese método específico."
+    },
+    {
+        "id": 86,
+        "pregunta": "¿Qué concepto permite que una función acepte objetos de diferentes clases relacionadas?",
+        "opciones": [
+            { "id": "a", "texto": "Encapsulamiento" },
+            { "id": "b", "texto": "Herencia" },
+            { "id": "c", "texto": "Polimorfismo" },
+            { "id": "d", "texto": "Abstracción" }
+        ],
+        "correcta": "c",
+        "explicacion": "El Polimorfismo ('muchas formas') permite tratar a los objetos de las clases hijas como si fueran de la clase padre, pudiendo pasar distintos tipos de objetos a una misma función que espere el tipo base."
+    },
+    {
+        "id": 87,
+        "pregunta": "¿Qué diagrama UML representa el flujo de actividades y decisiones?",
+        "opciones": [
+            { "id": "a", "texto": "Diagrama de clases" },
+            { "id": "b", "texto": "Diagrama de actividades" },
+            { "id": "c", "texto": "Diagrama de componentes" },
+            { "id": "d", "texto": "Diagrama de despliegue" }
+        ],
+        "correcta": "b",
+        "explicacion": "El Diagrama de Actividades es como un diagrama de flujo dopado. Muestra la secuencia de pasos, decisiones, bucles y tareas concurrentes dentro de un proceso del sistema."
+    },
+    {
+        "id": 88,
+        "pregunta": "¿Qué representa un caso de uso en UML?",
+        "opciones": [
+            { "id": "a", "texto": "Una funcionalidad que el sistema ofrece a los actores" },
+            { "id": "b", "texto": "Un usuario del sistema" },
+            { "id": "c", "texto": "Un componente físico" },
+            { "id": "d", "texto": "Un atributo de clase" }
+        ],
+        "correcta": "a",
+        "explicacion": "Un Caso de Uso describe, desde el punto de vista del usuario, qué es lo que el sistema hace por él (por ejemplo: 'Sacar dinero del cajero' o 'Editar perfil')."
+    },
+    {
+        "id": 89,
+        "pregunta": "¿Qué relación entre casos de uso implica que uno siempre incluye al otro?",
+        "opciones": [
+            { "id": "a", "texto": "Extensión (extends)" },
+            { "id": "b", "texto": "Inclusión (include)" },
+            { "id": "c", "texto": "Generalización" },
+            { "id": "d", "texto": "Asociación" }
+        ],
+        "correcta": "b",
+        "explicacion": "La relación de <<include>> se usa cuando un caso de uso base necesita obligatoriamente ejecutar otro caso de uso para poder terminar su tarea con éxito."
+    },
+    {
+        "id": 90,
+        "pregunta": "¿Qué representa la 'línea de vida' en un diagrama de secuencia?",
+        "opciones": [
+            { "id": "a", "texto": "El tiempo durante el cual un objeto existe e interactúa" },
+            { "id": "b", "texto": "El ciclo de vida de una aplicación" },
+            { "id": "c", "texto": "El número de métodos de una clase" },
+            { "id": "d", "texto": "El flujo de datos entre módulos" }
+        ],
+        "correcta": "a",
+        "explicacion": "Es la línea punteada que cuelga hacia abajo de cada objeto en el diagrama, representando el avance del tiempo cronológico en el que ese objeto participa enviando y recibiendo mensajes."
+    },
+    {
+        "id": 91,
+        "pregunta": "¿Qué diagrama UML muestra los cambios de estado de un objeto según eventos?",
+        "opciones": [
+            { "id": "a", "texto": "Diagrama de secuencia" },
+            { "id": "b", "texto": "Diagrama de estados" },
+            { "id": "c", "texto": "Diagrama de clases" },
+            { "id": "d", "texto": "Diagrama de actividades" }
+        ],
+        "correcta": "b",
+        "explicacion": "El Diagrama de Estados (o Máquina de Estados) se centra exclusivamente en un solo objeto para ver cómo cambia su estado interno cuando suceden ciertas cosas (eventos)."
+    },
+    {
+        "id": 92,
+        "pregunta": "¿Qué tipo de relación en UML indica una relación 'usa' temporal entre clases?",
+        "opciones": [
+            { "id": "a", "texto": "Dependencia" },
+            { "id": "b", "texto": "Asociación" },
+            { "id": "c", "texto": "Composición" },
+            { "id": "d", "texto": "Herencia" }
+        ],
+        "correcta": "a",
+        "explicacion": "Como vimos antes, si solo lo 'usa' temporalmente (como una variable local dentro de un método o pasándolo por parámetro), se modela como Dependencia."
+    },
+    {
+        "id": 93,
+        "pregunta": "¿Cuál de los siguientes lenguajes permite la metaprogramación avanzada y la manipulación dinámica de clases en tiempo de ejecución?",
+        "opciones": [
+            { "id": "a", "texto": "Python" },
+            { "id": "b", "texto": "C" },
+            { "id": "c", "texto": "Java" },
+            { "id": "d", "texto": "Pascal" }
+        ],
+        "correcta": "a",
+        "explicacion": "Python es un lenguaje muy dinámico que permite modificar clases, métodos e incluso su propio código mientras se está ejecutando (metaprogramación), algo que lenguajes estáticos como C o Java no pueden hacer igual de fácil."
+    },
+    {
+        "id": 94,
+        "pregunta": "¿Qué paradigma de programación facilita la concurrencia y la inmutabilidad de datos como principios fundamentales?",
+        "opciones": [
+            { "id": "a", "texto": "Orientado a objetos" },
+            { "id": "b", "texto": "Funcional" },
+            { "id": "c", "texto": "Lógico" },
+            { "id": "d", "texto": "Estructurado" }
+        ],
+        "correcta": "b",
+        "explicacion": "El paradigma funcional se basa en que los datos no se pueden cambiar una vez creados (inmutabilidad), lo que evita problemas cuando varios procesos intentan acceder o modificar un dato a la vez (concurrencia)."
+    },
+    {
+        "id": 95,
+        "pregunta": "¿Qué técnica se utiliza para mejorar el rendimiento de un programa mediante la ejecución especulativa y el análisis estático del código?",
+        "opciones": [
+            { "id": "a", "texto": "Refactorización" },
+            { "id": "b", "texto": "Compilación Just-In-Time (JIT)" },
+            { "id": "c", "texto": "Paralelización automática" },
+            { "id": "d", "texto": "Optimización de memoria caché" }
+        ],
+        "correcta": "b",
+        "explicacion": "La compilación JIT (Just-In-Time) optimiza el código justo en el momento de ejecutarlo, analizando qué partes se usan más para convertirlas en código máquina súper rápido sobre la marcha."
+    },
+    {
+        "id": 96,
+        "pregunta": "¿Cuál de las siguientes afirmaciones describe correctamente la diferencia entre el paradigma imperativo y el paradigma declarativo?",
+        "opciones": [
+            { "id": "a", "texto": "El paradigma imperativo utiliza funciones matemáticas puras y evita el cambio de estado, mientras que el declarativo se basa en objetos y clases." },
+            { "id": "b", "texto": "El paradigma declarativo está limitado a lenguajes como C y Pascal, mientras que el imperativo solo se usa en bases de datos." },
+            { "id": "c", "texto": "El paradigma imperativo se centra en describir los pasos para alcanzar un resultado, mientras que el declarativo se enfoca en describir el resultado deseado sin especificar los pasos concretos." },
+            { "id": "d", "texto": "No existe diferencia relevante." }
+        ],
+        "correcta": "c",
+        "explicacion": "En el imperativo le das instrucciones paso a paso a la máquina (cómo hacerlo). En el declarativo (como SQL) le dices qué quieres obtener, y el sistema ya se busca la vida para dártelo."
+    },
+    {
+        "id": 97,
+        "pregunta": "¿Qué modelo de desarrollo prioriza la entrega continua de software funcional y la adaptación rápida a los cambios?",
+        "opciones": [
+            { "id": "a", "texto": "Espiral" },
+            { "id": "b", "texto": "DevOps" },
+            { "id": "c", "texto": "Cascada" },
+            { "id": "d", "texto": "Prototipos" }
+        ],
+        "correcta": "b",
+        "explicacion": "DevOps (muy ligado a la filosofía Agile) busca automatizar todo el proceso para poder hacer entregas de software pequeñitas pero continuas, adaptándose súper rápido a lo que pida el cliente."
+    },
+    {
+        "id": 98,
+        "pregunta": "¿Qué característica avanzada ofrecen los IDE modernos para facilitar la refactorización segura de grandes bases de código?",
+        "opciones": [
+            { "id": "a", "texto": "Resaltado de sintaxis" },
+            { "id": "b", "texto": "Autocompletado de código básico" },
+            { "id": "c", "texto": "Análisis de flujo de datos en tiempo real" },
+            { "id": "d", "texto": "Integración con bases de datos" }
+        ],
+        "correcta": "c",
+        "explicacion": "Al analizar el flujo de datos y la estructura del código en tiempo real, el IDE 'entiende' tu programa y puede cambiar el nombre de una variable en 50 archivos distintos sin romper absolutamente nada."
+    },
+    {
+        "id": 99,
+        "pregunta": "¿Cuál de los siguientes entornos permite la edición colaborativa en tiempo real sobre el mismo archivo de código?",
+        "opciones": [
+            { "id": "a", "texto": "Android Studio Visual" },
+            { "id": "b", "texto": "Eclipse" },
+            { "id": "c", "texto": "NetBeans" },
+            { "id": "d", "texto": "Studio Code con Live Share" }
+        ],
+        "correcta": "d",
+        "explicacion": "Visual Studio Code tiene una extensión oficial llamada Live Share que funciona igual que Google Docs: varias personas escribiendo a la vez en el mismo archivo con cursores de colores."
+    },
+    {
+        "id": 100,
+        "pregunta": "¿Qué ventaja ofrece un entorno de desarrollo basado en contenedores respecto a uno tradicional?",
+        "opciones": [
+            { "id": "a", "texto": "Mayor velocidad de ejecución" },
+            { "id": "b", "texto": "Aislamiento de dependencias y replicabilidad exacta del entorno" },
+            { "id": "c", "texto": "Mejor soporte para lenguajes antiguos" },
+            { "id": "d", "texto": "Integración automática con hardware específico" }
+        ],
+        "correcta": "b",
+        "explicacion": "Un contenedor (como Docker) aísla todo lo que tu app necesita para funcionar. Así evitas el típico 'pues en mi máquina funciona', porque el entorno es exactamente idéntico para todos."
+    },
+    {
+        "id": 101,
+        "pregunta": "¿Qué funcionalidad avanzada permite un depurador integrado en un IDE moderno?",
+        "opciones": [
+            { "id": "a", "texto": "Inspección de variables en tiempo real y evaluación de expresiones complejas" },
+            { "id": "b", "texto": "Solo mostrar errores de sintaxis" },
+            { "id": "c", "texto": "Compilar proyectos automáticamente" },
+            { "id": "d", "texto": "Generar diagramas UML" }
+        ],
+        "correcta": "a",
+        "explicacion": "El depurador te permite parar el tiempo mientras tu código se ejecuta y mirar el valor exacto que tiene cualquier variable en ese preciso instante."
+    },
+    {
+        "id": 102,
+        "pregunta": "¿Qué entorno de desarrollo online permite la integración directa con pipelines de integración continua y despliegue (CI/CD)?",
+        "opciones": [
+            { "id": "a", "texto": "BlueJ" },
+            { "id": "b", "texto": "GitHub Codespaces" },
+            { "id": "c", "texto": "Geany" },
+            { "id": "d", "texto": "Sublime Text" }
+        ],
+        "correcta": "b",
+        "explicacion": "Al ser de la familia de GitHub, Codespaces se engancha directamente con GitHub Actions y otras herramientas de CI/CD en la nube para automatizar pruebas y despliegues."
+    },
+    {
+        "id": 103,
+        "pregunta": "¿Qué tipo de prueba automatizada verifica la interacción y la comunicación entre microservicios independientes?",
+        "opciones": [
+            { "id": "a", "texto": "Pruebas unitarias" },
+            { "id": "b", "texto": "Pruebas de integración de servicios" },
+            { "id": "c", "texto": "Pruebas de regresión" },
+            { "id": "d", "texto": "Pruebas de aceptación" }
+        ],
+        "correcta": "b",
+        "explicacion": "Como su nombre indica, las pruebas de integración se encargan de comprobar que diferentes piezas del puzle (en este caso, microservicios) saben hablar entre ellas y pasarse datos correctamente."
+    },
+    {
+        "id": 104,
+        "pregunta": "¿Cuál es el objetivo principal de las pruebas de mutación en el desarrollo de software?",
+        "opciones": [
+            { "id": "a", "texto": "Evaluar la efectividad de los casos de prueba introduciendo errores deliberados" },
+            { "id": "b", "texto": "Verificar la compatibilidad con sistemas operativos" },
+            { "id": "c", "texto": "Medir el rendimiento bajo carga" },
+            { "id": "d", "texto": "Probar la interfaz gráfica de usuario" }
+        ],
+        "correcta": "a",
+        "explicacion": "Es como poner a prueba a las propias pruebas. Modificas un poco tu código (mutarlo) metiendo un fallo aposta, y si tus tests no se dan cuenta de ese fallo, significa que tus tests son malos."
+    },
+    {
+        "id": 105,
+        "pregunta": "¿Qué elemento es fundamental en un entorno de pruebas automatizadas para garantizar la reproducibilidad?",
+        "opciones": [
+            { "id": "a", "texto": "Ejecución manual de scripts" },
+            { "id": "b", "texto": "Uso de herramientas de ofimática" },
+            { "id": "c", "texto": "Datos de prueba controlados y entornos aislados" },
+            { "id": "d", "texto": "Documentación extensa" }
+        ],
+        "correcta": "c",
+        "explicacion": "Para que un test siempre dé el mismo resultado, el entorno debe estar limpio y aislado, y los datos iniciales deben ser exactamente siempre los mismos (nada de conectarse a la BBDD real de producción)."
+    },
+    {
+        "id": 106,
+        "pregunta": "¿Qué métrica se utiliza para evaluar la cobertura de código alcanzada por las pruebas?",
+        "opciones": [
+            { "id": "a", "texto": "Complejidad ciclomática" },
+            { "id": "b", "texto": "Tiempo de ejecución de las pruebas" },
+            { "id": "c", "texto": "Número de errores encontrados" },
+            { "id": "d", "texto": "Porcentaje de líneas ejecutadas durante la prueba" }
+        ],
+        "correcta": "d",
+        "explicacion": "La cobertura de código ('code coverage') nos dice el porcentaje exacto de líneas de nuestro programa por las que ha pasado el test. Si tienes 100 líneas y el test ejecuta 80, tienes un 80% de cobertura."
+    },
+    {
+        "id": 107,
+        "pregunta": "¿Cuál es el propósito de las pruebas de regresión automatizadas en un ciclo de integración continua?",
+        "opciones": [
+            { "id": "a", "texto": "Optimizar el rendimiento de la base de datos" },
+            { "id": "b", "texto": "Validar la documentación del software" },
+            { "id": "c", "texto": "Detectar que nuevas modificaciones no rompen funcionalidades existentes" },
+            { "id": "d", "texto": "Medir la usabilidad de la interfaz" }
+        ],
+        "correcta": "c",
+        "explicacion": "La regresión es cuando algo que antes funcionaba bien, de repente se rompe. Estas pruebas automatizadas se lanzan para asegurar que al meter código nuevo no has 'roto' nada de lo viejo."
+    },
+    {
+        "id": 108,
+        "pregunta": "¿Qué ventaja aporta la integración de herramientas de análisis estático en un entorno de desarrollo?",
+        "opciones": [
+            { "id": "a", "texto": "Detección temprana de errores y vulnerabilidades antes de la ejecución" },
+            { "id": "b", "texto": "Mejora de la velocidad de compilación" },
+            { "id": "c", "texto": "Reducción del consumo de memoria" },
+            { "id": "d", "texto": "Generación automática de interfaces gráficas" }
+        ],
+        "correcta": "a",
+        "explicacion": "El análisis estático lee tu código sin llegar a ejecutarlo (como un corrector ortográfico avanzado) para avisarte de posibles bugs, malas prácticas o agujeros de seguridad mientras lo estás escribiendo."
+    },
+    {
+        "id": 109,
+        "pregunta": "¿Cuál es la principal diferencia entre un entorno de desarrollo local y uno remoto basado en la nube?",
+        "opciones": [
+            { "id": "a", "texto": "El entorno local requiere conexión constante a Internet" },
+            { "id": "b", "texto": "El entorno remoto permite acceder y trabajar desde cualquier ubicación" },
+            { "id": "c", "texto": "El entorno remoto no soporta depuración" },
+            { "id": "d", "texto": "El entorno local no permite integración con control de versiones" }
+        ],
+        "correcta": "b",
+        "explicacion": "Al estar alojado en la nube (como GitHub Codespaces), todo tu entorno, archivos y configuraciones están en un servidor. Solo necesitas un navegador para programar desde cualquier ordenador del mundo."
+    },
+    {
+        "id": 110,
+        "pregunta": "¿Qué característica es esencial en un entorno de desarrollo para proyectos de software crítico (bancos, sanidad, etc.)?",
+        "opciones": [
+            { "id": "a", "texto": "Integración con redes sociales" },
+            { "id": "b", "texto": "Editor de texto enriquecido" },
+            { "id": "c", "texto": "Soporte para pruebas automatizadas y control de versiones" },
+            { "id": "d", "texto": "Temas visuales personalizables" }
+        ],
+        "correcta": "c",
+        "explicacion": "En el software crítico un simple fallo puede costar millones o vidas. Por eso es vital tener un control estricto de cada cambio (Git) y pasar baterías de pruebas automáticas masivas antes de publicar nada."
+    },
+    {
+        "id": 111,
+        "pregunta": "¿Qué tipo de entorno de desarrollo es más adecuado para el trabajo con sistemas embebidos?",
+        "opciones": [
+            { "id": "a", "texto": "IDE para videojuegos" },
+            { "id": "b", "texto": "Editor de texto simple" },
+            { "id": "c", "texto": "Entorno online" },
+            { "id": "d", "texto": "IDE especializado con soporte para cross-compiling y depuración hardware" }
+        ],
+        "correcta": "d",
+        "explicacion": "Los sistemas embebidos (como el chip de una lavadora o un coche) necesitan IDEs que compilen el código para ese procesador en concreto (cross-compiling) y permitan conectarse a la placa física para depurar."
+    },
+    {
+        "id": 112,
+        "pregunta": "¿Qué herramienta permite la gestión avanzada de dependencias y versiones en proyectos complejos?",
+        "opciones": [
+            { "id": "a", "texto": "Gestores de paquetes como Maven o npm" },
+            { "id": "b", "texto": "Compilador" },
+            { "id": "c", "texto": "Editor de texto" },
+            { "id": "d", "texto": "Motor de base de datos" }
+        ],
+        "correcta": "a",
+        "explicacion": "Herramientas como NPM (en Node) o Maven (en Java) se encargan de descargar automáticamente las librerías correctas que necesita tu proyecto y de gestionar sus versiones para que nada se rompa."
+    },
+    {
+        "id": 113,
+        "pregunta": "Observa el siguiente enunciado: Un sistema de gestión de exámenes incluye las clases Estudiante, Examen, Pregunta, Respuesta y Calificación. Un Estudiante puede realizar varios Exámenes. Cada Examen contiene varias Preguntas, y cada Pregunta puede tener varias Respuestas posibles. Una Calificación está asociada a un Estudiante y un Examen. Según este enunciado, ¿qué tipo de relación UML existe entre las clases Examen y Pregunta?",
+        "opciones": [
+            { "id": "a", "texto": "Asociación simple" },
+            { "id": "b", "texto": "Composición" },
+            { "id": "c", "texto": "Herencia" },
+            { "id": "d", "texto": "Dependencia" }
+        ],
+        "correcta": "b",
+        "explicacion": "Es una Composición. Las preguntas son parte exclusiva de ese examen; si destruyes el examen, las preguntas mueren con él porque su ciclo de vida está atado."
+    },
+    {
+        "id": 114,
+        "pregunta": "Dado el siguiente fragmento de diagrama de clases de un sistema de alquiler de coches... Si la clase Conductor hereda de Usuario, ¿cómo se representa esta relación en UML?",
+        "imagen": "/images/preguntas/10.png",
+        "opciones": [
+            { "id": "a", "texto": "Línea con diamante vacío" },
+            { "id": "b", "texto": "Línea con flecha cerrada apuntando a Usuario" },
+            { "id": "c", "texto": "Línea con flecha abierta apuntando a Usuario" },
+            { "id": "d", "texto": "Línea punteada" }
+        ],
+        "correcta": "b",
+        "explicacion": "La herencia (generalización) se dibuja siempre con una línea continua y una flecha con la punta cerrada (un triángulo) pero vacía por dentro, apuntando hacia la clase padre."
+    },
+    {
+        "id": 115,
+        "pregunta": "Dado el fragmento de diagrama siguiente, si un Viaje siempre debe estar asociado a un Vehículo y, si se elimina el Viaje, el Vehículo sigue existiendo, ¿qué tipo de relación es?",
+        "imagen": "/images/preguntas/10.png",
+        "opciones": [
+            { "id": "a", "texto": "Asociación" },
+            { "id": "b", "texto": "Agregación" },
+            { "id": "c", "texto": "Composición" },
+            { "id": "d", "texto": "Herencia" }
+        ],
+        "correcta": "b",
+        "explicacion": "Hablamos de Agregación porque, aunque el Viaje 'tiene' un Vehículo para realizarse, el ciclo de vida del vehículo es independiente (si cancelas el viaje, no destruyes el coche)."
+    },
+    {
+        "id": 116,
+        "pregunta": "En el siguiente escenario, ¿qué visibilidad debe tener el atributo 'contraseña' de la clase Usuario para que solo sea accesible desde la propia clase?",
+        "opciones": [
+            { "id": "a", "texto": "+" },
+            { "id": "b", "texto": "#" },
+            { "id": "c", "texto": "-" },
+            { "id": "d", "texto": "~" }
+        ],
+        "correcta": "c",
+        "explicacion": "En UML, el símbolo menos (-) significa 'Private' (privado), lo que garantiza el encapsulamiento para que solo la propia clase pueda ver o modificar ese atributo."
+    },
+    {
+        "id": 117,
+        "pregunta": "Analiza el siguiente diagrama de clases para un hotel... Si una Reserva almacena una referencia a un Cliente y a una Habitación, ¿qué tipo de relación se representa entre Reserva y Cliente?",
+        "imagen": "/images/preguntas/11.png",
+        "opciones": [
+            { "id": "a", "texto": "Herencia" },
+            { "id": "b", "texto": "Asociación" },
+            { "id": "c", "texto": "Composición" },
+            { "id": "d", "texto": "Agregación" }
+        ],
+        "correcta": "b",
+        "explicacion": "Es una Asociación simple. La Reserva simplemente 'conoce' a qué Cliente pertenece mediante un enlace, pero ni el cliente es parte de la reserva, ni viceversa."
+    },
+    {
+        "id": 118,
+        "pregunta": "Considera el siguiente proceso en un sistema de compras online: El usuario inicia sesión, busca productos, añade productos al carrito, revisa el pedido y realiza el pago. Si el pago es exitoso, se genera la orden; si falla, se muestra un mensaje de error. ¿Qué tipo de nodo se utiliza en un diagrama de actividades para representar el inicio de este proceso?",
+        "opciones": [
+            { "id": "a", "texto": "Nodo de decisión" },
+            { "id": "b", "texto": "Nodo inicial" },
+            { "id": "c", "texto": "Nodo final" },
+            { "id": "d", "texto": "Nodo de bifurcación" }
+        ],
+        "correcta": "b",
+        "explicacion": "El Nodo Inicial (representado por un círculo negro sólido) es el punto de partida que marca exactamente dónde comienza el flujo de las actividades."
+    },
+    {
+        "id": 119,
+        "pregunta": "En un diagrama de secuencia para el proceso de reserva de hotel, el objeto Cliente envía una solicitud de reserva al objeto Sistema, que a su vez consulta la disponibilidad con el objeto Habitaciones y responde al Cliente. ¿Qué representa la “línea de vida” de cada objeto en este diagrama?",
+        "opciones": [
+            { "id": "a", "texto": "El tiempo durante el cual el objeto existe e interactúa" },
+            { "id": "b", "texto": "El número de métodos invocados" },
+            { "id": "c", "texto": "El flujo de datos entre objetos" },
+            { "id": "d", "texto": "El ciclo de vida completo del sistema" }
+        ],
+        "correcta": "a",
+        "explicacion": "Es la línea vertical a trazos que cuelga del objeto. Representa el paso del tiempo cronológico hacia abajo, mostrando cuándo el objeto está vivo mandando o recibiendo mensajes."
+    },
+    {
+        "id": 120,
+        "pregunta": "Analiza este escenario de un diagrama de estados: Un pedido puede estar en los estados: “Pendiente”, “Procesando”, “Enviado” y “Entregado”. El paso de “Procesando” a “Enviado” ocurre solo si el pago es confirmado. ¿Qué elemento UML representa la condición “si el pago es confirmado”?",
+        "opciones": [
+            { "id": "a", "texto": "Nodo de actividad" },
+            { "id": "b", "texto": "Transición con guardia" },
+            { "id": "c", "texto": "Nodo de unión" },
+            { "id": "d", "texto": "Nodo final" }
+        ],
+        "correcta": "b",
+        "explicacion": "Las condiciones que deben cumplirse para poder saltar de un estado a otro se llaman 'Condiciones de Guarda' (guard conditions) y se escriben entre corchetes [ ] encima de la flecha de transición."
+    },
+    {
+        "id": 121,
+        "pregunta": "En un diagrama de actividades de un sistema de gestión de exámenes, se modela el proceso de “corregir examen”. El flujo incluye: seleccionar examen, revisar respuestas, calcular nota y registrar calificación. ¿Qué símbolo se utiliza para mostrar que estas actividades se realizan secuencialmente?",
+        "opciones": [
+            { "id": "a", "texto": "Flechas de transición" },
+            { "id": "b", "texto": "Nodo de bifurcación" },
+            { "id": "c", "texto": "Nodo de unión" },
+            { "id": "d", "texto": "Nodo de decisión" }
+        ],
+        "correcta": "a",
+        "explicacion": "Las flechas de transición (flujo de control) son las simples líneas con punta de flecha que conectan una actividad con la siguiente, indicando el orden paso a paso."
+    },
+    {
+        "id": 122,
+        "pregunta": "Considera el siguiente caso de uso en un sistema de asistencia: El administrador puede añadir estudiantes, editar datos y generar reportes de asistencia. Los estudiantes solo pueden registrar su entrada y salida. En el diagrama de casos de uso, ¿cómo se representa que solo el administrador puede acceder a las funciones de gestión?",
+        "opciones": [
+            { "id": "a", "texto": "Generalización entre actores" },
+            { "id": "b", "texto": "Inclusión (include)" },
+            { "id": "c", "texto": "Extensión (extend)" },
+            { "id": "d", "texto": "Asociación entre actor y caso de uso" }
+        ],
+        "correcta": "d",
+        "explicacion": "Simplemente se dibuja una línea de Asociación conectando al muñequito (Actor Administrador) con la burbuja (Caso de Uso Gestión). Si otro actor no tiene esa línea, significa que no puede acceder."
+    }
+]
