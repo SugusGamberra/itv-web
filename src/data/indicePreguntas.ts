@@ -7,6 +7,7 @@ import servproc from './preguntas/servproc.json';
 import bbdd from './preguntas/bbdd.json';
 import programacion from './preguntas/programacion.json';
 import sistemas from './preguntas/sistemas.json';
+import entornos from './preguntas/entornos.json';
 
 // AÑO 2025:
 import entornos2025 from './preguntas/entornos-2025.json';
@@ -22,6 +23,7 @@ export const MAPA_PREGUNTAS: Record<string, Pregunta[]> = {
     'bbdd' : bbdd as Pregunta[],
     'programacion' : programacion as Pregunta[],
     'sistemas' : sistemas as Pregunta[],
+    'entornos' : entornos as Pregunta[],
   // importar el resto segun lleguen aqui
 
   //2025
