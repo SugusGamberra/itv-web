@@ -1,0 +1,2158 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Podríamos saber qué evento se ejecuta con este botón HTML?:\n<script> function saluda() {alert(\"¡Hola desde JavaScript!\");} </script>",
+        "opciones": [
+            { "id": "a", "texto": "Hover"},
+            { "id": "b", "texto": "Ninguna de ellas"},
+            { "id": "c", "texto": "Load página"},
+            { "id": "d", "texto": "Click"}
+        ],
+        "correcta": "d",
+        "explicación": "El evento que se ejecuta con el botón HTML es el evento 'click', ya que el código JavaScript está asociado a la función 'saluda()', que se ejecuta cuando se hace clic en el botón"
+    },
+    {
+        "id": 2,
+        "pregunta": "¿Qué resultado produce este código JavaScript?:\ndocument.getElementById('demo').innerHTML = \"<b>Nuevo</b>\";",
+        "opciones": [
+            {"id": "a", "texto": "Solo texto \"Nuevo\""},
+            {"id": "b", "texto": "Error seguridad"},
+            {"id": "c", "texto": "HTML parseado <b>Nuevo</b>"},
+            {"id": "d", "texto": "Clase cambia"}
+        ],
+        "correcta": "c",
+        "explicación": "El código JavaScript asigna el contenido HTML <b>Nuevo</b>' al elemento con el id 'demo'. Esto significa que el texto 'Nuevo' se mostrará en negrita ya que el navegador interpreta las etiquetas HTML dentro del string asignado a innerHTML"
+    },
+    {
+        "id": 3,
+        "pregunta": "Qué devuelve JSON.parse en este caso?:\nJSON.parse('{\"nombre\":\"Ana\",\"edad\":25,\"ciudad\":\"Madird\"}');",
+        "opciones": [
+            {"id": "a", "texto": "Objeto JavaScript {nombre: \"Ana\", edad: 25, ciudad: \"Madrid\"}"},
+            { "id": "b", "texto": "Objeto JavaScript {nombre: \"Ana\", edad: 25]"},
+            { "id": "c", "texto": "Array [\"Ana\", 25, \"Madrid\"]"},
+            { "id": "d", "texto": "Ninguna de ellas"}
+        ],
+        "correcta": "a",
+        "explicación": "JSON.parse convierte una cadena JSON en un objeto JS. En este caso la cadena JSON representa un objeto con las propiedades nombre, edad y ciudad y sus respectivos valores. Por ende, el resultado de JSON.parse será un objeto JS con esas propiedades y valores"
+    },
+    {
+        "id": 4,
+        "pregunta": "¿Cuál es el equivalente Vanilla JavaScript de este código jQuery?:\n$('#btn').click(function(){ alert('¡Clic detectado!'); });",
+        "opciones": [
+            { "id": "a", "texto": "onclick=\"alert('¡Clic detectado!')\""},
+            { "id": "b", "texto": "window.onload = alert()"},
+            { "id": "c", "texto": "querySelector.click()"},
+            { "id": "d", "texto": "btn.addEventListener('click', () => alert('¡Clic detectado!'))"}
+        ],
+        "correcta": "d",
+        "explicación": "El código JQuery usa el método click() para asignar un evento de clic a un elemento con el id 'btn'. El equivalente en Vanilla JS será usar addEventListener para asignar el evento de clic al mismo elemento. Por ende el elemento con id 'btn' se selecciona usando document.getElementByID('btn') y luego se le asigna el evento de clic con addEventListener"
+    },
+    {
+        "id": 5,
+        "pregunta": "¿Qué hace este código con un elemento <dialog> nativo HTML?:\ndocument.querySelector('dialog').showModal();",
+        "opciones": [
+            { "id": "a", "texto": "Muestra dialog inline normal"},
+            { "id": "b", "texto": "Cierra el dialog automáticamente"},
+            { "id": "c", "texto": "Abre modal centrado en top-layer"},
+            { "id": "d", "texto": "Alterna abierto/cerrado"}
+        ],
+        "correcta": "c",
+        "explicación": "El método showModal() de un elemento <dialog> nativo HTML abre el diálogo como un modal centrado en la pantalla y bloquea la interacción con el resto de la página hasta que el diálogo se cierre. Esto significa que el user no podrá interactuar con otros elementos de la página mientras el diálogo esté abierto, lo que es característico de un modal"
+    },
+    {
+        "id": 6,
+        "pregunta": "¿Qué requiere removeEventListener para funcionar correctamente?:\nconst pepe = () => alert('click');\nbtn.addEventListener('click', pepe);\nbtn.removeEventListener('click', pepe);",
+        "opciones": [
+            { "id": "a", "texto": "Referencia exacta de la función asociada"},
+            { "id": "b", "texto": "Solo nombre función"},
+            { "id": "c", "texto": "Automático"},
+            { "id": "d", "texto": "jQuery syntax"}
+        ],
+        "correcta": "a",
+        "explicación": "El método removeEventListener requiere la ref exacta de la función que se usó para asociar el evento con addEventListener. Esto significa que si se usó una función anónima o una diferente instancia, no podrá eliminar el evento correctamente."
+    },
+    {
+        "id": 7,
+        "pregunta": "¿Cuándo se ejecuta este event listener en un input con datalist?:\ninput.addEventListener('input', fetchSugerencias);",
+        "opciones": [
+            { "id": "a", "texto": "Solo page load"},
+            { "id": "b", "texto": "Blur"},
+            { "id": "c", "texto": "Click input"},
+            { "id": "d", "texto": "Cada tecla"}
+        ],
+        "correcta": "d",
+        "explicación": "El event listener se ejecuta cada vez que el input cambia, lo que incluye cada que el user escribe una tecla. Esto es útil para implementar funcionalidades como autocompletado o sugerencias en tiempo real según lo que se escribe"
+    },
+    {
+        "id": 8,
+        "pregunta": "¿Qué devuelve exactamente JSON.stringify?:\nJSON.stringify({a:1, b:\"dos\"}) devuelve:",
+        "opciones": [
+            { "id": "a", "texto": "Object"},
+            { "id": "b", "texto": "'\"{\"a\":1,\"b\":\"dos\"}\"' string JSON"},
+            { "id": "c", "texto": "[1, \"dos\"]"},
+            { "id": "d", "texto": "Function"}
+        ],
+        "correcta": "b",
+        "explicación": "JSON stringify convierte un obj JS en una cadena JSON. En este caso el objeto {a:1, b:\"dos\"} se convierte en la cadena JSON '{\"a\":1,\"b\":\"dos\"}' que representa el mismo obj pero en formato de texto"
+    },
+    {
+        "id": 9,
+        "pregunta": "¿Qué propiedad cambia este código JavaScript?:\ndocument.querySelector('input').value = \"Ana García\";",
+        "opciones": [
+            { "id": "a", "texto": "Valor input"},
+            { "id": "b", "texto": "Placeholder"},
+            { "id": "c", "texto": "Label texto"},
+            { "id": "d", "texto": "Type cambia"}
+        ],
+        "correcta": "a",
+        "explicación": "El código JS asigna el valor 'Ana García' a la propiedad value de un elemento input. Implica que el texto 'Ana Garcia' aparecerá dentro del campo de entrada como su valor actual, no como un placeholder ni como parte de la etiquetra"
+    },
+    {
+        "id": 10,
+        "pregunta": "¿Qué puede iterar jQuery $.each()?\n$.each(users, function(i, user){\nconsole.log(user.name);\n});",
+        "opciones": [
+            { "id": "a", "texto": "Solo arrays"},
+            { "id": "b", "texto": "Objetos y arrays"},
+            { "id": "c", "texto": "Solo strings"},
+            { "id": "d", "texto": "DOM nodes"}
+        ],
+        "correcta": "b",
+        "explicación": "El método $.each() de jQuery puede iterar tanto sobre arrays como sobre objs. Para arrays, itera sobre cada elemento y su índice mientras que para objetos itera sobre cada propiedad y su valor."
+    },
+    {
+        "id": 11,
+        "pregunta": "jQuery $(document).ready(function(){...}); equivale a:",
+        "opciones": [
+            { "id": "a", "texto": "window.onload"},
+            { "id": "b", "texto": "DOMContentLoaded"},
+            { "id": "c", "texto": "load"},
+            { "id": "d", "texto": "init"}
+        ],
+        "correcta": "b",
+        "explicación": "Este método se ejecuta cuando el DOM ha sido completamente cargado y parseado, lo que corresponde al evento DOMContentLoaded. El código dentro de esta funcion se ejecutará tan pronto como el DOM esté listo sin esperar a que se carguen otros recursos."
+    },
+    {
+        "id": 12,
+        "pregunta": "jQuery AJAX GET JSON:\n$.getJSON('data.json', function(data) {\nconsole.log(data.users);\n});",
+        "opciones": [
+            { "id": "a", "texto": "POST"},
+            { "id": "b", "texto": "GET JSON parseado auto"},
+            { "id": "c", "texto": "Sync"},
+            { "id": "d", "texto": "HTML"}
+        ],
+        "correcta": "b",
+        "explicación": "El método $.getJSON() de jQuery hace una solicitud GET para obtener un archivo JSON y automáticamente parsea la respuesta como un obj JS"
+    },
+    {
+        "id": 13,
+        "pregunta": "localStorage.setItem('user', JSON.stringify(obj));",
+        "opciones": [
+            { "id": "a", "texto": "Solo strings"},
+            { "id": "b", "texto": "Objeto → JSON string persistente"},
+            { "id": "c", "texto": "Solo arrays"},
+            { "id": "d", "texto": "Expira session"}
+        ],
+        "correcta": "b",
+        "explicación": "localstorage solo puede almacenar strings por lo que si quieres guardar un obj debe convertirlo a una cadena JSON usando JSON.stringify lo que permite almacenar datos complejos de forma persistente en el navegador"
+    },
+    {
+        "id": 14,
+        "pregunta": "element.classList.toggle('activo');",
+        "opciones": [
+            { "id": "a", "texto": "Siempre añade"},
+            { "id": "b", "texto": "Añade/quita si existe"},
+            { "id": "c", "texto": "Remueve siempre"},
+            { "id": "d", "texto": "Solo remueve"}
+        ],
+        "correcta": "b",
+        "explicación": "El método toggle() de classList añade la clase 'activo' si no está presente y la quita si ya existe. Permite alternar la presencia de una clase en un elemento de forma sencilla"
+    },
+    {
+        "id": 15,
+        "pregunta": "document.querySelectorAll('.item').forEach(item => ...);",
+        "opciones": [
+            { "id": "a", "texto": "Solo primer match"},
+            { "id": "b", "texto": "Todos elementos .item"},
+            { "id": "c", "texto": "Error plural"},
+            { "id": "d", "texto": "Solo ID"}
+        ],
+        "correcta": "b",
+        "explicación": "El método querySelectorAll devuelve una NodeList de todos los elementos que coinciden con el selector '.item'. Al usar forEach sobre esta se puede iterar sobre cada uno de esos elementos para realizar acciones especificas en cada una d ellas"
+    },
+    {
+        "id": 16,
+        "pregunta": "jQuery $.ajax({url:'api', dataType:'json', success: fn})",
+        "opciones": [
+            { "id": "a", "texto": "Solo GET"},
+            { "id": "b", "texto": "AJAX configurable JSON"},
+            { "id": "c", "texto": "Solo POST"},
+            { "id": "d", "texto": "Sync"}
+        ],
+        "correcta": "b",
+        "explicación": "El método $.ajax() de jQuery es una función muy configurable que permite hacer solicitudes AJAX de diferentes tipos (GET, POST, etc) y especificar el tipo de datos esperados como JSON"
+    },
+    {
+        "id": 17,
+        "pregunta": "<input type=\"range\" min=\"0\" max=\"100\"> JS value:\nrange.addEventListener('input', e => slider.value = e.target.value);",
+        "opciones": [
+            {"id": "a", "texto": "Solo click"},
+            { "id": "b", "texto": "Real-time drag"},
+            { "id": "c", "texto": "Change final"},
+            { "id": "d", "texto": "No eventos"}
+        ],
+        "correcta": "b",
+        "explicación": "El evento 'input' se dispara en tiempo real mientras el user arrastra el slider lo que permite actualizar el valor de otro elemento (como un span o un input) en tiempo real mostrando el valor actual del slider sin esperar a que se suelte el control"
+    },
+    {
+        "id": 18,
+        "pregunta": "jQuery $.post('api', {data: json}, success)",
+        "opciones": [
+            { "id": "a", "texto": "GET"},
+            { "id": "b", "texto": "POST datos JSON"},
+            { "id": "c", "texto": "Sync"},
+            { "id": "d", "texto": "Sin callback"}
+        ],
+        "correcta": "b",
+        "explicación": "El métdodo $.post() de jQuery se usa para hacer una solicitud POST a un server enviando datos (como un obj JSON) y opcionalmente especificar una función de éxtio que se ejecutará si la solicitud es exitosa"
+    },
+    {
+        "id": 19,
+        "pregunta": "¿Cuál de las siguientes afirmaciones describe mejor la función principal de HTML en una página web?",
+        "opciones": [
+            { "id": "a", "texto": "Aplicar estilos visuales avanzados"},
+            { "id": "b", "texto": "Definir la estructura y el contenido del documento"},
+            { "id": "c", "texto": "Gestionar la lógica de negocio en el servidor"},
+            { "id": "d", "texto": "Optimizar las consultas a base de datos"}
+        ],
+        "correcta": "b",
+        "explicación": "HTML es el lenguaje de marcado que se usa para definir la estructura y contenido de un documento web. Permite organizar texto, img, enlaces y otros elementos en una página. No se encarga de estilos (CSS) ni lógica (JS)"
+    },
+    {
+        "id": 20,
+        "pregunta": "¿Qué atributo global se debe usar para asignar un identificador único a un elemento HTML?",
+        "opciones": [
+            { "id": "a", "texto": "name"},
+            { "id": "b", "texto": "class"},
+            { "id": "c", "texto": "id"},
+            { "id": "d", "texto": "key"}
+        ],
+        "correcta": "c",
+        "explicación": "El atributo 'id' se usa para asignar un identificador único a un elemento HTML. Este debe ser único dentro del documento y se puede usar para seleccionar el elemento con JS o CSS"
+    },
+    {
+        "id": 21,
+        "pregunta": "En HTML5, ¿qué etiqueta se usa para indicar la sección principal del contenido de una página?",
+        "opciones": [
+            { "id": "a", "texto": "section"},
+            { "id": "b", "texto": "main"},
+            { "id": "c", "texto": "article"},
+            { "id": "d", "texto": "body"}
+        ],
+        "correcta": "b",
+        "explicación": "La etiqueta <main> se metió en HTML5 para indicar la sección principal del contenido de una página, solo debe haber una por página y es útil para mejorar accesibilidad y SEO"
+    },
+    {
+        "id": 22,
+        "pregunta": "¿Qué propiedad CSS controla el color del texto dentro de un elemento?",
+        "opciones": [
+            { "id": "a", "texto": "text-color"},
+            { "id": "b", "texto": "font-style"},
+            { "id": "c", "texto": "background-color"},
+            { "id": "d", "texto": "color"}
+        ],
+        "correcta": "d", 
+        "explicación": "La propiedad 'color' en CSS se usa para controlar el color de un texto con nombres, códigos hexadecimales o valores RGB"
+    },
+    {
+        "id": 23,
+        "pregunta": "¿Cuál de estas unidades CSS es relativa al tamaño de fuente raíz del documento?",
+        "opciones": [
+            { "id": "a", "texto": "px"},
+            { "id": "b", "texto": "cm"},
+            { "id": "c", "texto": "rem"},
+            { "id": "d", "texto": "in"}
+        ],
+        "correcta": "c",
+        "explicación": "La unidad rem en CSS es relativa al tamaño de la fuente raíz del documento (normalmente del elemento <html>) lo que permite crear diseños escalables y accesibles"
+    },
+    {
+        "id": 24,
+        "pregunta": "¿Qué etiqueta se utiliza para agrupar lógicamente campos relacionados dentro de un formulario?",
+        "opciones": [
+            { "id": "a", "texto": "group"},
+            { "id": "b", "texto": "legend"},
+            { "id": "c", "texto": "fieldset"},
+            { "id": "d", "texto": "section"}
+        ],
+        "correcta": "c",
+        "explicación": "La etiqueta <fieldset> agrupa campos relacionados dentro de un form y suele ir acompañada de una etiqueta <legend> que da un titulo a ese grupo de campos"
+    },
+    {
+        "id": 25,
+        "pregunta": "Señala la afirmación correcta sobre el atributo method de un formulario HTML.",
+        "opciones": [
+            { "id": "a", "texto": "GET envía los datos en el cuerpo y POST en la URL"},
+            { "id": "b", "texto": "GET es más adecuado para operaciones de consulta"},
+            { "id": "c", "texto": "POST nunca puede enviar archivos"},
+            { "id": "d", "texto": "GET cifra automáticamente los datos"}
+        ],
+        "correcta": "b",
+        "explicación": "El método GET envía los datos a traves de la URL lo que lo hace adecuado para operaciones de consulta o cuando se quiere compartir la URL (POST envía los datos en el cuerpo d la solicitud lo que es mas seguro para datos sensibles)"
+    },
+    {
+        "id": 26,
+        "pregunta": "¿Qué etiqueta HTML5 se usa para representar contenido periférico, como barras laterales o bloques no centrales?",
+        "opciones": [
+            { "id": "a", "texto": "aside"},
+            { "id": "b", "texto": "nav"},
+            { "id": "c", "texto": "header"},
+            { "id": "d", "texto": "figure"}
+        ],
+        "correcta": "a",
+        "explicación": "La etiqueta <aside> se usa para representar contenido que es tangencialmente relacionado con el principal, como barras laterales, anuncios o bloques de información adicional que no forman parte del contenido central de la pagina"
+    },
+    {
+        "id": 27,
+        "pregunta": "¿Cuál de las siguientes propiedades CSS se utiliza para redondear las esquinas de un elemento?",
+        "opciones": [
+            { "id": "a", "texto": "border-style"},
+            { "id": "b", "texto": "corner-radius"},
+            { "id": "c", "texto": "border-radius"},
+            { "id": "d", "texto": "outline-radius"}
+        ],
+        "correcta": "c",
+        "explicación": "'border-radius' se usa en CSS para redondear las esquinas de un elemento, se pueden especificar valores para cada esquina o un valor general para todas"
+    },
+    {
+        "id": 28,
+        "pregunta": "¿Qué selector CSS selecciona todos los elementos con clase \"destacado\" dentro de un elemento con id \"contenido\"?",
+        "opciones": [
+            { "id": "a", "texto": ".contenido .destacado"},
+            { "id": "b", "texto": "#contenido.destacado"},
+            { "id": "c", "texto": "#contenido .destacado"},
+            { "id": "d", "texto": "contenido.destacado"}
+        ],
+        "correcta": "c",
+        "explicación": "El selector #contenido .destacado selecciona todos los elementos con clase 'destacado' que son descendientes de un elemento con id 'contenido'"
+    },
+    {
+        "id": 29,
+        "pregunta": "¿Qué tipo de elemento HTML es, por defecto, un elemento div?",
+        "opciones": [
+            { "id": "a", "texto": "inline"},
+            { "id": "b", "texto": "block"},
+            { "id": "c", "texto": "inline-block"},
+            { "id": "d", "texto": "table"}
+        ],
+        "correcta": "b",
+        "explicación": "Un elemento <div> es un elemento de bloque (block) x defecto, lo que significa que ocupa todo el ancho disponible y comienza en una nueva linea"
+    },
+    {
+        "id": 30,
+        "pregunta": "En un formulario, ¿qué tipo de campo es más adecuado para seleccionar un color?",
+        "opciones": [
+            { "id": "a", "texto": "input type=\"text\""},
+            { "id": "b", "texto": "input type=\"color\""},
+            { "id": "c", "texto": "input type=\"range\""},
+            { "id": "d", "texto": "input type=\"number\""}
+        ],
+        "correcta": "b",
+        "explicación": "El campo input con type=\"color\" da un selector de color nativo que permite a los users elegir un color de una paleta (muy user frinedly en lugar de escribir un codigo hexadecimal o rgb x.x)"
+    },
+    {
+        "id": 31,
+        "pregunta": "¿Qué propiedad CSS permite definir el espacio interior entre el contenido y el borde de un elemento?",
+        "opciones": [
+            { "id": "a", "texto": "margin"},
+            { "id": "b", "texto": "padding"},
+            { "id": "c", "texto": "border-spacing"},
+            { "id": "d", "texto": "gap"}
+        ],
+        "correcta": "b",
+        "explicación": "La propiedad 'padding' en CSS se usa para definir el espacio interior entre el contenido de un elemento y su borde"
+    },
+    {
+        "id": 32,
+        "pregunta": "¿Qué técnica se utiliza en CSS para aplicar el mismo estilo a varios selectores en una única regla?",
+        "opciones": [
+            { "id": "a", "texto": "Combinador universal"},
+            { "id": "b", "texto": "Agrupación de selectores separándolos por comas"},
+            { "id": "c", "texto": "Concatenación de selectores con +"},
+            { "id": "d", "texto": "Uso del selector :global"}
+        ],
+        "correcta": "b",
+        "explicación": "En CSS se pueden agrupar varios selectores en una unica regla separándolos por comas lo que permite aplicar el mismo bloque de estilos a todo esos selectores sin necesidad de repetir el bloque de estilos para cada uno"
+    },
+    {
+        "id": 33,
+        "pregunta": "¿Qué etiqueta se utiliza para mostrar un fragmento de código fuente en línea dentro de un párrafo?",
+        "opciones": [
+            { "id": "a", "texto": "var"},
+            { "id": "b", "texto": "kbd"},
+            { "id": "c", "texto": "pre"},
+            { "id": "d", "texto": "code"}
+        ],
+        "correcta": "d",
+        "explicación": "La etiqueta <code> muestra un fragmento de código fuente en línea dentro de un párrafo, aplicando un estilo monoespaciado que lo distingue del texto normal"
+    },
+    {
+        "id": 34,
+        "pregunta": "¿Cuál de estas etiquetas es apropiada para representar una cita breve dentro de un párrafo?",
+        "opciones": [
+            { "id": "a", "texto": "cite"},
+            { "id": "b", "texto": "q"},
+            { "id": "c", "texto": "blockquote"},
+            { "id": "d", "texto": "em"}
+        ],
+        "correcta": "b",
+        "explicación": "La etiqueta <q> se usa para representar una cita breve dentro de un parrafo, el navegador suele añadir comillas automáticamente alrededor del contenido de esta etiqueta"
+    },
+    {
+        "id": 35,
+        "pregunta": "¿Qué atributo de la etiqueta img es obligatorio por accesibilidad, aunque la imagen cargue correctamente?",
+        "opciones": [
+            { "id": "a", "texto": "src"},
+            { "id": "b", "texto": "width"},
+            { "id": "c", "texto": "height"},
+            { "id": "d", "texto": "alt"}
+        ],
+        "correcta": "d",
+        "explicación": "El atributo alt es obligatorio por accesibilidad ya que da una descripción textual de la imagen para users con discapacidades visuales o cuando la imagen no carga"
+    },
+    {
+        "id": 36,
+        "pregunta": "¿Qué hace la propiedad CSS border-collapse: collapse; en una tabla?",
+        "opciones": [
+            { "id": "a", "texto": "Hace los bordes invisibles"},
+            { "id": "b", "texto": "Fusiona los bordes adyacentes en uno solo"},
+            { "id": "c", "texto": "Elimina todas las líneas horizontales"},
+            { "id": "d", "texto": "Convierte la tabla en display: block"}
+        ],
+        "correcta": "b",
+        "explicación": "La propiedad border-collapse: collapse; hace que los bordes adyacentes de las celdas de una tabla se fusionen en un solo borde eliminando el espacio entre ellos y dando un aspecto más compacto a la tabla"
+    },
+    {
+        "id": 37,
+        "pregunta": "En JavaScript, ¿qué mostrará por consola el siguiente código?\nlet x = \"5\";\nlet y = 2;\nconsole.log(x + y);",
+        "opciones": [
+            { "id": "a", "texto": "7"},
+            { "id": "b", "texto": "52"},
+            { "id": "c", "texto": "NaN"},
+            { "id": "d", "texto": "Error de tipo"}
+        ],
+        "correcta": "b",
+        "explicación": "La variable x es una cadena de texto \"5\" y la y es un número. Al concatenarlas JS convierte el número a cadena y las une en vez de sumar los valores"
+    },
+    {
+        "id": 38,
+        "pregunta": "¿Cuál es el resultado de la siguiente expresión en JavaScript?\nlet a = 10;\nlet b = \"10\";\nconsole.log(a == b, a === b);",
+        "opciones": [
+            { "id": "a", "texto": "true true"},
+            { "id": "b", "texto": "true false"},
+            { "id": "c", "texto": "false true"},
+            { "id": "d", "texto": "false false"}
+        ],
+        "correcta": "b",
+        "explicación": "El operador == compara los valores sin tener cuenta el tipo por lo que 10 y \"10\" son iguales, y el === compara tanto valor como tipo, por lo que 10 (int) no es igual a \"10\" (string)"
+    },
+    {
+        "id": 39,
+        "pregunta": "¿Qué tipo de dato devuelve la función typeof null en JavaScript?",
+        "opciones": [
+            { "id": "a", "texto": "null"},
+            { "id": "b", "texto": "undefinde"},
+            { "id": "c", "texto": "object"},
+            { "id": "d", "texto": "number"}
+        ],
+        "correcta": "c",
+        "explicación": "En JS typeof null devuelve object debido a un error historico en la implementación del lenguaje, aunque null es ausencia de valor y no un objeto, se ha mantenido por compatibilidad"
+    },
+    {
+        "id": 40,
+        "pregunta": "¿Cuál es el valor de la variable resultado al ejecutar este código?\nlet num1 = parseInt(\"12a\");\nlet num2 = parseFloat(\"3.5\");\nlet resultado = num1 + num2;",
+        "opciones": [
+            { "id": "a", "texto": "15.5"},
+            { "id": "b", "texto": "NaN"},
+            { "id": "c", "texto": "12"},
+            { "id": "d", "texto": "3.5"}
+        ],
+        "correcta": "a",
+        "explicación": "Devuelve 15.5 porque parseInt(\"12a\") devuelve 12 (ignora la a) y parseFloat(\"3.5\") devuelve 3.5, al sumarlos el resultado es 15.5"
+    },
+    {
+        "id": 41,
+        "pregunta": "¿Qué se entiende por ámbito de una variable (scope) en JavaScript?",
+        "opciones": [
+            { "id": "a", "texto": "El tipo de dato que almacena"},
+            { "id": "b", "texto": "El lugar donde se declara y desde dónde es accesible"},
+            { "id": "c", "texto": "La cantidad de memoria que ocupa"},
+            { "id": "d", "texto": "El orden de ejecución del código"}
+        ],
+        "correcta": "b",
+        "explicación": "El ámbito de una variable se refiere al contexto en el que se declara y desde dónde es accesible. Puede ser global (accesible en todo el código) o local (desde una función o bloque específico)"
+    },
+    {
+        "id": 42,
+        "pregunta": "¿Cuál es la diferencia principal entre una variable global y una local en JavaScript?",
+        "opciones": [
+            { "id": "a", "texto": "La global solo existe dentro de las funciones"},
+            { "id": "b", "texto": "La local se comparte entre documentos"},
+            { "id": "c", "texto": "La global es accesible desde cualquier parte del script"},
+            { "id": "d", "texto": "La local no puede almacenar números"}
+        ],
+        "correcta": "c",
+        "explicación": "Una variable global es accesible desde cualquier parte y una local solo desde dentro de una función o bloque específico"
+    },
+    {
+        "id": 43,
+        "pregunta": "¿Qué mostrará el siguiente código?\nvar chica = \"Aurora\";\nvar perros = [\"Lacky\", \"Samba\", \"Ronda\"];\nfunction demo() {\nvar chica = \"Raquel\";\nconsole.log(perros + \" no pertenecen a \" + chica);\n}\ndemo();\nconsole.log(perros + \" pertenecen a \" + chica);",
+        "opciones": [
+            { "id": "a", "texto": "Ambas líneas dicen que pertenecen a Aurora"},
+            { "id": "b", "texto": "Ambas líneas dicen que pertenecen a Raquel"},
+            { "id": "c", "texto": "Primera línea Raquel, segunda Aurora"},
+            { "id": "d", "texto": "Primera línea Aurora, segunda Raquel"}
+        ],
+        "correcta": "c",
+        "explicación": "Dentro de la función demo la variable chica se redefine como Raquel por lo que la primera línea mostrará que los perros no pertenecen a Raquel, mientras que fuera de la función chica sigue siendo Aurora por lo que la segunda línea mostrará que los perros pertenecen a Aurora"
+    },
+    {
+        "id": 44,
+        "pregunta": "¿Qué método de los arrays en JavaScript añade elementos al final del array y devuelve la nueva longitud?",
+        "opciones": [
+            { "id": "a", "texto": "push"},
+            { "id": "b", "texto": "pop"},
+            { "id": "c", "texto": "shift"},
+            { "id": "d", "texto": "unshift"}
+        ],
+        "correcta": "a",
+        "explicación": "El método push añade 1 o más elementos al final de un array y devuelve la nueva longitud del array"
+    },
+    {
+        "id": 45,
+        "pregunta": "Dado el array let frutas = [\"Plátano\",\"Naranja\",\"Manzana\",\"Melocotón\"];, ¿qué mostrará console.log(frutas.slice(1));?",
+        "opciones": [
+            { "id": "a", "texto": "Plátano"},
+            { "id": "b", "texto": "[\"Plátano\",\"Naranja\"]"},
+            { "id": "c", "texto": "[\"Platano\",\"Manzana\",\"Melocotón\"]"},
+            { "id": "d", "texto": "\"Platano\",\"Manzana\",\"Melocotón\""}
+        ],
+        "correcta": "c",
+        "explicación": "El método slice(1) devuelve un nuevo array que contiene los elementos desde el indice 1 hasta el final del array original"
+    },
+    {
+        "id": 46,
+        "pregunta": "¿Qué característica tiene el operador delete cuando se aplica a un elemento de un array?",
+        "opciones": [
+            { "id": "a", "texto": "Elimina el elemento y reduce la propiedad length"},
+            { "id": "b", "texto": "Elimina el elemento pero no reduce la propiedad length"},
+            { "id": "c", "texto": "Ordena el array automáticamente"},
+            { "id": "d", "texto": "Lanza una excepción si el índice no existe"}
+        ],
+        "correcta": "b",
+        "explicación": "El operador delete elimina el elemento del array pero no reduce length, lo que deja es un espacio vacío (undefined) en el indice eliminado"
+    },
+    {
+        "id": 47,
+        "pregunta": "¿Qué imprime el siguiente código?\nlet frutas = [\"Plátano\",\"Naranja\",\"Manzana\",\"Melocotón\"];\nfrutas.reverse();\nconsole.log(frutas[0], frutas.length);",
+        "opciones": [
+            { "id": "a", "texto": "Plátano 4"},
+            { "id": "b", "texto": "Melocotón 4"},
+            { "id": "c", "texto": "Melocotón 1"},
+            { "id": "d", "texto": "Plátano 1"}
+        ],
+        "correcta": "b",
+        "explicación": "El método reverse invierte el orden de los elementos del array por lo que el primer elemento despues de invertir será 'Melocotón' y la longitud del array sigue siendo 4"
+    },
+    {
+        "id": 48,
+        "pregunta": "¿Qué estructura es más adecuada para almacenar una tabla de notas de alumnos y asignaturas en JavaScript?",
+        "opciones": [
+            { "id": "a", "texto": "Un solo número"},
+            { "id": "b", "texto": "Un array de números"},
+            { "id": "c", "texto": "Un array bidimensional (array de arrays)"},
+            { "id": "d", "texto": "Una cadena de texto separada por comas"}
+        ],
+        "correcta": "c",
+        "explicación": "Un array bidimensional es adecuado para representar una tabla de notas donde cada subarray puede representar las notas de un alumno en diferentes asignaturas o viceversa"
+    },
+    {
+        "id": 49,
+        "pregunta": "¿Qué mostrará el siguiente código?\nfunction hipotenusa(a, b) {\nfunction cuadrado(x) {\nreturn x * x;\n}\nreturn Math.sqrt(cuadrado(a) + cuadrado(b));\n}\nconsole.log( hipotenusa(3, 4) );",
+        "opciones": [
+            { "id": "a", "texto": 5},
+            { "id": "b", "texto": 7},
+            { "id": "c", "texto": 25},
+            { "id": "d", "texto": 12}
+        ],
+        "correcta": "a",
+        "explicación": "Esta función calcula la hipotenusa de un triangulo rectangulo usando el teorema de Pitagoras, el resultado de hipotenusa(3, 4) es 5 porque sqrt(3^2 + 4^2) = sqrt(9+ 16) = sqrt(25) = 5"
+    },
+    {
+        "id": 50,
+        "pregunta": "¿Cuál de estas afirmaciones sobre funciones en JavaScript es correcta?",
+        "opciones": [
+            { "id": "a", "texto": "No pueden devolver valores"},
+            { "id": "b", "texto": "Siempre deben llamarse antes de declararse"},
+            { "id": "c", "texto": "Son objetos y pueden pasarse como parámetros"},
+            { "id": "d", "texto": "No pueden tener parámetros"}
+        ],
+        "correcta": "c",
+        "explicación": "En JS las funciones son objetos de primera clase, pueden ser asignadas a variables, pasadas como argumentos a otras funciones y pueden devolver valores. No hace falta llamarlas antes de declararlas (hoisting) y pueden tener parametros"
+    },
+    { 
+        "id": 51,
+        "pregunta": "¿Qué hace la función global isNaN(valor)?",
+        "opciones": [
+            { "id": "a", "texto": "Comprueba si el valor es nulo"},
+            { "id": "b", "texto": "Comprueba si el valor no es un número"},
+            { "id": "c", "texto": "Convierte el valor a número"},
+            { "id": "d", "texto": "Redondea el valor"}
+        ],
+        "correcta": "b",
+        "explicación": "Esta funcion comprueba si el valor pasado no es un numero (NaN) devolviendo true si el valor no es un número válido y false si es un nçumero o puede convertirse a uno"
+    },
+    {
+        "id": 52,
+        "pregunta": "¿Qué objeto en la jerarquía de JavaScript representa la ventana o pestaña del navegador?",
+        "opciones": [
+            { "id": "a", "texto": "document"},
+            { "id": "b", "texto": "window"},
+            { "id": "c", "texto": "navigator"},
+            { "id": "d", "texto": "location"}
+        ],
+        "correcta": "b",
+        "explicación": "El objeto window representa la ventana o pestaña del navegador, es global y contiene propiedades y métodos para controlar la ventana, manejar eventos, acceder al DOM a traves de document, etc"
+    },
+    {
+        "id": 53,
+        "pregunta": "¿Qué método del objeto window se utiliza para abrir una nueva ventana?",
+        "opciones": [
+            { "id": "a", "texto": "window.create()"},
+            { "id": "b", "texto": "window.newWindow()"},
+            { "id": "c", "texto": "window.open()"},
+            { "id": "d", "texto": "window.popup()"}
+        ],
+        "correcta": "c",
+        "explicación": "El método window.open() se usa para abrir una nueva ventana o pestaña del navegador, puede recibir parámetros para especificar la URL, nombre d la ventana y sus características"
+    },
+    {
+        "id": 54,
+        "pregunta": "En el siguiente código, ¿qué propiedad de location muestra la URL completa del documento?\nlet salida = \"\";\nsalida += location.____;",
+        "opciones": [
+            { "id": "a", "texto": "host"},
+            { "id": "b", "texto": "href"},
+            { "id": "c", "texto": "pathname"},
+            { "id": "d", "texto": "protocol"}
+        ],
+        "correcta": "b",
+        "explicación": "La propiedad href devuelve la URL completa incluyendo el protocolo, host, path y query string del documento actual"
+    },
+    {
+        "id": 55,
+        "pregunta": "¿Qué propiedad del objeto navigator indica si las cookies están habilitadas?",
+        "opciones": [
+            { "id": "a", "texto": "navigator.cookies"},
+            { "id": "b", "texto": "navigator.cookieEnabled"},
+            { "id": "c", "texto": "navigator.cookiesActive"},
+            { "id": "d", "texto": "navigator.cookieStatus"}
+        ],
+        "correcta": "b",
+        "explicación": "La propiedad del objeto navigator.cookieEnabled devuelve true si las cookies están habilitadas o false si no lo estan"
+    },
+    {
+        "id": 56,
+        "pregunta": "¿Qué método del objeto document permite obtener un elemento por su atributo id?",
+        "opciones": [
+            { "id": "a", "texto": "document.getElementByClass"},
+            { "id": "b", "texto": "document.querySelectorAll"},
+            { "id": "c", "texto": "document.getElementById"},
+            { "id": "d", "texto": "document.getElementByTagName"}
+        ],
+        "correcta": "c",
+        "explicación": "El método document.getElementById se usa para obtener una referencia a un elemento del DOM que tenga el atributo id especificado y devuelve el elemento o null si no lo encuentra"
+    },
+    {
+        "id": 57,
+        "pregunta": "¿Qué mostrará el siguiente fragmento de código?\nlet enlace = document.links[0];\nconsole.log(enlace.href);",
+        "opciones": [
+            { "id": "a", "texto": "El número de enlaces del documento"},
+            { "id": "b", "texto": "La URL del primer enlace del documento"},
+            { "id": "c", "texto": "El texto del enlace"},
+            { "id": "d", "texto": "Una lista con todas las URLs"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 58,
+        "pregunta": "En el modelo DOM, ¿qué representa un nodo de tipo element?",
+        "opciones": [
+            { "id": "a", "texto": "Una propiedad CSS"},
+            { "id": "b", "texto": "Una etiqueta HTML y su contenido"},
+            { "id": "c", "texto": "Una cookie del navegador"},
+            { "id": "d", "texto": "Un archivo JavaScript externo"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 59,
+        "pregunta": "¿Qué significa DOM en el contexto de JavaScript y HTML?",
+        "opciones": [
+            { "id": "a", "texto": "Document Object Model"},
+            { "id": "b", "texto": "Data Object Mapping"},
+            { "id": "c", "texto": "Document Oriented Method"},
+            { "id": "d", "texto": "Dynamic Object Manager"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 60,
+        "pregunta": "¿Cuál de las siguientes tareas no está permitida por motivos de seguridad en JavaScript del lado del cliente?",
+        "opciones": [
+            { "id": "a", "texto": "Modificar el contenido de una página web"},
+            { "id": "b", "texto": "Leer cookies del dominio actual"},
+            { "id": "c", "texto": "Escribir archivos aleatorios en el disco del cliente"},
+            { "id": "d", "texto": "Enviar solicitudes HTTP al servidor"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 61,
+        "pregunta": "¿Qué es la política de mismo origen (same-origin policy)?",
+        "opciones": [
+            { "id": "a", "texto": "Una restricción que impide usar el mismo navegador en varios equipos"},
+            { "id": "b", "texto": "Una política que limita el acceso de scripts a recursos de otros orígenes"},
+            { "id": "c", "texto": "Una forma de comprimir JavaScript"},
+            { "id": "d", "texto": "Un estándar de CSS para fuentes"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 62,
+        "pregunta": "¿Qué es JSON en el contexto de JavaScript?",
+        "opciones": [
+            { "id": "a", "texto": "Un tipo de bucle"},
+            { "id": "b", "texto": "Un formato ligero de intercambio de datos basado en texto"},
+            { "id": "c", "texto": "Un motor de JavaScript"},
+            { "id": "d", "texto": "Una función predefinida del lenguaje"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 63,
+        "pregunta": "¿Qué función de JavaScript se utiliza típicamente para convertir un objeto en una cadena JSON?",
+        "opciones": [
+            { "id": "a", "texto": "JSON.decode"},
+            { "id": "b", "texto": "JSON.toString"},
+            { "id": "c", "texto": "JSON.stringify"},
+            { "id": "d", "texto": "JSON.objectify"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 64,
+        "pregunta": "¿Qué etiqueta semántica es más adecuada para representar un artículo independiente dentro de una página de noticias?",
+        "opciones": [
+            { "id": "a", "texto": "section"},
+            { "id": "b", "texto": "article"},
+            { "id": "c", "texto": "aside"},
+            { "id": "d", "texto": "main"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 65,
+        "pregunta": "¿Qué etiqueta HTML se usa para agrupar un término y su definición?",
+        "opciones": [
+            { "id": "a", "texto": "ol y li"},
+            { "id": "b", "texto": "ul y li"},
+            { "id": "c", "texto": "dl, dt y dd"},
+            { "id": "d", "texto": "table, tr y td"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 66,
+        "pregunta": "En una tabla HTML, ¿qué atributo se utiliza en una celda th para indicar que la cabecera se aplica a una columna?",
+        "opciones": [
+            { "id": "a", "texto": "scope=\"row\""},
+            { "id": "b", "texto": "scope=\"col\""},
+            { "id": "c", "texto": "scope=\"group\""},
+            { "id": "d", "texto": "type=\"col\""}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 67,
+        "pregunta": "En una lista ordenada, ¿qué atributo permite indicar el número inicial desde el que comienza a contar la lista?",
+        "opciones": [
+            { "id": "a", "texto": "start"},
+            { "id": "b", "texto": "init"},
+            { "id": "c", "texto": "from"},
+            { "id": "d", "texto": "begin"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 68,
+        "pregunta": "¿Cuál de las siguientes etiquetas se utiliza para agrupar contenido multimedia y su pie de figura?",
+        "opciones": [
+            { "id": "a", "texto": "img y alt"},
+            { "id": "b", "texto": "video y caption"},
+            { "id": "c", "texto": "figure y figcaption"},
+            { "id": "d", "texto": "picture y source"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 69,
+        "pregunta": "¿Qué atributo del enlace <a> indica dónde se abrirá el recurso enlazado?",
+        "opciones": [
+            { "id": "a", "texto": "rel"},
+            { "id": "b", "texto": "href"},
+            { "id": "c", "texto": "target"},
+            { "id": "d", "texto": "type"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 70,
+        "pregunta": "¿Cuál de las siguientes opciones es un atributo habitual en la etiqueta iframe?",
+        "opciones": [
+            { "id": "a", "texto": "method"},
+            { "id": "b", "texto": "action"},
+            { "id": "c", "texto": "name"},
+            { "id": "d", "texto": "enctype"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 71,
+        "pregunta": "¿Qué etiqueta del head se utiliza para incluir una hoja de estilos externa?",
+        "opciones": [
+            { "id": "a", "texto": "style"},
+            { "id": "b", "texto": "meta"},
+            { "id": "c", "texto": "link"},
+            { "id": "d", "texto": "script"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 72,
+        "pregunta": "¿Qué propiedad CSS define el ancho de un elemento?",
+        "opciones": [
+            { "id": "a", "texto": "size"},
+            { "id": "b", "texto": "width"},
+            { "id": "c", "texto": "length"},
+            { "id": "d", "texto": "height"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 73,
+        "pregunta": "Si queremos que un elemento solo ocupe el espacio necesario en horizontal y no fuerce salto de línea, ¿qué tipo de display es más adecuado?",
+        "opciones": [
+            { "id": "a", "texto": "block"},
+            { "id": "b", "texto": "inline-block"},
+            { "id": "c", "texto": "table"},
+            { "id": "d", "texto": "list-item"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 74,
+        "pregunta": "¿Qué propiedad CSS permite establecer el fondo de un elemento con una imagen?",
+        "opciones": [
+            { "id": "a", "texto": "background-image"},
+            { "id": "b", "texto": "background-src"},
+            { "id": "c", "texto": "image-url"},
+            { "id": "d", "texto": "border-image"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 75,
+        "pregunta": "Para colocar una imagen de fondo que no se repita y quede fija aunque se haga scroll, ¿qué combinaciones son correctas?",
+        "opciones": [
+            { "id": "a", "texto": "background-repeat: repeat; background-attachment: fixed;"},
+            { "id": "b", "texto": "background-repeat: no-repeat; background-attachment: fixed;"},
+            { "id": "c", "texto": "background-repeat: repeat-x; background-attachment: scroll;"},
+            { "id": "d", "texto": "background-repeat: no-repeat; background-attachment: scroll;"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 76,
+        "pregunta": "¿Cuál de estas propiedades CSS está relacionada con el modelo de cajas para controlar los márgenes externos?",
+        "opciones": [
+            { "id": "a", "texto": "padding-left"},
+            { "id": "b", "texto": "margin-top"},
+            { "id": "c", "texto": "border-style"},
+            { "id": "d", "texto": "outline-color"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 77,
+        "pregunta": "¿Qué selector CSS selecciona todos los párrafos que son hijos directos de un div?",
+        "opciones": [
+            { "id": "a", "texto": "div p"},
+            { "id": "b", "texto": "div > p"},
+            { "id": "c", "texto": "div + p"},
+            { "id": "d", "texto": "div ~ p"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 78,
+        "pregunta": "En CSS, ¿qué hace el selector universal *?",
+        "opciones": [
+            { "id": "a", "texto": "Selecciona solo elementos con clase *"},
+            { "id": "b", "texto": "Selecciona todos los elementos del documento"},
+            { "id": "c", "texto": "Selecciona solo elementos de tipo texto"},
+            { "id": "d", "texto": "Selecciona solo elementos del body"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 79,
+        "pregunta": "¿Cuál de las siguientes declaraciones de fuente utiliza correctamente varias tipografías de reserva?",
+        "opciones": [
+            { "id": "a", "texto": "font-family: Arial;"},
+            { "id": "b", "texto": "font-family: \"Times New Roman\";"},
+            { "id": "c", "texto": "font-family: Verdana, Arial, sans-serif;"},
+            { "id": "d", "texto": "font-family: sans-serif Verdana Arial;"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 80,
+        "pregunta": "En un formulario, ¿qué atributo marca un campo como obligatorio?",
+        "opciones": [
+            { "id": "a", "texto": "must"},
+            { "id": "b", "texto": "required"},
+            { "id": "c", "texto": "mandatory"},
+            { "id": "d", "texto": "needed"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 81,
+        "pregunta": "¿Qué tipo de input es más adecuado para introducir un número entero con validación de mínimo, máximo y salto?",
+        "opciones": [
+            { "id": "a", "texto": "input type=\"text\""},
+            { "id": "b", "texto": "input type=\"range\""},
+            { "id": "c", "texto": "input type=\"number\""},
+            { "id": "d", "texto": "input type=\"textarea\""}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 82,
+        "pregunta": "¿Qué campo usarías para permitir seleccionar varias opciones de una lista cerrada de valores?",
+        "opciones": [
+            { "id": "a", "texto": "input type=\"radio\""},
+            { "id": "b", "texto": "select multiple"},
+            { "id": "c", "texto": "input type=\"hidden\""},
+            { "id": "d", "texto": "datalist sin atributo multiple"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 83,
+        "pregunta": "En HTML5, ¿qué atributo de un input numérico define el incremento/decremento permitido al cambiar el valor?",
+        "opciones": [
+            { "id": "a", "texto": "increase"},
+            { "id": "b", "texto": "step"},
+            { "id": "c", "texto": "jump"},
+            { "id": "d", "texto": "delta"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 84,
+        "pregunta": "¿Qué diferencia principal hay entre disabled y readonly en un campo de formulario?",
+        "opciones": [
+            { "id": "a", "texto": "disabled envía los datos, readonly no"},
+            { "id": "b", "texto": "readonly envía los datos, disabled no"},
+            { "id": "c", "texto": "ambos envían los datos"},
+            { "id": "d", "texto": "ninguno se puede usar en inputs de texto"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 85,
+        "pregunta": "¿Qué mostrará el siguiente código JavaScript?\nlet x;\nconsole.log(x, typeof x);",
+        "opciones": [
+            { "id": "a", "texto": "undefined \"undefined\""},
+            { "id": "b", "texto": "null \"null\""},
+            { "id": "c", "texto": "0 \"number\""},
+            { "id": "d", "texto": "\"\" \"string\""}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 86,
+        "pregunta": "¿Qué valor toma la variable resultado?\nlet texto = \"3.14abc\";\nlet resultado = parseFloat(texto);",
+        "opciones": [
+            { "id": "a", "texto": "\"3.14\""},
+            { "id": "b", "texto": "3"},
+            { "id": "c", "texto": "3.14"},
+            { "id": "d", "texto": "NaN"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 87,
+        "pregunta": "¿Qué relación hay entre Java y JavaScript?",
+        "opciones": [
+            { "id": "a", "texto": "Son exactamente el mismo lenguaje"},
+            { "id": "b", "texto": "JavaScript es una versión simplificada de Java"},
+            { "id": "c", "texto": "Son lenguajes con sintaxis similar pero semántica y propósito diferentes"},
+            { "id": "d", "texto": "JavaScript se ejecuta siempre en la JVM"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 88,
+        "pregunta": "¿Qué se entiende por función anidada en JavaScript?",
+        "opciones": [
+            { "id": "a", "texto": "Una función que se llama dos veces"},
+            { "id": "b", "texto": "Una función definida dentro de otra función"},
+            { "id": "c", "texto": "Una función que no devuelve nada"},
+            { "id": "d", "texto": "Una función que solo puede definirse en global"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 89,
+        "pregunta": "¿Qué imprimirá este código?\nfunction externa() {\nlet mensaje = \"Hola\";\nfunction interna() {\nmensaje += \" mundo\";\nreturn mensaje;\n}\nconsole.log(interna());\n}\nexterna();",
+        "opciones": [
+            { "id": "a", "texto": "Hola"},
+            { "id": "b", "texto": "Hola mundo"},
+            { "id": "c", "texto": "mundo"},
+            { "id": "d", "texto": "undefined"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 90,
+        "pregunta": "¿Qué imprimirá la consola?\nlet sistemaSolar = [\"Mercurio\",\"Venus\",\"Tierra\",\"Marte\"];\nfor (let i = 0; i < sistemaSolar.length; i++) {\nif (i === 2) continue;\nconsole.log(sistemaSolar[i]);\n}",
+        "opciones": [
+            { "id": "a", "texto": "Mercurio, Venus, Tierra, Marte"},
+            { "id": "b", "texto": "Mercurio, Venus, Marte"},
+            { "id": "c", "texto": "Venus, Tierra, Marte"},
+            { "id": "d", "texto": "Mercurio, Tierra, Marte"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 91,
+        "pregunta": "¿Qué hace el método splice(2,1) sobre un array de longitud 4?",
+        "opciones": [
+            { "id": "a", "texto": "Inserta un elemento en la posición 2"},
+            { "id": "b", "texto": "Elimina 1 elemento a partir del índice 2"},
+            { "id": "c", "texto": "Elimina todos los elementos desde el índice 2"},
+            { "id": "d", "texto": "Invierte el array a partir del índice 2"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 92,
+        "pregunta": "Dado:\nlet datos = [\n[\"Cristina\",\"Seguridad\",24],\n[\"Catalina\",\"Bases de Datos\",17]\n];\nconsole.log(datos[1][1]);\n¿Qué se muestra?",
+        "opciones": [
+            { "id": "a", "texto": "24"},
+            { "id": "b", "texto": "Catalina"},
+            { "id": "c", "texto": "\"Bases de Datos\""},
+            { "id": "d", "texto": "17"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 93,
+        "pregunta": "¿Qué mostrará el siguiente código?\nfunction sumaBasica() {\nlet num1 = parseInt(\"10\");\nlet num2 = parseInt(\"abc\");\nif (isNaN(num2)) {\nreturn \"Número inválido\";\n} else {\nreturn num1 + num2;\n}\n}\nconsole.log(sumaBasica());",
+        "opciones": [
+            { "id": "a", "texto": "10"},
+            { "id": "b", "texto": "NaN"},
+            { "id": "c", "texto": "Número inválido"},
+            { "id": "d", "texto": "0"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 94,
+        "pregunta": "¿Qué tipo de restricción implementa un navegador cuando impide que un script de una página acceda a cookies de otro dominio?",
+        "opciones": [
+            { "id": "a", "texto": "Espacio seguro de ejecución"},
+            { "id": "b", "texto": "Política de mismo origen"},
+            { "id": "c", "texto": "Políticas de caché"},
+            { "id": "d", "texto": "Política de memoria"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 93,
+        "pregunta": "¿Cuál de las siguientes acciones sí puede hacer un script JavaScript en el navegador?",
+        "opciones": [
+            { "id": "a", "texto": "Modificar window.location.href"},
+            { "id": "b", "texto": "Escribir en el disco duro del cliente libremente"},
+            { "id": "c", "texto": "Cambiar preferencias internas del navegador"},
+            { "id": "d", "texto": "Leer archivos del sistema sin permiso"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 94,
+        "pregunta": "¿Qué tipo de objeto es document dentro del navegador?",
+        "opciones": [
+            { "id": "a", "texto": "Un objeto que representa el código fuente del servidor"},
+            { "id": "b", "texto": "Un objeto que representa el documento HTML cargado"},
+            { "id": "c", "texto": "Un objeto que representa la conexión de red"},
+            { "id": "d", "texto": "Un objeto que representa la base de datos local"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 95,
+        "pregunta": "¿Qué mostrará este código?\nconsole.log(window === self);",
+        "opciones": [
+            { "id": "a", "texto": "true en la mayoría de los casos"},
+            { "id": "b", "texto": "false siempre"},
+            { "id": "c", "texto": "true solo en iframes"},
+            { "id": "d", "texto": "Lanza una excepción"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 96,
+        "pregunta": "¿Qué método del objeto window se usa para mostrar un cuadro de diálogo con un mensaje y un botón Aceptar?",
+        "opciones": [
+            { "id": "a", "texto": "prompt"},
+            { "id": "b", "texto": "alert"},
+            { "id": "c", "texto": "confirm"},
+            { "id": "d", "texto": "show"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 97,
+        "pregunta": "¿Qué mostrará el siguiente código en la consola?\nlet salida = \"\";\nsalida += \"Host: \" + location.hostname;\nsalida += \" Protocolo: \" + location.protocol;\nconsole.log(salida);",
+        "opciones": [
+            { "id": "a", "texto": "Información sobre host y protocolo de la URL actual"},
+            { "id": "b", "texto": "Información sobre cookies"},
+            { "id": "c", "texto": "Información sobre el usuario"},
+            { "id": "d", "texto": "Nada, location no está definido en el navegador"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 98,
+        "pregunta": "¿Qué propiedad del objeto navigator suele devolver \"Netscape\" en muchos navegadores modernos por compatibilidad?",
+        "opciones": [
+            { "id": "a", "texto": "appVersion"},
+            { "id": "b", "texto": "appCodeName"},
+            { "id": "c", "texto": "appName"},
+            { "id": "d", "texto": "userAgent"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 99,
+        "pregunta": "¿Qué hace este código?\nlet formularios = document.forms;\nconsole.log(formularios.length);",
+        "opciones": [
+            { "id": "a", "texto": "Muestra el número de campos input"},
+            { "id": "b", "texto": "Muestra el número de formularios del documento"},
+            { "id": "c", "texto": "Muestra el número de botones submit"},
+            { "id": "d", "texto": "Muestra el número de enlaces"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 100,
+        "pregunta": "En el modelo DOM, ¿qué colección del objeto document contiene todos los enlaces de la página?",
+        "opciones": [
+            { "id": "a", "texto": "document.anchors"},
+            { "id": "b", "texto": "document.forms"},
+            { "id": "c", "texto": "document.links"},
+            { "id": "d", "texto": "document.images"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 101,
+        "pregunta": "¿Qué mostrará el siguiente código?\nlet navInfo = \"\";\nnavInfo += \"Plataforma: \" + navigator.platform;\nnavInfo += \" Cookies: \" + navigator.cookieEnabled;\nconsole.log(navInfo);",
+        "opciones": [
+            { "id": "a", "texto": "Información de plataforma y si las cookies están habilitadas"},
+            { "id": "b", "texto": "Lista de cookies"},
+            { "id": "c", "texto": "Errores de red"},
+            { "id": "d", "texto": "Versión del motor JavaScript únicamente"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 102,
+        "pregunta": "¿Qué afirmación sobre JSON es correcta?",
+        "opciones": [
+            { "id": "a", "texto": "Solo puede representarse con comillas simples"},
+            { "id": "b", "texto": "Puede representar objetos y arrays anidados"},
+            { "id": "c", "texto": "No admite valores booleanos"},
+            { "id": "d", "texto": "No admite null"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 103,
+        "pregunta": "¿Qué hace JSON.parse(cadena)?",
+        "opciones": [
+            { "id": "a", "texto": "Convierte un objeto en texto"},
+            { "id": "b", "texto": "Convierte una cadena JSON válida en un objeto JavaScript"},
+            { "id": "c", "texto": "Convierte una función en JSON"},
+            { "id": "d", "texto": "Valida que la cadena sea XML"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 104,
+        "pregunta": "¿Qué mostrará este código?\nlet obj = { nombre: \"Ana\", edad: 25 };\nlet texto = JSON.stringify(obj);\nconsole.log(typeof texto, texto.indexOf(\"Ana\") >= 0);",
+        "opciones": [
+            { "id": "a", "texto": "\"object\" true"},
+            { "id": "b", "texto": "\"string\" true"},
+            { "id": "c", "texto": "\"string\" false"},
+            { "id": "d", "texto": "\"object\" false"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 105,
+        "pregunta": "¿Qué etiqueta HTML es la más adecuada para incluir un vídeo con controles nativos del navegador?",
+        "opciones": [
+            { "id": "a", "texto": "<video controls src=\"...\"></video>"},
+            { "id": "b", "texto": "<media src=\"...\"></media>"},
+            { "id": "c", "texto": "<embed controls src=\"...\"></embed>"},
+            { "id": "d", "texto": "<object controls data=\"...\"></object>"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 106,
+        "pregunta": "¿Qué atributo de la etiqueta script se utiliza para indicar un archivo JavaScript externo?",
+        "opciones": [
+            { "id": "a", "texto": "href"},
+            { "id": "b", "texto": "src"},
+            { "id": "c", "texto": "link"},
+            { "id": "d", "texto": "file"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 107,
+        "pregunta": "¿Qué etiqueta semántica se utiliza para la cabecera de una sección o de toda la página?",
+        "opciones": [
+            { "id": "a", "texto": "top"}, 
+            { "id": "b", "texto": "header"}, 
+            { "id": "c", "texto": "nav"}, 
+            { "id": "d", "texto": "head"} 
+        ], 
+        "correcta": "b" 
+    },
+    { 
+        "id": 108, 
+        "pregunta": "¿Qué etiqueta se usa para el pie de página de una sección?", 
+        "opciones": [ 
+            { "id": "a", "texto": "bottom"}, 
+            { "id": "b", "texto": "base"}, 
+            { "id": "c", "texto": "footer"}, 
+            { "id": "d", "texto": "end"} 
+        ], 
+        "correcta": "c" 
+    },
+    { 
+        "id": 109, 
+        "pregunta": "¿Qué etiqueta HTML es adecuada para representar un bloque de cita larga, generalmente con sangrado?", 
+        "opciones": [ 
+            { "id": "a", "texto": "q"}, 
+            { "id": "b", "texto": "cite"}, 
+            { "id": "c", "texto": "blockquote"}, 
+            { "id": "d", "texto": "em"} 
+        ], 
+        "correcta": "c" 
+    },
+    { 
+        "id": 110, 
+        "pregunta": "¿Qué atributo del elemento video permite que el vídeo se reproduzca en bucle?", 
+        "opciones": [ 
+            { "id": "a", "texto": "repeat"}, 
+            { "id": "b", "texto": "infinite"}, 
+            { "id": "c", "texto": "loop"}, 
+            { "id": "d", "texto": "autoplay"} 
+        ], 
+        "correcta": "c" 
+    },
+    { 
+        "id": 111, 
+        "pregunta": "¿Qué etiqueta se usa para agrupar una serie de columnas en una tabla?", 
+        "opciones": [ 
+            { "id": "a", "texto": "colgroup"}, 
+            { "id": "b", "texto": "groupcol"}, 
+            { "id": "c", "texto": "columns"}, 
+            { "id": "d", "texto": "colset"} 
+        ], 
+        "correcta": "a" 
+    },
+    { 
+        "id": 112, 
+        "pregunta": "En una tabla, ¿qué etiqueta representa una columna concreta?", 
+        "opciones": [ 
+            { "id": "a", "texto": "td"}, 
+            { "id": "b", "texto": "col"}, 
+            { "id": "c", "texto": "th"}, 
+            { "id": "d", "texto": "column"} 
+        ], 
+        "correcta": "b" 
+    },
+    { 
+        "id": 113, 
+        "pregunta": "¿Qué propiedad CSS se usa para controlar si las celdas vacías de una tabla son visibles?", 
+        "opciones": [ 
+            { "id": "a", "texto": "table-layout"},
+            { "id": "b", "texto": "caption-side"}, 
+            { "id": "c", "texto": "empty-cells"}, 
+            { "id": "d", "texto": "border-collapse"} 
+        ], 
+        "correcta": "c"
+    },
+    { 
+        "id": 114, 
+        "pregunta": "¿Qué propiedad CSS controla el tamaño mínimo de ancho de un elemento?", 
+        "opciones": [
+            { "id": "a", "texto": "min-width"}, 
+            { "id": "b", "texto": "max-width"}, 
+            { "id": "c", "texto": "width-min"}, 
+            { "id": "d", "texto": "base-width"} 
+        ], 
+        "correcta": "a" 
+    },
+    { 
+        "id": 115, 
+        "pregunta": "Si un elemento tiene overflow: hidden;, ¿qué ocurre cuando el contenido desborda el contenedor?", 
+        "opciones": [ 
+            { "id": "a", "texto": "Se muestra todo el contenido con barras de desplazamiento"}, 
+            { "id": "b", "texto": "El contenido que sobresale se oculta"}, 
+            { "id": "c", "texto": "El contenido se escala automáticamente"}, 
+            { "id": "d", "texto": "El navegador aumenta el tamaño del contenedor"} 
+        ], 
+        "correcta": "b" 
+    },
+    { 
+        "id": 116, 
+        "pregunta": "¿Qué tipo de selector CSS es div.articulo strong?", 
+        "opciones": [ 
+            { "id": "a", "texto": "Selector de ID"}, 
+            { "id": "b", "texto": "Selector de clase"}, 
+            { "id": "c", "texto": "Selector descendiente"}, 
+            { "id": "d", "texto": "Selector universal"} 
+        ], 
+        "correcta": "c"
+    },
+    {
+        "id": 117, 
+        "pregunta": "¿Qué combinador CSS selecciona un hermano general, es decir, cualquier elemento del mismo nivel que aparece después del elemento de referencia?", 
+        "opciones": [ 
+            { "id": "a", "texto": ">"},
+            { "id": "b", "texto": "+"},
+            { "id": "c", "texto": "~"}, 
+            { "id": "d", "texto": "*"} 
+        ],
+        "correcta": "c"
+    },
+    { 
+        "id": 118, 
+        "pregunta": "¿Qué etiqueta HTML se usa para asociar un texto a un campo de formulario, mejorando la accesibilidad?", 
+        "opciones": [ 
+            { "id": "a", "texto": "span"}, 
+            { "id": "b", "texto": "label"}, 
+            { "id": "c", "texto": "caption"}, 
+            { "id": "d", "texto": "legend"} 
+        ], 
+        "correcta": "b" 
+    },
+    { 
+        "id": 119, 
+        "pregunta": "¿Qué atributo se utiliza en label para asociarla a un campo de formulario específico por su id?", 
+        "opciones": [ 
+            { "id": "a", "texto": "link"}, 
+            { "id": "b", "texto": "href"}, 
+            { "id": "c", "texto": "for"}, 
+            { "id": "d", "texto": "name"} 
+        ], 
+        "correcta": "c" 
+    },
+    { 
+        "id": 120, 
+        "pregunta": "¿Qué tipo de input es más adecuado para permitir al usuario subir un archivo?", 
+        "opciones": [ 
+            { "id": "a", "texto": "input type=\"file\""},
+            { "id": "b", "texto": "input type=\"text\""},
+            { "id": "c", "texto": "input type=\"upload\""}, 
+            { "id": "d", "texto": "input type=\"submit\""} 
+        ], 
+        "correcta": "a" 
+    },
+    { 
+        "id": 121, 
+        "pregunta": "¿Qué atributo de un formulario define la URL del recurso al que se enviarán los datos?", 
+        "opciones": [ 
+            { "id": "a", "texto": "method"}, 
+            { "id": "b", "texto": "action"}, 
+            { "id": "c", "texto": "target"}, 
+            { "id": "d", "texto": "enctype"} 
+        ], 
+        "correcta": "b" 
+    },
+    { 
+        "id": 122, 
+        "pregunta": "¿Qué mostrará el siguiente código JavaScript?\nlet a=5;\nlet b=\"5\";\nconsole.log(a + b, a - b);",
+        "opciones": [
+            { "id": "a", "texto": "10 0"}, 
+            { "id": "b", "texto": "55 0"}, 
+            { "id": "c", "texto": "10 NaN"}, 
+            { "id": "d", "texto": "55 NaN"} 
+        ], 
+        "correcta": "b" 
+    },
+    { 
+        "id": 123, 
+        "pregunta": "¿Qué valor toma la variable x?\nlet x = Number(\"3.14hola\");", 
+        "opciones": [ 
+            { "id": "a", "texto": "3.14"}, 
+            { "id": "b", "texto": "\"3.14\""}, 
+            { "id": "c", "texto": "NaN"}, 
+            { "id": "d", "texto": "0"} 
+        ], 
+        "correcta": "c" 
+    },
+    { 
+        "id": 124, 
+        "pregunta": "¿Qué mostrará la consola?\nlet z = \"10\";\nz++;\nconsole.log(z);", 
+        "opciones": [ 
+            { "id": "a", "texto": "\"11\""}, 
+            { "id": "b", "texto": "11"}, 
+            { "id": "c", "texto": "NaN"}, 
+            { "id": "d", "texto": "10"} 
+        ], 
+        "correcta": "d" },
+    { 
+        "id": 125, 
+        "pregunta": "¿Qué imprime este código?\nlet arr =[1,2,3];\narr.push(4);\narr.pop();\nconsole.log(arr.length);", 
+        "opciones": [ 
+            { "id": "a", "texto": "2"}, 
+            { "id": "b", "texto": "3"}, 
+            { "id": "c", "texto": "4"}, 
+            { "id": "d", "texto": "0"} 
+        ], 
+        "correcta": "b" 
+    },
+    { 
+        "id": 126, 
+        "pregunta": "¿Qué devuelve frutas.join(\"-\") si frutas = [\"Manzana\",\"Pera\",\"Uva\"];?", 
+        "opciones": [ 
+            { "id": "a", "texto": "[\"Manzana-Pera-Uva\"]"}, 
+            { "id": "b", "texto": "\"Manzana-Pera-Uva\""}, 
+            { "id": "c", "texto": "\"Manzana, Pera, Uva\""}, 
+            { "id": "d", "texto": "[\"Manzana\",\"Pera\",\"Uva\"]"} 
+        ], 
+        "correcta": "b" 
+    },
+    { 
+        "id": 127, 
+        "pregunta": "¿Qué resultado se obtiene?\nlet frutas = [\"Plátano\",\"Naranja\",\"Manzana\",\"Melocotón\"];\nfrutas.splice(1,2);\nconsole.log(frutas);", 
+        "opciones": [ 
+            { "id": "a", "texto": "[\"Naranja\",\"Manzana\"]"}, 
+            { "id": "b", "texto": "[\"Plátano\",\"Melocotón\"]"}, 
+            { "id": "c", "texto": "[\"Plátano\",\"Naranja\",\"Manzana\"]"}, 
+            { "id": "d", "texto": "[\"Manzana\",\"Melocotón\"]"} 
+        ], 
+        "correcta": "b" 
+    },
+    { 
+        "id": 128, 
+        "pregunta": "¿Qué representa mejor un array paralelo en JavaScript?", 
+        "opciones": [ 
+            { "id": "a", "texto": "Un array dentro de otro array"}, 
+            { "id": "b", "texto": "Varios arrays donde el mismo índice corresponde a información relacionada"}, 
+            { "id": "c", "texto": "Un array de números aleatorios"}, 
+            { "id": "d", "texto": "Un array ordenado alfabéticamente"} 
+        ], 
+        "correcta": "b" 
+    },
+    {
+        "id": 129,
+        "pregunta": "Considera:\nvar profesores = [\"Cristina\",\"María\",\"Carlos\"];\nvar asignaturas = [\"Seguridad\",\"Bases de Datos\",\"Sistemas Informáticos\"];\nconsole.log(profesores[1] + \" - \" + asignaturas[1]);\n¿Qué se muestra?",
+        "opciones": [ 
+            { "id": "a", "texto": "Cristina - Seguridad"}, 
+            { "id": "b", "texto": "María - Bases de Datos"}, 
+            { "id": "c", "texto": "Carlos - Sistemas Informáticos"}, 
+            { "id": "d", "texto": "María - Seguridad"} 
+        ], 
+        "correcta": "b" 
+    },
+    { 
+        "id": 130, 
+        "pregunta": "¿Qué función describe mejor un array bidimensional simulado en JavaScript?", 
+        "opciones": [ 
+            { "id": "a", "texto": "Permite almacenar solo cadenas"},
+            { "id": "b", "texto": "Es un array donde cada posición contiene otro array"}, 
+            { "id": "c", "texto": "Es un tipo de objeto especial del navegador"}, 
+            { "id": "d", "texto": "Es una función predefinida"} 
+        ], 
+        "correcta": "b" 
+    },
+    { 
+        "id": 131, 
+        "pregunta": "¿Qué mostrará este código?\nlet datos = [\n[\"Ana\",7,8,9],\n[\"Luis\",5,6,7]\n];\nconsole.log(datos[0][0], datos[1][3]);", 
+        "opciones": [ 
+            { "id": "a", "texto": "Ana 7"}, 
+            { "id": "b", "texto": "Ana 9"}, 
+            { "id": "c", "texto": "Luis 7"}, 
+            { "id": "d", "texto": "Luis 9"} 
+        ], 
+        "correcta": "b" 
+    },
+    { 
+        "id": 132, 
+        "pregunta": "¿Qué sintaxis define correctamente una función que devuelve el mayor de dos números?",
+        "opciones": [ 
+            { "id": "a", "texto": "function mayor(a, b) {\n if (a>b) return a;\n else return b;\n}"}, 
+            { "id": "b", "texto": "function mayor(a, b)\n if (a>b) a;\n else b;"}, 
+            { "id": "c", "texto": "function mayor(a, b) {\n return;\n}"}, 
+            { "id": "d", "texto": "mayor(a, b) {\n f(a>b) return a; \n}"} 
+        ], 
+        "correcta": "a"
+    },
+    { 
+        "id": 133, 
+        "pregunta": "¿Qué mostrará este código?\nvar chica = \"Aurora\";\nfunction demo() {\n chica = \"Raquel\";\n}\ndemo();\nconsole.log(chica);", 
+        "opciones": [ 
+            { "id": "a", "texto": "Aurora"}, 
+            { "id": "b", "texto": "Raquel"}, 
+            { "id": "c", "texto": "undefined"}, 
+            { "id": "d", "texto": "Error"} 
+        ], 
+        "correcta": "b" 
+    },
+    { 
+        "id": 134, 
+        "pregunta": "¿Qué tipo de variable se está modificando aquí?:\nvar chica = \"Aurora\";\nfunction demo() {\n chica = \"Raquel\";\n}\ndemo();\nconsole.log(chica);", 
+        "opciones": [ 
+            { "id": "a", "texto": "Solo una variable local"}, 
+            { "id": "b", "texto": "Una variable global desde una función"}, 
+            { "id": "c", "texto": "Un parámetro de la función"}, 
+            { "id": "d", "texto": "Una constante"} 
+        ], 
+        "correcta": "b" 
+    },
+    { 
+        "id": 135, 
+        "pregunta": "¿Qué mostrará este código?\nfunction externa() {\n var x=10;\n function interna() {\n  var y=5;\n  console.log(x+y);\n }\n interna(); \n}\nexterna();", 
+        "opciones": [ 
+            { "id": "a", "texto": "15"}, 
+            { "id": "b", "texto": "5"}, 
+            { "id": "c", "texto": "10"}, 
+            { "id": "d", "texto": "undefined"} 
+        ], 
+        "correcta": "d" 
+    },
+    { 
+        "id": 136, 
+        "pregunta": "¿Qué tipo de variable es y aquí?:\nfunction externa() {\n var x=10;\n function interna() {\n  var y=5;\n  console.log(x+y);\n }\n interna(); \n}\nexterna();", 
+        "opciones": [
+            { "id": "a", "texto": "Global"}, 
+            { "id": "b", "texto": "Local a externa"}, 
+            { "id": "c", "texto": "Local a interna"}, 
+            { "id": "d", "texto": "Constante global"} 
+        ], 
+        "correcta": "c" 
+    },
+    { 
+        "id": 137, 
+        "pregunta": "¿Qué hace la función global eval?", 
+        "opciones": [ 
+            { "id": "a", "texto": "Evalúa código JavaScript contenido en una cadena"}, 
+            { "id": "b", "texto": "Convierte una cadena en número"}, 
+            { "id": "c", "texto": "Comprueba si un valor es finito"}, 
+            { "id": "d", "texto": "Valida JSON"} 
+        ], 
+        "correcta": "a" 
+    },
+    { 
+        "id": 138, 
+        "pregunta": "¿Qué imprimirá este código?\neval(\"var a=5+10;\");\nconsole.log(a);", 
+        "opciones": [ 
+            { "id": "a", "texto": "5"}, 
+            { "id": "b", "texto": "10"}, 
+            { "id": "c", "texto": "15"}, 
+            { "id": "d", "texto": "undefined"} 
+        ], 
+        "correcta": "c" 
+    },
+    { 
+        "id": 139, 
+        "pregunta": "¿Qué propiedad del objeto window apunta al propio objeto window?", 
+        "opciones": [ 
+            { "id": "a", "texto": "self"}, 
+            { "id": "b", "texto": "document"},
+            { "id": "c", "texto": "location"}, 
+            { "id": "d", "texto": "parent"} 
+        ], 
+        "correcta": "a" 
+    },
+    { 
+        "id": 140, 
+        "pregunta": "¿Qué hace este código?\nvar subVentana = window.open(\"nueva.html\", \"nueva\", \"width=400,height=300\");\nsubVentana.close();",
+        "opciones": [ 
+            { "id": "a", "texto": "Abre una ventana y la cierra inmediatamente"}, 
+            { "id": "b", "texto": "Solo abre una ventana"}, 
+            { "id": "c", "texto": "Solo cierra la ventana actual"}, 
+            { "id": "d", "texto": "No hace nada"} 
+        ], 
+        "correcta": "a" 
+    },
+    { 
+        "id": 141, 
+        "pregunta": "¿Qué mostrará este código?\nconsole.log(window.location.href.indexOf(\"google\") >= 0);", 
+        "opciones": [ 
+            { "id": "a", "texto": "true si la URL contiene \"google\""}, 
+            { "id": "b", "texto": "false siempre"}, 
+            { "id": "c", "texto": "Devuelve la URL completa"}, 
+            { "id": "d", "texto": "Lanza un error"} 
+        ], 
+        "correcta": "a" 
+    },
+    { 
+        "id": 142, 
+        "pregunta": "¿Qué metodo del objeto location recarga la página actual?", 
+        "opciones": [ 
+            { "id": "a", "texto": "reload()"}, 
+            { "id": "b", "texto": "assign()"}, 
+            { "id": "c", "texto": "replace()"}, 
+            { "id": "d", "texto": "refresh()"} 
+        ], 
+        "correcta": "a" 
+    },
+    { 
+        "id": 143, 
+        "pregunta": "¿Qué mostrará este código?\nif (navigator.cookieEnabled) {\n console.log(\"Cookies activadas\");\n} else {\n console.log(\"Cookies desactivadas\");\n}", 
+        "opciones": [ 
+            { "id": "a", "texto": "Siempre \"Cookies desactivadas\""}, 
+            { "id": "b", "texto": "Siempre \"Cookies activadas\""},
+            { "id": "c", "texto": "Depende de la configuración del navegador"}, 
+            { "id": "d", "texto": "Nada, navigator.cookieEnabled no existe"} 
+        ], 
+        "correcta": "c" 
+    },
+    { 
+        "id": 144, 
+        "pregunta": "¿Qué hace el siguiente código? document.write(\"Hola mundo\");", 
+        "opciones": [ 
+            { "id": "a", "texto": "Modifica solo el título de la página"}, 
+            { "id": "b", "texto": "Escribe directamente en el documento HTML"}, 
+            { "id": "c", "texto": "Escribe en la consola"}, 
+            { "id": "d", "texto": "No hace nada en navegadores modernos"} 
+        ], 
+        "correcta": "b" 
+    },
+    { 
+        "id": 145, 
+        "pregunta": "¿Qué mostrará este código?\nlet enlaces = document.links;\nfor (let i=0; i < enlaces.length; i++) {\n console.log(enlaces[i].href);\n}", 
+        "opciones": [ 
+            { "id": "a", "texto": "Una lista con los nombres de los formularios"},
+            { "id": "b", "texto": "Una lista con las URLs de todos los enlaces"}, 
+            { "id": "c", "texto": "Una lista con títulos de la página"}, 
+            { "id": "d", "texto": "Nada, document.links siempre está vacío"}
+        ], 
+        "correcta": "b" 
+    },
+    {
+        "id": 146, 
+        "pregunta": "¿Qué mostrará este código?\nlet obj = { a: 1, b: 2 };\nlet copia = JSON.parse(JSON.stringify(obj));\ncopia.a = 10;\nconsole.log(obj.a, copia.a);", 
+        "opciones": [ 
+            { "id": "a", "texto": "10 10"}, 
+            { "id": "b", "texto": "1 10"}, 
+            { "id": "c", "texto": "10 1"}, 
+            { "id": "d", "texto": "1 1"} 
+        ], 
+        "correcta": "b" 
+    },
+    { 
+        "id": 147, 
+        "pregunta": "¿Qué forma de definir un objeto literal es correcta?", 
+        "opciones": [ 
+            { "id": "a", "texto": "var coche = marca: \"Audi\", modelo: \"A6\";"}, 
+            { "id": "b", "texto": "var coche = [\"Audi\",\"A6\"];"}, 
+            { "id": "c", "texto": "var coche = { marca: \"Audi\", modelo: \"A6\" };"}, 
+            { "id": "d", "texto": "var coche = (marca=\"Audi\", modelo =\"A6\");"} 
+        ], 
+        "correcta": "c" 
+    },
+    { 
+        "id": 148, 
+        "pregunta": "¿Qué hace el siguiente constructor?\nfunction Coche (marca, combustible) {\n this.marca = marca;\n this.combustible = combustible;\n this.cantidad = 0;\n}", 
+        "opciones": [ 
+            { "id": "a", "texto": "Define un objeto sin propiedades"}, 
+            { "id": "b", "texto": "Define una plantilla para crear objetos Coche"}, 
+            { "id": "c", "texto": "Es un bucle que suma cantidad"}, 
+            { "id": "d", "texto": "Es una función que no se puede instanciar"} 
+        ], 
+        "correcta": "b" 
+    },
+    { 
+        "id": 149, 
+        "pregunta": "¿Qué mostrará este código?\nvar cocheDeAna = new Coche(\"Seat Ibiza\", \"gasolina\");\nconsole.log(cocheDeAna.marca, cocheDeAna.cantidad);", 
+        "opciones": [ 
+            { "id": "a", "texto": "undefined 0"},
+            { "id": "b", "texto": "Seat Ibiza 0"}, 
+            { "id": "c", "texto": "Seat Ibiza undefined"}, 
+            { "id": "d", "texto": "undefined undefined"} 
+        ], 
+        "correcta": "b" 
+    },
+    { 
+        "id": 150, 
+        "pregunta": "¿Qué diferencia hay entre un objeto literal y uno creado con un constructor en JavaScript?", 
+        "opciones": [ 
+            { "id": "a", "texto": "Ninguna, son exactamente iguales"}, 
+            { "id": "b", "texto": "El literal se define directamente con {}, el otro se crea con new y una función constructora"}, 
+            { "id": "c", "texto": "El literal no puede tener métodos"}, 
+            { "id": "d", "texto": "El de constructor no puede tener propiedades"} 
+        ], 
+        "correcta": "b" 
+    },
+    { 
+        "id": 151, 
+        "pregunta": "¿Qué mostrará este código?\nvar datos = [\n { id: 1, nombre: \"IES A Piringalla\" },\n { id: 2, nombre: \"IES As Fontiñas\" }\n];\nconsole.log(datos[1].nombre);", 
+        "opciones": [
+            { "id": "a", "texto": "IES A Piringalla"}, 
+            { "id": "b", "texto": "IES As Fontiñas"}, 
+            { "id": "c", "texto": "1"}, 
+            { "id": "d", "texto": "2"} 
+        ], 
+        "correcta": "b" 
+    },
+    {
+        "id": 152,
+        "pregunta": "¿Cuál es el orden visual correcto de los items en el siguiente flex container?\n<style>\n.container { display: flex; flex-wrap: wrap; gap: 10px; }\n.item1 { flex: 1 1 200px; }\n.item2 { flex: 0 0 100px; order: 2; }\n.item3 { flex-grow: 2; align-self: end; }\n</style>\n<div class=\"container\">\n <div class=\"item1\">ITEM1</div>\n <div class=\"item2\">ITEM2</div>\n <div class=\"item3\">ITEM3</div>\n</div>",
+        "opciones": [
+            { "id": "a", "texto": "ITEM1, ITEM2, ITEM3" },
+            { "id": "b", "texto": "ITEM1, ITEM3, ITEM2" },
+            { "id": "c", "texto": "ITEM2, ITEM1, ITEM3" },
+            { "id": "d", "texto": "ITEM3, ITEM1, ITEM2" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 153,
+        "pregunta": "¿Cuál es el ancho total ocupado por .box?\n.box {\n width: 200px;\n padding: 20px;\n border: 5px solid;\n box-sizing: content-box;\n}",
+        "opciones": [
+            { "id": "a", "texto": "200px" },
+            { "id": "b", "texto": "230px" },
+            { "id": "c", "texto": "250px" },
+            { "id": "d", "texto": "240px" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 154,
+        "pregunta": "¿Qué contenido aparece antes del enlace \"Sobre\" al pasar el ratón por \"Inicio\"?\nnav > a:hover + a::before {\n content: \"→\";\n color: red;\n}\n<nav><a href=\"#\">Inicio</a><a href=\"#\">Sobre</a></nav>",
+        "opciones": [
+            { "id": "a", "texto": "Nada" },
+            { "id": "b", "texto": "\"Inicio→\"" },
+            { "id": "c", "texto": "→ Sobre" },
+            { "id": "d", "texto": "\"→\"" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 155,
+        "pregunta": "¿En qué celda de la grid termina el elemento .item-A?\n.grid {\n display: grid;\n grid-template-columns: 1fr 2fr [col-end] 1fr;\n grid-template-rows: 100px [row2-start] 1fr;\n}\n.item-A { grid-column: 2; grid-row: row2-start; }",
+        "opciones": [
+            { "id": "a", "texto": "Columna 2, fila 2" },
+            { "id": "b", "texto": "Columna 2, fila 1" },
+            { "id": "c", "texto": "Columna 3, fila 2" },
+            { "id": "d", "texto": "Columna 1, fila 2" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 156,
+        "pregunta": "¿Cuántas propiedades se animan simultáneamente al hacer hover?\n.btn {\n transition: all 0.3s ease;\n}\n.btn:hover {\n transform: translateX(10px);\n box-shadow: 0 5px 15px rgba(0,0,0,0.3);\n}",
+        "opciones": [
+            { "id": "a", "texto": "1" },
+            { "id": "b", "texto": "2" },
+            { "id": "c", "texto": "3" },
+            { "id": "d", "texto": "Todas las propiedades del elemento" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 157,
+        "pregunta": "¿Cuántos elementos .child tendrán fondo amarillo?\n.parent:nth-child(odd) > .child {\n background: yellow;\n}\n<div class=\"parent\"><div class=\"child\">X</div></div>\n<div>X</div>\n<div class=\"parent\"><div class=\"child\">X</div></div>",
+        "opciones": [
+            { "id": "a", "texto": "0" },
+            { "id": "b", "texto": "1" },
+            { "id": "c", "texto": "2" },
+            { "id": "d", "texto": "Todos" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 158,
+        "pregunta": "¿Qué propiedad del universal selector afecta al box-sizing de todos los elementos?\n* { margin: 0; padding: 0; box-sizing: border-box; }",
+        "opciones": [
+            { "id": "a", "texto": "margin: 0" },
+            { "id": "b", "texto": "padding: 0" },
+            { "id": "c", "texto": "box-sizing: border-box" },
+            { "id": "d", "texto": "gap: 10px" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 159,
+        "pregunta": "¿En qué momento del tiempo (en segundos) estará el elemento en translateX(100px)?\n@keyframes slide {\n 0% { transform: translateX(0); }\n 50% { transform: translateX(100px); }\n 100% { transform: translateX(0); }\n}\n.box { animation: slide 2s infinite; }",
+        "opciones": [
+            { "id": "a", "texto": "Nunca" },
+            { "id": "b", "texto": "t=1s" },
+            { "id": "c", "texto": "t=0.5s y t=1.5s" },
+            { "id": "d", "texto": "t=2s" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 160,
+        "pregunta": "Si el contenedor tiene 400px de alto, ¿qué altura tendrá el segundo div hijo?\n.flex {\n display: flex;\n align-items: center;\n justify-content: space-between;\n}\n.flex > div:nth-child(2) { align-self: stretch; }",
+        "opciones": [
+            { "id": "a", "texto": "400px (stretch)" },
+            { "id": "b", "texto": "Auto (contenido)" },
+            { "id": "c", "texto": "0px" },
+            { "id": "d", "texto": "100%" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 161,
+        "pregunta": "¿Qué icono aparece después del texto \"External\"?\na[href^=\"https\"]::after { content: \" 🔒 \"; }\n<a href=\"http://local\">Local</a>\n<a href=\"https://external.com\">External</a>",
+        "opciones": [
+            { "id": "a", "texto": "Ninguno" },
+            { "id": "b", "texto": "🔒" },
+            { "id": "c", "texto": "➤" },
+            { "id": "d", "texto": "↗" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 162,
+        "pregunta": "¿Qué tipo de layout usa este contenedor?\n.container {\n column-count: 3;\n column-gap: 20px;\n column-rule: 1px solid gray;\n}",
+        "opciones": [
+            { "id": "a", "texto": "Flexbox" },
+            { "id": "b", "texto": "Grid" },
+            { "id": "c", "texto": "Columnas múltiples" },
+            { "id": "d", "texto": "Block tradicional" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 163,
+        "pregunta": "¿En qué situación se aplica este estilo por defecto?\n:focus-visible {\n outline: 2px solid blue;\n outline-offset: 2px;\n}",
+        "opciones": [
+            { "id": "a", "texto": "Siempre en focus" },
+            { "id": "b", "texto": "Nunca en móviles" },
+            { "id": "c", "texto": "Solo con ratón" },
+            { "id": "d", "texto": "Solo con teclado (no ratón)" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 164,
+        "pregunta": "¿Qué efecto visual produce esta declaración?\n.card {\n background: linear-gradient(45deg, red 0%, yellow 50%, green 100%);\n background-clip: text;\n -webkit-background-clip: text;\n color: transparent;\n}",
+        "opciones": [
+            { "id": "a", "texto": "Fondo degradé normal" },
+            { "id": "b", "texto": "Texto con degradé de colores" },
+            { "id": "c", "texto": "Texto transparente sobre fondo" },
+            { "id": "d", "texto": "Error de sintaxis" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 165,
+        "pregunta": "¿Qué se imprime en la segunda línea?\nconst arr = [1, 2, 3];\nconsole.log(arr.splice(1, 1, 'X'));\nconsole.log(arr);",
+        "opciones": [
+            { "id": "a", "texto": "[1, 2, 3]" },
+            { "id": "b", "texto": "['X']" },
+            { "id": "c", "texto": "[1, 'X', 3]" },
+            { "id": "d", "texto": "[2]" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 166,
+        "pregunta": "¿Qué se imprime?\nfunction test() {\n console.log('A');\n return;\n console.log('B');\n}\ntest();",
+        "opciones": [
+            { "id": "a", "texto": "A B" },
+            { "id": "b", "texto": "A" },
+            { "id": "c", "texto": "B" },
+            { "id": "d", "texto": "Nada" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 167,
+        "pregunta": "¿Qué valor se imprime?\nconst obj = {a:1, b:2};\nconst arr = [obj];\nobj.c = 3;\nconsole.log(arr[0].c);",
+        "opciones": [
+            { "id": "a", "texto": "3" },
+            { "id": "b", "texto": "undefined" },
+            { "id": "c", "texto": "null" },
+            { "id": "d", "texto": "Error" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 168,
+        "pregunta": "¿Qué secuencia se imprime?\nfor (let i=0; i < 3; i++) {\n setTimeout( ()=> console.log(i), 0);\n}",
+        "opciones": [
+            { "id": "a", "texto": "0 1 2" },
+            { "id": "b", "texto": "3 3 3" },
+            { "id": "c", "texto": "0 123" },
+            { "id": "d", "texto": "Error" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 169,
+        "pregunta": "¿Qué valor se imprime?\nconst x = { value: 42 };\nfunction changeValue(obj) {\n obj.value = 100;\n}\nchangeValue(x);\nconsole.log(x.value);",
+        "opciones": [
+            { "id": "a", "texto": "42" },
+            { "id": "b", "texto": "100" },
+            { "id": "c", "texto": "undefined" },
+            { "id": "d", "texto": "Error" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 170,
+        "pregunta": "¿Qué se imprime?\nconsole.log(typeof typeof 42);",
+        "opciones": [
+            { "id": "a", "texto": "number" },
+            { "id": "b", "texto": "object" },
+            { "id": "c", "texto": "string" },
+            { "id": "d", "texto": "undefined" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 171,
+        "pregunta": "¿Qué se imprime?\nconst arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2).filter(x => x > 4));",
+        "opciones": [
+            { "id": "a", "texto": "[2, 4, 6]" },
+            { "id": "b", "texto": "[4, 6]" },
+            { "id": "c", "texto": "[1, 2, 3]" },
+            { "id": "d", "texto": "[]" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 172,
+        "pregunta": "¿Qué se imprime?\nfunction* gen() {\n yield 1;\n yield 2;\n return 3;\n}\nconst iterator = gen();\nconsole.log(iterator.next().value, iterator.next().done);",
+        "opciones": [
+            { "id": "a", "texto": "1 false" },
+            { "id": "b", "texto": "1 true" },
+            { "id": "c", "texto": "3 true" },
+            { "id": "d", "texto": "Error" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 173,
+        "pregunta": "¿Qué valor se imprime?\nconst obj1 = {a:1};\nconst obj2 = {...obj1, b:2};\nobj1.a = 99;\nconsole.log(obj2.a);",
+        "opciones": [
+            { "id": "a", "texto": "99" },
+            { "id": "b", "texto": "1" },
+            { "id": "c", "texto": "undefined" },
+            { "id": "d", "texto": "Error" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 174,
+        "pregunta": "¿Qué se imprime?\nPromise.resolve(1)\n .then(x => { throw new Error('X'); })\n .catch(e => console.log('Error'));",
+        "opciones": [
+            { "id": "a", "texto": "1" },
+            { "id": "b", "texto": "Nada" },
+            { "id": "c", "texto": "Error" },
+            { "id": "d", "texto": "Stack trace completo" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 175,
+        "pregunta": "¿Qué valor se imprime?\nconst fn = (a=1) => (b=2) => a + b;\nconsole.log(fn()());",
+        "opciones": [
+            { "id": "a", "texto": "3" },
+            { "id": "b", "texto": "1" },
+            { "id": "c", "texto": "2" },
+            { "id": "d", "texto": "NaN" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 176,
+        "pregunta": "¿Qué valor se devuelve? (sin valor inicial)\n[1, 2, 3].reduce((acc, curr) => acc + curr);",
+        "opciones": [
+            { "id": "a", "texto": "6" },
+            { "id": "b", "texto": "NaN" },
+            { "id": "c", "texto": "undefined" },
+            { "id": "d", "texto": "Error" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 177,
+        "pregunta": "¿Qué se imprime?\nconst arr = ['a', 'b', 'c'];\nconsole.log(arr.indexOf('B'));",
+        "opciones": [
+            { "id": "a", "texto": "1" },
+            { "id": "b", "texto": "-1" },
+            { "id": "c", "texto": "0" },
+            { "id": "d", "texto": "undefined" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 178,
+        "pregunta": "¿Qué se imprime?\nfunction outer() {\n const x = 1;\n return function inner() {\n  console.log(x);\n }\n}\nconst fn = outer();\nfn();",
+        "opciones": [
+            { "id": "a", "texto": "undefined" },
+            { "id": "b", "texto": "ReferenceError" },
+            { "id": "c", "texto": "Error" },
+            { "id": "d", "texto": "1" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 179,
+        "pregunta": "Si el botón está dentro de un <form>, ¿qué pasa al hacer clic?\nconst button = document.querySelector('button');\nbutton.addEventListener('click', e => {\n e.preventDefault();\n console.log('Clicked');\n});",
+        "opciones": [
+            { "id": "a", "texto": "Se ejecuta preventDefault() y no se envía el form" },
+            { "id": "b", "texto": "Se envía el form" },
+            { "id": "c", "texto": "Error" },
+            { "id": "d", "texto": "No pasa nada" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 180,
+        "pregunta": "Si hay 3 divs y se hace clic en el segundo, ¿qué se imprime?\nconst divs = document.querySelectorAll('div');\ndivs.forEach((div, index) => {\n div.addEventListener('click', () => console.log(index));\n});",
+        "opciones": [
+            { "id": "a", "texto": "0" },
+            { "id": "b", "texto": "1" },
+            { "id": "c", "texto": "2" },
+            { "id": "d", "texto": "undefined" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 181,
+        "pregunta": "¿Qué se imprime?\nObject.prototype.objCustom = 'soy global';\nconst obj = {};\nconsole.log(obj.hasOwnProperty('objCustom'));",
+        "opciones": [
+            { "id": "a", "texto": "true" },
+            { "id": "b", "texto": "false" },
+            { "id": "c", "texto": "undefined" },
+            { "id": "d", "texto": "Error" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 182,
+        "pregunta": "¿Qué valor se imprime?\nconst arr = [1, [2, 3], 4];\nconsole.log(arr.flat().length);",
+        "opciones": [
+            { "id": "a", "texto": "3" },
+            { "id": "b", "texto": "4" },
+            { "id": "c", "texto": "5" },
+            { "id": "d", "texto": "Error" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 183,
+        "pregunta": "¿Qué se imprime?\nconst fnA = () => 'A';\nconst fnB = () => 'B';\nconsole.log([fnA, fnB].map(fn => fn()));",
+        "opciones": [
+            { "id": "a", "texto": "['A', 'B']" },
+            { "id": "b", "texto": "['fnA()', 'fnB()']" },
+            { "id": "c", "texto": "Error" },
+            { "id": "d", "texto": "fnA fnB" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 184,
+        "pregunta": "¿Qué se imprime?\nclass Parent {\n constructor (name) { this.name = name; }\n}\nclass Child extends Parent {\n constructor (name) {\n  super(name);\n  this.type = 'child';\n }\n}\nconst child = new Child('test');\nconsole.log(child instanceof Parent);",
+        "opciones": [
+            { "id": "a", "texto": "true" },
+            { "id": "b", "texto": "false" },
+            { "id": "c", "texto": "undefined" },
+            { "id": "d", "texto": "Error" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 185,
+        "pregunta": "¿Qué valor se imprime?\nconst obj = {a:1};\nObject.freeze(obj);\nobj.a = 2;\nconsole.log(obj.a);",
+        "opciones": [
+            { "id": "a", "texto": "2" },
+            { "id": "b", "texto": "1" },
+            { "id": "c", "texto": "undefined" },
+            { "id": "d", "texto": "Error" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 186,
+        "pregunta": "¿Qué valor se imprime?\nconst arr1 = [1, 2];\nconst arr2 = [...arr1];\narr2.push(3);\nconsole.log(arr1.length);",
+        "opciones": [
+            { "id": "a", "texto": "2" },
+            { "id": "b", "texto": "3" },
+            { "id": "c", "texto": "1" },
+            { "id": "d", "texto": "Error" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 187,
+        "pregunta": "Si la respuesta es 404, ¿qué se ejecuta?\nfetch('/api/data')\n .then(response => response.ok ? response.json() : Promise.reject())\n .then(data => console.log(data))\n .catch(err => console.log('Error'));",
+        "opciones": [
+            { "id": "a", "texto": "Primer .then()" },
+            { "id": "b", "texto": "Segundo .then()" },
+            { "id": "c", "texto": ".catch()" },
+            { "id": "d", "texto": "Nada" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 188,
+        "pregunta": "¿Qué valor se imprime?\nconst {a, ...rest} = {a:1, b:2, c:3};\nconsole.log(rest.b);",
+        "opciones": [
+            { "id": "a", "texto": "Error" },
+            { "id": "b", "texto": "undefined" },
+            { "id": "c", "texto": "1" },
+            { "id": "d", "texto": "2" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 189,
+        "pregunta": "Si no existe ningún elemento .item, ¿qué pasa?\ndocument.querySelectorAll('.item').forEach(item => {\n item.style.background = 'red';\n});",
+        "opciones": [
+            { "id": "a", "texto": "Error de ejecución" },
+            { "id": "b", "texto": "Nada, el código termina normalmente" },
+            { "id": "c", "texto": "Se pinta el body de rojo" },
+            { "id": "d", "texto": "querySelectorAll devuelve undefined" }
+        ],
+        "correcta": "b"
+    }
+]

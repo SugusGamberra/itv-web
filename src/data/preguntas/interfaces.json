@@ -1,0 +1,2092 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Qué hace <dialog open> nativo?",
+        "opciones": [
+            { "id": "a", "texto": "Lista desplegable"},
+            { "id": "b", "texto": "Ventana modal centrada, crea ventana modal nativa que se centra automáticamente en top-layer del navegador"},
+            { "id": "c", "texto": "Acordeón"},
+            { "id": "d", "texto": "Autocompletado"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 2,
+        "pregunta": "Para cerrar dialog con JS:",
+        "opciones": [
+            { "id": "a", "texto": "setAttribute('open', 'open')"},
+            { "id": "b", "texto": "dialog.hide()"},
+            { "id": "c", "texto": "dialog.show()"},
+            { "id": "d", "texto": "removeAttribute('open'); dialog.removeAttribute('open') o dialog.close()"}
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 3,
+        "pregunta": "<datalist> se usa con:",
+        "opciones": [
+            { "id": "a", "texto": "dialog"},
+            { "id": "b", "texto": "input list=\"id\"; vincula con <datalist id=\"sugerencias\"> mediante ID"},
+            { "id": "c", "texto": "details"},
+            { "id": "d", "texto": "iframe"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 4,
+        "pregunta": "<details><summary> crea:",
+        "opciones": [
+            { "id": "a", "texto": "Modal"},
+            { "id": "b", "texto": "Sugerencias input"},
+            { "id": "c", "texto": "Acordeón/FAQ; es una estructura nativa expandible/colapsable sin JavaScript para FAQs/acordeones."},
+            { "id": "d", "texto": "Mapa interactivo"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 5,
+        "pregunta": "Box Model: área interna es:",
+        "opciones": [
+            { "id": "a", "texto": "Margin"},
+            { "id": "b", "texto": "Border"},
+            { "id": "c", "texto": "Padding"},
+            { "id": "d", "texto": "Contenido; Orden: Contenido → Padding → Border → Margin. Área interna = contenido"}
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 6,
+        "pregunta": "Propiedad background combina:",
+        "opciones": [
+            { "id": "a", "texto": "Solo color"},
+            { "id": "b", "texto": "Color, imagen, repeat, position; background: #DCFF50 url('fondo.gif') no-repeat fixed center;"},
+            { "id": "c", "texto": "Solo imagen"},
+            { "id": "d", "texto": "Solo repeat"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 7,
+        "pregunta": "Selector descendente:",
+        "opciones": [
+            { "id": "a", "texto": "div p (cualquier nivel); div p= todos <p> dentro div (nietos, bisnietos...). div >p= solo hijos directos"},
+            { "id": "b", "texto": "div>p (hijo directo)"},
+            { "id": "c", "texto": "div+p (adyacente)"},
+            { "id": "d", "texto": ".clase"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 8,
+        "pregunta": "Pseudoclase :hover aplica en:",
+        "opciones": [
+            { "id": "a", "texto": "Solo links"},
+            { "id": "b", "texto": "Solo focus"},
+            { "id": "c", "texto": "Cualquier elemento con cursor encima; funciona en cualquier elemento, no solo links (button:hover, div:hover, etc.)"},
+            { "id": "d", "texto": "Primer hijo"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 9,
+        "pregunta": "<abbr title=\"texto\"> genera:",
+        "opciones": [
+            { "id": "a", "texto": "Tooltip nativo; hover muestra tooltip y screen readers leen definición completa."},
+            { "id": "b", "texto": "Modal"},
+            { "id": "c", "texto": "Lista"},
+            { "id": "d", "texto": "Video embed"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 10,
+        "pregunta": "Flexbox se activa con:",
+        "opciones": [
+            { "id": "a", "texto": "display: block"},
+            { "id": "b", "texto": "display: flex; display: flex convierte contenedor en flex container, hijos = flex items."},
+            { "id": "c", "texto": "float: left"},
+            { "id": "d", "texto": "position: absolute"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 11,
+        "pregunta": "justify-content: center alinea en:",
+        "opciones": [
+            { "id": "a", "texto": "Eje principal; eje principal (horizontal por defecto). align-items = eje cruzado (vertical)"},
+            { "id": "b", "texto": "Eje cruzado"},
+            { "id": "c", "texto": "Ambos"},
+            { "id": "d", "texto": "Solo vertical"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 12,
+        "pregunta": "align-items: stretch en flex hace items:",
+        "opciones": [
+            { "id": "a", "texto": "Altura igual al contenedor; estira items para ocupar altura completa del contenedor flex."},
+            { "id": "b", "texto": "Ancho igual"},
+            { "id": "c", "texto": "Centrados"},
+            { "id": "d", "texto": "Ocultos"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 13,
+        "pregunta": "Selector universal * aplica a:",
+        "opciones": [
+            { "id": "a", "texto": "Solo div"},
+            { "id": "b", "texto": "Todos elementos; * { margin: 0; padding: 0; } resetea todos elementos de la página"},
+            { "id": "c", "texto": "Solo clases"},
+            { "id": "d", "texto": "IDs"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 14,
+        "pregunta": "border-collapse: collapse en tabla:",
+        "opciones": [
+            { "id": "a", "texto": "Bordes separados"},
+            { "id": "b", "texto": "Doble grosor"},
+            { "id": "c", "texto": "Sin bordes"},
+            { "id": "d", "texto": "Bordes compartidos; bordes adyacentes se fusionan ('separate' mantiene separados)."}
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 15,
+        "pregunta": "<iframe> integra:",
+        "opciones": [
+            { "id": "a", "texto": "Contenido externo (YouTube, PDF); incrusta páginas externas interactivas (YouTube, Google Maps, PDFs)."},
+            { "id": "b", "texto": "Solo texto"},
+            { "id": "c", "texto": "Formularios"},
+            { "id": "d", "texto": "Listas"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 16,
+        "pregunta": "Pseudoclase :first-letter estiliza:",
+        "opciones": [
+            { "id": "a", "texto": "Toda línea"},
+            { "id": "b", "texto": "Primera letra párrafo"},
+            { "id": "c", "texto": "Todo texto"},
+            { "id": "d", "texto": "Última letra"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 17,
+        "pregunta": "position: fixed fija respecto a:",
+        "opciones": [
+            { "id": "a", "texto": "Padre"},
+            { "id": "b", "texto": "Flujo normal"},
+            { "id": "c", "texto": "Ventana navegador; fijo al viewport, no se mueve al hacer scroll."},
+            { "id": "d", "texto": "Body"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 18,
+        "pregunta": "z-index solo funciona con:",
+        "opciones": [
+            { "id": "a", "texto": "position: static"},
+            { "id": "b", "texto": "Solo relative"},
+            { "id": "c", "texto": "Todos"},
+            { "id": "d", "texto": "Posicionamiento no-static; Requiere position: relative/absolute/fixed/sticky. Ignorado en static"}
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 19,
+        "pregunta": "datalist permite:",
+        "opciones": [
+            { "id": "a", "texto": "Sugerencias + texto libre; muestra sugerencias pero acepta texto libre (no como <select> obligatoria)."},
+            { "id": "b", "texto": "Solo texto fijo"},
+            { "id": "c", "texto": "Selección obligatoria"},
+            { "id": "d", "texto": "Múltiples valores"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 20,
+        "pregunta": "flex: 1 equivale a:",
+        "opciones": [
+            { "id": "a", "texto": "flex-grow: 0"},
+            { "id": "b", "texto": "flex-grow: 1; flex-shrink: 1; flex-basis: 0%; los items crecen/reducen proporcionalmente dividiendo espacio disponible"},
+            { "id": "c", "texto": "Tamaño fijo"},
+            { "id": "d", "texto": "Oculto"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 21,
+        "pregunta": "Selector clase múltiple:",
+        "opciones": [
+            { "id": "a", "texto": "#id1 #id2"},
+            { "id": "b", "texto": "div.class"},
+            { "id": "c", "texto": "Solo un class"},
+            { "id": "d", "texto": ".clase1.clase2; elemento con ambas clases: <div class=\"clase1 clase2\">"}
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 22,
+        "pregunta": "opacity: 0.5 afecta:",
+        "opciones": [
+            { "id": "a", "texto": "Solo fondo"},
+            { "id": "b", "texto": "Bordes"},
+            { "id": "c", "texto": "Solo texto"},
+            { "id": "d", "texto": "Todo elemento (incluye hijos); transparencia hereda a todos hijos (no solo el fondo)"}
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 23,
+        "pregunta": "<details> estado por defecto:",
+        "opciones": [
+            { "id": "a", "texto": "open"},
+            { "id": "b", "texto": "display: none; contenido oculto inicialmente, se expande al clic en <summary>."},
+            { "id": "c", "texto": "Visible siempre"},
+            { "id": "d", "texto": "Animado"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 24,
+        "pregunta": "text-transform: uppercase:",
+        "opciones": [
+            { "id": "a", "texto": "Negrita"},
+            { "id": "b", "texto": "Itálica"},
+            { "id": "c", "texto": "Mayúsculas; convierte todo texto a MAYÚSCULAS"},
+            { "id": "d", "texto": "Subrayado"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 25,
+        "pregunta": "Selector hijo directo:",
+        "opciones": [
+            { "id": "a", "texto": "ul li"},
+            { "id": "b", "texto": "ul > li; Solo hijos directos <ul><li>OK</li></ul>, no <ul><o~l><li>NO</li></ol></ul>"},
+            { "id": "c", "texto": "ul + li"},
+            { "id": "d", "texto": "ul~ li"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 26,
+        "pregunta": "Selector adyacente h1 + p:",
+        "opciones": [
+            { "id": "a", "texto": "Todos p después h1"},
+            { "id": "b", "texto": "Último p"},
+            { "id": "c", "texto": "p dentro h1"},
+            { "id": "d", "texto": "Primer p inmediatamente después h1"}
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 27,
+        "pregunta": "visibility: hidden vs display: none:",
+        "opciones": [
+            { "id": "a", "texto": "Hidden ocupa espacio; none no, hidden: invisible pero reserva espacio. none: eliminado del layout."},
+            { "id": "b", "texto": "Igual efecto"},
+            { "id": "c", "texto": "Hidden invisible total"},
+            { "id": "d", "texto": "Solo hidden hereda"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 28,
+        "pregunta": "Dado <dialog id=\"miDialogo\"><p>Contenido</p></dialog> y dlg.removeAttribute('open'), el dialog:",
+        "opciones": [
+            { "id": "a", "texto": "Se centra siempre"},
+            { "id": "b", "texto": "Se cierra; elimina atributo open cerrando modal nativo"},
+            { "id": "c", "texto": "Mantiene open"},
+            { "id": "d", "texto": "Abre modal"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 29,
+        "pregunta": "<input list=\"sugerencias\"> con <datalist id=\"sugerencias\"><option value=\"Opción 1\"></option></datalist> permite:",
+        "opciones": [
+            { "id": "a", "texto": "Selección obligatoria"},
+            { "id": "b", "texto": "Múltiples selects"},
+            { "id": "c", "texto": "Solo opciones datalist"},
+            { "id": "d", "texto": "Texto libre + sugerencias; acepta texto no listado + muestra sugerencias mientras escribe"}
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 30,
+        "pregunta": "div { background: #DCFF50 url('fondo.gif') no-repeat fixed center; } equivale a:",
+        "opciones": [
+            { "id": "a", "texto": "Repeat x/y"},
+            { "id": "b", "texto": "Imagen no-repeat, fixed center; color #DCFF50 + imagen no-repeat + fixed + center"},
+            { "id": "c", "texto": "Solo color"},
+            { "id": "d", "texto": "Scroll center"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 31,
+        "pregunta": "ul li em { color: blue; } es selector:",
+        "opciones": [
+            { "id": "a", "texto": "Hijo directo"},
+            { "id": "b", "texto": "Descendiente (cualquier nivel); Todos <em> dentro <li> dentro <ul> (espacio = descendiente)."},
+            { "id": "c", "texto": "Adyacente"},
+            { "id": "d", "texto": "Hermano general"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 32,
+        "pregunta": ":hover en button:hover { background: lightblue; cursor: pointer; } aplica:",
+        "opciones": [
+            { "id": "a", "texto": "Solo click"},
+            { "id": "b", "texto": "Cursor encima; se activa cuando ratón está encima del botón"},
+            { "id": "c", "texto": "Focus teclado"},
+            { "id": "d", "texto": "Visitado"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 33,
+        "pregunta": "<abbr title=\"HyperText Markup Language\">HTML</abbr> genera nativo:",
+        "opciones": [
+            { "id": "a", "texto": "Tooltip hover; tooltip nativo al hover"},
+            { "id": "b", "texto": "Modal"},
+            { "id": "c", "texto": "Lista"},
+            { "id": "d", "texto": "Acordeón"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 34,
+        "pregunta": "flex: 1 en 3 items flex con contenedor 600px:",
+        "opciones": [
+            { "id": "a", "texto": "Cada 200px"},
+            { "id": "b", "texto": "Divide espacio disponible igual; cada item ~200px (600px ÷ 3), crece/reduce proporcionalmente"},
+            { "id": "c", "texto": "100px fijo"},
+            { "id": "d", "texto": "Uno ocupa todo"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 35,
+        "pregunta": "justify-content: space-between en fila flex:",
+        "opciones": [
+            { "id": "a", "texto": "Espacio uniforme"},
+            { "id": "b", "texto": "Primer último extremos; resto apretados, primero al inicio, último al final, otros distribuidos entre"},
+            { "id": "c", "texto": "Centrado"},
+            { "id": "d", "texto": "Igual space-around"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 36,
+        "pregunta": "ul > li { border-top: 2px solid red; } aplica a:",
+        "opciones": [
+            { "id": "a", "texto": "Todos li en ul (nietos)"},
+            { "id": "b", "texto": "Solo hijos directos li de ul; > = hijo directo. No afecta <li> anidados indirectamente"},
+            { "id": "c", "texto": "li después ul"},
+            { "id": "d", "texto": "li con class"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 37,
+        "pregunta": "h1 + p { color: blue; } selecciona:",
+        "opciones": [
+            { "id": "a", "texto": "Todos p después h1"},
+            { "id": "b", "texto": "Primer p adyacente h1; solo primer <p> inmediatamente después de <h1> (misma jerarquía)"},
+            { "id": "c", "texto": "p dentro h1"},
+            { "id": "d", "texto": "Último p"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 38,
+        "pregunta": "* { margin: 0; padding: 0; } resetea:",
+        "opciones": [
+            { "id": "a", "texto": "Solo div"},
+            { "id": "b", "texto": "Todos elementos página; selector universal * afecta todos elementos HTML."},
+            { "id": "c", "texto": "Solo body"},
+            { "id": "d", "texto": "Clases"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 39,
+        "pregunta": "table { border-collapse: collapse; empty-cells: show; } bordes:",
+        "opciones": [
+            { "id": "a", "texto": "Separados"},
+            { "id": "b", "texto": "Unidos, celdas vacías con borde; collapse = bordes compartidos, empty-cells: show = bordes en vacías"},
+            { "id": "c", "texto": "Sin bordes vacías"},
+            { "id": "d", "texto": "Dobles"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 40,
+        "pregunta": "<iframe src=\"youtube.com/embed/...\" allowfullscreen> permite:",
+        "opciones": [
+            { "id": "a", "texto": "Solo audio"},
+            { "id": "b", "texto": "Video interactivo externo; reproductor YouTube completo con controles fullscreen"},
+            { "id": "c", "texto": "Form solo"},
+            { "id": "d", "texto": "Lista estática"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 41,
+        "pregunta": "p:first-letter { font-size: 300%; color: red; } estiliza:",
+        "opciones": [
+            { "id": "a", "texto": "Toda primera línea"},
+            { "id": "b", "texto": "Solo primera letra; solo la primera letra de cada párrafo"},
+            { "id": "c", "texto": "Todo párrafo"},
+            { "id": "d", "texto": "Última letra"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 42,
+        "pregunta": "div { position: absolute; top: 50px; left: 100px; z-index: 10; } respecto a:",
+        "opciones": [
+            { "id": "a", "texto": "Flujo normal"},
+            { "id": "b", "texto": "Anestro posicionado o body, se posiciona respecto al primer ancestro con position ≠ static"},
+            { "id": "c", "texto": "Ventana fixed"},
+            { "id": "d", "texto": "Margin padre"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 43,
+        "pregunta": "visibility: hidden vs display: none:",
+        "opciones": [
+            { "id": "a", "texto": "Igual (no ocupa espacio)"},
+            { "id": "b", "texto": "Hidden ocupa espacio, hidden = invisible pero reserva espacio. none = eliminado layout."},
+            { "id": "c", "texto": "None visible"},
+            { "id": "d", "texto": "Hidden animado"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 44,
+        "pregunta": "Datalist dinámico con AJAX rellena:",
+        "opciones": [
+            { "id": "a", "texto": "Solo HTML estático"},
+            { "id": "b", "texto": "Via JS en evento input, nput.addEventListener('input', fetchSugerencias) actualiza <datalist>"},
+            { "id": "c", "texto": "Solo PHP"},
+            { "id": "d", "texto": "No dinámico"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 45,
+        "pregunta": "align-items: center; justify-content: space-around centra:",
+        "opciones": [
+            { "id": "a", "texto": "Solo horizontal"},
+            { "id": "b", "texto": "Horizontal space-around, vertical centro, justify-content = eje principal (horizontal), align-items = vertical"},
+            { "id": "c", "texto": "Solo vertical"},
+            { "id": "d", "texto": "Ninguno"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 46,
+        "pregunta": ".especial { color: green; } #cabecera { font-size: 24px; } gana ID por:",
+        "opciones": [
+            { "id": "a", "texto": "Orden CSS"},
+            { "id": "b", "texto": "Especificidad (ID > class); ID (100) > Class (10) en especificidad CSS."},
+            { "id": "c", "texto": "Origen archivo"},
+            { "id": "d", "texto": "Herencia"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 47,
+        "pregunta": "pafter { content: \"Fin\"; color: gray; } inserta:",
+        "opciones": [
+            { "id": "a", "texto": "Antes contenido"},
+            { "id": "b", "texto": "Después contenido; :after añade contenido generado después del contenido real"},
+            { "id": "c", "texto": "Reemplaza"},
+            { "id": "d", "texto": "En medio"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 48,
+        "pregunta": "<dialog>.showModal() vs .show():",
+        "opciones": [
+            { "id": "a", "texto": "Igual"},
+            { "id": "b", "texto": "showModal modal top-layer, show inline; showModal() = modal bloqueante top-layer. show() = inline no-modal"},
+            { "id": "c", "texto": "show cierra"},
+            { "id": "d", "texto": "Solo showModal"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 49,
+        "pregunta": "font: 16px/1.5 Arial, sans-serif; es atajo para:",
+        "opciones": [
+            { "id": "a", "texto": "Solo size"},
+            { "id": "b", "texto": "Size/line-height/family; Shorthand: font: [style] [variant] [weight] size/line- height family"},
+            { "id": "c", "texto": "Solo family"},
+            { "id": "d", "texto": "Bold italic"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 50,
+        "pregunta": "div~ p { color: purple; } selecciona:",
+        "opciones": [
+            { "id": "a", "texto": "Primer p después div"},
+            { "id": "b", "texto": "Todos p hermanos después div"},
+            { "id": "c", "texto": "p dentro div; Selector hermano general: todos <p> hermanos posteriores a <div>"},
+            { "id": "d", "texto": "Solo hijos"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 51,
+        "pregunta": "img { float: left; margin-right: 10px; } permite:",
+        "opciones": [
+            { "id": "a", "texto": "Texto alrededor imagen; texto envuelve imagen flotante por izquierda"},
+            { "id": "b", "texto": "Centrado auto"},
+            { "id": "c", "texto": "Posición fixed"},
+            { "id": "d", "texto": "Flex solo"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 52,
+        "pregunta": "<embed src=\"manual.pdf\" type=\"application/pdf\"> renderiza:",
+        "opciones": [
+            { "id": "a", "texto": "Solo HTML"},
+            { "id": "b", "texto": "PDF inline navegador; visualizador PDF nativo dentro de la página"},
+            { "id": "c", "texto": "Video"},
+            { "id": "d", "texto": "Audio"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 53,
+        "pregunta": "nth-child(odd) en lista aplica a:",
+        "opciones": [
+            { "id": "a", "texto": "Solo primero"},
+            { "id": "b", "texto": "Ímpares (1,3,5...); filas impares (1ª, 3ª, 5ª...) de listas/tablas."},
+            { "id": "c", "texto": "Pares"},
+            { "id": "d", "texto": "Último"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 54,
+        "pregunta": "caption-side: bottom; border-spacing: 5px; en tabla:",
+        "opciones": [
+            { "id": "a", "texto": "Caption arriba, bordes separados 5px"},
+            { "id": "b", "texto": "Caption abajo, separación celdas 5px; caption-side: bottom = título abajo, border-spacing = separación celdas"},
+            { "id": "c", "texto": "Sin caption"},
+            { "id": "d", "texto": "Bordes colapsados"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 55,
+        "pregunta": ":focus en input:focus { border-color: blue; } activa con:",
+        "opciones": [
+            { "id": "a", "texto": "Solo click"},
+            { "id": "b", "texto": "Foco teclado/ratón; Foco por tabulador, clic o input.focus()."},
+            { "id": "c", "texto": "Hover"},
+            { "id": "d", "texto": "Visitado"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 56,
+        "pregunta": "Dado este HTML/CSS, ¿de qué color será el fondo del primer <p> dentro de #cabecera?\\n#cabecera p { background: blue; }\\n#cabecera p:first-of-type { background: red; }",
+        "opciones": [
+            { "id": "a", "texto": "Azul"},
+            { "id": "b", "texto": "Rojo"},
+            { "id": "c", "texto": "Transparente"},
+            { "id": "d", "texto": "Verde"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 57,
+        "pregunta": "¿Cuál será el ancho total de esta caja considerando el modelo de cajas CSS por defecto?\\n.caja { width: 200px; padding: 20px; border: 5px solid black; margin: 10px; }",
+        "opciones": [
+            { "id": "a", "texto": "200px"},
+            { "id": "b", "texto": "230px"},
+            { "id": "c", "texto": "250px"},
+            { "id": "d", "texto": "260px"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 58,
+        "pregunta": "¿Qué cambios visuales se aplican al pasar el ratón sobre este botón?\\nbutton:hover { background: lightblue; cursor: pointer; }",
+        "opciones": [
+            { "id": "a", "texto": "Nada cambia"},
+            { "id": "b", "texto": "Subrayado"},
+            { "id": "c", "texto": "Rojo"},
+            { "id": "d", "texto": "Fondo lightblue y cursor pointer"}
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 59,
+        "pregunta": "¿Cuál de estos elementos <em> se coloreará de púrpura usando el selector hijo directo?\\np > em { color: purple; }",
+        "opciones": [
+            { "id": "a", "texto": "Ambos"},
+            { "id": "b", "texto": "Indirecto"},
+            { "id": "c", "texto": "Solo directo"},
+            { "id": "d", "texto": "Ninguno"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 60,
+        "pregunta": "Cuando dos cajas con position: absolute se superponen, ¿cuál aparecerá encima según su z-index?\\n.caja1 { z-index: 1; position: absolute; }\\n.caja2 { z-index: 3; position: absolute; }",
+        "opciones": [
+            { "id": "a", "texto": "Caja2 arriba"},
+            { "id": "b", "texto": "Empate"},
+            { "id": "c", "texto": "Caja1 arriba"},
+            { "id": "d", "texto": "Sin superponer"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 61,
+        "pregunta": "¿Qué parte específica del texto del párrafo se verá afectada por esta pseudoclase CSS?\\np:first-letter { font-size: 2em; color: red; }",
+        "opciones": [
+            { "id": "a", "texto": "Primera letra grande roja"},
+            { "id": "b", "texto": "Todo párrafo rojo"},
+            { "id": "c", "texto": "Última letra"},
+            { "id": "d", "texto": "Línea primera"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 62,
+        "pregunta": "¿Cómo distribuirá el espacio entre elementos Flexbox usando esta propiedad?\\n.container { display: flex; justify-content: space-between; }",
+        "opciones": [
+            { "id": "a", "texto": "Centro"},
+            { "id": "b", "texto": "Espacio uniforme entre items"},
+            { "id": "c", "texto": "Izquierda"},
+            { "id": "d", "texto": "Apilados"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 63,
+        "pregunta": "¿Cuál es el resultado del colapso de márgenes entre dos párrafos consecutivos con estos valores?\\np { margin-top: 20px; margin-bottom: 30px; }",
+        "opciones": [
+            { "id": "a", "texto": "50px total"},
+            { "id": "b", "texto": "Doble 60px"},
+            { "id": "c", "texto": "0px"},
+            { "id": "d", "texto": "20px+30px=50px"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 64,
+        "pregunta": "¿Cuál regla CSS prevalecerá por mayor especificidad en este elemento con ID y clase?\\n#unique { color: blue; }\\n.special { color: green; }",
+        "opciones": [
+            { "id": "a", "texto": "Azul ID"},
+            { "id": "b", "texto": "Verde clase"},
+            { "id": "c", "texto": "Orden archivo"},
+            { "id": "d", "texto": "Herencia"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 65,
+        "pregunta": "¿Qué diferencia hay en el espacio ocupado por estos dos métodos de ocultar elementos?\\n.hidden { visibility: hidden; }\\n.none { display: none; }",
+        "opciones": [
+            { "id": "a", "texto": "Ambos ocupan"},
+            { "id": "b", "texto": "Solo hidden ocupa"},
+            { "id": "c", "texto": "Ninguno"},
+            { "id": "d", "texto": "Visible ambos"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 66,
+        "pregunta": "¿Qué elementos <li> afectará este selector descendiente en la lista anidada?\\nul li { color: red; }",
+        "opciones": [
+            { "id": "a", "texto": "Todos <li> dentro ul"},
+            { "id": "b", "texto": "Solo <li> directo ul"},
+            { "id": "c", "texto": "Solo nieto"},
+            { "id": "d", "texto": "Ninguno"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 67,
+        "pregunta": "¿Qué efecto produce align-items: stretch en elementos Flexbox de alturas diferentes?",
+        "opciones": [
+            { "id": "a", "texto": "Altura mínima"},
+            { "id": "b", "texto": "Misma altura contenedor"},
+            { "id": "c", "texto": "Centro"},
+            { "id": "d", "texto": "Flex-end"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 68,
+        "pregunta": "¿Cuál es el ancho total real ocupado por esta caja incluyendo padding y border?\\n.caja { width: 100px; padding: 10px; border: 1px solid black; box-sizing: border-box; }",
+        "opciones": [
+            { "id": "a", "texto": "100px"},
+            { "id": "b", "texto": "112px"},
+            { "id": "c", "texto": "122px"},
+            { "id": "d", "texto": "200px"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 69,
+        "pregunta": "¿En qué momento exacto se activa esta pseudoclase CSS en un enlace?\\na:active { color: orange; }",
+        "opciones": [
+            { "id": "a", "texto": "Hover"},
+            { "id": "b", "texto": "Durante click"},
+            { "id": "c", "texto": "Visitado"},
+            { "id": "d", "texto": "Focus"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 70,
+        "pregunta": "¿Qué comportamiento tendrá este elemento respecto al scroll de la página?\\n.boton { position: fixed; top: 0; right: 20px; }",
+        "opciones": [
+            { "id": "a", "texto": "Flujo documento"},
+            { "id": "b", "texto": "Fijo viewport"},
+            { "id": "c", "texto": "Relativo padre"},
+            { "id": "d", "texto": "Absolute body"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 71,
+        "pregunta": "Dada esta etiqueta img con srcset y sizes, ¿qué imagen se descargará en un dispositivo móvil con viewport de 400px de ancho?\\n<img srcset=\"small.jpg 400w, large.jpg 1200w\" sizes =\"100vw\">",
+        "opciones": [
+            { "id": "a", "texto": "large.jpg"},
+            { "id": "b", "texto": "small.jpg"},
+            { "id": "c", "texto": "Sin src"},
+            { "id": "d", "texto": "Ambas"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 72,
+        "pregunta": "En esta estructura picture con múltiples sources, ¿qué archivo se utilizará si el navegador soporta el formato AVIF?\\n<picture>\\n<source srcset=\"img.avif\" type=\"image/avif\">\\n<img src=\"img.jpg\">\\n</picture>",
+        "opciones": [
+            { "id": "a", "texto": "img.avif"},
+            { "id": "b", "texto": "img.jpg"},
+            { "id": "c", "texto": "Error"},
+            { "id": "d", "texto": "PNG"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 73,
+        "pregunta": "Una imagen situada al final de una página larga tiene el atributo loading=\"lazy\". ¿En qué momento se descargará?",
+        "opciones": [
+            { "id": "a", "texto": "Siempre al cargar la página"},
+            { "id": "b", "texto": "Solo al final de la página"},
+            { "id": "c", "texto": "Nunca se descargará"},
+            { "id": "d", "texto": "Cuando entra en el viewport al hacer scroll"}
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 74,
+        "pregunta": "Para una fotografía de un paisaje con muchos colores y degradados, ¿cuál es el formato más adecuado considerando compresión y tamaño?",
+        "opciones": [
+            { "id": "a", "texto": "GIF"},
+            { "id": "b", "texto": "JPEG"},
+            { "id": "c", "texto": "PNG"},
+            { "id": "d", "texto": "SVG"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 75,
+        "pregunta": "¿Cuál es la resolución en ppp (pixels per inch) recomendada para imágenes destinadas exclusivamente a visualización web?",
+        "opciones": [
+            { "id": "a", "texto": "72"},
+            { "id": "b", "texto": "300"},
+            { "id": "c", "texto": "150"},
+            { "id": "d", "texto": "600"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 76,
+        "pregunta": "¿Cuál de estos formatos utiliza compresión sin pérdida (lossless) manteniendo toda la información original del archivo?",
+        "opciones": [
+            { "id": "a", "texto": "JPEG"},
+            { "id": "b", "texto": "PNG/GIF"},
+            { "id": "c", "texto": "AVIF lossy"},
+            { "id": "d", "texto": "BMP"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 77,
+        "pregunta": "En un dispositivo móvil de 500px de ancho, ¿qué tamaño de imagen sugerido calcula el navegador con esta declaración sizes?\\n<img srcset=\"movil.jpg 400w, tablet.jpg 800w\" sizes=\"(max-width: 600px) 100vw, 50vw\">",
+        "opciones": [
+            { "id": "a", "texto": "50vw"},
+            { "id": "b", "texto": "Fixed"},
+            { "id": "c", "texto": "100vw"},
+            { "id": "d", "texto": "Ignora"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 78,
+        "pregunta": "Al ampliar 400% una imagen de 100x100px originalmente, ¿qué formato mantendrá nitidez perfecta sin pixelarse?",
+        "opciones": [
+            { "id": "a", "texto": "JPG o PNG (mapa de bits)"},
+            { "id": "b", "texto": "SVG se pixeliza"},
+            { "id": "c", "texto": "Ambos igual"},
+            { "id": "d", "texto": "SVG (vectorial)"}
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 79,
+        "pregunta": "¿Cuál es el principal beneficio del lazy loading en una galería de 50 imágenes en una página larga?",
+        "opciones": [
+            { "id": "a", "texto": "Mejora los colores"},
+            { "id": "b", "texto": "Reduce tiempo carga inicial"},
+            { "id": "c", "texto": "Aumenta tamaño archivos"},
+            { "id": "d", "texto": "Elimina scroll"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 80,
+        "pregunta": "Comparando WebP vs JPEG con la misma calidad visual, ¿en qué aspecto destaca WebP?",
+        "opciones": [
+            { "id": "a", "texto": "Solo para animaciones"},
+            { "id": "b", "texto": "Límite 256 colores"},
+            { "id": "c", "texto": "Formato vectorial"},
+            { "id": "d", "texto": "Mejor compresión"}
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 81,
+        "pregunta": "Una imagen con profundidad de color de 24 bits por píxel puede representar cuántos colores diferentes?",
+        "opciones": [
+            { "id": "a", "texto": "16.777.216 colores (16M)"},
+            { "id": "b", "texto": "256 colores"},
+            { "id": "c", "texto": "Solo 2 colores (B/N)"},
+            { "id": "d", "texto": "Colores infinitos"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 82,
+        "pregunta": "Antes de optimizar una imagen de 2000x2000px que se mostrará en 400x400px en web, ¿qué hacer primero?",
+        "opciones": [
+            { "id": "a", "texto": "Guardar en baja calidad"},
+            { "id": "b", "texto": "Redimensionar al tamaño final usado"},
+            { "id": "c", "texto": "Duplicar tamaño"},
+            { "id": "d", "texto": "Convertir a cuadrada"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 83,
+        "pregunta": "Para un icono animado de un botón play/pause con transparencia y pocos colores, ¿formato ideal?",
+        "opciones": [
+            { "id": "a", "texto": "GIF"},
+            { "id": "b", "texto": "JPG (fotos)"},
+            { "id": "c", "texto": "PNG-24 (gradientes)"},
+            { "id": "d", "texto": "Alta resolución TIFF"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 84,
+        "pregunta": "Si el navegador no soporta WebP, ¿qué imagen del picture se descargará como fallback?\\n<picture>\\n<source srcset=\"moderna.webp\" type=\"image/webp\">\\n<img src=\"clásica.jpg\">\\n</picture>",
+        "opciones": [
+            { "id": "a", "texto": "moderna.webp (error)"},
+            { "id": "b", "texto": "clásica.jpg"},
+            { "id": "c", "texto": "Nada se carga"},
+            { "id": "d", "texto": "Convierte a AVIF"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 85,
+        "pregunta": "Para impresión profesional de un catálogo (revista de alta calidad), ¿qué resolución DPI usar?",
+        "opciones": [
+            { "id": "a", "texto": "72 DPI (estándar web)"},
+            { "id": "b", "texto": "150 DPI (calidad media)"},
+            { "id": "c", "texto": "300 DPI"},
+            { "id": "d", "texto": "1000 DPI (excesivo)"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 86,
+        "pregunta": "Dado este código HTML con un botón que ejecuta JavaScript, ¿qué acción realiza al hacer clic en \"Abrir\"?\\n<dialog id=\"miDialogo\">\\n<button onclick=\"document.getElementById('miDialogo').showModal()\">Abrir</button>",
+        "opciones": [
+            { "id": "a", "texto": "Cierra el diálogo existente"},
+            { "id": "b", "texto": "Abre el diálogo como modal centrado"},
+            { "id": "c", "texto": "Borra todo el contenido"},
+            { "id": "d", "texto": "Mueve el diálogo a la esquina"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 87,
+        "pregunta": "En este formulario con datalist, ¿qué sucede si el usuario escribe \"Java\" que no está en las opciones sugeridas?\\n<input id=\"lenguaje\" list=\"lenguajes\">",
+        "opciones": [
+            { "id": "a", "texto": "Acepta \"Java\" como texto libre ignorando sugerencias"},
+            { "id": "b", "texto": "El campo rechaza el texto y obliga a elegir opción"},
+            { "id": "c", "texto": "Solo permite exactamente las opciones del datalist"},
+            { "id": "d", "texto": "Muestra error de validación"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 88,
+        "pregunta": "Al hacer clic en el texto \"Ver detalles\" en esta estructura, ¿qué contenido se hace visible?\\n<details>\\n<summary>Ver detalles</summary>\\n<p>Este párrafo estaba oculto inicialmente...</p>\\n</details>",
+        "opciones": [
+            { "id": "a", "texto": "Nada sucede sin JavaScript"},
+            { "id": "b", "texto": "Se expande mostrando el <p> y <ul>"},
+            { "id": "c", "texto": "Se cierra completamente"},
+            { "id": "d", "texto": "Solo cambia el summary"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 89,
+        "pregunta": "Al pasar el ratón sobre \"HTML\", ¿qué texto adicional aparece como tooltip gracias al atributo title?\\n<abbr title=\"HyperText Markup Language\">HTML</abbr>",
+        "opciones": [
+            { "id": "a", "texto": "No aparece nada visual"},
+            { "id": "b", "texto": "Se convierte en enlace clickable"},
+            { "id": "c", "texto": "El texto se pone en negrita"},
+            { "id": "d", "texto": "Tooltip con \"HyperText Markup Language\""}
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 90,
+        "pregunta": "Esta etiqueta iframe incrustada permite al usuario interactuar completamente con el reproductor de YouTube, ¿qué atributo habilita pantalla completa?\\n<iframe allowfullscreen></iframe>",
+        "opciones": [
+            { "id": "a", "texto": "Controles completos incluyendo botón fullscreen"},
+            { "id": "b", "texto": "Solo permite reproducción básica sin controles"},
+            { "id": "c", "texto": "Muestra solo una imagen estática"},
+            { "id": "d", "texto": "Fuerza descarga del video"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 91,
+        "pregunta": "Después de abrir un <dialog> con showModal(), ¿qué línea de JavaScript lo cierra correctamente?\\n<dialog id=\"confirmar\">Cambios guardados.</dialog>",
+        "opciones": [
+            { "id": "a", "texto": "document.getElementById('confirmar').showModal();"},
+            { "id": "b", "texto": "document.getElementById('confirmar').style.display = 'none';"},
+            { "id": "c", "texto": "Cierra el modal eliminando atributo open"},
+            { "id": "d", "texto": "Solo funciona con close() sin atributos"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 92,
+        "pregunta": "¿Qué atributo del input vincula correctamente el campo de texto con el datalist de sugerencias?\\n<input type=\"text\" list=\"sugerencias\">\\n<datalist id=\"sugerencias\">",
+        "opciones": [
+            { "id": "a", "texto": "Atributo name=\"sugerencias\""},
+            { "id": "b", "texto": "list=\"sugerencias\" (coincide con id del datalist)"},
+            { "id": "c", "texto": "class=\"sugerencias\""},
+            { "id": "d", "texto": "type=\"datalist\""}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 93,
+        "pregunta": "Esta estructura details/summary funciona completamente sin JavaScript adicional, ¿para qué patrón UI es ideal?\\n<details>\\n<summary>Pregunta FAQ</summary>",
+        "opciones": [
+            { "id": "a", "texto": "Div estático sin interactividad"},
+            { "id": "b", "ventana": "Ventana modal"},
+            { "id": "c", "texto": "Acordeón/FAQ expandible nativo"},
+            { "id": "d", "texto": "Tabla responsive"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 94,
+        "pregunta": "El atributo title en abbr no solo muestra tooltip visual, ¿también beneficia a tecnologías asistivas cómo?\\n<abbr title=\"Asynchronous JavaScript and XML\">AJAX</abbr>",
+        "opciones": [
+            { "id": "a", "texto": "Screen readers leen la definición completa"},
+            { "id": "b", "texto": "Los screen readers lo ignoran completamente"},
+            { "id": "c", "texto": "Oculta el abbr del lector"},
+            { "id": "d", "texto": "Convierte automáticamente en enlace"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 95,
+        "pregunta": "Para incrustar un documento PDF directamente en la página permitiendo zoom y navegación interna, ¿qué etiqueta usar?\\n<embed src=\"manual-usuario.pdf\" type=\"application/pdf\">",
+        "opciones": [
+            { "id": "a", "texto": "Reproductor de video"},
+            { "id": "b", "texto": "Control de audio"},
+            { "id": "c", "texto": "Visualizador PDF inline"},
+            { "id": "d", "texto": "Galería de imágenes"}
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 96,
+        "pregunta": "Los diálogos nativos <dialog> se posicionan automáticamente en qué capa del navegador sin necesidad de CSS positioning?\\n<dialog id=\"aviso\">Mensaje importante</dialog>",
+        "opciones": [
+            { "id": "a", "texto": "Requiere position: absolute manual"},
+            { "id": "b", "texto": "Top-layer centrado automático"},
+            { "id": "c", "texto": "z-index fijo requerido"},
+            { "id": "d", "texto": "Flexbox contenedor padre"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 97,
+        "pregunta": "Para un campo de búsqueda con sugerencias que se actualizan dinámicamente según lo que escribe el usuario, ¿qué evento usar con datalist?\\n<input id=\"search\" list=\"results\">",
+        "opciones": [
+            { "id": "a", "texto": "Evento 'input' + AJAX para rellenar datalist"},
+            { "id": "b", "texto": "Solo CSS hover"},
+            { "id": "c", "texto": "HTML estático fijo"},
+            { "id": "d", "texto": "Backend sin JavaScript"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 98,
+        "pregunta": "En la etiqueta details, el elemento summary actúa como ¿qué rol semántico interactivo?\\n<details>\\n<summary>Expandir información</summary>",
+        "opciones": [
+            { "id": "a", "texto": "Imagen decorativa"},
+            { "id": "b", "texto": "Lista no interactiva"},
+            { "id": "c", "texto": "Botón para cerrar siempre"},
+            { "id": "d", "texto": "Título clickable que expande/contrae"}
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 99,
+        "pregunta": "En un iframe de YouTube, ¿qué atributo específico permite al usuario hacer clic en el botón de pantalla completa del reproductor?\\n<iframe allowfullscreen></iframe>",
+        "opciones": [
+            { "id": "a", "texto": "Prohíbe fullscreen por seguridad"},
+            { "id": "b", "texto": "allowfullscreen habilita fullscreen"},
+            { "id": "c", "texto": "Requiere muted adicional"},
+            { "id": "d", "texto": "Fuerza loop infinito"}
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 100,
+        "pregunta": "Implementar ventanas modales solía requerir divs con position/flex/z-index complejos, ¿qué elemento nativo HTML5 simplifica esto completamente?\\n<dialog id=\"modal\">Contenido modal</dialog>",
+        "opciones": [
+            { "id": "a", "texto": " <dialog> maneja todo nativamente"},
+            { "id": "b", "texto": "Div con JavaScript manual"},
+            { "id": "c", "texto": "Todo requiere JavaScript/CSS"},
+            { "id": "d", "texto": "Solo CSS pseudo-elementos"}
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 101,
+        "pregunta": "¿De qué color será el fondo del primer p dentro de .cabecera?\\n#cabecera p { background: blue; }\\n.cabecera p:first-of-type { background: red; }",
+        "opciones": [
+            { "id": "a", "texto": "Azul" },
+            { "id": "b", "texto": "rojo" },
+            { "id": "c", "texto": "Transparente" },
+            { "id": "d", "texto": "Verde" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 102,
+        "pregunta": "¿Cuál será el ancho TOTAL de esta caja (modelo por defecto)?\\n.caja { width: 200px; padding: 20px; border: 5px solid black; margin: 10px; }",
+        "opciones": [
+            { "id": "a", "texto": "200px" },
+            { "id": "b", "texto": "230px" },
+            { "id": "c", "texto": "250px" },
+            { "id": "d", "texto": "260px" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 103,
+        "pregunta": "¿Qué cambios visuales al pasar ratón sobre el botón?\\nbutton:hover { background: lightblue; cursor: pointer; }",
+        "opciones": [
+            { "id": "a", "texto": "Nada" },
+            { "id": "b", "texto": "Subrayado" },
+            { "id": "c", "texto": "Rojo" },
+            { "id": "d", "texto": "fondo lightblue + cursor pointer" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 104,
+        "pregunta": "¿Cuál em se coloreará de púrpura?\\np > em { color: purple; }\\n<p>Texto con <em>directo</em> normal</p> <div>Texto con <em>indirecto</em></div>",
+        "opciones": [
+            { "id": "a", "texto": "ambos" },
+            { "id": "b", "texto": "Indirecto" },
+            { "id": "c", "texto": "Solo directo" },
+            { "id": "d", "texto": "Ninguno" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 105,
+        "pregunta": "Con position: absolute, ¿cuál de las cajas aparece encima?\\n.caja1 { z-index: 1; }\\n.caja2 { z-index: 3; }",
+        "opciones": [
+            { "id": "a", "texto": "Caja1" },
+            { "id": "b", "texto": "Empate" },
+            { "id": "c", "texto": "caja2" },
+            { "id": "d", "texto": "Sin superponer" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 106,
+        "pregunta": "¿Qué parte del texto afecta esta pseudoclase?\\np:first-letter { font-size: 2em; color: red; }",
+        "opciones": [
+            { "id": "a", "texto": "Primera letra grande roja" },
+            { "id": "b", "texto": "TODO PÁRRAFO" },
+            { "id": "c", "texto": "Última letra" },
+            { "id": "d", "texto": "Primera línea" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 107,
+        "pregunta": "¿Cómo distribuye el espacio esta propiedad en Flexbox?\\njustify-content: space-between;",
+        "opciones": [
+            { "id": "a", "texto": "Centro" },
+            { "id": "b", "texto": "Espacio uniforme" },
+            { "id": "c", "texto": "Izquierda" },
+            { "id": "d", "texto": "extremos opuestos" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 108,
+        "pregunta": "¿Resultado del colapso de márgenes entre 2 párrafos consecutivos?\\np { margin-top: 20px; margin-bottom: 30px; }",
+        "opciones": [
+            { "id": "a", "texto": "50px total" },
+            { "id": "b", "texto": "60px" },
+            { "id": "c", "texto": "0px" },
+            { "id": "d", "texto": "20px+30px (prevalece el mayor)" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 109,
+        "pregunta": "¿Qué regla CSS prevalece por especificidad?\\n#unique { color: blue; }\\n.special { color: green; }",
+        "opciones": [
+            { "id": "a", "texto": "Azul (ID gana)" },
+            { "id": "b", "texto": "VERDE (CLASS gana)" },
+            { "id": "c", "texto": "Orden archivo" },
+            { "id": "d", "texto": "Herencia" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 110,
+        "pregunta": "¿Cuál método de ocultar ocupa espacio en layout?",
+        "opciones": [
+            { "id": "a", "texto": "Ambos" },
+            { "id": "b", "texto": "solo hidden" },
+            { "id": "c", "texto": "Ninguno" },
+            { "id": "d", "texto": "Visible ambos" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 111,
+        "pregunta": "¿Qué atributo ARIA describe el propósito de un botón de icono?",
+        "opciones": [
+            { "id": "a", "texto": "aria-describedby" },
+            { "id": "b", "texto": "aria-label" },
+            { "id": "c", "texto": "title" },
+            { "id": "d", "texto": "alt" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 112,
+        "pregunta": "¿Etiqueta semántica correcta para región navegable?",
+        "opciones": [
+            { "id": "a", "texto": "role=\"navigation\"" },
+            { "id": "b", "texto": "role=\"menu\"" },
+            { "id": "c", "texto": "aria-menu" },
+            { "id": "d", "texto": "class=\"nav\"" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 113,
+        "pregunta": "¿Qué ARIA indica acordeón expandido?\\n<div role=\"tabpanel\" aria-expanded=\"true\">",
+        "opciones": [
+            { "id": "a", "texto": "aria-hidden" },
+            { "id": "b", "texto": "aria-disabled" },
+            { "id": "c", "texto": "aria-expanded" },
+            { "id": "d", "texto": "aria-selected" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 114,
+        "pregunta": "¿Cuál es el contraste mínimo requerido por WCAG AA para texto normal?",
+        "opciones": [
+            { "id": "a", "texto": "2:1" },
+            { "id": "b", "texto": "4.5:1" },
+            { "id": "c", "texto": "7:1" },
+            { "id": "d", "texto": "10:1" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 115,
+        "pregunta": "¿Atributo vincula label con input correctamente?\\n<label for=\"email\">Email:</label>",
+        "opciones": [
+            { "id": "a", "texto": "for=\"id\"" },
+            { "id": "b", "texto": "name" },
+            { "id": "c", "texto": "class" },
+            { "id": "d", "texto": "aria-labelledby" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 116,
+        "pregunta": "¿Qué live region anuncia cambios en carrusel?\\n<div role=\"status\" aria-live=\"polite\">",
+        "opciones": [
+            { "id": "a", "texto": "aria-live=\"polite\"" },
+            { "id": "b", "texto": "role=\"slider\"" },
+            { "id": "c", "texto": "aria-atomic" },
+            { "id": "d", "texto": "aria-busy" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 117,
+        "pregunta": "¿Qué nivel WCAG requiere navegación completa por teclado?",
+        "opciones": [
+            { "id": "a", "texto": "AA" },
+            { "id": "b", "texto": "AAA" },
+            { "id": "c", "texto": "Nivel A" },
+            { "id": "d", "texto": "NO REQUERIDO" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 118,
+        "pregunta": "¿Atributo correcto para input requerido accesible?",
+        "opciones": [
+            { "id": "a", "texto": "required" },
+            { "id": "b", "texto": "aria-required" },
+            { "id": "c", "texto": "pattern" },
+            { "id": "d", "texto": "novalidate" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 119,
+        "pregunta": "¿Cuál es el role ARIA correcto para botón toggle on/off?",
+        "opciones": [
+            { "id": "a", "texto": "role=\"button\"" },
+            { "id": "b", "texto": "role=\"checkbox\"" },
+            { "id": "c", "texto": "role=\"switch\"" },
+            { "id": "d", "texto": "aria-toggle" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 120,
+        "pregunta": "¿Qué anuncia cambios dinámicos sin interrumpir?",
+        "opciones": [
+            { "id": "a", "texto": "aria-live=\"polite\"" },
+            { "id": "b", "texto": "assertive" },
+            { "id": "c", "texto": "off" },
+            { "id": "d", "texto": "busy" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 121,
+        "pregunta": "¿Qué imagen carga en móvil 375px con este srcset?\\n<img srcset=\"movil.jpg 400w, tablet.jpg 800w\" sizes=\"100vw\">",
+        "opciones": [
+            { "id": "a", "texto": "tablet.jpg" },
+            { "id": "b", "texto": "default.jpg" },
+            { "id": "c", "texto": "movil.jpg" },
+            { "id": "d", "texto": "Ninguna" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 122,
+        "pregunta": "¿Formato óptimo iconos pequeños con transparencia?",
+        "opciones": [
+            { "id": "a", "texto": "JPG" },
+            { "id": "b", "texto": "GIF" },
+            { "id": "c", "texto": "SVG" },
+            { "id": "d", "texto": "PNG-24" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 123,
+        "pregunta": "¿Atributo que precarga para audio sin autoplay?",
+        "opciones": [
+            { "id": "a", "texto": "autoplay" },
+            { "id": "b", "texto": "preload=\"metadata\"" },
+            { "id": "c", "texto": "loop" },
+            { "id": "d", "texto": "muted" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 124,
+        "pregunta": "¿Qué aspecto CSS mantiene proporción vídeo 16:9 responsive?",
+        "opciones": [
+            { "id": "a", "texto": "width: 100%" },
+            { "id": "b", "texto": "padding-bottom: 56.25%" },
+            { "id": "c", "texto": "aspect-ratio: 16/9" },
+            { "id": "d", "texto": "object-fit" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 125,
+        "pregunta": "¿Qué hace object-fit: cover en img?\\nimg { object-fit: cover; width: 300px; height: 200px; }",
+        "opciones": [
+            { "id": "a", "texto": "Estira" },
+            { "id": "b", "texto": "rellena recortando" },
+            { "id": "c", "texto": "Tamaño original" },
+            { "id": "d", "texto": "Centra" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 126,
+        "pregunta": "¿Cuál es el fallback si el navegador NO soporta WebP?\\n<picture><source srcset=\"moderna.webp\"><img src=\"classica.jpg\"></picture>",
+        "opciones": [
+            { "id": "a", "texto": "moderna.webp" },
+            { "id": "b", "texto": "classica.jpg" },
+            { "id": "c", "texto": "Error" },
+            { "id": "d", "texto": "AVIF" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 127,
+        "pregunta": "¿Cuándo carga imagen loading=\"lazy\"?\\n<img src=\"lejos.jpg\" loading=\"lazy\">",
+        "opciones": [
+            { "id": "a", "texto": "Siempre inicio" },
+            { "id": "b", "texto": "Al entrar viewport" },
+            { "id": "c", "texto": "Nunca" },
+            { "id": "d", "texto": "final página" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 128,
+        "pregunta": "¿Qué track añade subtítulos accesibles?",
+        "opciones": [
+            { "id": "a", "texto": "track kind=\"subtitles\"" },
+            { "id": "b", "texto": "<audio>" },
+            { "id": "c", "texto": "<source>" },
+            { "id": "d", "texto": "Sin soporte" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 129,
+        "pregunta": "¿Resolución ppp óptima IMÁGENES WEB?",
+        "opciones": [
+            { "id": "a", "texto": "72" },
+            { "id": "b", "texto": "300" },
+            { "id": "c", "texto": "150" },
+            { "id": "d", "texto": "600" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 130,
+        "pregunta": "¿Qué formato permite animación con transparencia?",
+        "opciones": [
+            { "id": "a", "texto": "GIF" },
+            { "id": "b", "texto": "JPG" },
+            { "id": "c", "texto": "APNG" },
+            { "id": "d", "texto": "SVG estático" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 131,
+        "pregunta": "¿Resultado visual de este Flexbox?\\njustify-content: space-between; align-items: center;",
+        "opciones": [
+            { "id": "a", "texto": "Centro" },
+            { "id": "b", "texto": "Extremos opuestos" },
+            { "id": "c", "texto": "Apilados" },
+            { "id": "d", "texto": "espacio uniforme" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 132,
+        "pregunta": "¿Ancho TOTAL con box-sizing: border-box?\\nwidth: 100px; padding: 10px; border: 1px;",
+        "opciones": [
+            { "id": "a", "texto": "100PX" },
+            { "id": "b", "texto": "112px" },
+            { "id": "c", "texto": "122px" },
+            { "id": "d", "texto": "200px" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 133,
+        "pregunta": "¿Qué activa pseudoclase :focus-visible?\\ninput:focus-visible { outline: 2px solid blue; }",
+        "opciones": [
+            { "id": "a", "texto": "teclado (tabulación)" },
+            { "id": "b", "texto": "Hover ratón" },
+            { "id": "c", "texto": "Click" },
+            { "id": "d", "texto": "Touch" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 134,
+        "pregunta": "¿Comportamiento position: sticky?",
+        "opciones": [
+            { "id": "a", "texto": "flujo normal" },
+            { "id": "b", "texto": "Absoluto" },
+            { "id": "c", "texto": "Fijo al hacer scroll hasta límite" },
+            { "id": "d", "texto": "Fixed viewport" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 135,
+        "pregunta": "¿Qué viewport meta hace sitio responsive móvil?",
+        "opciones": [
+            { "id": "a", "texto": "width=1024px" },
+            { "id": "b", "texto": "user-scalable=no" },
+            { "id": "c", "texto": "maximum-scale =1" },
+            { "id": "d", "texto": "width=device-width" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 136,
+        "pregunta": "¿Selector CSS afecta SOLO primer hijo?\\nli:first-child { background: yellow; }",
+        "opciones": [
+            { "id": "a", "texto": "Solo al primero" },
+            { "id": "b", "texto": "Todos li" },
+            { "id": "c", "texto": "Último" },
+            { "id": "d", "texto": "Par/impar" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 137,
+        "pregunta": "¿Qué aria-current indica página activa?\\n<a href=\"/home\" aria-current=\"page\">Inicio</a>",
+        "opciones": [
+            { "id": "a", "texto": "aria-current=\"page\"" },
+            { "id": "b", "texto": "aria-current=\"location\"" },
+            { "id": "c", "texto": "role=\"active\"" },
+            { "id": "d", "texto": "class=\"current\"" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 138,
+        "pregunta": "¿Resultado hover en este enlace?\\na:link { color: blue; } a:hover { color: red; }",
+        "opciones": [
+            { "id": "a", "texto": "Nada" },
+            { "id": "b", "texto": "Azul siempre" },
+            { "id": "c", "texto": "Púrpura" },
+            { "id": "d", "texto": "rojo al pasar ratón" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 139,
+        "pregunta": "¿Qué hace flex-wrap: wrap?",
+        "opciones": [
+            { "id": "a", "texto": "Desborda" },
+            { "id": "b", "texto": "Salta de línea si no cabe" },
+            { "id": "c", "texto": "Oculta" },
+            { "id": "d", "texto": "Centra vertical" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 140,
+        "pregunta": "¿Atributo input rechaza espacios inicio/final?",
+        "opciones": [
+            { "id": "a", "texto": "pattern" },
+            { "id": "b", "texto": "required" },
+            { "id": "c", "texto": "maxlength" },
+            { "id": "d", "texto": "autocomplete" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 141,
+        "pregunta": "¿Qué hace esta regla sobre todos los párrafos dentro de un div con clase \"contenido\"? .contenido p { line-height: 1.6; }",
+        "opciones": [
+            { "id": "a", "texto": "Cambia color" },
+            { "id": "b", "texto": "Cambia altura de línea" },
+            { "id": "c", "texto": "Cambia tamaño letra" },
+            { "id": "d", "texto": "Cambia margen superior" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 142,
+        "pregunta": "¿Qué propiedad controla el espacio entre letras?",
+        "opciones": [
+            { "id": "a", "texto": "letter-height" },
+            { "id": "b", "texto": "text-spacing" },
+            { "id": "c", "texto": "word-spacing" },
+            { "id": "d", "texto": "letter-spacing" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 143,
+        "pregunta": "¿Qué unidad es relativa al tamaño de fuente del elemento raíz (html)?",
+        "opciones": [
+            { "id": "a", "texto": "rem" },
+            { "id": "b", "texto": "em" },
+            { "id": "c", "texto": "px" },
+            { "id": "d", "texto": "%" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 144,
+        "pregunta": "¿Qué hace esta regla abreviada? margin: 10px 20px;",
+        "opciones": [
+            { "id": "a", "texto": "10 todos lados" },
+            { "id": "b", "texto": "10 arriba/abajo, 20 izquierda/derecha" },
+            { "id": "c", "texto": "20 arriba/abajo, 10 izquierda/derecha" },
+            { "id": "d", "texto": "10 izquierda/derecha, 20 abajo" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 145,
+        "pregunta": "¿Qué propiedad controla la rapidez de una transición? transition: background 0.5s ease;",
+        "opciones": [
+            { "id": "a", "texto": "background" },
+            { "id": "b", "texto": "0.5s" },
+            { "id": "c", "texto": "ease" },
+            { "id": "d", "texto": "transform" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 146,
+        "pregunta": "¿Qué selector aplica estilo solo a enlaces internos (href empieza por #)?",
+        "opciones": [
+            { "id": "a", "texto": "a[href$=\"#\"]" },
+            { "id": "b", "texto": "a[href^=\"#\"]" },
+            { "id": "c", "texto": "a[href*=\"#\"]" },
+            { "id": "d", "texto": "a#href" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 147,
+        "pregunta": "¿Qué hace esta regla? .card:hover .detalle { opacity: 1; }",
+        "opciones": [
+            { "id": "a", "texto": "Visible al pasar ratón por .card" },
+            { "id": "b", "texto": "Visible al hacer click" },
+            { "id": "c", "texto": "Siempre visible" },
+            { "id": "d", "texto": "Visible al pasar ratón por .detalle" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 148,
+        "pregunta": "¿Qué propiedad controla si un texto se corta con puntos suspensivos?",
+        "opciones": [
+            { "id": "a", "texto": "overflow" },
+            { "id": "b", "texto": "white-space" },
+            { "id": "c", "texto": "text-overflow" },
+            { "id": "d", "texto": "word-wrap" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 149,
+        "pregunta": "¿Qué hace esta media query? @media (max-width: 600px) { body { font-size: 14px; } }",
+        "opciones": [
+            { "id": "a", "texto": "Aplica solo en pantallas mayores de 600px" },
+            { "id": "b", "texto": "Nunca se aplica" },
+            { "id": "c", "texto": "Aplica en pantallas de 600px o menos" },
+            { "id": "d", "texto": "Aplica solo en impresión" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 150,
+        "pregunta": "¿Qué propiedad define el espaciado entre líneas de texto?",
+        "opciones": [
+            { "id": "a", "texto": "text-height" },
+            { "id": "b", "texto": "line-height" },
+            { "id": "c", "texto": "font-spacing" },
+            { "id": "d", "texto": "row-gap" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 151,
+        "pregunta": "¿Qué hace este código? .boton { display: inline-block; }",
+        "opciones": [
+            { "id": "a", "texto": "Se comporta como bloque" },
+            { "id": "b", "texto": "Se comporta como inline-block (tamaño propio y en línea)" },
+            { "id": "c", "texto": "Ocupa todo el ancho" },
+            { "id": "d", "texto": "Desaparece" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 152,
+        "pregunta": "¿Qué selector aplica solo al último li de una lista?",
+        "opciones": [
+            { "id": "a", "texto": "li:last" },
+            { "id": "b", "texto": "li:last-of-type" },
+            { "id": "c", "texto": "li:last-child" },
+            { "id": "d", "texto": "ul:last-child" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 153,
+        "pregunta": "¿Qué hace esta regla? main > section { padding: 20px; }",
+        "opciones": [
+            { "id": "a", "texto": "Solo las section hijas directas de main" },
+            { "id": "b", "texto": "Todas las section del documento" },
+            { "id": "c", "texto": "Solo la primera section" },
+            { "id": "d", "texto": "Solo la última section" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 154,
+        "pregunta": "¿Qué efecto produce text-align: justify;?",
+        "opciones": [
+            { "id": "a", "texto": "Centra el texto" },
+            { "id": "b", "texto": "Alinea a la izquierda" },
+            { "id": "c", "texto": "Alinea a la derecha" },
+            { "id": "d", "texto": "Estira líneas para ocupar todo el ancho" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 155,
+        "pregunta": "¿Qué valor de display se usa para crear un contenedor de cuadrícula?",
+        "opciones": [
+            { "id": "a", "texto": "display: block" },
+            { "id": "b", "texto": "display: flex" },
+            { "id": "c", "texto": "display: grid" },
+            { "id": "d", "texto": "display: inline" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 156,
+        "pregunta": "¿Qué etiqueta se utiliza para insertar un vídeo nativo en HTML5?",
+        "opciones": [
+            { "id": "a", "texto": "<media>" },
+            { "id": "b", "texto": "<video>" },
+            { "id": "c", "texto": "<movie>" },
+            { "id": "d", "texto": "<object>" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 157,
+        "pregunta": "¿Qué atributo hace que el vídeo empiece sin sonido?",
+        "opciones": [
+            { "id": "a", "texto": "muted" },
+            { "id": "b", "texto": "silent" },
+            { "id": "c", "texto": "nosound" },
+            { "id": "d", "texto": "volume =\"0\"" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 158,
+        "pregunta": "¿Qué atributo se recomienda para cargar solo la información básica del vídeo antes de reproducirlo?",
+        "opciones": [
+            { "id": "a", "texto": "preload=\"none\"" },
+            { "id": "b", "texto": "preload=\"metadata\"" },
+            { "id": "c", "texto": "preload=\"auto\"" },
+            { "id": "d", "texto": "async" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 159,
+        "pregunta": "¿Qué función de JavaScript reproduce el vídeo?",
+        "opciones": [
+            { "id": "a", "texto": "intro.start()" },
+            { "id": "b", "texto": "intro.play()" },
+            { "id": "c", "texto": "intro.show()" },
+            { "id": "d", "texto": "intro.run()" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 160,
+        "pregunta": "¿Qué hace el atributo loop en un audio?",
+        "opciones": [
+            { "id": "a", "texto": "Reproduce una vez" },
+            { "id": "b", "texto": "Reproduce al revés" },
+            { "id": "c", "texto": "Reproduce en bucle" },
+            { "id": "d", "texto": "No se reproduce" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 161,
+        "pregunta": "¿Qué elemento se usa para agrupar varias fuentes de un mismo vídeo?",
+        "opciones": [
+            { "id": "a", "texto": "<source> dentro de <video>" },
+            { "id": "b", "texto": "<track>" },
+            { "id": "c", "texto": "<picture>" },
+            { "id": "d", "texto": "<media>" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 162,
+        "pregunta": "¿Qué atributo hace que un vídeo se reproduzca automáticamente al cargar la página?",
+        "opciones": [
+            { "id": "a", "texto": "autoplay" },
+            { "id": "b", "texto": "play" },
+            { "id": "c", "texto": "auto" },
+            { "id": "d", "texto": "start" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 163,
+        "pregunta": "¿Qué hace el navegador si se proporcionan múltiples fuentes <source> dentro de un <video>?",
+        "opciones": [
+            { "id": "a", "texto": "Solo mp4 se usa" },
+            { "id": "b", "texto": "El navegador elegirá el primer formato que soporte" },
+            { "id": "c", "texto": "Nunca se reproduce" },
+            { "id": "d", "texto": "Reproduce ambos a la vez" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 164,
+        "pregunta": "¿Qué rol ARIA es más apropiado para un reproductor de vídeo personalizado?",
+        "opciones": [
+            { "id": "a", "texto": "role=\"navigation\"" },
+            { "id": "b", "texto": "role=\"application\"" },
+            { "id": "c", "texto": "role=\"button\"" },
+            { "id": "d", "texto": "role=\"presentation\"" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 165,
+        "pregunta": "¿Qué atributo hace que el vídeo se adapte al ancho de su contenedor manteniendo su propio control nativo?",
+        "opciones": [
+            { "id": "a", "texto": "responsive" },
+            { "id": "b", "texto": "fluid" },
+            { "id": "c", "texto": "fit=\"cover\"" },
+            { "id": "d", "texto": "width=\"100%\"" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 166,
+        "pregunta": "¿Qué etiqueta se usa para incrustar un mapa de Google en una página?",
+        "opciones": [
+            { "id": "a", "texto": "<object>" },
+            { "id": "b", "texto": "<embed>" },
+            { "id": "c", "texto": "<iframe>" },
+            { "id": "d", "texto": "<frame>" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 167,
+        "pregunta": "¿Qué atributo de iframe mejora la seguridad limitando capacidades (por ejemplo, scripts)?",
+        "opciones": [
+            { "id": "a", "texto": "secure" },
+            { "id": "b", "texto": "sandbox" },
+            { "id": "c", "texto": "safe" },
+            { "id": "d", "texto": "lockdown" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 168,
+        "pregunta": "¿Qué atributo permite poner un título accesible a un iframe?",
+        "opciones": [
+            { "id": "a", "texto": "name" },
+            { "id": "b", "texto": "alt" },
+            { "id": "c", "texto": "title" },
+            { "id": "d", "texto": "aria-iframe" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 169,
+        "pregunta": "¿Qué pasa si omites el atributo title en un iframe con contenido importante?",
+        "opciones": [
+            { "id": "a", "texto": "Mejora la accesibilidad" },
+            { "id": "b", "texto": "No afecta" },
+            { "id": "c", "texto": "Empeora la accesibilidad para lectores de pantalla" },
+            { "id": "d", "texto": "Hace el iframe responsive" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 170,
+        "pregunta": "¿Cuál es la forma correcta de integrar un vídeo de YouTube accesible?",
+        "opciones": [
+            { "id": "a", "texto": "Solo <iframe src=\"...\"> sin más" },
+            { "id": "b", "texto": "iframe con title descriptivo del contenido del vídeo" },
+            { "id": "c", "texto": "iframe con alt" },
+            { "id": "d", "texto": "iframe con aria-hidden=\"true\"" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 171,
+        "pregunta": "¿Qué atributo permite que un iframe muestre vídeo a pantalla completa?",
+        "opciones": [
+            { "id": "a", "texto": "fullscreen" },
+            { "id": "b", "texto": "allowfullscreen" },
+            { "id": "c", "texto": "screen=\"full\"" },
+            { "id": "d", "texto": "expanded" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 172,
+        "pregunta": "¿Qué hace el atributo loading=\"lazy\" en un iframe?",
+        "opciones": [
+            { "id": "a", "texto": "Se carga solo cuando entra en el viewport" },
+            { "id": "b", "texto": "Siempre carga al inicio" },
+            { "id": "c", "texto": "Nunca se carga" },
+            { "id": "d", "texto": "Se carga solo en móviles" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 173,
+        "pregunta": "¿Qué rol ARIA puede ser adecuado para un widget de chat embebido en un iframe?",
+        "opciones": [
+            { "id": "a", "texto": "role=\"navigation\"" },
+            { "id": "b", "texto": "role=\"dialog\"" },
+            { "id": "c", "texto": "role=\"banner\"" },
+            { "id": "d", "texto": "role=\"contentinfo\"" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 174,
+        "pregunta": "¿Qué recomendación es correcta al integrar contenido interactivo externo?",
+        "opciones": [
+            { "id": "a", "texto": "Ocultar siempre el iframe" },
+            { "id": "b", "texto": "Evitar titles descriptivos" },
+            { "id": "c", "texto": "Indicar claramente el propósito del contenido embebido" },
+            { "id": "d", "texto": "Nunca usar iframes" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 175,
+        "pregunta": "¿Qué atributo de iframe indica al navegador que puede usar características especiales (como geolocalización)?",
+        "opciones": [
+            { "id": "a", "texto": "extras" },
+            { "id": "b", "texto": "api" },
+            { "id": "c", "texto": "capabilities" },
+            { "id": "d", "texto": "allow" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 176,
+        "pregunta": "¿Qué propiedad CSS permite recortar una imagen que desborda su contenedor?",
+        "opciones": [
+            { "id": "a", "texto": "overflow: hidden" },
+            { "id": "b", "texto": "object-fit" },
+            { "id": "c", "texto": "clip: auto" },
+            { "id": "d", "texto": "max-width" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 177,
+        "pregunta": "¿Qué hace el atributo alt en una etiqueta <img>?",
+        "opciones": [
+            { "id": "a", "texto": "alt es decorativo" },
+            { "id": "b", "texto": "alt describe la imagen para tecnologías asistivas" },
+            { "id": "c", "texto": "alt es obligatorio solo en vídeos" },
+            { "id": "d", "texto": "alt solo aparece en tooltip" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 178,
+        "pregunta": "¿Qué valor de object-fit muestra la imagen entera, aunque queden franjas?",
+        "opciones": [
+            { "id": "a", "texto": "fill" },
+            { "id": "b", "texto": "cover" },
+            { "id": "c", "texto": "contain" },
+            { "id": "d", "texto": "scale-down" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 179,
+        "pregunta": "¿Qué atributo HTML define el texto que se muestra si la imagen no carga?",
+        "opciones": [
+            { "id": "a", "texto": "title" },
+            { "id": "b", "texto": "alt" },
+            { "id": "c", "texto": "aria-label" },
+            { "id": "d", "texto": "description" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 180,
+        "pregunta": "¿Qué efecto tiene max-width: 100% y height: auto en una imagen?",
+        "opciones": [
+            { "id": "a", "texto": "Imágenes responsive que no desbordan el contenedor" },
+            { "id": "b", "texto": "Imágenes fijas" },
+            { "id": "c", "texto": "Recorta siempre" },
+            { "id": "d", "texto": "Deforma la imagen" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 181,
+        "pregunta": "¿Qué formato es más adecuado para logotipos simples vectoriales en web?",
+        "opciones": [
+            { "id": "a", "texto": "JPG" },
+            { "id": "b", "texto": "PNG" },
+            { "id": "c", "texto": "SVG" },
+            { "id": "d", "texto": "GIF" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 182,
+        "pregunta": "¿Qué atributo HTML ayuda a reservar espacio para la imagen y evitar cambios bruscos de layout?",
+        "opciones": [
+            { "id": "a", "texto": "width y height" },
+            { "id": "b", "texto": "srcset" },
+            { "id": "c", "texto": "loading" },
+            { "id": "d", "texto": "alt" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 183,
+        "pregunta": "¿Qué hace la estructura <picture> con varios <source>?",
+        "opciones": [
+            { "id": "a", "texto": "Siempre carga hero.jpg" },
+            { "id": "b", "texto": "Usa hero.webp si se soporta, si no hero.jpg" },
+            { "id": "c", "texto": "Nunca carga" },
+            { "id": "d", "texto": "Solo en móviles" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 184,
+        "pregunta": "¿Qué uso es correcto de loading=\"lazy\" en imágenes?",
+        "opciones": [
+            { "id": "a", "texto": "En iconos pequeños above the fold" },
+            { "id": "b", "texto": "En imágenes que aparecen muy abajo en la página" },
+            { "id": "c", "texto": "Siempre en todas las imágenes" },
+            { "id": "d", "texto": "Nunca en galerías" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 185,
+        "pregunta": "¿Qué formato es más adecuado para una animación corta con transparencia y buena calidad?",
+        "opciones": [
+            { "id": "a", "texto": "GIF" },
+            { "id": "b", "texto": "JPG" },
+            { "id": "c", "texto": "PNG" },
+            { "id": "d", "texto": "BMP" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 186,
+        "pregunta": "¿Qué patrón de enfoque es correcto para una interfaz accesible?",
+        "opciones": [
+            { "id": "a", "texto": "Focus oculto siempre" },
+            { "id": "b", "texto": "Orden de tabulación lógico siguiendo la estructura visual" },
+            { "id": "c", "texto": "Orden de tabulación aleatorio" },
+            { "id": "d", "texto": "Solo clickable con ratón" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 187,
+        "pregunta": "¿Qué atributo hace accesible un botón solo icono para lectores de pantalla?",
+        "opciones": [
+            { "id": "a", "texto": "alt" },
+            { "id": "b", "texto": "aria-hidden=\"true\"" },
+            { "id": "c", "texto": "title=\"Abrir menú\" únicamente" },
+            { "id": "d", "texto": "aria-label=\"Abrir menú\"" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 188,
+        "pregunta": "¿Qué atajo de teclado debe funcionar para activar un botón con foco?",
+        "opciones": [
+            { "id": "a", "texto": "Solo click ratón" },
+            { "id": "b", "texto": "Barra espaciadora/Enter" },
+            { "id": "c", "texto": "Tecla Esc" },
+            { "id": "d", "texto": "Tecla Shift" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 189,
+        "pregunta": "¿Qué directriz WCAG se relaciona con el contraste de color?",
+        "opciones": [
+            { "id": "a", "texto": "Perceptible" },
+            { "id": "b", "texto": "Operable" },
+            { "id": "c", "texto": "Comprensible" },
+            { "id": "d", "texto": "Robusto" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 190,
+        "pregunta": "¿Qué técnica mejora la usabilidad en formularios largos?",
+        "opciones": [
+            { "id": "a", "texto": "Crearlos sin etiquetas" },
+            { "id": "b", "texto": "Agrupar campos relacionados en fieldset y usar legend" },
+            { "id": "c", "texto": "Todo en una sola línea" },
+            { "id": "d", "texto": "Solo placeholders sin label" }
+        ],
+        "correcta": "b"
+    }
+]

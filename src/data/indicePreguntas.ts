@@ -8,6 +8,9 @@ import bbdd from './preguntas/bbdd.json';
 import programacion from './preguntas/programacion.json';
 import sistemas from './preguntas/sistemas.json';
 import entornos from './preguntas/entornos.json';
+import cliente from './preguntas/cliente.json';
+import interfaces from './preguntas/interfaces.json';
+import despliegue from './preguntas/despliegue.json';
 
 // AÑO 2025:
 import entornos2025 from './preguntas/entornos-2025.json';
@@ -16,14 +19,19 @@ import sistemas2025 from './preguntas/sistemas-2025.json';
 // importar el resto d json cuando los tenga
 
 export const MAPA_PREGUNTAS: Record<string, Pregunta[]> = {
-  // 2026
+  // 1º 2026
     'marcas': lenguajeMarcas as Pregunta[],
     'empleabilidad': empleabilidad as Pregunta[],
-    'servproc' : servproc as Pregunta[],
     'bbdd' : bbdd as Pregunta[],
     'programacion' : programacion as Pregunta[],
     'sistemas' : sistemas as Pregunta[],
     'entornos' : entornos as Pregunta[],
+
+  // 2º 2026
+    'cliente' : cliente as Pregunta[],
+    'servproc' : servproc as Pregunta[],
+    'interfaces' : interfaces as Pregunta[],
+    'despliegue' : despliegue as Pregunta[],
   // importar el resto segun lleguen aqui
 
   //2025

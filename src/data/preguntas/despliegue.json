@@ -1,0 +1,1346 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Cómo se incrusta correctamente código PHP dentro de una página HTML?",
+        "opciones": [
+            { "id": "a", "texto": "<php> ... </php>" },
+            { "id": "b", "texto": "<?php ... ?>" },
+            { "id": "c", "texto": "<script php> ... </script>" },
+            { "id": "d", "texto": "#php ... #" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 2,
+        "pregunta": "¿Qué afirmación sobre PHP es correcta?",
+        "opciones": [
+            { "id": "a", "texto": "Es un lenguaje de script del lado del cliente" },
+            { "id": "b", "texto": "Solo funciona con servidores IIS" },
+            { "id": "c", "texto": "Es un lenguaje de script del lado del servidor" },
+            { "id": "d", "texto": "Solo se puede ejecutar desde línea de comandos" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 3,
+        "pregunta": "¿Cuál de las siguientes instrucciones muestra una o más cadenas y no es una función en PHP?",
+        "opciones": [
+            { "id": "a", "texto": "print()" },
+            { "id": "b", "texto": "echo" },
+            { "id": "c", "texto": "var_dump()" },
+            { "id": "d", "texto": "printf()" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 4,
+        "pregunta": "¿Qué diferencia principal hay entre include y require en PHP?",
+        "opciones": [
+            { "id": "a", "texto": "require detiene el script ante error y include no" },
+            { "id": "b", "texto": "include detiene el script ante error y require no" },
+            { "id": "c", "texto": "include solo sirve para HTML y require para PHP" },
+            { "id": "d", "texto": "require solo sirve para HTML y include para PHP" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 5,
+        "pregunta": "¿Cuál es el prefijo obligatorio de toda variable en PHP?",
+        "opciones": [
+            { "id": "a", "texto": "%" },
+            { "id": "b", "texto": "@" },
+            { "id": "c", "texto": "$" },
+            { "id": "d", "texto": "#" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 6,
+        "pregunta": "¿Qué VARIABLE superglobal usarías para acceder a datos enviados por un formulario con método POST?",
+        "opciones": [
+            { "id": "a", "texto": "$_GET" },
+            { "id": "b", "texto": "$_REQUEST" },
+            { "id": "c", "texto": "$_POST" },
+            { "id": "d", "texto": "$_COOKIE" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 7,
+        "pregunta": "¿Cuál de las siguientes formas define correctamente una constante en PHP?",
+        "opciones": [
+            { "id": "a", "texto": "const(\"PI\", 3.14);" },
+            { "id": "b", "texto": "SPI= constant(3.14);" },
+            { "id": "c", "texto": "define(\"PI\", 3.14);" },
+            { "id": "d", "texto": "constant PI=3.14;" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 8,
+        "pregunta": "¿Cuál NO es un tipo escalar primitivo en PHP?",
+        "opciones": [
+            { "id": "a", "texto": "boolean" },
+            { "id": "b", "texto": "integer" },
+            { "id": "c", "texto": "double" },
+            { "id": "d", "texto": "resource" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 9,
+        "pregunta": "Dada la variable $a=5; ¿qué mostrará echo \"El valor es $a\";?",
+        "opciones": [
+            { "id": "a", "texto": "El valor es $a" },
+            { "id": "b", "texto": "El valor es 5" },
+            { "id": "c", "texto": "$a" },
+            { "id": "d", "texto": "5" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 10,
+        "pregunta": "¿Qué operador se usa en PHP para concatenar cadenas?",
+        "opciones": [
+            { "id": "a", "texto": "+" },
+            { "id": "b", "texto": "&" },
+            { "id": "c", "texto": "." },
+            { "id": "d", "texto": "::" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 11,
+        "pregunta": "¿Cuál es la estructura básica de un if en PHP?",
+        "opciones": [
+            { "id": "a", "texto": "if (condicion) { sentencias }" },
+            { "id": "b", "texto": "if condicion then sentencias endif" },
+            { "id": "c", "texto": "if: condicion { sentencias }" },
+            { "id": "d", "texto": "if condicion: sentencias fi" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 12,
+        "pregunta": "En una estructura switch de PHP, ¿qué palabra clave se usa para salir de cada caso?",
+        "opciones": [
+            { "id": "a", "texto": "stop" },
+            { "id": "b", "texto": "exit" },
+            { "id": "c", "texto": "end" },
+            { "id": "d", "texto": "break" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 13,
+        "pregunta": "¿Qué bucle es más apropiado cuando conocemos de antemano el número de iteraciones?",
+        "opciones": [
+            { "id": "a", "texto": "while" },
+            { "id": "b", "texto": "do...while" },
+            { "id": "c", "texto": "for" },
+            { "id": "d", "texto": "foreach" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 14,
+        "pregunta": "¿Cuál es la forma correcta de declarar una función llamada suma con dos parámetros $x y $y?",
+        "opciones": [
+            { "id": "a", "texto": "func suma($x, $y) { ... }" },
+            { "id": "b", "texto": "function suma($x, $y) { ... }" },
+            { "id": "c", "texto": "declare suma($x, $y) { ... }" },
+            { "id": "d", "texto": "def suma($x, $y) { ... }" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 15,
+        "pregunta": "¿Qué indica el paso de parámetros por referencia en PHP?",
+        "opciones": [
+            { "id": "a", "texto": "Se antepone & al nombre de la función" },
+            { "id": "b", "texto": "Se antepone * al parámetro dentro de la función" },
+            { "id": "c", "texto": "Se antepone & al parámetro en la definición de la función" },
+            { "id": "d", "texto": "Se escribe ref antes del parámetro" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 16,
+        "pregunta": "¿Cuál es la sintaxis correcta para crear un array indexado con los valores \"rojo\", \"verde\", \"azul\"?",
+        "opciones": [
+            { "id": "a", "texto": "$colores = array[\"rojo\",\"verde\",\"azul\"];" },
+            { "id": "b", "texto": "$colores = [\"rojo\",\"verde\",\"azul\"];" },
+            { "id": "c", "texto": "$colores = array(\"rojo\",\"verde\",\"azul\");" },
+            { "id": "d", "texto": "b) y c) son correctas" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 17,
+        "pregunta": "¿Qué función devuelve el número de elementos de un array en PHP?",
+        "opciones": [
+            { "id": "a", "texto": "length()" },
+            { "id": "b", "texto": "sizeof()" },
+            { "id": "c", "texto": "count()" },
+            { "id": "d", "texto": "b) y c) son correctas" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 18,
+        "pregunta": "¿Qué función se utiliza para comprobar si un valor existe dentro de un array?",
+        "opciones": [
+            { "id": "a", "texto": "array_key_exists()" },
+            { "id": "b", "texto": "in_array()" },
+            { "id": "c", "texto": "array_search()" },
+            { "id": "d", "texto": "isset()" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 19,
+        "pregunta": "¿Qué superglobal se usa para acceder a las variables de sesión?",
+        "opciones": [
+            { "id": "a", "texto": "$_SESSION" },
+            { "id": "b", "texto": "$_COOKIE" },
+            { "id": "c", "texto": "$_SERVER" },
+            { "id": "d", "texto": "$_ENV" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 20,
+        "pregunta": "¿Qué instrucción debe ejecutarse al inicio de un script que vaya a usar sesiones?",
+        "opciones": [
+            { "id": "a", "texto": "session_begin();" },
+            { "id": "b", "texto": "session_init();" },
+            { "id": "c", "texto": "session_start();" },
+            { "id": "d", "texto": "start_session();" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 21,
+        "pregunta": "¿Qué función destruye por completo la sesión actual en PHP?",
+        "opciones": [
+            { "id": "a", "texto": "session_kill();" },
+            { "id": "b", "texto": "session_unset();" },
+            { "id": "c", "texto": "session_destroy();" },
+            { "id": "d", "texto": "unset($_SESSION);" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 22,
+        "pregunta": "¿Cuál es la forma correcta de comprobar si se ha enviado un formulario cuyo botón submit se llama 'enviar' usando POST?",
+        "opciones": [
+            { "id": "a", "texto": "if (isset($_GET['enviar'])) { ... }" },
+            { "id": "b", "texto": "if (isset($_POST['enviar'])) { ... }" },
+            { "id": "c", "texto": "if ($_POST['enviar']) { ... }" },
+            { "id": "d", "texto": "if (submit('enviar')) { ... }" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 23,
+        "pregunta": "¿Qué hace la función htmlspecialchars() aplicada a un texto proveniente de un formulario?",
+        "opciones": [
+            { "id": "a", "texto": "Elimina etiquetas HTML" },
+            { "id": "b", "texto": "Cifra el contenido para almacenarlo en la base de datos" },
+            { "id": "c", "texto": "Valida que el texto sea alfanumérico" },
+            { "id": "d", "texto": "Convierte caracteres especiales a entidades HTML seguras" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 24,
+        "pregunta": "¿Qué extensión de PHP permite trabajar específicamente con MySQL con una API mejorada?",
+        "opciones": [
+            { "id": "a", "texto": "mysql" },
+            { "id": "b", "texto": "mysqli" },
+            { "id": "c", "texto": "pdo_mysql" },
+            { "id": "d", "texto": "mysql2" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 25,
+        "pregunta": "¿Cuál de las siguientes secuencias representa correctamente los pasos básicos para trabajar con MySQLi desde PHP?",
+        "opciones": [
+            { "id": "a", "texto": "Conectar SGBD, seleccionar BD, enviar SQL, procesar resultados, cerrar conexión" },
+            { "id": "b", "texto": "Seleccionar BD, conectar SGBD, enviar SQL, cerrar conexión, procesar resultados" },
+            { "id": "c", "texto": "Enviar SQL, procesar resultados, conectar, cerrar conexión, seleccionar BD" },
+            { "id": "d", "texto": "Procesar resultados, conectar, enviar SQL, seleccionar BD, cerrar conexión" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 26,
+        "pregunta": "¿Qué muestra este código?\n<?php\n$a = 3;\n$b = 5;\n$c = $a + $b;\n$a = $c - $a;\necho $a . \" - \" . $c;\n?>",
+        "opciones": [
+            { "id": "a", "texto": "3-8" },
+            { "id": "b", "texto": "5-8" },
+            { "id": "c", "texto": "8-3" },
+            { "id": "d", "texto": "2-8" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 27,
+        "pregunta": "¿Qué salida produce?\n<?php\n$valor = 5;\n$valor = $valor + 2;\necho \"El valor es $valor\";\n$valor = $valor * 2;\necho \" y luego $valor\";\n?>",
+        "opciones": [
+            { "id": "a", "texto": "El valor es 5 y luego 7" },
+            { "id": "b", "texto": "El valor es 10 y luego 20" },
+            { "id": "c", "texto": "El valor es 7 y luego 9" },
+            { "id": "d", "texto": "El valor es 7 y luego 14" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 28,
+        "pregunta": "¿Qué se imprime?\n<?php\n$texto = \"PHP\";\n$numero = 2;\n$texto = $texto . $numero;\n$numero = $numero + 3;\necho $texto . \" \" . $numero;\n?>",
+        "opciones": [
+            { "id": "a", "texto": "PHP2 5" },
+            { "id": "b", "texto": "PHP 2" },
+            { "id": "c", "texto": "PHP5 2" },
+            { "id": "d", "texto": "PHP 5" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 29,
+        "pregunta": "¿Qué imprime este switch?\n<?php\n$ext = \"HTML\";\nswitch ($ext) {\ncase \"PDF\":\n$tipo = \"Documento Adobe PDF\";\nbreak;\ncase \"TXT\":\n$tipo = \"Documento de texto\";\nbreak;\ncase \"HTML\":\ncase \"HTM\":\n$tipo = \"Documento HTML\";\nbreak;\ndefault:\n$tipo = \"Archivo \" . $ext;\n}\necho $tipo;\n?>",
+        "opciones": [
+            { "id": "a", "texto": "Documento Adobe PDF" },
+            { "id": "b", "texto": "Documento de texto" },
+            { "id": "c", "texto": "Archivo HTML" },
+            { "id": "d", "texto": "Documento HTML" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 30,
+        "pregunta": "¿Qué muestra este código con in_array?\n<?php\n$nombres = array(\"Ana\", \"Luis\", \"Marta\");\n$buscar = \"Luis\";\nif (in_array($buscar, $nombres)) {\necho \"Encontrado\";\n} else {\necho \"No encontrado\";\n}\n?>",
+        "opciones": [
+            { "id": "a", "texto": "Ana" },
+            { "id": "b", "texto": "Luis" },
+            { "id": "c", "texto": "Encontrado" },
+            { "id": "d", "texto": "No encontrado" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 31,
+        "pregunta": "¿Qué se muestra al cargar pagina2.php si antes se ha visitado pagina1.php y se ha ejecutado sin errores?\nPAGINA1.PHP\n<?php\nsession_start();\n$_SESSION['nombre'] = \"Juan Pérez\";\n$_SESSION['edad'] = 25;\necho \"Datos guardados en la sesión.<br>\";\necho '<a href=\"pagina2.php\">Ir a la página 2</a>';\n?>\nPAGINA2.PHP\n<?php\nsession_start();\nif (isset($_SESSION['nombre']) && isset($_SESSION['edad'])) {\necho \"Nombre: \" . $_SESSION['nombre'] . \"<br>\";\necho \"Edad: \" . $_SESSION['edad'];\n} else {\necho \"No hay datos disponibles en la sesión.\";\n}\n?>",
+        "opciones": [
+            { "id": "a", "texto": "Datos guardados en la sesión." },
+            { "id": "b", "texto": "Nombre: Juan Pérez únicamente" },
+            { "id": "c", "texto": "Nombre: Juan Pérez y debajo Edad: 25" },
+            { "id": "d", "texto": "No hay datos disponibles en la sesión." }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 32,
+        "pregunta": "¿Qué se imprime al ejecutar este código en cerrar.php justo después de haber pasado por pagina1.php y pagina2.php anteriores?\n<?php\nsession_start();\nsession_unset();\nsession_destroy();\nif (isset($_SESSION['nombre'])) {\necho \"Sigue existiendo\";\n} else {\necho \"Sesión cerrada correctamente.\";\n}\n?>",
+        "opciones": [
+            { "id": "a", "texto": "Sigue existiendo" },
+            { "id": "b", "texto": "Sesión cerrada correctamente." },
+            { "id": "c", "texto": "No muestra nada" },
+            { "id": "d", "texto": "Lanza un error fatal" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 33,
+        "pregunta": "¿Qué salida muestra este script vulnerable si se llama con la URL pagina.php?nombre=<b>Ana</b>?\n<?php\nif (isset($_GET['nombre'])) {\necho \"Hola, \" . $_GET['nombre'] . \"!\";\n}\n?>",
+        "opciones": [
+            { "id": "a", "texto": "Hola, &lt;b&gt;Ana&lt;/b&gt;!" },
+            { "id": "b", "texto": "Hola, <b>Ana</b>!" },
+            { "id": "c", "texto": "Hola, nombre!" },
+            { "id": "d", "texto": "No muestra nada" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 34,
+        "pregunta": "¿Qué salida muestra la versión “segura” si se llama con la misma URL pagina.php?nombre=<b>Ana</b>?\n<?php\nif (isset($_GET['nombre'])) {\n$nombre = htmlspecialchars($_GET['nombre'], ENT_QUOTES, 'UTF-8');\necho \"Hola, \" . $nombre . \"!\";\n}\n?>",
+        "opciones": [
+            { "id": "a", "texto": "Hola, <b>Ana</b>!" },
+            { "id": "b", "texto": "Hola, nombre!" },
+            { "id": "c", "texto": "Hola, &lt;b&gt;Ana&lt;/b&gt;!" },
+            { "id": "d", "texto": "No muestra nada" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 35,
+        "pregunta": "¿Qué muestra este script de búsqueda segura si la URL es busqueda.php?q=<script>alert('XSS')</script>?\n<?php\nheader('X-Content-Type-Options: nosniff');\n$busqueda = filter_input(INPUT_GET, 'q', FILTER_SANITIZE_STRING);\n$busqueda = htmlspecialchars($busqueda, ENT_QUOTES, 'UTF-8');\necho \"Resultados para <strong>\" . $busqueda . \"</strong>\";\n?>",
+        "opciones": [
+            { "id": "a", "texto": "Ejecuta un alert en el navegador" },
+            { "id": "b", "texto": "No muestra nada" },
+            { "id": "c", "texto": "Resultados para <strong><script>alert('XSS')</script></strong> interpretando el script" },
+            { "id": "d", "texto": "Resultados para <strong>&lt;script&gt;alert('XSS')&lt;/script&gt;</strong>" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 36,
+        "pregunta": "¿Qué se imprime en la primera visita a esta página?\n<?php\nsession_start();\nif (!isset($_SESSION['contador'])) {\n$_SESSION['contador'] = 0;\n}\n$_SESSION['contador']++;\necho \"Visitas en esta sesión: \" . $_SESSION['contador'];\n?>",
+        "opciones": [
+            { "id": "a", "texto": "Visitas en esta sesión: 0" },
+            { "id": "b", "texto": "Visitas en esta sesión: 1" },
+            { "id": "c", "texto": "No muestra nada" },
+            { "id": "d", "texto": "Lanza error" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 37,
+        "pregunta": "¿Qué se imprime en la segunda visita a la misma página?",
+        "opciones": [
+            { "id": "a", "texto": "Visitas en esta sesión: 0" },
+            { "id": "b", "texto": "Visitas en esta sesión: 1" },
+            { "id": "c", "texto": "Visitas en esta sesión: 2" },
+            { "id": "d", "texto": "Visitas en esta sesión: 3" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 38,
+        "pregunta": "En este código, ¿qué pasa si se accede sin haber iniciado sesión antes?\n<?php\n$_SESSION['usuario'] = \"admin\";\necho \"Bienvenido \" . $_SESSION['usuario'];\n?>",
+        "opciones": [
+            { "id": "a", "texto": "Bienvenido admin" },
+            { "id": "b", "texto": "Error" },
+            { "id": "c", "texto": "Bienvenido (vacío)" },
+            { "id": "d", "texto": "Undefined index: usuario" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 39,
+        "pregunta": "¿Qué corrige este código?\n<?php\nsession_start(); // ← Esta línea SOLO al inicio\n$_SESSION['usuario'] = \"admin\";\necho \"Sesión iniciada\";\n?>",
+        "opciones": [
+            { "id": "a", "texto": "session_start() debe estar siempre al principio del archivo" },
+            { "id": "b", "texto": "$_SESSION debe ir antes de cualquier HTML" },
+            { "id": "c", "texto": "session_start() solo se llama una vez por navegador" },
+            { "id": "d", "texto": "Todas las anteriores" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 40,
+        "pregunta": "¿Qué se imprime en pagina2.php después de pagina1.php?\nPAGINA1.PHP\n<?php session_start(); $_SESSION['visitas'] = 1; ?>\nPAGINA2.PHP\n<?php\nsession_start();\n$_SESSION['visitas']++;\necho $_SESSION['visitas'];\n?>",
+        "opciones": [
+            { "id": "a", "texto": "1" },
+            { "id": "b", "texto": "2" },
+            { "id": "c", "texto": "0" },
+            { "id": "d", "texto": "No muestra nada" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 41,
+        "pregunta": "En FTP modo activo, ¿qué dispositivo inicia la conexión de datos desde el puerto 20?",
+        "opciones": [
+            { "id": "a", "texto": "El cliente" },
+            { "id": "b", "texto": "El servidor" },
+            { "id": "c", "texto": "Ambos simultáneamente" },
+            { "id": "d", "texto": "Ninguno" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 42,
+        "pregunta": "Cliente ejecuta ftp localhost, luego binary, luego put imagen.jpg. ¿Qué tipo de archivo se transfiere?",
+        "opciones": [
+            { "id": "a", "texto": "Texto plano" },
+            { "id": "b", "texto": "Binario (sin conversión)" },
+            { "id": "c", "texto": "Automáticamente detectado" },
+            { "id": "d", "texto": "Comprimido" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 43,
+        "pregunta": "En FileZilla Server (XAMPP), creas usuario alumnoftp con carpeta C:\\xampp\\htdocs\\ftp. ¿Puerto del cliente?",
+        "opciones": [
+            { "id": "a", "texto": "20" },
+            { "id": "b", "texto": "22" },
+            { "id": "c", "texto": "21" },
+            { "id": "d", "texto": "8080" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 44,
+        "pregunta": "Usuario FTP anónimo usa email@ejemplo.com como contraseña. ¿Qué permisos típicos tiene?",
+        "opciones": [
+            { "id": "a", "texto": "Lectura/escritura completa" },
+            { "id": "b", "texto": "Solo escritura" },
+            { "id": "c", "texto": "Solo ejecución" },
+            { "id": "d", "texto": "Ninguno" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 45,
+        "pregunta": "Secuencia correcta de comandos FTP: conectar → listar → subir desconectar. ¿Orden?",
+        "opciones": [
+            { "id": "a", "texto": "quit, put, Is, open" },
+            { "id": "b", "texto": "Is, open, put, quit" },
+            { "id": "c", "texto": "open, Is, put, quit" },
+            { "id": "d", "texto": "put, quit, open, Is" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 46,
+        "pregunta": "Usuario escribe www.ejemplo.com. Primer paso de resolución DNS:",
+        "opciones": [
+            { "id": "a", "texto": "Servidor raíz" },
+            { "id": "b", "texto": "Servidor autoritativo" },
+            { "id": "c", "texto": "Caché local del sistema" },
+            { "id": "d", "texto": "Servidor DNS del ISP" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 47,
+        "pregunta": "mail.ejemplo.es MX 10 mailserver.ejemplo.es significa:",
+        "opciones": [
+            { "id": "a", "texto": "IP del servidor web" },
+            { "id": "b", "texto": "Servidor correo, prioridad 10" },
+            { "id": "c", "texto": "Alias de nombre" },
+            { "id": "d", "texto": "Servidor DNS" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 48,
+        "pregunta": "DNS: intranet.local A 192.168.1.10. ¿Qué traduce este registro?",
+        "opciones": [
+            { "id": "a", "texto": "Nombre → IPv4" },
+            { "id": "b", "texto": "Correo electrónico" },
+            { "id": "c", "texto": "Servidor DNS" },
+            { "id": "d", "texto": "Alias" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 49,
+        "pregunta": "Resolución admin.mail.ejemplo.com. ¿Cuántos niveles tiene el FQDN?",
+        "opciones": [
+            { "id": "a", "texto": "2" },
+            { "id": "b", "texto": "3" },
+            { "id": "c", "texto": "4" },
+            { "id": "d", "texto": "5" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 50,
+        "pregunta": "Dominio completo: mail.admin.empresa.com. ¿Cuántos niveles tiene esta estructura?",
+        "opciones": [
+            { "id": "a", "texto": "2 niveles" },
+            { "id": "b", "texto": "3 niveles" },
+            { "id": "c", "texto": "4 niveles" },
+            { "id": "d", "texto": "5 niveles" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 51,
+        "pregunta": "¿Cuál es la principal ventaja del sistema DNS distribuido?",
+        "opciones": [
+            { "id": "a", "texto": "Evita sobrecarga en un solo servidor" },
+            { "id": "b", "texto": "Más rápido que archivo hosts" },
+            { "id": "c", "texto": "Coste cero" },
+            { "id": "d", "texto": "Mayor seguridad" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 52,
+        "pregunta": "En esta entrada LDAP: dn: cn=juan, ou=usuarios,dc=empresa,dc=com \n¿Qué representa cn=juan?",
+        "opciones": [
+            { "id": "a", "texto": "Nombre Distinguido Relativo (RDN)" },
+            { "id": "b", "texto": "Nombre completo del directorio" },
+            { "id": "c", "texto": "Dominio raíz" },
+            { "id": "d", "texto": "Rama organizativa" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 53,
+        "pregunta": "Árbol LDAP:\ndc=empresa,dc=com\n└── ou=usuarios\n└── cn=juan\nNombre Distinguido (DN) completo del usuario \"juan\":",
+        "opciones": [
+            { "id": "a", "texto": "cn=juan" },
+            { "id": "b", "texto": "ou=usuarios" },
+            { "id": "c", "texto": "cn=juan, ou=usuarios,dc=empresa,dc=com" },
+            { "id": "d", "texto": "dc= empresa,dc=com" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 54,
+        "pregunta": "Fragmento LDIF de grupo:\ndn: cn=ventas,ou=directorio,dc=com\nobjectClass: groupOfNames\ncn: ventas\nmember: cn=admin,ou=directorio,dc=com\n¿Qué usuario pertenece al grupo \"ventas\"?",
+        "opciones": [
+            { "id": "a", "texto": "admin" },
+            { "id": "b", "texto": "ventas" },
+            { "id": "c", "texto": "directorio" },
+            { "id": "d", "texto": "cn" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 55,
+        "pregunta": "¿Qué objectClass se usa típicamente para entradas de usuarios con email y contraseña?",
+        "opciones": [
+            { "id": "a", "texto": "dcObject" },
+            { "id": "b", "texto": "inetOrgPerson" },
+            { "id": "c", "texto": "groupOfNames" },
+            { "id": "d", "texto": "organizationalUnit" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 56,
+        "pregunta": "¿Qué elemento identifica de forma única recursos en la arquitectura WWW?",
+        "opciones": [
+            { "id": "a", "texto": "URI (Uniform Resource Identifier)" },
+            { "id": "b", "texto": "URL (Uniform Resource Locator)" },
+            { "id": "c", "texto": "UDDI (Universal Description Discovery and Integration)" },
+            { "id": "d", "texto": "UID (Unique Identifier)" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 57,
+        "pregunta": "¿Qué característica clave define la escalabilidad en una arquitectura web?",
+        "opciones": [
+            { "id": "a", "texto": "Capacidad de gestionar solo un número fijo de usuarios" },
+            { "id": "b", "texto": "Capacidad de crecer y adaptarse a mayor demanda de usuarios" },
+            { "id": "c", "texto": "Capacidad de funcionar sin red" },
+            { "id": "d", "texto": "Capacidad de funcionar solo en un sistema operativo concreto" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 58,
+        "pregunta": "En la arquitectura WWW, ¿qué protocolo se usa habitualmente sobre TCP/IP para la comunicación navegador-servidor?",
+        "opciones": [
+            { "id": "a", "texto": "FTP" },
+            { "id": "b", "texto": "SMTP" },
+            { "id": "c", "texto": "HTTP" },
+            { "id": "d", "texto": "POP3" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 59,
+        "pregunta": "¿Qué significa \"contenido tipificado\" en el contexto de la WWW?",
+        "opciones": [
+            { "id": "a", "texto": "Que cada contenido tiene un tipo específico" },
+            { "id": "b", "texto": "Que todo el contenido es solo texto" },
+            { "id": "c", "texto": "Que solo se permiten imágenes y vídeos" },
+            { "id": "d", "texto": "Que el contenido debe estar cifrado" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 60,
+        "pregunta": "¿Cuál de los siguientes NO se menciona como aspecto clave de las arquitecturas web?",
+        "opciones": [
+            { "id": "a", "texto": "Escalabilidad" },
+            { "id": "b", "texto": "Separación de responsabilidades" },
+            { "id": "c", "texto": "Portabilidad" },
+            { "id": "d", "texto": "Encriptación simétrica" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 61,
+        "pregunta": "¿Qué describe mejor la \"separación de responsabilidades\" en una arquitectura de tres capas?",
+        "opciones": [
+            { "id": "a", "texto": "Separar el CSS del HTML" },
+            { "id": "b", "texto": "Dividir claramente presentación, lógica de negocio y datos" },
+            { "id": "c", "texto": "Dividir las tareas del equipo de desarrollo" },
+            { "id": "d", "texto": "Separar el servidor web del sistema operativo" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 62,
+        "pregunta": "En el modelo de tres capas, ¿qué capa se encarga principalmente del almacenamiento y gestión de la información?",
+        "opciones": [
+            { "id": "a", "texto": "Capa de presentación" },
+            { "id": "b", "texto": "Capa de aplicación" },
+            { "id": "c", "texto": "Capa de base de datos" },
+            { "id": "d", "texto": "Capa de red" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 63,
+        "pregunta": "¿Qué componente podría ser un ejemplo como \"servidor de aplicaciones web\" en el modelo de tres capas?",
+        "opciones": [
+            { "id": "a", "texto": "Firefox" },
+            { "id": "b", "texto": "Tomcat" },
+            { "id": "c", "texto": "Outlook" },
+            { "id": "d", "texto": "FileZilla" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 64,
+        "pregunta": "¿Qué caracteriza a la Web 2.0 frente a la web estática original?",
+        "opciones": [
+            { "id": "a", "texto": "Páginas sin cambios durante años" },
+            { "id": "b", "texto": "Mínima interacción con el usuario" },
+            { "id": "c", "texto": "Enfoque en aplicaciones web orientadas al usuario final y trabajo colaborativo" },
+            { "id": "d", "texto": "Uso exclusivo de tablas HTML para maquetar" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 65,
+        "pregunta": "¿Cuál de las siguientes tecnologías es un lenguaje interpretado universal del lado del cliente?",
+        "opciones": [
+            { "id": "a", "texto": "JavaScript" },
+            { "id": "b", "texto": "PHP" },
+            { "id": "c", "texto": "ASP" },
+            { "id": "d", "texto": "Perl" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 66,
+        "pregunta": "¿Cuál de las siguientes NO es una tecnología típica del lado del servidor según el documento?",
+        "opciones": [
+            { "id": "a", "texto": "ASP" },
+            { "id": "b", "texto": "PHP" },
+            { "id": "c", "texto": "CGI" },
+            { "id": "d", "texto": "CSS" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 67,
+        "pregunta": "En el documento, ¿qué se indica como principal objetivo de CSS en aplicaciones web?",
+        "opciones": [
+            { "id": "a", "texto": "Gestión de sesiones de usuario" },
+            { "id": "b", "texto": "Separación contenido-presentación y formateo consistente de páginas" },
+            { "id": "c", "texto": "Encriptar los formularios" },
+            { "id": "d", "texto": "Compilar código Java" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 68,
+        "pregunta": "¿Cuál de estas opciones describe mejor una \"página web estática\"?",
+        "opciones": [
+            { "id": "a", "texto": "Página con contenido generado por scripts en el servidor" },
+            { "id": "b", "texto": "Página almacenada tal cual en /var/www/ y servida igual para todos" },
+            { "id": "c", "texto": "Página generada en tiempo real desde una base de datos" },
+            { "id": "d", "texto": "Página que requiere autenticación de usuario" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 69,
+        "pregunta": "¿Qué se necesita para servir páginas dinámicas en Apache según el texto?",
+        "opciones": [
+            { "id": "a", "texto": "Únicamente ficheros HTML" },
+            { "id": "b", "texto": "Desactivar todos los módulos" },
+            { "id": "c", "texto": "Módulos adicionales como mod_php5, mod_perl o mod_python" },
+            { "id": "d", "texto": "Solo configurar el puerto 80" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 70,
+        "pregunta": "¿Cuál de estas ventajas corresponde a las páginas estáticas frente a las dinámicas?",
+        "opciones": [
+            { "id": "a", "texto": "Mayor interacción con bases de datos" },
+            { "id": "b", "texto": "Contenido personalizado por usuario" },
+            { "id": "c", "texto": "Menor consumo de recursos y configuración más simple" },
+            { "id": "d", "texto": "Necesidad de muchos módulos del servidor" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 71,
+        "pregunta": "¿Qué puerto se asocia típicamente a HTTPS?",
+        "opciones": [
+            { "id": "a", "texto": "25" },
+            { "id": "b", "texto": "80" },
+            { "id": "c", "texto": "443" },
+            { "id": "d", "texto": "110" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 72,
+        "pregunta": "¿Por qué es especialmente importante HTTPS en la navegación web?",
+        "opciones": [
+            { "id": "a", "texto": "Para transacciones bancarias, comercio electrónico, etc" },
+            { "id": "b", "texto": "Para reducir el tamaño de las imágenes" },
+            { "id": "c", "texto": "Para acelerar el JavaScript" },
+            { "id": "d", "texto": "Para desactivar cookies automáticamente" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 73,
+        "pregunta": "¿Cuál es la función principal de los tipos MIME en la web?",
+        "opciones": [
+            { "id": "a", "texto": "Comprimir todos los archivos" },
+            { "id": "b", "texto": "Cambiar el puerto de comunicación" },
+            { "id": "c", "texto": "Encriptar correos electrónicos" },
+            { "id": "d", "texto": "Especificar cómo transferir e interpretar diferentes tipos de contenido" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 74,
+        "pregunta": "¿En qué cabecera HTTP se envía normalmente el tipo MIME del contenido?",
+        "opciones": [
+            { "id": "a", "texto": "User-Agent" },
+            { "id": "b", "texto": "Server" },
+            { "id": "c", "texto": "Content-Type" },
+            { "id": "d", "texto": "Accept-Encoding" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 75,
+        "pregunta": "¿Qué describen los \"hosts virtuales\" en Apache?",
+        "opciones": [
+            { "id": "a", "texto": "Máquinas virtuales para ejecutar el sistema operativo" },
+            { "id": "b", "texto": "Técnicas para alojar múltiples dominios en el mismo servidor" },
+            { "id": "c", "texto": "Usuarios virtuales del sistema" },
+            { "id": "d", "texto": "Bases de datos virtuales" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 76,
+        "pregunta": "¿Cómo diferencian los hosts virtuales basados en nombre las peticiones de distintos sitios?",
+        "opciones": [
+            { "id": "a", "texto": "Por el nombre de dominio solicitado (Host)" },
+            { "id": "b", "texto": "Por el puerto de destino" },
+            { "id": "c", "texto": "Por la dirección MAC" },
+            { "id": "d", "texto": "Por el tamaño del contenido" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 77,
+        "pregunta": "En los hosts virtuales basados en IP, ¿qué característica se indica?",
+        "opciones": [
+            { "id": "a", "texto": "Múltiples dominios comparten la misma IP" },
+            { "id": "b", "texto": "Cada dominio tiene su propia dirección IP" },
+            { "id": "c", "texto": "Solo funciona con HTTPS" },
+            { "id": "d", "texto": "No permite SSL" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 78,
+        "pregunta": "¿Qué archivo de configuración central se menciona para Apache en Debian?",
+        "opciones": [
+            { "id": "a", "texto": "/etc/httpd.conf" },
+            { "id": "b", "texto": "/etc/apache/httpd.conf" },
+            { "id": "c", "texto": "/etc/apache2/apache2.conf" },
+            { "id": "d", "texto": "/var/www/apache.conf" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 79,
+        "pregunta": "¿Qué comando de Debian se menciona para instalar Apache?",
+        "opciones": [
+            { "id": "a", "texto": "apt-get install http" },
+            { "id": "b", "texto": "apt-get install apache" },
+            { "id": "c", "texto": "apt-get install apache2" },
+            { "id": "d", "texto": "apt-get install webserver" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 80,
+        "pregunta": "¿Qué mensaje suele confirmar visualmente que Apache funciona tras la instalación según el texto?",
+        "opciones": [
+            { "id": "a", "texto": "404 Not Found" },
+            { "id": "b", "texto": "It Works!" },
+            { "id": "c", "texto": "Access Denied" },
+            { "id": "d", "texto": "Server Error" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 81,
+        "pregunta": "¿Qué función desempeña Tomcat?",
+        "opciones": [
+            { "id": "a", "texto": "Servidor FTP para subir archivos" },
+            { "id": "b", "texto": "Servidor web y de aplicaciones" },
+            { "id": "c", "texto": "Sistema de bases de datos relacional" },
+            { "id": "d", "texto": "Cliente de correo electrónico" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 82,
+        "pregunta": "¿Qué requisito previo es necesario para instalar Tomcat en un sistema GNU/Linux?",
+        "opciones": [
+            { "id": "a", "texto": "Tener instalado Java (JRE/JDK)" },
+            { "id": "b", "texto": "Tener instalado un servidor SQL" },
+            { "id": "c", "texto": "Tener instalado PHP" },
+            { "id": "d", "texto": "Tener instalado Flash Player" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 83,
+        "pregunta": "¿Cuál de estas acciones forma parte del proceso de instalación de Tomcat?",
+        "opciones": [
+            { "id": "a", "texto": "Ejecutar apt-get install tomcat-browser" },
+            { "id": "b", "texto": "Copiar el binario a /bin" },
+            { "id": "c", "texto": "Descargar el archivo .tar.gz de Tomcat y descomprimirlo en /usr/local/" },
+            { "id": "d", "texto": "Ejecutar service tomcat format" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 84,
+        "pregunta": "¿Qué URL indica que Tomcat está funcionando correctamente por defecto?",
+        "opciones": [
+            { "id": "a", "texto": "http://127.0.0.1" },
+            { "id": "b", "texto": "http://localhost:80" },
+            { "id": "c", "texto": "http://127.0.0.1:8080" },
+            { "id": "d", "texto": "http://localhost:21" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 85,
+        "pregunta": "¿Qué es un archivo WAR en el contexto de aplicaciones Java web?",
+        "opciones": [
+            { "id": "a", "texto": "Un archivo de configuración de Apache" },
+            { "id": "b", "texto": "Un contenedor de base de datos" },
+            { "id": "c", "texto": "Un archivo de empaquetado de aplicaciones web (Web Application Archive)" },
+            { "id": "d", "texto": "Un script de despliegue en bash" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 86,
+        "pregunta": "¿Cuál es una ventaja de empaquetar una aplicación en un WAR?",
+        "opciones": [
+            { "id": "a", "texto": "Disminuye la seguridad de la aplicación" },
+            { "id": "b", "texto": "Solo permite un servlet por aplicación" },
+            { "id": "c", "texto": "Obliga a usar solo HTML estático" },
+            { "id": "d", "texto": "Simplifica el despliegue y aumenta la seguridad" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 87,
+        "pregunta": "¿Qué directorio dentro de una aplicación web contiene el archivo de configuración web.xml?",
+        "opciones": [
+            { "id": "a", "texto": "/" },
+            { "id": "b", "texto": "/WEB-INF/" },
+            { "id": "c", "texto": "/META-INF/" },
+            { "id": "d", "texto": "/config/" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 88,
+        "pregunta": "¿Qué se almacena típicamente en /WEB-INF/classes/?",
+        "opciones": [
+            { "id": "a", "texto": "Imágenes y CSS" },
+            { "id": "b", "texto": "Ficheros HTML" },
+            { "id": "c", "texto": "Clases Java y servlets compilados" },
+            { "id": "d", "texto": "Archivos de log del servidor" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 89,
+        "pregunta": "¿Qué describe el archivo web.xml?",
+        "opciones": [
+            { "id": "a", "texto": "La estructura física del disco" },
+            { "id": "b", "texto": "Las características de despliegue de la aplicación de forma declarativa" },
+            { "id": "c", "texto": "La configuración del kernel de Linux" },
+            { "id": "d", "texto": "La política de backups" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 90,
+        "pregunta": "En NetBeans, ¿qué carpeta del proyecto contiene las páginas visibles (HTML, JSP, CSS, JS)?",
+        "opciones": [
+            { "id": "a", "texto": "Source Packages" },
+            { "id": "b", "texto": "Configuration Files" },
+            { "id": "c", "texto": "Libraries" },
+            { "id": "d", "texto": "Web Pages" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 91,
+        "pregunta": "¿Qué es pom.xml?",
+        "opciones": [
+            { "id": "a", "texto": "Un archivo binario del servidor" },
+            { "id": "b", "texto": "Un log de errores" },
+            { "id": "c", "texto": "El archivo de configuración de Maven que describe el proyecto y sus dependencias" },
+            { "id": "d", "texto": "Un script de arranque de Tomcat" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 92,
+        "pregunta": "¿Qué tarea realiza Maven al compilar y desplegar un proyecto web?",
+        "opciones": [
+            { "id": "a", "texto": "Gestiona dependencias y construye (compila y empaqueta) la aplicación" },
+            { "id": "b", "texto": "Descarga e instala el sistema operativo" },
+            { "id": "c", "texto": "Encripta la base de datos" },
+            { "id": "d", "texto": "Configura automáticamente el cortafuegos" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 93,
+        "pregunta": "¿Qué significa \"desplegar\" una aplicación web?",
+        "opciones": [
+            { "id": "a", "texto": "Ejecutarla solo en local sin servidor" },
+            { "id": "b", "texto": "Comprimirla en un archivo zip" },
+            { "id": "c", "texto": "Ponerla en un servidor para que otros puedan acceder a ella mediante navegador" },
+            { "id": "d", "texto": "Generar únicamente la documentación técnica" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 94,
+        "pregunta": "¿Qué ventaja se menciona de la 'computación extendida' en la evolución de los servicios web?",
+        "opciones": [
+            { "id": "a", "texto": "Uso exclusivo de PCs de sobremesa" },
+            { "id": "b", "texto": "Adaptación a dispositivos móviles, agendas electrónicas y plataformas diversas" },
+            { "id": "c", "texto": "Eliminación de la red" },
+            { "id": "d", "texto": "Uso solo de redes cableadas" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 95,
+        "pregunta": "¿Qué define mejor una 'página web animada' según la clasificación del documento?",
+        "opciones": [
+            { "id": "a", "texto": "Página HTML básica sin estilos" },
+            { "id": "b", "texto": "Página con solo contenido de texto plano" },
+            { "id": "c", "texto": "Página única con formulario" },
+            { "id": "d", "texto": "Página hecha con tecnología FLASH para efectos animados continuados" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 96,
+        "pregunta": "¿Qué caracteriza a una 'página web dinámica'?",
+        "opciones": [
+            { "id": "a", "texto": "Está basada en PHP o ASP con contenido bien estructurado generado dinámicamente" },
+            { "id": "b", "texto": "Se actualiza solo con JavaScript en el cliente sin servidor" },
+            { "id": "c", "texto": "No puede interactuar con bases de datos" },
+            { "id": "d", "texto": "Se guarda únicamente localmente en el navegador" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 97,
+        "pregunta": "¿Qué tipo de sitio se describe como 'acceso múltiple a foros, chats, correo, buscadores y noticias'?",
+        "opciones": [
+            { "id": "a", "texto": "Tienda virtual" },
+            { "id": "b", "texto": "Portal" },
+            { "id": "c", "texto": "Gestor de contenidos" },
+            { "id": "d", "texto": "Blog personal" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 98,
+        "pregunta": "¿Qué tipo de aplicación web ofrece un 'panel de gestión intuitivo para actualización constante'?",
+        "opciones": [
+            { "id": "a", "texto": "Página estática" },
+            { "id": "b", "texto": "Web animada" },
+            { "id": "c", "texto": "Gestor de contenidos" },
+            { "id": "d", "texto": "Portal" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 99,
+        "pregunta": "¿Qué diferencia principal hay entre una tienda virtual y una página informativa simple?",
+        "opciones": [
+            { "id": "a", "texto": "La tienda virtual no usa HTML" },
+            { "id": "b", "texto": "La tienda virtual permite compra online y gestión de productos" },
+            { "id": "c", "texto": "La página informativa requiere autenticación" },
+            { "id": "d", "tenant": "La tienda virtual no necesita servidor" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 100,
+        "pregunta": "En el modelo de arquitectura web, ¿dónde residen presentación, negocio y datos?",
+        "opciones": [
+            { "id": "a", "texto": "En scripts CGI con todo integrado en un mismo programa" },
+            { "id": "b", "texto": "En distintas capas físicas" },
+            { "id": "c", "texto": "En el navegador únicamente" },
+            { "id": "d", "texto": "En la base de datos exclusivamente" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 101,
+        "pregunta": "¿Qué caracteriza al modelo?",
+        "imagen": "/images/preguntas/22.png",
+        "opciones": [
+            { "id": "a", "texto": "Total ausencia de JSP" },
+            { "id": "b", "texto": "JSP para la presentación y beans para la lógica de negocio" },
+            { "id": "c", "texto": "Eliminación del servidor de aplicaciones" },
+            { "id": "d", "texto": "Sustitución de HTTP por FTP" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 102,
+        "pregunta": "¿Qué patrón arquitectónico aparece en el modelo de la imagen?",
+        "imagen": "/images/preguntas/23.png",
+        "opciones": [
+            { "id": "a", "texto": "Singleton" },
+            { "id": "b", "texto": "MVC (Modelo-Vista-Controlador)" },
+            { "id": "c", "texto": "Observer" },
+            { "id": "d", "texto": "Factory" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 103,
+        "pregunta": "¿Qué componente corresponde a la 'L' en la plataforma LAMP?",
+        "opciones": [
+            { "id": "a", "texto": "Linux" },
+            { "id": "b", "texto": "Lighttpd" },
+            { "id": "c", "texto": "Lua" },
+            { "id": "d", "texto": "Lotus" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 104,
+        "pregunta": "En la plataforma LAMP, ¿qué componente representa la 'A'?",
+        "opciones": [
+            { "id": "a", "texto": "Apache" },
+            { "id": "b", "texto": "Android" },
+            { "id": "c", "texto": "Asterisk" },
+            { "id": "d", "texto": "Alfresco" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 105,
+        "pregunta": "¿Qué gestor de bases de datos se menciona para LAMP?",
+        "opciones": [
+            { "id": "a", "texto": "Oracle" },
+            { "id": "b", "texto": "MySQL" },
+            { "id": "c", "texto": "DB2" },
+            { "id": "d", "texto": "MariaDB exclusivamente" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 106,
+        "pregunta": "¿Qué lenguaje interpretado se asocia con LAMP en el documento?",
+        "opciones": [
+            { "id": "a", "texto": "Ruby" },
+            { "id": "b", "texto": "PHP" },
+            { "id": "c", "texto": "Python" },
+            { "id": "d", "texto": "Perl exclusivamente" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 107,
+        "pregunta": "¿Qué opción describe una configuración WAMP?",
+        "opciones": [
+            { "id": "a", "texto": "Windows-Apache-MySQL-PHP" },
+            { "id": "b", "texto": "Windows-Apache-Maven-Perl" },
+            { "id": "c", "texto": "Web-Apache-MySQL-Perl" },
+            { "id": "d", "texto": "Windows-Apache-MySQL-PostgreSQL" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 108,
+        "pregunta": "¿Qué se entiende por 'escalabilidad vertical' en aplicaciones web?",
+        "opciones": [
+            { "id": "a", "texto": "Clonar muchas veces el mismo servidor" },
+            { "id": "b", "texto": "Usar solo un servidor central potente" },
+            { "id": "c", "texto": "Añadir más memoria a un único servidor" },
+            { "id": "d", "texto": "Separar físicamente las capas, distribuyendo elementos en distintas máquinas servidoras" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 109,
+        "pregunta": "¿En qué consiste la 'escalabilidad horizontal'?",
+        "opciones": [
+            { "id": "a", "texto": "Disminuir el número de usuarios soportados" },
+            { "id": "b", "texto": "Clonación del sistema con balanceadores de carga" },
+            { "id": "c", "texto": "Deshabilitar sesiones" },
+            { "id": "d", "texto": "Usar un único servidor con muchos discos" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 110,
+        "pregunta": "¿Qué papel desempeña un 'cluster' en escalabilidad?",
+        "opciones": [
+            { "id": "a", "texto": "Agrupar servidores independientes sin sincronización" },
+            { "id": "b", "texto": "Bloquear conexiones externas" },
+            { "id": "c", "texto": "Crear múltiples bases de datos locales sin replicación" },
+            { "id": "d", "texto": "Agrupar servidores con replicación de sesión transparente al usuario" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 111,
+        "pregunta": "¿Qué tipo de módulo de Apache se encarga de las funciones básicas del servidor?",
+        "opciones": [
+            { "id": "a", "texto": "Módulos adicionales" },
+            { "id": "b", "texto": "Módulos multiproceso" },
+            { "id": "c", "texto": "Módulos base" },
+            { "id": "d", "texto": "Módulos de caché" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 112,
+        "pregunta": "¿Para qué sirven los módulos multiproceso (MPM) en Apache?",
+        "opciones": [
+            { "id": "a", "texto": "Gestionar puertos y peticiones" },
+            { "id": "b", "texto": "Gestionar solo los logs" },
+            { "id": "c", "texto": "Servir contenidos estáticos únicamente" },
+            { "id": "d", "texto": "Gestionar las bases de datos" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 113,
+        "pregunta": "¿Qué licencia tiene Apache?",
+        "opciones": [
+            { "id": "a", "texto": "GPL únicamente" },
+            { "id": "b", "texto": "Licencia Apache, que permite derivados de código abierto y cerrado" },
+            { "id": "c", "texto": "Licencia MIT" },
+            { "id": "d", "texto": "Licencia BSD estricta" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 114,
+        "pregunta": "¿Dónde se almacenan normalmente las páginas web en un servidor Linux con Apache?",
+        "opciones": [
+            { "id": "a", "texto": "/home/www/" },
+            { "id": "b", "texto": "/srv/html/" },
+            { "id": "c", "texto": "/etc/www/" },
+            { "id": "d", "texto": "/var/www/" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 115,
+        "pregunta": "¿Qué describe 'servicio de ficheros estáticos' en un servidor web?",
+        "opciones": [
+            { "id": "a", "texto": "Entrega de archivos almacenados sin ejecución de código" },
+            { "id": "b", "texto": "Ejecución de scripts en el servidor" },
+            { "id": "c", "texto": "Envío de correos electrónicos" },
+            { "id": "d", "texto": "Gestion de certificados SSL" }
+        ],
+        "correcta": "a"
+    },
+    {
+        "id": 116,
+        "pregunta": "En el proceso de petición de un recurso, ¿cuál es el primer paso descrito para tipos MIME?",
+        "opciones": [
+            { "id": "a", "texto": "Cabecera Content-Type" },
+            { "id": "b", "texto": "Interpretación" },
+            { "id": "c", "texto": "Solicitud del cliente" },
+            { "id": "d", "texto": "Identificación del tipo" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 117,
+        "pregunta": "¿Qué hace el servidor tras identificar el tipo MIME de un archivo?",
+        "opciones": [
+            { "id": "a", "texto": "Cierra la conexión" },
+            { "id": "b", "texto": "Cambia el puerto de escucha" },
+            { "id": "c", "texto": "Reinicia el servicio" },
+            { "id": "d", "texto": "Envía la cabecera con el tipo MIME correspondiente" }
+        ],
+        "correcta": "d"
+    },
+    {
+        "id": 118,
+        "pregunta": "¿Qué hace el navegador con el contenido recibido y el tipo MIME?",
+        "opciones": [
+            { "id": "a", "texto": "Lo ignora" },
+            { "id": "b", "texto": "Lo guarda sin procesar" },
+            { "id": "c", "texto": "Interpreta el contenido según el tipo MIME" },
+            { "id": "d", "texto": "Lo convierte siempre a texto plano" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 119,
+        "pregunta": "¿Qué son los 'hosts virtuales basados en nombre'?",
+        "opciones": [
+            { "id": "a", "texto": "Configuraciones que usan diferentes puertos para cada dominio" },
+            { "id": "b", "texto": "Configuraciones donde varios dominios comparten IP y se distinguen por el nombre de host" },
+            { "id": "c", "texto": "Configuraciones que se basan solo en certificados" },
+            { "id": "d", "texto": "Configuraciones exclusivas para HTTP/2" }
+        ],
+        "correcta": "b"
+    },
+    {
+        "id": 120,
+        "pregunta": "¿Qué ventaja tiene el uso de hosts virtuales basados en nombre?",
+        "opciones": [
+            { "id": "a", "texto": "Necesidad de una IP distinta por dominio" },
+            { "id": "b", "texto": "Menor aprovechamiento de recursos" },
+            { "id": "c", "texto": "Permite alojar muchos dominios en una única IP" },
+            { "id": "d", "texto": "Impide usar HTTPS" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 121,
+        "pregunta": "¿Qué se indica sobre configuraciones con múltiples servidores Apache independientes?",
+        "opciones": [
+            { "id": "a", "texto": "Son recomendadas siempre" },
+            { "id": "b", "texto": "Son simples de administrar" },
+            { "id": "c", "texto": "Son complejas y solo recomendadas para casos muy específicos" },
+            { "id": "d", "texto": "No se pueden realizar en Linux" }
+        ],
+        "correcta": "c"
+    },
+    {
+        "id": 122,
+        "pregunta": "¿Qué se define como 'procedimientos de prueba' en el tema de testing?",
+        "opciones": [
+            { "id": "a", "texto": "Código fuente de la aplicación" },
+            { "id": "b", "texto": "Secuencia detallada de pasos para ejecutar pruebas" },
+            { "id": "c", "texto": "Manual de usuario" },
+            { "id": "d", "texto": "Documentación de requisitos legales" }
+        ],
+        "correcta": "b"
+    }
+]

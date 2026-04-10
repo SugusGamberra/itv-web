@@ -149,8 +149,11 @@ export default function TestMode() {
             <div className="w-full mb-8 relative flex items-center justify-center min-h-[40px]">
                 
                 {/* Izquierda: Salir */}
-                <Link to=".." className="absolute left-0 text-white/40 hover:text-white transition-colors flex items-center gap-2 font-bold uppercase tracking-widest text-xs">
-                    <ArrowLeft size={16} /> <span className="hidden sm:inline">Salir</span>
+                <Link 
+                    to={`/${gradoID}/${year}/${asignaturaID}`} 
+                    className="absolute left-0 text-white/40 hover:text-white transition-colors flex items-center gap-2 font-bold uppercase tracking-widest text-xs"
+                >
+                    <ArrowLeft size={16} /> <span className="hidden sm:inline">Atrás</span>
                 </Link>
 
                 {/* Centro: Info */}
