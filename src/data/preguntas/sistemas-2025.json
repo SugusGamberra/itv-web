@@ -45,8 +45,8 @@
             { "id": "c", "texto": "PS2 ratón, PS2 teclado, audio digital, usb, conectores audio, conector ethernet, mini Firewire, firewire" },
             { "id": "d", "texto": "PS2 teclado, PS2 ratón, audio analógico, usb, conectores audio, conector ethernet, mini Firewire, firewire" }
         ],
-        "correcta": "a",
-        "explicacion": "El conector verde es PS/2 para ratón, el morado PS/2 para teclado. El bloque de audio incluye S/PDIF (audio digital). C, D, E y F corresponden a conectores comunes como USB, Ethernet y DisplayPort en placas base modernas."
+        "correcta": "c",
+        "explicacion": "El conector verde es PS/2 para ratón, el morado PS/2 para teclado. El bloque de audio incluye S/PDIF (audio digital). C, D, E y F corresponden a conectores comunes como USB, Ethernet y mini Firewire, firewire"
     },
     {
         "id": 5,
