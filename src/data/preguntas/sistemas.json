@@ -1593,13 +1593,13 @@
         "pregunta": "En el siguiente diagrama:",
         "imagen": "/images/preguntas/15.png",
         "opciones": [
-            { "id": "a", "texto": "El dispatcher entra en acción 5 veces" },
-            { "id": "b", "texto": "El dispatcher entra en acción 6 veces" },
-            { "id": "c", "texto": "El dispatcher entra en acción 7 veces" },
-            { "id": "d", "texto": "El dispatcher entra en acción 8 veces" }
+            { "id": "a", "texto": "El dispatcher entra en acción 6 veces" },
+            { "id": "b", "texto": "El dispatcher entra en acción 7 veces" },
+            { "id": "c", "texto": "El dispatcher entra en acción 8 veces" },
+            { "id": "d", "texto": "El dispatcher entra en acción 9 veces" }
         ],
-        "correcta": "b",
-        "explicacion": "El despachador (dispatcher) interviene cada vez que hay un cambio de contexto (cuando la CPU deja de ejecutar un proceso para empezar a ejecutar otro)."
+        "correcta": "d",
+        "explicacion": "El despachador (dispatcher) interviene cada vez que hay un cambio de contexto (cuando la CPU deja de ejecutar un proceso para empezar a ejecutar otro). En la imagen, son los cuadrados azul oscuro."
     },
     {
         "id": 134,
