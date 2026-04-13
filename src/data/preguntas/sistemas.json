@@ -605,13 +605,13 @@
         "id": 51,
         "pregunta": "Si tienes la dirección 192.168.1.0/24 y necesitas subredes para 3 departamentos con 50, 25 y 10 hosts respectivamente, ¿qué máscaras asignarías a cada subred usando VLSM?",
         "opciones": [
-            { "id": "a", "texto": "/26, 127, 128" },
+            { "id": "a", "texto": "/26, /27, /28" },
             { "id": "b", "texto": "/25, /26, /27" },
-            { "id": "c", "texto": "/27, 128, 129" },
-            { "id": "d", "texto": "/28, 129,/30" }
+            { "id": "c", "texto": "/27, /28, /29" },
+            { "id": "d", "texto": "/28, /29,/30" }
         ],
         "correcta": "a",
-        "explicacion": "Para 50 hosts necesitas un /26. Las opciones '127' y '128' dadas en la pregunta corresponden a errores tipográficos en el documento original, refiriéndose claramente a /27 (para 25 hosts) y /28 (para 10 hosts)."
+        "explicacion": "Para 50 hosts necesitas un /26, /27 (para 25 hosts) y /28 (para 10 hosts)."
     },
     {
         "id": 52,
