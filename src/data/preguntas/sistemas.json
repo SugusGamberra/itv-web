@@ -184,7 +184,7 @@
         "id": 16,
         "pregunta": "¿Cuál es la máscara de subred mínima necesaria para dividir la red 192.168.10.0/24 en al menos 6 subredes?",
         "opciones": [
-            { "id": "a", "texto": "255.255.255.224 (127)" },
+            { "id": "a", "texto": "255.255.255.224 (/27)" },
             { "id": "b", "texto": "255.255.255.240 (/28)" },
             { "id": "c", "texto": "255.255.255.192 (/26)" },
             { "id": "d", "texto": "255.255.255.248 (/29)" }
@@ -1546,11 +1546,11 @@
         "opciones": [
             { "id": "a", "texto": "/24" },
             { "id": "b", "texto": "/26" },
-            { "id": "c", "texto": "/22" },
+            { "id": "c", "texto": "/27" },
             { "id": "d", "texto": "/28" }
         ],
-        "correcta": "d",
-        "explicacion": "Para tener 2000 subredes necesitamos 11 bits (2^11 = 2048). 16 + 11 = /27. Como /27 no está en las opciones, la única válida que cubre esa necesidad sobradamente es la /28 (16+12 bits)."
+        "correcta": "c",
+        "explicacion": "Para tener 2000 subredes necesitamos 11 bits (2^11 = 2048). 16 + 11 = /27."
     },
     {
         "id": 130,
@@ -1972,8 +1972,8 @@
             { "id": "c", "texto": "Monotarea" },
             { "id": "d", "texto": "Multiprocesador" }
         ],
-        "correcta": "b",
-        "explicacion": "Toda la familia de Windows NT (incluyendo Windows 11 Home) es un sistema multiusuario. Te permite crear distintas cuentas (tuya, de invitados, etc.) cada una con sus propios permisos y archivos aislados."
+        "correcta": "a",
+        "explicacion": "Todos los Windows que NO son server son monousuario, es decir: solo una persona a la vez puede manejar el ordenador."
     },
     {
         "id": 165,

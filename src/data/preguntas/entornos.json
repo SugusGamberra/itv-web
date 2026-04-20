@@ -334,7 +334,7 @@
     },
     {
         "id": 28,
-        "pregunta": "En la imagen, vemos un ejemplo de:",
+        "pregunta": "En la imagen, el rombo vacío representa un ejemplo de:",
         "imagen": "/images/preguntas/7.png",
         "opciones": [
             { "id": "a", "texto": "Extensión" },
@@ -342,8 +342,8 @@
             { "id": "c", "texto": "Agregación" },
             { "id": "d", "texto": "Composición" }
         ],
-        "correcta": "d",
-        "explicacion": "La imagen muestra tanto Agregación (rombo blanco en Driver) como Composición (rombo negro en Engine). El rombo negro indica que Transport está compuesto por un Engine y su ciclo de vida depende de él."
+        "correcta": "c",
+        "explicacion": "La imagen muestra Agregación (rombo blanco en Driver). El rombo negro es composición."
     },
     {
         "id": 29,
@@ -732,15 +732,15 @@
     },
     {
         "id": 61,
-        "pregunta": "De las siguientes, según Su, ¿Cuáles se pueden englobar en la categoría mierda?",
+        "pregunta": "Considera el siguiente caso de uso en un sistema de asistencia: El administrador puede añadir estudiantes, editar datos y generar reportes de asistencia. Los estudiantes solo pueden registrar su entrada y salida. En el diagrama de casos de uso, ¿cómo se representa que solo el administrador puede acceder a las funciones de gestión?",
         "opciones": [
-            { "id": "a", "texto": "Diagrama de estados" },
-            { "id": "b", "texto": "Diagrama de secuencia" },
-            { "id": "c", "texto": "Diagrama de colaboración" },
-            { "id": "d", "texto": "Todas las anteriores" }
+            { "id": "a", "texto": "Generalización entre actores" },
+            { "id": "b", "texto": "Inclusión (include)" },
+            { "id": "c", "texto": "Extensión (extend)" },
+            { "id": "d", "texto": "Asociación entre actor y caso de uso" }
         ],
         "correcta": "d",
-        "explicacion": "No tengo el gusto de conocer a Su pero seguro que todas las opciones HAHAHAH Una grande, me cae bien"
+        "explicacion": "Simplemente se dibuja una línea de Asociación conectando al muñequito (Actor Administrador) con la burbuja (Caso de Uso Gestión). Si otro actor no tiene esa línea, significa que no puede acceder."
     },
     {
         "id": 62,
@@ -1464,17 +1464,5 @@
         ],
         "correcta": "a",
         "explicacion": "Las flechas de transición (flujo de control) son las simples líneas con punta de flecha que conectan una actividad con la siguiente, indicando el orden paso a paso."
-    },
-    {
-        "id": 122,
-        "pregunta": "Considera el siguiente caso de uso en un sistema de asistencia: El administrador puede añadir estudiantes, editar datos y generar reportes de asistencia. Los estudiantes solo pueden registrar su entrada y salida. En el diagrama de casos de uso, ¿cómo se representa que solo el administrador puede acceder a las funciones de gestión?",
-        "opciones": [
-            { "id": "a", "texto": "Generalización entre actores" },
-            { "id": "b", "texto": "Inclusión (include)" },
-            { "id": "c", "texto": "Extensión (extend)" },
-            { "id": "d", "texto": "Asociación entre actor y caso de uso" }
-        ],
-        "correcta": "d",
-        "explicacion": "Simplemente se dibuja una línea de Asociación conectando al muñequito (Actor Administrador) con la burbuja (Caso de Uso Gestión). Si otro actor no tiene esa línea, significa que no puede acceder."
     }
 ]
