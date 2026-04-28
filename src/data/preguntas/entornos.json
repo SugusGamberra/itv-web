@@ -1464,5 +1464,725 @@
         ],
         "correcta": "a",
         "explicacion": "Las flechas de transición (flujo de control) son las simples líneas con punta de flecha que conectan una actividad con la siguiente, indicando el orden paso a paso."
+    },
+    {
+        "id": 122,
+        "pregunta": "¿Qué ventaja ofrece un lenguaje con tipado estático y fuerte en un proyecto de gran tamaño?",
+        "opciones": [
+        { "id": "a", "texto": "Menor necesidad de pruebas" },
+        { "id": "b", "texto": "Detección temprana de errores de tipos" },
+        { "id": "c", "texto": "Ejecución más lenta" },
+        { "id": "d", "texto": "Elimination de la documentación" }
+        ],
+        "correcta": "b",
+        "explicacion": "El tipado estático permite que el compilador detecte errores de coherencia de tipos antes de la ejecución, lo cual es vital en proyectos grandes para evitar fallos en tiempo de ejecución."
+    },
+    {
+        "id": 123,
+        "pregunta": "¿Qué principio de programación se refleja mejor al evitar repetir código en varias líneas similares, como en un bucle for?",
+        "opciones": [
+        { "id": "a", "texto": "DRY" },
+        { "id": "b", "texto": "KISS" },
+        { "id": "c", "texto": "YAGNI" },
+        { "id": "d", "texto": "SOLID" }
+        ],
+        "correcta": "a",
+        "explicacion": "DRY (Don't Repeat Yourself) promueve la reducción de repetición de información de todo tipo, evitando la duplicidad de lógica."
+    },
+    {
+        "id": 124,
+        "pregunta": "¿Qué afirmación describe mejor la diferencia entre compilación e interpretación?",
+        "opciones": [
+        { "id": "a", "texto": "La compilación traduce todo el programa antes de ejecutarlo y la interpretación lo ejecuta instrucción a instrucción" },
+        { "id": "b", "texto": "La compilación solo sirve para Python" },
+        { "id": "c", "texto": "La interpretación genera binarios nativos" },
+        { "id": "d", "texto": "No existe diferencia real" }
+        ],
+        "correcta": "a",
+        "explicacion": "Un compilador traduce el código fuente a código máquina de una vez, mientras que un intérprete traduce y ejecuta el código línea por línea en tiempo real."
+    },
+    {
+        "id": 125,
+        "pregunta": "¿Qué característica diferencia a un sistema monolítico de una arquitectura basada en microservicios?",
+        "opciones": [
+        { "id": "a", "texto": "Los microservicios comparten siempre la misma base de datos" },
+        { "id": "b", "texto": "El monolito divide el sistema en servicios independientes desplegables" },
+        { "id": "c", "texto": "Los microservicios separan funcionalidades en servicios autónomos" },
+        { "id": "d", "texto": "El monolito solo se usa en web" }
+        ],
+        "correcta": "c",
+        "explicacion": "La arquitectura de microservicios se basa en descomponer una aplicación en un conjunto de servicios pequeños y autónomos que se comunican entre sí."
+    },
+    {
+        "id": 126,
+        "pregunta": "En programación orientada a objetos, ¿qué técnica permite que una clase hija redefina un método de la clase padre?",
+        "opciones": [
+        { "id": "a", "texto": "Sobrecarga" },
+        { "id": "b", "texto": "Polimorfismo" },
+        { "id": "c", "texto": "Herencia" },
+        { "id": "d", "texto": "Abstracción" }
+        ],
+        "correcta": "b",
+        "explicacion": "El polimorfismo, específicamente a través de la anulación (override), permite que una subclase proporcione una implementación específica de un método que ya está definido en su superclase."
+    },
+    {
+        "id": 127,
+        "pregunta": "¿Qué se consigue principalmente con el encapsulamiento?",
+        "opciones": [
+        { "id": "a", "texto": "Aumentar el número de clases" },
+        { "id": "b", "texto": "Usar solo funciones puras" },
+        { "id": "c", "texto": "Eliminar la herencia" },
+        { "id": "d", "texto": "Ocultar el estado interno y exponer solo una interfaz controlada" }
+        ],
+        "correcta": "d",
+        "explicacion": "El encapsulamiento protege los datos internos de un objeto, permitiendo el acceso a ellos solo a través de métodos públicos definidos."
+    },
+    {
+        "id": 128,
+        "pregunta": "Si un algoritmo reduce su complejidad de O(n²) a O(n log n), ¿qué efecto general se espera?",
+        "opciones": [
+        { "id": "a", "texto": "Mejor escalabilidad" },
+        { "id": "b", "texto": "Mayor coste asintótico" },
+        { "id": "c", "texto": "Menor legibilidad siempre" },
+        { "id": "d", "texto": "Imposibilidad de usarlo en listas" }
+        ],
+        "correcta": "a",
+        "explicacion": "Reducir la complejidad algorítmica significa que el tiempo de ejecución crece más lentamente a medida que aumenta el volumen de datos, mejorando la escalabilidad."
+    },
+    {
+        "id": 129,
+        "pregunta": "¿Qué práctica ayuda más a mantener un código de calidad en equipo?",
+        "opciones": [
+        { "id": "a", "texto": "Evitar revisiones de código" },
+        { "id": "b", "texto": "No usar control de versiones" },
+        { "id": "c", "texto": "Escribir todo en un único archivo" },
+        { "id": "d", "texto": "Aplicar integración continua y tests automáticos" }
+        ],
+        "correcta": "d",
+        "explicacion": "La integración continua y las pruebas automatizadas aseguran que el código nuevo no rompa lo existente y cumpla con los estándares de calidad del equipo."
+    },
+    {
+        "id": 130,
+        "pregunta": "¿Qué lenguaje es más probable que se use para scripts de automatización y prototipos rápidos?",
+        "opciones": [
+        { "id": "a", "texto": "COBOL" },
+        { "id": "b", "texto": "Python" },
+        { "id": "c", "texto": "Assembly" },
+        { "id": "d", "texto": "Fortran" }
+        ],
+        "correcta": "b",
+        "explicacion": "Python es muy popular para prototipado y scripts debido a su sintaxis clara, gran cantidad de librerías y naturaleza interpretada."
+    },
+    {
+        "id": 131,
+        "pregunta": "En el pseudocódigo 'if (usuario.isAdmin()) { permitir(); } else { denegar(); }', ¿qué estructura de control se usa?",
+        "opciones": [
+        { "id": "a", "texto": "Bucle" },
+        { "id": "b", "texto": "Recursión" },
+        { "id": "c", "texto": "Condicional" },
+        { "id": "d", "texto": "Excepción" }
+        ],
+        "correcta": "c",
+        "explicacion": "La estructura if/else es un condicional que permite ejecutar diferentes bloques de código basados en si una condición es verdadera o falsa."
+    },
+    {
+        "id": 132,
+        "pregunta": "¿Qué característica avanzada de un IDE ayuda a mover métodos entre clases sin romper referencias?",
+        "opciones": [
+        { "id": "a", "texto": "Refactorización segura" },
+        { "id": "b", "texto": "Temas visuales" },
+        { "id": "c", "texto": "Compresión de archivos" },
+        { "id": "d", "texto": "Autoguardado" }
+        ],
+        "correcta": "a",
+        "explicacion": "La refactorización segura permite modificar la estructura del código (como mover métodos) asegurando que todas las llamadas y dependencias se actualicen automáticamente[cite: 58, 59]."
+    },
+    {
+        "id": 133,
+        "pregunta": "¿Qué ventaja principal aporta un entorno reproducible como un contenedor de desarrollo?",
+        "opciones": [
+        { "id": "a", "texto": "Más publicidad del proyecto" },
+        { "id": "b", "texto": "Misma configuración para todo el equipo" },
+        { "id": "c", "texto": "Menos necesidad de Git" },
+        { "id": "d", "texto": "Compilar más despacio siempre" }
+        ],
+        "correcta": "b",
+        "explicacion": "Los contenedores aseguran que todos los desarrolladores trabajen exactamente con las mismas versiones de herramientas y dependencias, evitando el 'en mi máquina funciona'[cite: 63, 65]."
+    },
+    {
+        "id": 134,
+        "pregunta": "¿Qué herramienta integra un IDE moderno para encontrar errores antes de ejecutar?",
+        "opciones": [
+        { "id": "a", "texto": "Análisis estático" },
+        { "id": "b", "texto": "Compilación manual externa" },
+        { "id": "c", "texto": "Calendario del sistema" },
+        { "id": "d", "texto": "Gestor de tareas" }
+        ],
+        "correcta": "a",
+        "explicacion": "El análisis estático revisa el código fuente en busca de errores potenciales, malas prácticas o vulnerabilidades sin necesidad de ejecutar el programa[cite: 68, 70]."
+    },
+    {
+        "id": 135,
+        "pregunta": "¿Qué opción encaja mejor con un entorno online para código colaborativo?",
+        "opciones": [
+        { "id": "a", "texto": "Bloc de notas" },
+        { "id": "b", "texto": "GitHub Codespaces" },
+        { "id": "c", "texto": "Paint" },
+        { "id": "d", "texto": "WordPad" }
+        ],
+        "correcta": "b",
+        "explicacion": "GitHub Codespaces proporciona un entorno de desarrollo completo basado en la nube que permite programar directamente desde el navegador de forma colaborativa[cite: 75, 77]."
+    },
+    {
+        "id": 136,
+        "pregunta": "¿Qué suele aportar un editor ligero frente a un IDE completo?",
+        "opciones": [
+        { "id": "a", "texto": "Más consumo de memoria" },
+        { "id": "b", "texto": "Más asistentes de refactorización" },
+        { "id": "c", "texto": "Menor consumo de recursos" },
+        { "id": "d", "texto": "Compilación integrada obligatoria" }
+        ],
+        "correcta": "c",
+        "explicacion": "Los editores ligeros están diseñados para ser rápidos y consumir poca memoria RAM, aunque carecen de algunas herramientas avanzadas que vienen de serie en un IDE[cite: 80, 83]."
+    },
+    {
+        "id": 137,
+        "pregunta": "¿Qué herramienta permite gestionar dependencias de forma declarativa en proyectos Java?",
+        "opciones": [
+        { "id": "a", "texto": "Maven" },
+        { "id": "b", "texto": "Explorer" },
+        { "id": "c", "texto": "Photoshop" },
+        { "id": "d", "texto": "VLC" }
+        ],
+        "correcta": "a",
+        "explicacion": "Maven es una herramienta de gestión de proyectos que utiliza un archivo POM para declarar y descargar automáticamente las librerías necesarias[cite: 85, 86]."
+    },
+    {
+        "id": 138,
+        "pregunta": "En la interfaz de un IDE, ¿qué elemento permite pausar la ejecución y examinar valores de variables?",
+        "opciones": [
+        { "id": "a", "texto": "La consola" },
+        { "id": "b", "texto": "El terminal remoto" },
+        { "id": "c", "texto": "El panel de proyecto" },
+        { "id": "d", "texto": "El depurador" }
+        ],
+        "correcta": "d",
+        "explicacion": "El depurador (debugger) es la herramienta que permite inspeccionar el estado del programa en tiempo de ejecución mediante puntos de interrupción[cite: 91, 95]."
+    },
+    {
+        "id": 139,
+        "pregunta": "¿Qué ventaja específica tiene usar control de versiones integrado en el IDE?",
+        "opciones": [
+        { "id": "a", "texto": "Impedir errores lógicos" },
+        { "id": "b", "texto": "Registrar y recuperar cambios con facilidad" },
+        { "id": "c", "texto": "Eliminar la necesidad de pruebas" },
+        { "id": "d", "texto": "Sustituir el compilador" }
+        ],
+        "correcta": "b",
+        "explicacion": "La integración de sistemas como Git en el IDE facilita el seguimiento de cambios, la creación de ramas y la recuperación de versiones anteriores del código[cite: 96, 98]."
+    },
+    {
+        "id": 140,
+        "pregunta": "¿Qué entorno es más adecuado para trabajar con firmware y acceso a hardware?",
+        "opciones": [
+        { "id": "a", "texto": "Entorno especializado con depuración hardware" },
+        { "id": "b", "texto": "IDE genérico sin extensiones" },
+        { "id": "c", "texto": "Procesador de textos" },
+        { "id": "d", "texto": "Navegador web" }
+        ],
+        "correcta": "a",
+        "explicacion": "Para programar hardware es necesario un entorno que soporte herramientas específicas de depuración física, como sondas JTAG o simuladores de microcontroladores[cite: 101, 102]."
+    },
+    {
+        "id": 141,
+        "pregunta": "¿Qué función ayuda a completar automáticamente firmas de métodos y parámetros?",
+        "opciones": [
+        { "id": "a", "texto": "Autocompletado inteligente" },
+        { "id": "b", "texto": "Formateo de papel" },
+        { "id": "c", "texto": "Compresión de texto" },
+        { "id": "d", "texto": "Indexación de imágenes" }
+        ],
+        "correcta": "a",
+        "explicacion": "El autocompletado inteligente (IntelliSense o similar) sugiere métodos, variables y parámetros basándose en el contexto del código escrito[cite: 106, 107]."
+    },
+    {
+        "id": 142,
+        "pregunta": "¿Qué diferencia principal hay entre pruebas unitarias y de integración?",
+        "opciones": [
+        { "id": "a", "texto": "Las unitarias prueban módulos aislados y las de integración sus interacciones" },
+        { "id": "b", "texto": "Las unitarias son siempre manuales" },
+        { "id": "c", "texto": "Las de integración solo verifican la interfaz" },
+        { "id": "d", "texto": "No hay diferencia" }
+        ],
+        "correcta": "a",
+        "explicacion": "Las pruebas unitarias se centran en la unidad mínima de código (como una función), mientras que las de integración verifican que esos componentes funcionen bien cuando se juntan[cite: 112, 113]."
+    },
+    {
+        "id": 143,
+        "pregunta": "¿Qué objetivo tiene una prueba de regresión?",
+        "opciones": [
+        { "id": "a", "texto": "Encontrar nuevos lenguajes" },
+        { "id": "b", "texto": "Comprobar que cambios recientes no rompen funcionalidades existentes" },
+        { "id": "c", "texto": "Medir la velocidad del teclado" },
+        { "id": "d", "texto": "Diseñar la base de datos" }
+        ],
+        "correcta": "b",
+        "explicacion": "Las pruebas de regresión se aseguran de que, al arreglar un bug o añadir una mejora, no hayamos estropeado algo que ya funcionaba antes[cite: 117, 119]."
+    },
+    {
+        "id": 144,
+        "pregunta": "¿Qué técnica introduce fallos artificiales en el código para evaluar la calidad de los tests?",
+        "opciones": [
+        { "id": "a", "texto": "Prueba de carga" },
+        { "id": "b", "texto": "Prueba alfa" },
+        { "id": "c", "texto": "Prueba de humo" },
+        { "id": "d", "texto": "Prueba de mutación" }
+        ],
+        "correcta": "d",
+        "explicacion": "La prueba de mutación modifica el código a propósito para ver si tus tests son capaces de detectar ese fallo; si el test sigue pasando, es que el test no es muy bueno[cite: 122, 127]."
+    },
+    {
+        "id": 145,
+        "pregunta": "¿Qué describe mejor la cobertura de código?",
+        "opciones": [
+        { "id": "a", "texto": "Tiempo total de compilación" },
+        { "id": "b", "texto": "Número de pantallas del programa" },
+        { "id": "c", "texto": "Porcentaje del código ejecutado por los tests" },
+        { "id": "d", "texto": "Cantidad de comentarios" }
+        ],
+        "correcta": "c",
+        "explicacion": "Es una métrica que indica cuánto de nuestro código fuente está siendo realmente 'ejercitado' o probado por nuestra suite de pruebas[cite: 129, 132]."
+    },
+    {
+        "id": 146,
+        "pregunta": "¿Cuál es un buen criterio para diseñar casos de prueba efectivos?",
+        "opciones": [
+        { "id": "a", "texto": "Usar siempre datos reales sensibles" },
+        { "id": "b", "texto": "Cubrir límites, casos normales y casos erróneos" },
+        { "id": "c", "texto": "Evitar entradas inválidas" },
+        { "id": "d", "texto": "Probar solo la ruta feliz" }
+        ],
+        "correcta": "b",
+        "explicacion": "Un buen diseño de pruebas debe contemplar tanto el funcionamiento esperado como situaciones límite o entradas que deberían dar error para asegurar la robustez[cite: 134, 136]."
+    },
+    {
+        "id": 147,
+        "pregunta": "¿Qué tipo de prueba valida el comportamiento del sistema desde la perspectiva del usuario sin mirar el código interno?",
+        "opciones": [
+        { "id": "a", "texto": "Caja blanca" },
+        { "id": "b", "texto": "Estática" },
+        { "id": "c", "texto": "Mutación" },
+        { "id": "d", "texto": "Caja negra" }
+        ],
+        "correcta": "d",
+        "explicacion": "En las pruebas de caja negra nos centramos en las entradas y salidas del sistema, ignorando por completo cómo está implementado por dentro[cite: 139, 143]."
+    },
+    {
+        "id": 148,
+        "pregunta": "Si un test falla solo cuando el valor de entrada es 0, ¿qué técnica de diseño de pruebas ayuda más a detectar este fallo?",
+        "opciones": [
+        { "id": "a", "texto": "Particiones equivalentes" },
+        { "id": "b", "texto": "Tabla de verdad" },
+        { "id": "c", "texto": "Valor límite" },
+        { "id": "d", "texto": "Diagrama de Gantt" }
+        ],
+        "correcta": "c",
+        "explicacion": "El análisis de valores límite se centra precisamente en probar los extremos (como el 0, o máximos y mínimos), donde suelen esconderse la mayoría de los bugs[cite: 144, 148]."
+    },
+    {
+        "id": 149,
+        "pregunta": "¿Qué indica un buen informe de errores?",
+        "opciones": [
+        { "id": "a", "texto": "Solo la opinión del tester" },
+        { "id": "b", "texto": "Pasos para reproducir, resultado esperado y resultado obtenido" },
+        { "id": "c", "texto": "Únicamente una captura" },
+        { "id": "d", "texto": "Solo el nombre del archivo" }
+        ],
+        "correcta": "b",
+        "explicacion": "Para que un desarrollador pueda arreglar un fallo, necesita saber exactamente cómo llegar a él y qué es lo que ha fallado respecto a lo esperado[cite: 150, 152]."
+    },
+    {
+        "id": 150,
+        "pregunta": "¿Qué nivel de prueba valida la comunicación entre componentes de software distintos?",
+        "opciones": [
+        { "id": "a", "texto": "Unidad" },
+        { "id": "b", "texto": "Integración" },
+        { "id": "c", "texto": "Usabilidad" },
+        { "id": "d", "texto": "Aceptación" }
+        ],
+        "correcta": "b",
+        "explicacion": "El nivel de integración se encarga específicamente de verificar que los módulos o componentes interactúan correctamente entre sí[cite: 156, 158]."
+    },
+    {
+        "id": 151,
+        "pregunta": "¿Qué práctica mejora la reproducibilidad de pruebas automatizadas?",
+        "opciones": [
+        { "id": "a", "texto": "Datos y entorno controlados" },
+        { "id": "b", "texto": "Cambiar el sistema operativo en cada ejecución" },
+        { "id": "c", "texto": "Usar datos aleatorios sin semilla" },
+        { "id": "d", "texto": "Probar sin criterios de aceptación" }
+        ],
+        "correcta": "a",
+        "explicacion": "Tener un entorno y unos datos de prueba consistentes asegura que el test siempre se ejecute bajo las mismas condiciones, dando resultados fiables[cite: 161, 162]."
+    },
+    {
+        "id": 152,
+        "pregunta": "¿Qué relación UML indica que una clase forma parte esencial de otra y no tiene sentido sin ella?",
+        "opciones": [
+        { "id": "a", "texto": "Asociación" },
+        { "id": "b", "texto": "Composición" },
+        { "id": "c", "texto": "Dependencia" },
+        { "id": "d", "texto": "Herencia" }
+        ],
+        "correcta": "b",
+        "explicacion": "La composición es un tipo de relación fuerte donde la existencia de la 'parte' está ligada a la vida del 'todo'[cite: 167, 169]."
+    },
+    {
+        "id": 153,
+        "pregunta": "Si una clase Cliente usa una clase Pago solo como parámetro de un método, ¿qué relación es más adecuada?",
+        "opciones": [
+        { "id": "a", "texto": "Dependencia" },
+        { "id": "b", "texto": "Composición" },
+        { "id": "c", "texto": "Agregación" },
+        { "id": "d", "texto": "Herencia" }
+        ],
+        "correcta": "a",
+        "explicacion": "La dependencia ocurre cuando una clase utiliza a otra temporalmente, por ejemplo, como un parámetro o variable local en un método[cite: 172, 173]."
+    },
+    {
+        "id": 154,
+        "pregunta": "¿Qué visibilidad UML permite acceso desde la propia clase y sus subclases?",
+        "opciones": [
+        { "id": "a", "texto": "Private" },
+        { "id": "b", "texto": "Protected" },
+        { "id": "c", "texto": "Public" },
+        { "id": "d", "texto": "Package" }
+        ],
+        "correcta": "b",
+        "explicacion": "El modificador protected (protegido) limita el acceso a la propia clase y a aquellas que hereden de ella[cite: 177, 179]."
+    },
+    {
+        "id": 155,
+        "pregunta": "¿Qué principio recomienda que un objeto hable solo con sus colaboradores más cercanos?",
+        "opciones": [
+        { "id": "a", "texto": "Ley de Demeter" },
+        { "id": "b", "texto": "DRY" },
+        { "id": "c", "texto": "KISS" },
+        { "id": "d", "texto": "YAGNI" }
+        ],
+        "correcta": "a",
+        "explicacion": "La Ley de Demeter busca reducir el acoplamiento evitando que un objeto conozca la estructura interna de los objetos con los que interactúa[cite: 183, 184]."
+    },
+    {
+        "id": 156,
+        "pregunta": "¿Qué patrón de diseño crea una única instancia compartida en toda la aplicación?",
+        "opciones": [
+        { "id": "a", "texto": "Factory" },
+        { "id": "b", "texto": "Observer" },
+        { "id": "c", "texto": "Singleton" },
+        { "id": "d", "texto": "Strategy" }
+        ],
+        "correcta": "c",
+        "explicacion": "El patrón Singleton garantiza que una clase tenga una única instancia y proporciona un punto de acceso global a ella[cite: 188, 191]."
+    },
+    {
+        "id": 157,
+        "pregunta": "¿Qué antipatrón suele aparecer cuando el código crece sin estructura ni separación clara de responsabilidades?",
+        "opciones": [
+        { "id": "a", "texto": "God Object" },
+        { "id": "b", "texto": "Facade" },
+        { "id": "c", "texto": "Adapter" },
+        { "id": "d", "texto": "Proxy" }
+        ],
+        "correcta": "a",
+        "explicacion": "Un 'Objeto Dios' es una clase que sabe demasiado o hace demasiado, concentrando toda la lógica y rompiendo el principio de responsabilidad única[cite: 193, 194]."
+    },
+    {
+        "id": 158,
+        "pregunta": "Observa el fragmento: class Hija extends Padre. ¿Qué concepto de POO se representa?",
+        "opciones": [
+        { "id": "a", "texto": "Polimorfismo" },
+        { "id": "b", "texto": "Herencia" },
+        { "id": "c", "texto": "Encapsulación" },
+        { "id": "d", "texto": "Coherencia" }
+        ],
+        "correcta": "b",
+        "explicacion": "La palabra clave 'extends' en lenguajes como Java se utiliza para indicar que una clase hereda atributos y métodos de otra[cite: 198, 200]."
+    },
+    {
+        "id": 159,
+        "pregunta": "¿Qué elemento de UML muestra el tiempo de existencia e interacción de un objeto en un diagrama de secuencia?",
+        "opciones": [
+        { "id": "a", "texto": "Actor" },
+        { "id": "b", "texto": "Caso de uso" },
+        { "id": "c", "texto": "Línea de vida" },
+        { "id": "d", "texto": "Nodo inicial" }
+        ],
+        "correcta": "c",
+        "explicacion": "La línea de vida representa la existencia del objeto a lo largo del tiempo durante la interacción modelada[cite: 203, 206]."
+    },
+    {
+        "id": 160,
+        "pregunta": "¿Qué símbolo se usa en un diagrama de actividades para bifurcar el flujo en alternativas?",
+        "opciones": [
+        { "id": "a", "texto": "Rombo de decisión" },
+        { "id": "b", "texto": "Círculo relleno" },
+        { "id": "c", "texto": "Línea discontinua" },
+        { "id": "d", "texto": "Bloque de texto" }
+        ],
+        "correcta": "a",
+        "explicacion": "El rombo de decisión permite representar puntos donde el flujo puede tomar distintos caminos según una condición[cite: 209, 210]."
+    },
+    {
+        "id": 161,
+        "pregunta": "¿Qué representa una relación include en un diagrama de casos de uso?",
+        "opciones": [
+        { "id": "a", "texto": "Una variación opcional" },
+        { "id": "b", "texto": "Comportamiento obligatorio reutilizado" },
+        { "id": "c", "texto": "Una herencia entre actores" },
+        { "id": "d", "texto": "Una asociación física" }
+        ],
+        "correcta": "b",
+        "explicacion": "La relación 'include' indica que un caso de uso base incorpora obligatoriamente el comportamiento de otro caso de uso[cite: 214, 216]."
+    },
+    {
+        "id": 162,
+        "pregunta": "En un diagrama de clase, si un Pedido contiene muchas líneas de pedido y al eliminar el Pedido se eliminan también sus líneas, ¿qué relación UML es?",
+        "opciones": [
+        { "id": "a", "texto": "Agregación" },
+        { "id": "b", "texto": "Composición" },
+        { "id": "c", "texto": "Dependencia" },
+        { "id": "d", "texto": "Generalización" }
+        ],
+        "correcta": "b",
+        "explicacion": "Es una composición porque existe una dependencia de vida fuerte: si el objeto contenedor desaparece, las partes desaparecen con él[cite: 220, 221, 223]."
+    },
+    {
+        "id": 163,
+        "pregunta": "Si una clase Docente hereda de Persona, ¿cómo se representa gráficamente en UML?",
+        "opciones": [
+        { "id": "a", "texto": "Línea continua con rombo negro" },
+        { "id": "b", "texto": "Línea discontinua con flecha abierta" },
+        { "id": "c", "texto": "Línea continua con flecha abierta hacia Persona" },
+        { "id": "d", "texto": "Línea con doble rombo" }
+        ],
+        "correcta": "c",
+        "explicacion": "La herencia se representa con una línea continua y una punta de flecha vacía o abierta apuntando hacia la clase padre o superclase[cite: 226, 229]."
+    },
+    {
+        "id": 164,
+        "pregunta": "¿Qué símbolo se utiliza en UML para indicar que el atributo 'contrasena' de una clase Usuario es privado?",
+        "opciones": [
+        { "id": "a", "texto": "+ contrasena" },
+        { "id": "b", "texto": "- contrasena" },
+        { "id": "c", "texto": "# contrasena" },
+        { "id": "d", "texto": "~ contrasena" }
+        ],
+        "correcta": "b",
+        "explicacion": "En UML, el signo menos (-) denota visibilidad privada, mientras que el más (+) es para pública y la almohadilla (#) para protegida[cite: 231, 233]."
+    },
+    {
+        "id": 165,
+        "pregunta": "¿Qué tipo de relación existe cuando una clase utiliza otra únicamente como tipo de retorno de uno de sus métodos?",
+        "opciones": [
+        { "id": "a", "texto": "Dependencia" },
+        { "id": "b", "texto": "Composición" },
+        { "id": "c", "texto": "Agregación" },
+        { "id": "d", "edge": "Herencia" }
+        ],
+        "correcta": "a",
+        "explicacion": "Al ser un uso puntual para un retorno, se considera una dependencia, ya que no hay una relación estructural permanente[cite: 237, 238]."
+    },
+    {
+        "id": 166,
+        "pregunta": "¿Cuál de las siguientes afirmaciones describe mejor una agregación en UML?",
+        "opciones": [
+        { "id": "a", "texto": "La parte puede existir independientemente del todo" },
+        { "id": "b", "texto": "La parte no puede existir sin el todo" },
+        { "id": "c", "suc": "Las clases comparten el mismo nombre" },
+        { "id": "d", "texto": "La clase hija reemplaza a la padre" }
+        ],
+        "correcta": "a",
+        "explicacion": "A diferencia de la composición, en la agregación el vínculo es más débil y los objetos que forman parte pueden sobrevivir si el contenedor se destruye[cite: 242, 243]."
+    },
+    {
+        "id": 167,
+        "pregunta": "¿Qué símbolo suele representar la multiplicidad de 'muchos' en una asociación de clase?",
+        "opciones": [
+        { "id": "a", "texto": "1" },
+        { "id": "b", "texto": "0..1" },
+        { "id": "c", "texto": "1..*" },
+        { "id": "d", "texto": "<<interface>>" }
+        ],
+        "correcta": "c",
+        "explicacion": "El asterisco (*) o la notación '1..*' se utiliza para indicar que pueden existir múltiples instancias relacionadas[cite: 247, 250]."
+    },
+    {
+        "id": 168,
+        "pregunta": "Si una Reserva tiene un Cliente y un Vehículo, pero ambos pueden existir sin la Reserva, ¿qué relación se ajusta mejor?",
+        "opciones": [
+        { "id": "a", "texto": "Composición" },
+        { "id": "b", "texto": "Agregación" },
+        { "id": "c", "texto": "Herencia" },
+        { "id": "d", "texto": "Dependencia" }
+        ],
+        "correcta": "b",
+        "explicacion": "Al ser una relación de 'tiene un' donde las partes tienen vida independiente, se define como agregación[cite: 252, 253, 255]."
+    },
+    {
+        "id": 169,
+        "pregunta": "¿Qué elemento de un diagrama de clase UML permite indicar las operaciones o métodos?",
+        "opciones": [
+        { "id": "a", "texto": "Atributos" },
+        { "id": "b", "texto": "Interfaces" },
+        { "id": "c", "texto": "Firma de operaciones" },
+        { "id": "d", "texto": "Paquetes" }
+        ],
+        "correcta": "c",
+        "explicacion": "La firma de operaciones incluye el nombre del método, sus parámetros y el tipo de retorno[cite: 258, 261]."
+    },
+    {
+        "id": 170,
+        "pregunta": "¿Qué concepto UML se utiliza para modelar una especialización de una clase base?",
+        "opciones": [
+        { "id": "a", "texto": "Herencia" },
+        { "id": "b", "texto": "Dependencia" },
+        { "id": "c", "texto": "Composición" },
+        { "id": "d", "texto": "Asociación" }
+        ],
+        "correcta": "a",
+        "explicacion": "La herencia es el mecanismo por el cual una clase (subclase) especializa el comportamiento de otra (superclase)[cite: 264, 265]."
+    },
+    {
+        "id": 171,
+        "pregunta": "¿Qué relación se dibuja con una línea discontinua cuando una clase usa temporalmente otra?",
+        "opciones": [
+        { "id": "a", "texto": "Generalización" },
+        { "id": "b", "texto": "Composición" },
+        { "id": "c", "texto": "Agregación" },
+        { "id": "d", "texto": "Dependencia" }
+        ],
+        "correcta": "d",
+        "explicacion": "La línea discontinua con flecha se reserva para representar dependencias o el uso de interfaces[cite: 269, 273]."
+    },
+    {
+        "id": 172,
+        "pregunta": "¿Qué diagrama modela los cambios de estado de un objeto ante eventos?",
+        "opciones": [
+        { "id": "a", "texto": "Diagrama de clases" },
+        { "id": "b", "texto": "Diagrama de estados" },
+        { "id": "c", "texto": "Diagrama de componentes" },
+        { "id": "d", "texto": "Diagrama de despliegue" }
+        ],
+        "correcta": "b",
+        "explicacion": "El diagrama de estados (o máquinas de estados) se utiliza para representar el ciclo de vida de un objeto y cómo reacciona a los eventos externos. [cite: 275, 277]"
+    },
+    {
+        "id": 173,
+        "pregunta": "¿Qué elemento de un diagrama de secuencia representa una llamada a un método?",
+        "opciones": [
+        { "id": "a", "texto": "Mensaje" },
+        { "id": "b", "texto": "Actor" },
+        { "id": "c", "texto": "Nodo final" },
+        { "id": "d", "texto": "Paquete" }
+        ],
+        "correcta": "a",
+        "explicacion": "En los diagramas de secuencia, la comunicación entre objetos se representa mediante mensajes (flechas) que indican llamadas a métodos o retornos. [cite: 280, 281]"
+    },
+    {
+        "id": 174,
+        "pregunta": "¿Qué representa un actor en un diagrama de casos de uso?",
+        "opciones": [
+        { "id": "a", "texto": "Un componente interno" },
+        { "id": "b", "texto": "Un rol externo que interactúa con el sistema" },
+        { "id": "c", "texto": "Un atributo" },
+        { "id": "d", "texto": "Una clase abstracta" }
+        ],
+        "correcta": "b",
+        "explicacion": "Un actor representa a cualquier entidad externa (humana o no) que interactúa con el sistema para realizar una acción. [cite: 285, 287]"
+    },
+    {
+        "id": 175,
+        "pregunta": "¿Qué diagrama es más adecuado para mostrar el flujo de pasos y decisiones de un proceso?",
+        "opciones": [
+        { "id": "a", "texto": "Diagrama de actividades" },
+        { "id": "b", "texto": "Diagrama de clases" },
+        { "id": "c", "texto": "Diagrama de objetos" },
+        { "id": "d", "texto": "Diagrama de despliegue" }
+        ],
+        "correcta": "a",
+        "explicacion": "El diagrama de actividades es ideal para modelar flujos de trabajo, procesos de negocio o la lógica de un algoritmo complejo. [cite: 290, 292]"
+    },
+    {
+        "id": 176,
+        "pregunta": "¿Qué sucede en una transición con guardia en un diagrama de estados?",
+        "opciones": [
+        { "id": "a", "texto": "Se añade una nueva clase" },
+        { "id": "b", "texto": "El objeto desaparece" },
+        { "id": "c", "texto": "El sistema compila más rápido" },
+        { "id": "d", "texto": "El cambio de estado solo ocurre si se cumple una condición" }
+        ],
+        "correcta": "d",
+        "explicacion": "Una guardia es una condición booleana que debe evaluarse como verdadera para que la transición entre estados se dispare. [cite: 296, 300]"
+    },
+    {
+        "id": 177,
+        "pregunta": "En un proceso de actividad (inicio, validar datos, decidir, registrar o mostrar error, fin), ¿qué nodo introduce la decisión?",
+        "opciones": [
+        { "id": "a", "texto": "Nodo inicial" },
+        { "id": "b", "texto": "Nodo de decisión" },
+        { "id": "c", "texto": "Nodo final" },
+        { "id": "d", "texto": "Fork" }
+        ],
+        "correcta": "b",
+        "explicacion": "El nodo de decisión (el rombo) es el punto donde el flujo se bifurca basándose en una condición lógica. [cite: 301, 303]"
+    },
+    {
+        "id": 178,
+        "pregunta": "¿Qué relación entre casos de uso se usa para ampliar opcionalmente un comportamiento base?",
+        "opciones": [
+        { "id": "a", "texto": "Include" },
+        { "id": "b", "texto": "Dependencia" },
+        { "id": "c", "texto": "Herencia" },
+        { "id": "d", "texto": "Extend" }
+        ],
+        "correcta": "d",
+        "explicacion": "A diferencia del include, el 'extend' se usa para comportamientos que solo ocurren bajo ciertas circunstancias opcionales. [cite: 306, 311]"
+    },
+    {
+        "id": 179,
+        "pregunta": "¿Qué indica la longitud de la línea de vida en un diagrama de secuencia?",
+        "opciones": [
+        { "id": "a", "texto": "La complejidad del código" },
+        { "id": "b", "texto": "El tamaño de la clase" },
+        { "id": "c", "texto": "La duración de la interacción del objeto" },
+        { "id": "d", "texto": "El número de atributos" }
+        ],
+        "correcta": "c",
+        "explicacion": "La línea de vida se extiende verticalmente para mostrar cuánto tiempo participa el objeto en la interacción descrita. [cite: 312, 316]"
+    },
+    {
+        "id": 180,
+        "pregunta": "¿Qué elemento UML muestra una condición de continuación en una actividad?",
+        "opciones": [
+        { "id": "a", "texto": "Etiqueta de guardia" },
+        { "id": "b", "texto": "Composición" },
+        { "id": "c", "texto": "Generalización" },
+        { "id": "d", "texto": "Multiplicidad" }
+        ],
+        "correcta": "a",
+        "explicacion": "Las etiquetas de guardia se colocan sobre los flujos de control para indicar qué condición debe cumplirse para seguir ese camino. [cite: 318, 319]"
+    },
+    {
+        "id": 181,
+        "pregunta": "¿Qué característica hace especialmente útil un diagrama de secuencia para analizar sistemas distribuidos?",
+        "opciones": [
+        { "id": "a", "texto": "Describe solo atributos" },
+        { "id": "b", "texto": "Muestra el orden temporal de mensajes entre objetos" },
+        { "id": "c", "texto": "Solo sirve para clases" },
+        { "id": "d", "texto": "No representa interacción" }
+        ],
+        "correcta": "b",
+        "explicacion": "Permite visualizar claramente la cronología de las peticiones y respuestas entre distintos servicios o sistemas. [cite: 323, 325]"
     }
 ]
