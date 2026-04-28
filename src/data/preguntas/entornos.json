@@ -1479,7 +1479,7 @@
     },
     {
         "id": 123,
-        "pregunta": "¿Qué principio de programación se refleja mejor al evitar repetir código en varias líneas similares, como en un bucle for?",
+        "pregunta": "Observa el fragmento: for(int i=0; i<10; i++){ suma += i; } ¿Qué principio de programación se refleja mejor al evitar repetir código en varias líneas similares?",
         "opciones": [
         { "id": "a", "texto": "DRY" },
         { "id": "b", "texto": "KISS" },
@@ -1575,7 +1575,7 @@
     },
     {
         "id": 131,
-        "pregunta": "En el pseudocódigo 'if (usuario.isAdmin()) { permitir(); } else { denegar(); }', ¿qué estructura de control se usa?",
+        "pregunta": "Observa el siguiente pseudocódigo: if (usuario.isAdmin()) { permitir(); } else { denegar(); } ¿Qué estructura de control se está usando?",
         "opciones": [
         { "id": "a", "texto": "Bucle" },
         { "id": "b", "texto": "Recursión" },
@@ -1595,7 +1595,7 @@
         { "id": "d", "texto": "Autoguardado" }
         ],
         "correcta": "a",
-        "explicacion": "La refactorización segura permite modificar la estructura del código (como mover métodos) asegurando que todas las llamadas y dependencias se actualicen automáticamente[cite: 58, 59]."
+        "explicacion": "La refactorización segura permite modificar la estructura del código (como mover métodos) asegurando que todas las llamadas y dependencias se actualicen automáticamente"
     },
     {
         "id": 133,
@@ -1607,7 +1607,7 @@
         { "id": "d", "texto": "Compilar más despacio siempre" }
         ],
         "correcta": "b",
-        "explicacion": "Los contenedores aseguran que todos los desarrolladores trabajen exactamente con las mismas versiones de herramientas y dependencias, evitando el 'en mi máquina funciona'[cite: 63, 65]."
+        "explicacion": "Los contenedores aseguran que todos los desarrolladores trabajen exactamente con las mismas versiones de herramientas y dependencias, evitando el 'en mi máquina funciona'"
     },
     {
         "id": 134,
@@ -1619,7 +1619,7 @@
         { "id": "d", "texto": "Gestor de tareas" }
         ],
         "correcta": "a",
-        "explicacion": "El análisis estático revisa el código fuente en busca de errores potenciales, malas prácticas o vulnerabilidades sin necesidad de ejecutar el programa[cite: 68, 70]."
+        "explicacion": "El análisis estático revisa el código fuente en busca de errores potenciales, malas prácticas o vulnerabilidades sin necesidad de ejecutar el programa"
     },
     {
         "id": 135,
@@ -1631,7 +1631,7 @@
         { "id": "d", "texto": "WordPad" }
         ],
         "correcta": "b",
-        "explicacion": "GitHub Codespaces proporciona un entorno de desarrollo completo basado en la nube que permite programar directamente desde el navegador de forma colaborativa[cite: 75, 77]."
+        "explicacion": "GitHub Codespaces proporciona un entorno de desarrollo completo basado en la nube que permite programar directamente desde el navegador de forma colaborativa"
     },
     {
         "id": 136,
@@ -1643,7 +1643,7 @@
         { "id": "d", "texto": "Compilación integrada obligatoria" }
         ],
         "correcta": "c",
-        "explicacion": "Los editores ligeros están diseñados para ser rápidos y consumir poca memoria RAM, aunque carecen de algunas herramientas avanzadas que vienen de serie en un IDE[cite: 80, 83]."
+        "explicacion": "Los editores ligeros están diseñados para ser rápidos y consumir poca memoria RAM, aunque carecen de algunas herramientas avanzadas que vienen de serie en un ID"
     },
     {
         "id": 137,
@@ -1655,11 +1655,11 @@
         { "id": "d", "texto": "VLC" }
         ],
         "correcta": "a",
-        "explicacion": "Maven es una herramienta de gestión de proyectos que utiliza un archivo POM para declarar y descargar automáticamente las librerías necesarias[cite: 85, 86]."
+        "explicacion": "Maven es una herramienta de gestión de proyectos que utiliza un archivo POM para declarar y descargar automáticamente las librerías necesarias"
     },
     {
         "id": 138,
-        "pregunta": "En la interfaz de un IDE, ¿qué elemento permite pausar la ejecución y examinar valores de variables?",
+        "pregunta": "Observa la captura conceptual: ventana del IDE con panel de proyecto, editor, consola y depurador. ¿Qué elemento permite pausar la ejecución y examinar valores?",
         "opciones": [
         { "id": "a", "texto": "La consola" },
         { "id": "b", "texto": "El terminal remoto" },
@@ -1667,7 +1667,7 @@
         { "id": "d", "texto": "El depurador" }
         ],
         "correcta": "d",
-        "explicacion": "El depurador (debugger) es la herramienta que permite inspeccionar el estado del programa en tiempo de ejecución mediante puntos de interrupción[cite: 91, 95]."
+        "explicacion": "El depurador (debugger) es la herramienta que permite inspeccionar el estado del programa en tiempo de ejecución mediante puntos de interrupción"
     },
     {
         "id": 139,
@@ -1679,7 +1679,7 @@
         { "id": "d", "texto": "Sustituir el compilador" }
         ],
         "correcta": "b",
-        "explicacion": "La integración de sistemas como Git en el IDE facilita el seguimiento de cambios, la creación de ramas y la recuperación de versiones anteriores del código[cite: 96, 98]."
+        "explicacion": "La integración de sistemas como Git en el IDE facilita el seguimiento de cambios, la creación de ramas y la recuperación de versiones anteriores del código"
     },
     {
         "id": 140,
@@ -1691,7 +1691,7 @@
         { "id": "d", "texto": "Navegador web" }
         ],
         "correcta": "a",
-        "explicacion": "Para programar hardware es necesario un entorno que soporte herramientas específicas de depuración física, como sondas JTAG o simuladores de microcontroladores[cite: 101, 102]."
+        "explicacion": "Para programar hardware es necesario un entorno que soporte herramientas específicas de depuración física, como sondas JTAG o simuladores de microcontroladores"
     },
     {
         "id": 141,
@@ -1703,7 +1703,7 @@
         { "id": "d", "texto": "Indexación de imágenes" }
         ],
         "correcta": "a",
-        "explicacion": "El autocompletado inteligente (IntelliSense o similar) sugiere métodos, variables y parámetros basándose en el contexto del código escrito[cite: 106, 107]."
+        "explicacion": "El autocompletado inteligente (IntelliSense o similar) sugiere métodos, variables y parámetros basándose en el contexto del código escrito"
     },
     {
         "id": 142,
@@ -1715,7 +1715,7 @@
         { "id": "d", "texto": "No hay diferencia" }
         ],
         "correcta": "a",
-        "explicacion": "Las pruebas unitarias se centran en la unidad mínima de código (como una función), mientras que las de integración verifican que esos componentes funcionen bien cuando se juntan[cite: 112, 113]."
+        "explicacion": "Las pruebas unitarias se centran en la unidad mínima de código (como una función), mientras que las de integración verifican que esos componentes funcionen bien cuando se juntan"
     },
     {
         "id": 143,
@@ -1727,7 +1727,7 @@
         { "id": "d", "texto": "Diseñar la base de datos" }
         ],
         "correcta": "b",
-        "explicacion": "Las pruebas de regresión se aseguran de que, al arreglar un bug o añadir una mejora, no hayamos estropeado algo que ya funcionaba antes[cite: 117, 119]."
+        "explicacion": "Las pruebas de regresión se aseguran de que, al arreglar un bug o añadir una mejora, no hayamos estropeado algo que ya funcionaba antes"
     },
     {
         "id": 144,
@@ -1739,7 +1739,7 @@
         { "id": "d", "texto": "Prueba de mutación" }
         ],
         "correcta": "d",
-        "explicacion": "La prueba de mutación modifica el código a propósito para ver si tus tests son capaces de detectar ese fallo; si el test sigue pasando, es que el test no es muy bueno[cite: 122, 127]."
+        "explicacion": "La prueba de mutación modifica el código a propósito para ver si tus tests son capaces de detectar ese fallo; si el test sigue pasando, es que el test no es muy bueno"
     },
     {
         "id": 145,
@@ -1751,7 +1751,7 @@
         { "id": "d", "texto": "Cantidad de comentarios" }
         ],
         "correcta": "c",
-        "explicacion": "Es una métrica que indica cuánto de nuestro código fuente está siendo realmente 'ejercitado' o probado por nuestra suite de pruebas[cite: 129, 132]."
+        "explicacion": "Es una métrica que indica cuánto de nuestro código fuente está siendo realmente 'ejercitado' o probado por nuestra suite de pruebas"
     },
     {
         "id": 146,
@@ -1763,7 +1763,7 @@
         { "id": "d", "texto": "Probar solo la ruta feliz" }
         ],
         "correcta": "b",
-        "explicacion": "Un buen diseño de pruebas debe contemplar tanto el funcionamiento esperado como situaciones límite o entradas que deberían dar error para asegurar la robustez[cite: 134, 136]."
+        "explicacion": "Un buen diseño de pruebas debe contemplar tanto el funcionamiento esperado como situaciones límite o entradas que deberían dar error para asegurar la robustez"
     },
     {
         "id": 147,
@@ -1775,11 +1775,11 @@
         { "id": "d", "texto": "Caja negra" }
         ],
         "correcta": "d",
-        "explicacion": "En las pruebas de caja negra nos centramos en las entradas y salidas del sistema, ignorando por completo cómo está implementado por dentro[cite: 139, 143]."
+        "explicacion": "En las pruebas de caja negra nos centramos en las entradas y salidas del sistema, ignorando por completo cómo está implementado por dentro"
     },
     {
         "id": 148,
-        "pregunta": "Si un test falla solo cuando el valor de entrada es 0, ¿qué técnica de diseño de pruebas ayuda más a detectar este fallo?",
+        "pregunta": "Observa el resultado: el test falla solo cuando el valor de entrada es 0. ¿Qué técnica de diseño de pruebas ayuda más a detectar este fallo?",
         "opciones": [
         { "id": "a", "texto": "Particiones equivalentes" },
         { "id": "b", "texto": "Tabla de verdad" },
@@ -1787,7 +1787,7 @@
         { "id": "d", "texto": "Diagrama de Gantt" }
         ],
         "correcta": "c",
-        "explicacion": "El análisis de valores límite se centra precisamente en probar los extremos (como el 0, o máximos y mínimos), donde suelen esconderse la mayoría de los bugs[cite: 144, 148]."
+        "explicacion": "El análisis de valores límite se centra precisamente en probar los extremos (como el 0, o máximos y mínimos), donde suelen esconderse la mayoría de los bugs"
     },
     {
         "id": 149,
@@ -1799,7 +1799,7 @@
         { "id": "d", "texto": "Solo el nombre del archivo" }
         ],
         "correcta": "b",
-        "explicacion": "Para que un desarrollador pueda arreglar un fallo, necesita saber exactamente cómo llegar a él y qué es lo que ha fallado respecto a lo esperado[cite: 150, 152]."
+        "explicacion": "Para que un desarrollador pueda arreglar un fallo, necesita saber exactamente cómo llegar a él y qué es lo que ha fallado respecto a lo esperado"
     },
     {
         "id": 150,
@@ -1811,7 +1811,7 @@
         { "id": "d", "texto": "Aceptación" }
         ],
         "correcta": "b",
-        "explicacion": "El nivel de integración se encarga específicamente de verificar que los módulos o componentes interactúan correctamente entre sí[cite: 156, 158]."
+        "explicacion": "El nivel de integración se encarga específicamente de verificar que los módulos o componentes interactúan correctamente entre sí"
     },
     {
         "id": 151,
@@ -1823,7 +1823,7 @@
         { "id": "d", "texto": "Probar sin criterios de aceptación" }
         ],
         "correcta": "a",
-        "explicacion": "Tener un entorno y unos datos de prueba consistentes asegura que el test siempre se ejecute bajo las mismas condiciones, dando resultados fiables[cite: 161, 162]."
+        "explicacion": "Tener un entorno y unos datos de prueba consistentes asegura que el test siempre se ejecute bajo las mismas condiciones, dando resultados fiables"
     },
     {
         "id": 152,
@@ -1835,7 +1835,7 @@
         { "id": "d", "texto": "Herencia" }
         ],
         "correcta": "b",
-        "explicacion": "La composición es un tipo de relación fuerte donde la existencia de la 'parte' está ligada a la vida del 'todo'[cite: 167, 169]."
+        "explicacion": "La composición es un tipo de relación fuerte donde la existencia de la 'parte' está ligada a la vida del 'todo'"
     },
     {
         "id": 153,
@@ -1847,7 +1847,7 @@
         { "id": "d", "texto": "Herencia" }
         ],
         "correcta": "a",
-        "explicacion": "La dependencia ocurre cuando una clase utiliza a otra temporalmente, por ejemplo, como un parámetro o variable local en un método[cite: 172, 173]."
+        "explicacion": "La dependencia ocurre cuando una clase utiliza a otra temporalmente, por ejemplo, como un parámetro o variable local en un método"
     },
     {
         "id": 154,
@@ -1859,7 +1859,7 @@
         { "id": "d", "texto": "Package" }
         ],
         "correcta": "b",
-        "explicacion": "El modificador protected (protegido) limita el acceso a la propia clase y a aquellas que hereden de ella[cite: 177, 179]."
+        "explicacion": "El modificador protected (protegido) limita el acceso a la propia clase y a aquellas que hereden de ella"
     },
     {
         "id": 155,
@@ -1871,7 +1871,7 @@
         { "id": "d", "texto": "YAGNI" }
         ],
         "correcta": "a",
-        "explicacion": "La Ley de Demeter busca reducir el acoplamiento evitando que un objeto conozca la estructura interna de los objetos con los que interactúa[cite: 183, 184]."
+        "explicacion": "La Ley de Demeter busca reducir el acoplamiento evitando que un objeto conozca la estructura interna de los objetos con los que interactúa"
     },
     {
         "id": 156,
@@ -1883,7 +1883,7 @@
         { "id": "d", "texto": "Strategy" }
         ],
         "correcta": "c",
-        "explicacion": "El patrón Singleton garantiza que una clase tenga una única instancia y proporciona un punto de acceso global a ella[cite: 188, 191]."
+        "explicacion": "El patrón Singleton garantiza que una clase tenga una única instancia y proporciona un punto de acceso global a ella"
     },
     {
         "id": 157,
@@ -1895,7 +1895,7 @@
         { "id": "d", "texto": "Proxy" }
         ],
         "correcta": "a",
-        "explicacion": "Un 'Objeto Dios' es una clase que sabe demasiado o hace demasiado, concentrando toda la lógica y rompiendo el principio de responsabilidad única[cite: 193, 194]."
+        "explicacion": "Un 'Objeto Dios' es una clase que sabe demasiado o hace demasiado, concentrando toda la lógica y rompiendo el principio de responsabilidad única"
     },
     {
         "id": 158,
@@ -1907,7 +1907,7 @@
         { "id": "d", "texto": "Coherencia" }
         ],
         "correcta": "b",
-        "explicacion": "La palabra clave 'extends' en lenguajes como Java se utiliza para indicar que una clase hereda atributos y métodos de otra[cite: 198, 200]."
+        "explicacion": "La palabra clave 'extends' en lenguajes como Java se utiliza para indicar que una clase hereda atributos y métodos de otra"
     },
     {
         "id": 159,
@@ -1919,7 +1919,7 @@
         { "id": "d", "texto": "Nodo inicial" }
         ],
         "correcta": "c",
-        "explicacion": "La línea de vida representa la existencia del objeto a lo largo del tiempo durante la interacción modelada[cite: 203, 206]."
+        "explicacion": "La línea de vida representa la existencia del objeto a lo largo del tiempo durante la interacción modelada"
     },
     {
         "id": 160,
@@ -1931,7 +1931,7 @@
         { "id": "d", "texto": "Bloque de texto" }
         ],
         "correcta": "a",
-        "explicacion": "El rombo de decisión permite representar puntos donde el flujo puede tomar distintos caminos según una condición[cite: 209, 210]."
+        "explicacion": "El rombo de decisión permite representar puntos donde el flujo puede tomar distintos caminos según una condición"
     },
     {
         "id": 161,
@@ -1943,11 +1943,11 @@
         { "id": "d", "texto": "Una asociación física" }
         ],
         "correcta": "b",
-        "explicacion": "La relación 'include' indica que un caso de uso base incorpora obligatoriamente el comportamiento de otro caso de uso[cite: 214, 216]."
+        "explicacion": "La relación 'include' indica que un caso de uso base incorpora obligatoriamente el comportamiento de otro caso de uso"
     },
     {
         "id": 162,
-        "pregunta": "En un diagrama de clase, si un Pedido contiene muchas líneas de pedido y al eliminar el Pedido se eliminan también sus líneas, ¿qué relación UML es?",
+        "pregunta": "Observa: Pedido contiene muchas líneas de pedido y si se elimina Pedido se eliminan sus líneas. ¿Qué relación UML es?",
         "opciones": [
         { "id": "a", "texto": "Agregación" },
         { "id": "b", "texto": "Composición" },
@@ -1955,11 +1955,11 @@
         { "id": "d", "texto": "Generalización" }
         ],
         "correcta": "b",
-        "explicacion": "Es una composición porque existe una dependencia de vida fuerte: si el objeto contenedor desaparece, las partes desaparecen con él[cite: 220, 221, 223]."
+        "explicacion": "Es una composición porque existe una dependencia de vida fuerte: si el objeto contenedor desaparece, las partes desaparecen con él"
     },
     {
         "id": 163,
-        "pregunta": "Si una clase Docente hereda de Persona, ¿cómo se representa gráficamente en UML?",
+        "pregunta": "Si una clase Docente hereda de Persona, ¿cómo se representa en UML?",
         "opciones": [
         { "id": "a", "texto": "Línea continua con rombo negro" },
         { "id": "b", "texto": "Línea discontinua con flecha abierta" },
@@ -1967,11 +1967,11 @@
         { "id": "d", "texto": "Línea con doble rombo" }
         ],
         "correcta": "c",
-        "explicacion": "La herencia se representa con una línea continua y una punta de flecha vacía o abierta apuntando hacia la clase padre o superclase[cite: 226, 229]."
+        "explicacion": "La herencia se representa con una línea continua y una punta de flecha vacía o abierta apuntando hacia la clase padre o superclase"
     },
     {
         "id": 164,
-        "pregunta": "¿Qué símbolo se utiliza en UML para indicar que el atributo 'contrasena' de una clase Usuario es privado?",
+        "pregunta": "¿Qué indica el atributo privado contrasena en una clase Usuario?",
         "opciones": [
         { "id": "a", "texto": "+ contrasena" },
         { "id": "b", "texto": "- contrasena" },
@@ -1979,11 +1979,11 @@
         { "id": "d", "texto": "~ contrasena" }
         ],
         "correcta": "b",
-        "explicacion": "En UML, el signo menos (-) denota visibilidad privada, mientras que el más (+) es para pública y la almohadilla (#) para protegida[cite: 231, 233]."
+        "explicacion": "En UML, el signo menos (-) denota visibilidad privada, mientras que el más (+) es para pública y la almohadilla (#) para protegida"
     },
     {
         "id": 165,
-        "pregunta": "¿Qué tipo de relación existe cuando una clase utiliza otra únicamente como tipo de retorno de uno de sus métodos?",
+        "pregunta": "¿Qué tipo de relación existe cuando una clase utiliza otra como tipo de retorno de un método?",
         "opciones": [
         { "id": "a", "texto": "Dependencia" },
         { "id": "b", "texto": "Composición" },
@@ -1991,11 +1991,11 @@
         { "id": "d", "edge": "Herencia" }
         ],
         "correcta": "a",
-        "explicacion": "Al ser un uso puntual para un retorno, se considera una dependencia, ya que no hay una relación estructural permanente[cite: 237, 238]."
+        "explicacion": "Al ser un uso puntual para un retorno, se considera una dependencia, ya que no hay una relación estructural permanente"
     },
     {
         "id": 166,
-        "pregunta": "¿Cuál de las siguientes afirmaciones describe mejor una agregación en UML?",
+        "pregunta": "En UML, ¿qué describe mejor una agregación?",
         "opciones": [
         { "id": "a", "texto": "La parte puede existir independientemente del todo" },
         { "id": "b", "texto": "La parte no puede existir sin el todo" },
@@ -2003,11 +2003,11 @@
         { "id": "d", "texto": "La clase hija reemplaza a la padre" }
         ],
         "correcta": "a",
-        "explicacion": "A diferencia de la composición, en la agregación el vínculo es más débil y los objetos que forman parte pueden sobrevivir si el contenedor se destruye[cite: 242, 243]."
+        "explicacion": "A diferencia de la composición, en la agregación el vínculo es más débil y los objetos que forman parte pueden sobrevivir si el contenedor se destruye"
     },
     {
         "id": 167,
-        "pregunta": "¿Qué símbolo suele representar la multiplicidad de 'muchos' en una asociación de clase?",
+        "pregunta": "¿Qué símbolo suele representar la multiplicidad de muchos en una asociación?",
         "opciones": [
         { "id": "a", "texto": "1" },
         { "id": "b", "texto": "0..1" },
@@ -2015,11 +2015,11 @@
         { "id": "d", "texto": "<<interface>>" }
         ],
         "correcta": "c",
-        "explicacion": "El asterisco (*) o la notación '1..*' se utiliza para indicar que pueden existir múltiples instancias relacionadas[cite: 247, 250]."
+        "explicacion": "El asterisco (*) o la notación '1..*' se utiliza para indicar que pueden existir múltiples instancias relacionadas"
     },
     {
         "id": 168,
-        "pregunta": "Si una Reserva tiene un Cliente y un Vehículo, pero ambos pueden existir sin la Reserva, ¿qué relación se ajusta mejor?",
+        "pregunta": "Observa el caso: una Reserva tiene un Cliente y un Vehículo, pero ambos existen sin Reserva. ¿Qué relación se ajusta mejor?",
         "opciones": [
         { "id": "a", "texto": "Composición" },
         { "id": "b", "texto": "Agregación" },
@@ -2027,7 +2027,7 @@
         { "id": "d", "texto": "Dependencia" }
         ],
         "correcta": "b",
-        "explicacion": "Al ser una relación de 'tiene un' donde las partes tienen vida independiente, se define como agregación[cite: 252, 253, 255]."
+        "explicacion": "Al ser una relación de 'tiene un' donde las partes tienen vida independiente, se define como agregación"
     },
     {
         "id": 169,
@@ -2039,7 +2039,7 @@
         { "id": "d", "texto": "Paquetes" }
         ],
         "correcta": "c",
-        "explicacion": "La firma de operaciones incluye el nombre del método, sus parámetros y el tipo de retorno[cite: 258, 261]."
+        "explicacion": "La firma de operaciones incluye el nombre del método, sus parámetros y el tipo de retorno"
     },
     {
         "id": 170,
@@ -2051,7 +2051,7 @@
         { "id": "d", "texto": "Asociación" }
         ],
         "correcta": "a",
-        "explicacion": "La herencia es el mecanismo por el cual una clase (subclase) especializa el comportamiento de otra (superclase)[cite: 264, 265]."
+        "explicacion": "La herencia es el mecanismo por el cual una clase (subclase) especializa el comportamiento de otra (superclase)"
     },
     {
         "id": 171,
@@ -2063,7 +2063,7 @@
         { "id": "d", "texto": "Dependencia" }
         ],
         "correcta": "d",
-        "explicacion": "La línea discontinua con flecha se reserva para representar dependencias o el uso de interfaces[cite: 269, 273]."
+        "explicacion": "La línea discontinua con flecha se reserva para representar dependencias o el uso de interfaces"
     },
     {
         "id": 172,
@@ -2075,7 +2075,7 @@
         { "id": "d", "texto": "Diagrama de despliegue" }
         ],
         "correcta": "b",
-        "explicacion": "El diagrama de estados (o máquinas de estados) se utiliza para representar el ciclo de vida de un objeto y cómo reacciona a los eventos externos. [cite: 275, 277]"
+        "explicacion": "El diagrama de estados (o máquinas de estados) se utiliza para representar el ciclo de vida de un objeto y cómo reacciona a los eventos externos."
     },
     {
         "id": 173,
@@ -2087,7 +2087,7 @@
         { "id": "d", "texto": "Paquete" }
         ],
         "correcta": "a",
-        "explicacion": "En los diagramas de secuencia, la comunicación entre objetos se representa mediante mensajes (flechas) que indican llamadas a métodos o retornos. [cite: 280, 281]"
+        "explicacion": "En los diagramas de secuencia, la comunicación entre objetos se representa mediante mensajes (flechas) que indican llamadas a métodos o retornos."
     },
     {
         "id": 174,
@@ -2099,7 +2099,7 @@
         { "id": "d", "texto": "Una clase abstracta" }
         ],
         "correcta": "b",
-        "explicacion": "Un actor representa a cualquier entidad externa (humana o no) que interactúa con el sistema para realizar una acción. [cite: 285, 287]"
+        "explicacion": "Un actor representa a cualquier entidad externa (humana o no) que interactúa con el sistema para realizar una acción."
     },
     {
         "id": 175,
@@ -2111,11 +2111,11 @@
         { "id": "d", "texto": "Diagrama de despliegue" }
         ],
         "correcta": "a",
-        "explicacion": "El diagrama de actividades es ideal para modelar flujos de trabajo, procesos de negocio o la lógica de un algoritmo complejo. [cite: 290, 292]"
+        "explicacion": "El diagrama de actividades es ideal para modelar flujos de trabajo, procesos de negocio o la lógica de un algoritmo complejo."
     },
     {
         "id": 176,
-        "pregunta": "¿Qué sucede en una transición con guardia en un diagrama de estados?",
+        "pregunta": "¿Qué sucede en una transición con guardia?",
         "opciones": [
         { "id": "a", "texto": "Se añade una nueva clase" },
         { "id": "b", "texto": "El objeto desaparece" },
@@ -2123,11 +2123,11 @@
         { "id": "d", "texto": "El cambio de estado solo ocurre si se cumple una condición" }
         ],
         "correcta": "d",
-        "explicacion": "Una guardia es una condición booleana que debe evaluarse como verdadera para que la transición entre estados se dispare. [cite: 296, 300]"
+        "explicacion": "Una guardia es una condición booleana que debe evaluarse como verdadera para que la transición entre estados se dispare."
     },
     {
         "id": 177,
-        "pregunta": "En un proceso de actividad (inicio, validar datos, decidir, registrar o mostrar error, fin), ¿qué nodo introduce la decisión?",
+        "pregunta": "Observa el proceso: inicio, validar datos, decidir, registrar o mostrar error, fin. ¿Qué nodo introduce la decisión?",
         "opciones": [
         { "id": "a", "texto": "Nodo inicial" },
         { "id": "b", "texto": "Nodo de decisión" },
@@ -2135,7 +2135,7 @@
         { "id": "d", "texto": "Fork" }
         ],
         "correcta": "b",
-        "explicacion": "El nodo de decisión (el rombo) es el punto donde el flujo se bifurca basándose en una condición lógica. [cite: 301, 303]"
+        "explicacion": "El nodo de decisión (el rombo) es el punto donde el flujo se bifurca basándose en una condición lógica."
     },
     {
         "id": 178,
@@ -2147,7 +2147,7 @@
         { "id": "d", "texto": "Extend" }
         ],
         "correcta": "d",
-        "explicacion": "A diferencia del include, el 'extend' se usa para comportamientos que solo ocurren bajo ciertas circunstancias opcionales. [cite: 306, 311]"
+        "explicacion": "A diferencia del include, el 'extend' se usa para comportamientos que solo ocurren bajo ciertas circunstancias opcionales."
     },
     {
         "id": 179,
@@ -2159,7 +2159,7 @@
         { "id": "d", "texto": "El número de atributos" }
         ],
         "correcta": "c",
-        "explicacion": "La línea de vida se extiende verticalmente para mostrar cuánto tiempo participa el objeto en la interacción descrita. [cite: 312, 316]"
+        "explicacion": "La línea de vida se extiende verticalmente para mostrar cuánto tiempo participa el objeto en la interacción descrita."
     },
     {
         "id": 180,
@@ -2171,7 +2171,7 @@
         { "id": "d", "texto": "Multiplicidad" }
         ],
         "correcta": "a",
-        "explicacion": "Las etiquetas de guardia se colocan sobre los flujos de control para indicar qué condición debe cumplirse para seguir ese camino. [cite: 318, 319]"
+        "explicacion": "Las etiquetas de guardia se colocan sobre los flujos de control para indicar qué condición debe cumplirse para seguir ese camino."
     },
     {
         "id": 181,
@@ -2183,6 +2183,6 @@
         { "id": "d", "texto": "No representa interacción" }
         ],
         "correcta": "b",
-        "explicacion": "Permite visualizar claramente la cronología de las peticiones y respuestas entre distintos servicios o sistemas. [cite: 323, 325]"
+        "explicacion": "Permite visualizar claramente la cronología de las peticiones y respuestas entre distintos servicios o sistemas."
     }
 ]
